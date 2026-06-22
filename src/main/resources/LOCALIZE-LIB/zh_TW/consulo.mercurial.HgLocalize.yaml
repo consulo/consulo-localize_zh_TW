@@ -1,0 +1,198 @@
+action.DumbAware.HgCommittedChangesProvider.description.copy.hash.to.clipboard:
+    text: 將哈希複製到剪貼簿
+action.DumbAware.HgCommittedChangesProvider.text.copy.hash:
+    text: 複製哈希(&H)
+action.hg4idea.merge.files.description:
+    text: 合併現有檔案
+action.hg4idea.merge.files.text:
+    text: 合併…
+action.hg4idea.pull.description:
+    text: 拉取傳入提交
+action.hg4idea.pull.text:
+    text: 拉取…
+action.hg4idea.resolve.mark.description:
+    text: 標記為已解決，移除衝突標記
+action.hg4idea.resolve.mark.text:
+    text: 標記為已解決
+action.hg4idea.run.conflict.resolver.description:
+    text: 解決現有衝突
+action.hg4idea.run.conflict.resolver.text:
+    text: 執行衝突解決程序
+action.hg4idea.tag.description:
+    text: 為當前修訂創建標記
+action.hg4idea.tag.text:
+    text: 標記儲存庫…
+action.hg4idea.updateTo.description:
+    text: 將儲存庫的工作目錄更新到指定的變更集。
+action.hg4idea.updateTo.text:
+    text: 更新到…
+checkbox.export.active.bookmarks:
+    text: 匯出活動書籤
+configurable.UpdateConfigurable.display.name:
+    text: 更新
+graft:
+    text: 移植
+hg4idea.add.body:
+    text: "要將以下檔案添加到 Mercurial 嗎?\n{0}\n\n如果您選擇“取消”，以後仍可以手動添加。"
+hg4idea.add.progress:
+    text: 正在將檔案添加到 Mercurial
+hg4idea.add.single.title:
+    text: 將檔案添加到 Mercurial
+hg4idea.add.title:
+    text: 將檔案添加到 Mercurial
+hg4idea.branch.bookmarks:
+    text: 書籤
+hg4idea.branch.bookmarks.in.repo:
+    text: '{0} 中的書籤'
+hg4idea.branch.branches.in.repo.separator:
+    text: '{0} 中的分支'
+hg4idea.branch.branches.separator:
+    text: 分支
+hg4idea.changelist.column.branch:
+    text: 分支
+hg4idea.changesets.checking.progress:
+    text: 正在檢查傳入和傳出變更
+hg4idea.changesets.error:
+    text: 傳入/傳出變更檢查已禁用
+hg4idea.changesets.error.msg:
+    text: 需要進行身份驗證才能檢查 {0} 中的傳入/傳出變更<br/>您可以在<a href=''#''>設定</a>中啟用變更檢查。
+hg4idea.changesets.in:
+    text: 傳入
+hg4idea.changesets.out:
+    text: 傳出
+hg4idea.clone.progress:
+    text: 正在克隆原始碼儲存庫 {0}
+hg4idea.commit:
+    text: 提交
+hg4idea.commit.error.messageEmpty:
+    text: 請提供提交訊息
+hg4idea.commit.partial.merge.message:
+    text: 合併期間不允許進行部分提交，並且不包括以下檔案:<ul>{0}</ul>在包含所有檔案的情況下執行提交?
+hg4idea.commit.partial.merge.title:
+    text: 部分合併提交
+hg4idea.configuration.ignore.whitespace.in.annotate:
+    text: 忽略註解中的空格差異(&W)
+hg4idea.dialog.login.description:
+    text: 登錄 {0}
+hg4idea.dialog.login.password.required:
+    text: 需要登錄名和密碼
+hg4idea.error:
+    text: 錯誤
+hg4idea.error.debugancestor.command.description:
+    text: 無法收集有關上級的資訊
+hg4idea.error.debugancestor.command.execution:
+    text: debugancestor 指令執行期間出錯
+hg4idea.error.log.command.execution:
+    text: 日誌指令執行期間出錯
+hg4idea.exception.file.not.under.hg:
+    text: 檔案 {0} 不在 Mercurial 下。
+hg4idea.executable.notification.description:
+    text: hg 可執行檔案的路徑可能無效。
+hg4idea.executable.notification.title:
+    text: 無法啟動 Mercurial
+hg4idea.file.status.copied:
+    text: 已複製
+hg4idea.file.status.renamed:
+    text: 已重命名
+hg4idea.init.already.under.hg.description:
+    text: '所選目錄 <b><code>{0}</code></b> 已在 Mercurial 下: <b><code>{1}</code></b><br/>要在所選資料夾中創建新儲存庫還是使用父儲存庫?'
+hg4idea.init.already.under.hg.dialog.title:
+    text: 目錄在 hg 下
+hg4idea.init.already.under.hg.option.create.repo.here:
+    text: 在此處創建新的儲存庫。
+hg4idea.init.already.under.hg.option.use.parent:
+    text: 使用父儲存庫，但繼續在此專案中工作。
+hg4idea.init.already.under.hg.title:
+    text: 此目錄已經在 hg 下
+hg4idea.init.created.notification.description:
+    text: 已在 {0} 中創建儲存庫
+hg4idea.init.created.notification.title:
+    text: 已創建 Mercurial 儲存庫
+hg4idea.init.destination.directory.description:
+    text: 選擇將在其中創建新 Mercurial 儲存庫的目錄。
+hg4idea.init.destination.directory.title:
+    text: 選擇 hg init 的目錄
+hg4idea.init.dialog.incorrect.path:
+    text: 指定的路徑不正確
+hg4idea.init.dialog.option.create.repository.for.whole.project:
+    text: 為整個專案創建儲存庫(&C)
+hg4idea.init.dialog.option.select.folder:
+    text: 選擇創建儲存庫的位置(&S)
+hg4idea.init.dialog.title:
+    text: 創建 Mercurial 儲存庫
+hg4idea.init.error.description:
+    text: 無法在 {0} 中創建 Mercurial 儲存庫
+hg4idea.init.error.title:
+    text: 創建 Mercurial 儲存庫時出錯
+hg4idea.init.this.is.hg.root:
+    text: 所選資料夾 {0} 已經是 Mercurial 根
+hg4idea.move.progress:
+    text: 正在將檔案移動到 VCS 中…
+hg4idea.mq.progress.goto:
+    text: 轉到{0}…
+hg4idea.mq.progress.pop:
+    text: 彈出所有已套用的補丁…
+hg4idea.progress.bookmark:
+    text: 正在創建書籤 {0}…
+hg4idea.progress.checking.ignored:
+    text: 正在檢查有無忽略的檔案…
+hg4idea.progress.countingHeads:
+    text: 正在檢查 head 數…
+hg4idea.progress.pull.with.update:
+    text: 正在更新儲存庫
+hg4idea.progress.rebase:
+    text: 正在變基儲存庫
+hg4idea.progress.updating:
+    text: 正在更新 {0}…
+hg4idea.progress.updatingTo:
+    text: 正在更新到 {0}…
+hg4idea.progress.updatingworkingdir:
+    text: 正在更新本地工作目錄
+hg4idea.remove.multiple.title:
+    text: 從 Mercurial 移除檔案
+hg4idea.remove.progress:
+    text: 正在從 VCS 移除檔案…
+hg4idea.remove.single.body:
+    text: "要將以下檔案從 Mercurial 移除嗎?\n{0}\n\n如果您選擇“取消”，以後仍可以手動移除。"
+hg4idea.remove.single.title:
+    text: 從 Mercurial 移除檔案
+hg4idea.revert:
+    text: 還原(&R)
+hg4idea.run.failed.title:
+    text: Hg 執行失敗
+hg4idea.run.success.title:
+    text: Hg 執行成功
+hg4idea.status.bar.incoming.widget.name:
+    text: Mercurial 傳入
+hg4idea.status.bar.outgoing.widget.name:
+    text: Mercurial 傳出
+hg4idea.status.bar.widget.name:
+    text: Mercurial 分支
+hg4idea.status.bar.widget.text.graft:
+    text: 正在移植 {0}
+hg4idea.status.bar.widget.text.merge:
+    text: 正在合併 {0}
+hg4idea.status.bar.widget.text.rebase:
+    text: 正在變基 {0}
+hg4idea.unable.to.run.hg:
+    text: '無法執行 hg: {0}'
+hg4idea.update.error.localchanges:
+    text: 儲存庫 {0} 中存在未完成的未提交變更，未與拉取的 HEAD 合併
+hg4idea.update.error.merge.multipleLocalHeads:
+    text: 儲存庫 {0} 中有多個本地 HEAD，未合併
+hg4idea.update.error.merge.multipleRemoteHeads:
+    text: 在儲存庫 {1} 中拉入 {0} 個遠端 HEAD，未合併
+hg4idea.update.error.uncommittedMerge:
+    text: 儲存庫 {0} 中存在未完成的未提交合併，未更新或合併
+hg4idea.update.progress.merging:
+    text: 正在與拉取的 HEAD 合併
+hg4idea.update.progress.updating.to.pulled.head:
+    text: 正在更新到拉取的 HEAD
+hg4idea.update.warning.merge.conflicts:
+    text: 儲存庫 {0} 中的合並存在衝突。請檢查衝突，並在完成後提交合併
+hg4idea.update.warning.multipleHeadsBeforeUpdate:
+    text: 更新之前，儲存庫 {0} 中此分支中有多個 HEAD (使用“hg heads .”和“hg merge”合併)
+hg4idea.widget.tooltip.title.status.changesets:
+    text: '{0} 變更集'
+no.changes.available:
+    text: 無可用變更

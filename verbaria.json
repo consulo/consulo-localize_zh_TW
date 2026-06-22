@@ -1,0 +1,12 @@
+{
+    "url": "https://i.verbaria.org/",
+    "project": "consulo**",
+    "projectVersion": "master",
+    "projectType": "consulo",
+    "srcDir": ".",
+    "targetLocales": [
+        "zh_TW"
+    ],
+    "excludes": "**/target/**",
+    "transDir": "src/main/resources/LOCALIZE-LIB"
+}

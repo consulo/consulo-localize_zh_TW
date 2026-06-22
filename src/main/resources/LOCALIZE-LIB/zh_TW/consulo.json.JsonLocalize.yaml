@@ -1,0 +1,376 @@
+action.ConsoleView.ShowAsJsonAction.text:
+    text: 顯示為 JSON
+action.DumbAware.JsonSchemaMappingsConfigurable.description.add:
+    text: 添加
+action.DumbAware.JsonSchemaMappingsConfigurable.text.add:
+    text: 添加
+action.JsonCopyPointer.text:
+    text: 複製 JSON 指針
+add.mapping.for.a:
+    text: '為以下物件添加映射:'
+add.missing.0:
+    text: 添加缺失的{0}
+add.missing.properties:
+    text: 添加缺失的屬性
+annotation.property.key:
+    text: 屬性鍵
+cannot.sort.properties:
+    text: 無法對屬性排序
+checkbox.allow.downloading.json.schemas.from.remote.sources:
+    text: 允許從遠端源下載 JSON 架構
+checkbox.always.download.the.most.recent.version.of.schemas:
+    text: 始終下載最新版本的架構
+checkbox.use.schemastore.org.json.schema.catalog:
+    text: 使用 schemastore.org JSON 架構目錄
+color.page.attribute.block.comment:
+    text: 塊註釋
+color.page.attribute.braces:
+    text: 大括號
+color.page.attribute.brackets:
+    text: 中括號
+color.page.attribute.colon:
+    text: 冒號
+color.page.attribute.comma:
+    text: 逗號
+color.page.attribute.invalid.escape.sequence:
+    text: 無效的轉義序列
+color.page.attribute.keyword:
+    text: 關鍵字
+color.page.attribute.line.comment:
+    text: 行註釋
+color.page.attribute.number:
+    text: 數值
+color.page.attribute.parameter:
+    text: 參數
+color.page.attribute.property.key:
+    text: 屬性鍵
+color.page.attribute.string:
+    text: 字串
+color.page.attribute.valid.escape.sequence:
+    text: 有效轉義序列
+configurable.JsonSchemaCatalogConfigurable.display.name:
+    text: 遠端 JSON 架構
+configurable.JsonSchemaMappingsConfigurable.display.name:
+    text: JSON 架構映射
+file.is.readonly:
+    text: 檔案為唯讀
+filetype.json_lines.description:
+    text: JSON 行
+formatter.align.properties.caption:
+    text: 對齊
+formatter.align.properties.none:
+    text: 不要對齊
+formatter.align.properties.on.colon:
+    text: 在冒號
+formatter.align.properties.on.value:
+    text: 價值
+formatter.objects.label:
+    text: 物件
+formatter.space_after_colon.label:
+    text: 在 ':' 後
+formatter.space_before_colon.label:
+    text: 在 ':' 前
+formatter.space_within_braces.label:
+    text: 大括號
+formatter.trailing_comma.label:
+    text: 尾隨逗號
+formatter.wrapping_arrays.label:
+    text: 陣列
+inspection.compliance.msg.bad.token:
+    text: JSON標準不允許這樣的標記
+inspection.compliance.msg.comments:
+    text: JSON標準不允許評論。在剖析之前使用JSMin或類似的工具來刪除註解。
+inspection.compliance.msg.illegal.property.key:
+    text: JSON標準只允許雙引號字串作為屬性鍵
+inspection.compliance.msg.multiple.top.level.values:
+    text: JSON標準只允許一個頂層的值
+inspection.compliance.msg.single.quoted.strings:
+    text: JSON標準不允許單引號字串
+inspection.compliance.msg.trailing.comma:
+    text: JSON標準不允許尾隨逗號
+inspection.compliance.name:
+    text: 符合JSON標準
+inspection.compliance.option.comments:
+    text: 警告關於評論
+inspection.compliance.option.multiple.top.level.values:
+    text: 警告多個頂級值
+inspection.compliance.option.trailing.comma:
+    text: 關於逗號的警告
+inspection.compliance5.name:
+    text: 遵守JSON5標準
+inspection.duplicate.keys.msg.duplicate.keys:
+    text: 物件包含重複鍵「{0}」
+inspection.duplicate.keys.name:
+    text: 物件文字中重複的鍵
+json.array:
+    text: 排列
+json.inspection.group:
+    text: JSON 和 JSON5
+json.intention.sort.properties:
+    text: 按字母順序對屬性排序
+json.object:
+    text: 目的
+json.property:
+    text: 屬性
+json.property.keys:
+    text: JSON 屬性鍵
+json.schema:
+    text: JSON 架構
+json.schema.add.schema.chooser.title:
+    text: 選取JSON模式檔案
+json.schema.annotation.not.allowed.property:
+    text: 屬性「{0}」是不允許的
+json.schema.file.not.found:
+    text: 檔案未找到
+json.schema.inspection.case.insensitive.enum:
+    text: 枚舉值符合不區分大小寫
+json.schema.inspection.compliance.name:
+    text: 符合JSON模式
+json.schema.inspection.deprecation.name:
+    text: 棄用的 JSON 屬性
+json.schema.ref.cannot.resolve.id:
+    text: 無法解析 id ''{0}''
+json.schema.ref.cannot.resolve.path:
+    text: 無法解析路徑 ''{0}''
+json.schema.ref.file.not.found:
+    text: 找不到檔案 ''{0}''
+json.schema.ref.no.array.element:
+    text: 陣列不包含索引為 ''{0}'' 的元素
+json.schema.ref.no.property:
+    text: 找不到屬性 ''{0}''
+json.schema.ref.refs.inspection.name:
+    text: 未解析的 '$ref' 和 '$schema' 引用
+json.schema.version.selector.title:
+    text: '架構版本:'
+json.string.values:
+    text: JSON 字串值
+navigate.to.duplicates:
+    text: 導航到重複項
+navigate.to.duplicates.desc:
+    text: '第 #{1} 行的 ''''{0}'''''
+navigate.to.duplicates.header:
+    text: '''''{0}'''' 的重複項'
+no.schema.mappings.defined:
+    text: 未定義架構映射
+not.applicable.in.batch.mode:
+    text: 不適用於批處理模式
+path.to.file.or.directory.relative.to.project.root.or.file.name:
+    text: 相對於專案根的檔案或目錄的路徑，或文件名模式，例如 *.config.json
+property.0.is.deprecated.1:
+    text: '屬性 ''''{0}'''' 已被棄用: {1}'
+qualified.name.pointer:
+    text: JSON 指針
+qualified.name.qualified:
+    text: 限定名稱
+quickfix.add.double.quotes.desc:
+    text: 用雙引號包起來
+remove.prohibited.property:
+    text: 移除禁止的屬性
+replace.with.allowed.value:
+    text: 取代為允許的值
+schema.add.mapping.kind.text:
+    text: 添加 {0}
+schema.catalog.hint:
+    text: 將使用 <a href="https://schemastore.org/json/">SchemaStore API</a> 下載和分配架構
+schema.catalog.remote.hint:
+    text: 始終從 SchemaStore 下載架構，即使其中一些架構與 IDE 捆綁也下載
+schema.configuration.error.conflicting.mappings.desc:
+    text: 對於架構 ''{1}'' 為 ''{0}''，對於架構 ''{3}'' 為 ''{2}''
+schema.configuration.error.conflicting.mappings.title:
+    text: "衝突的映射:\n{0}"
+schema.configuration.error.duplicate.name:
+    text: '重複的架構名稱: ''''{0}'''''
+schema.configuration.error.empty.file.path:
+    text: 空檔案路徑無任何符合項
+schema.configuration.error.empty.name:
+    text: 架構名稱為空
+schema.configuration.error.empty.path:
+    text: 架構路徑為空
+schema.configuration.error.empty.pattern:
+    text: 空模式無任何符合項
+schema.configuration.error.file.does.not.exist:
+    text: 架構檔案不存在
+schema.configuration.error.invalid.url:
+    text: 無效架構 URL
+schema.configuration.error.invalid.url.resource:
+    text: 無效 URL 資源
+schema.configuration.error.unknown.mapping:
+    text: 未知映射類型
+schema.configuration.mapping.empty.area.alt.string:
+    text: 請添加 JSON 架構檔案並設定其用法
+schema.configuration.mapping.empty.area.string:
+    text: 選擇要查看的 JSON 架構
+schema.configuration.mapping.remote:
+    text: 遠端架構 URL
+schema.configuration.project.directory:
+    text: '{0}[專案目錄]'
+schema.documentation.deprecated.postfix:
+    text: (已棄用)
+schema.mapping.directory:
+    text: 目錄
+schema.mapping.file:
+    text: 檔案
+schema.mapping.pattern:
+    text: 檔案路徑模式
+schema.of.version:
+    text: JSON 架構版本 {0}
+schema.reader.cant.load.file:
+    text: 無法載入 JSON 架構檔案 ''{0}''
+schema.reader.cant.load.model:
+    text: 無法載入 JSON 架構檔案 ''{0}'' 的程式碼模型
+schema.reader.file.empty:
+    text: 未從 ''{0}'' 載入 JSON 架構。檔案為空
+schema.reader.file.not.found.or.error:
+    text: '找不到 JSON 架構或 ''''{0}'''' 中包含錯誤: {1}'
+schema.reader.file.too.large:
+    text: 未從 ''{0}'' 載入 JSON 架構，因為它太大(檔案大小為 {1} 字節)
+schema.validation.actual:
+    text: '實際:'
+schema.validation.against.not:
+    text: 根據 'not' 架構進行驗證
+schema.validation.array.longer.than:
+    text: 陣列長於 {0}
+schema.validation.array.no.extra:
+    text: 不允許使用其他條目
+schema.validation.array.not.contains:
+    text: '''contains'' 規則無符合'
+schema.validation.array.shorter.than:
+    text: 陣列短於 {0}
+schema.validation.at.least.one.of.property.sets.required:
+    text: '應至少具有以下屬性集之一: {0}'
+schema.validation.enum.mismatch:
+    text: '值應為以下選項之一: {0}'
+schema.validation.greater.than.exclusive.maximum:
+    text: 大於獨佔最大值 {0}
+schema.validation.greater.than.maximum:
+    text: 大於最大值 {0}
+schema.validation.incompatible.types:
+    text: 不相容的類型。
+schema.validation.integer.expected:
+    text: 應為整數值
+schema.validation.invalid.string.pattern:
+    text: '由於錯誤，無法按模式檢查字串: {0}'
+schema.validation.less.than.exclusive.minimum:
+    text: 小於獨佔最小值 {0}
+schema.validation.less.than.minimum:
+    text: 小於最小值 {0}
+schema.validation.missing.required.property.or.properties:
+    text: 缺少必需{0}
+schema.validation.not.multiple.of:
+    text: 不是 {0} 的倍數
+schema.validation.not.unique:
+    text: 條目非唯一
+schema.validation.number.expected:
+    text: 應為 Double 值
+schema.validation.number.of.props.greater.than:
+    text: 屬性數量大於 {0}
+schema.validation.number.of.props.less.than:
+    text: 屬性數量小於 {0}
+schema.validation.one.of.property.sets.required:
+    text: '需要以下屬性集之一: {0}'
+schema.validation.properties:
+    text: 屬性 {0}
+schema.validation.property:
+    text: 屬性 {0}
+schema.validation.required.one:
+    text: '要求: {0}。{1}'
+schema.validation.required.one.of:
+    text: '要求為以下選項之一: {0}。{1}'
+schema.validation.string.longer.than:
+    text: 字串長於 {0}
+schema.validation.string.shorter.than:
+    text: 字串短於 {0}
+schema.validation.string.violates.pattern:
+    text: '字串違反模式: ''''{0}'''''
+schema.validation.to.more.than.one:
+    text: 驗證多個變體
+schema.validation.violated.dependency:
+    text: '違反依賴關係: 由於指定了 ''''{1}''''，因此必須指定 {0}'
+schema.widget.add.mapping:
+    text: 新建架構映射…
+schema.widget.bundled.postfix:
+    text: (捆綁)
+schema.widget.checking.state.text:
+    text: '{0}正在分析…'
+schema.widget.checking.state.tooltip:
+    text: 正在分析…
+schema.widget.conflict.message.postfix:
+    text: 架構(!)
+schema.widget.conflict.message.prefix:
+    text: 有多個 JSON 架構映射到此檔案:<br/>
+schema.widget.conflict.popup.title:
+    text: JSON 架構衝突映射
+schema.widget.display.name:
+    text: JSON 架構
+schema.widget.download.in.progress.label:
+    text: 正在下載 JSON 架構
+schema.widget.download.in.progress.tooltip:
+    text: 已計劃下載或正在下載
+schema.widget.edit.mappings:
+    text: 編輯架構映射…
+schema.widget.error.cant.download:
+    text: 下載架構時出錯
+schema.widget.error.label:
+    text: JSON 架構錯誤
+schema.widget.error.not.a.schema:
+    text: 檔案不是架構
+schema.widget.load.mappings:
+    text: 載入 SchemaStore 映射
+schema.widget.no.schema.label:
+    text: 無 JSON 架構
+schema.widget.no.schema.tooltip:
+    text: 未定義 JSON 架構
+schema.widget.package.postfix:
+    text: '(軟體套件: ''''{0}'''')'
+schema.widget.prefix.other.files:
+    text: '架構:'
+schema.widget.registered.schemas:
+    text: 已註冊的架構
+schema.widget.service:
+    text: JSON 架構服務
+schema.widget.store.schemas:
+    text: SchemaStore.org 架構
+schema.widget.tooltip.json.files:
+    text: 'JSON 架構:'
+schema.widget.tooltip.other.files:
+    text: '由 JSON 架構驗證:'
+settings.json.schema.add.mapping:
+    text: 新增映射
+settings.json.schema.edit.mapping:
+    text: 修改映射
+settings.json.schema.remove.mapping:
+    text: 刪除映射
+settings.smart.keys.automatically.add.quotes.to.property.names.when.typing.comma:
+    text: 鍵入 ':' 時自動向屬性名稱中添加引號
+settings.smart.keys.automatically.add.whitespace.when.typing.comma.after.property.names:
+    text: 在屬性名稱後面鍵入 ':' 時自動添加空格
+settings.smart.keys.automatically.manage.commas.when.pasting.json.fragments:
+    text: 貼上 JSON 片段時自動管理逗號
+settings.smart.keys.automatically.move.comma.after.the.property.name.if.typed.inside.quotes:
+    text: 如果在引號內鍵入，則自動將 ':' 移至屬性名稱後面
+settings.smart.keys.automatically.move.comma.after.the.property.value.or.array.element.if.inside.quotes:
+    text: 如果是在引號中，則自動將逗號移至屬性值或陣列元素後面
+settings.smart.keys.escape.text.on.paste.in.string.literals:
+    text: 在貼上字串文字時轉義文本
+settings.smart.keys.insert.missing.comma.after.matching.braces.and.quotes:
+    text: 在符合的大括號和引號後面插入缺失的逗號
+settings.smart.keys.insert.missing.comma.on.enter:
+    text: 按 Enter 時插入缺失的逗號
+sorry.this.fix.is.not.available.in.batch.mode:
+    text: 抱歉，此修正在批處理模式下不可用
+surround.with.array.literal.desc:
+    text: 陣列文字
+surround.with.object.literal.desc:
+    text: 物件文字
+surround.with.quotes.desc:
+    text: 引號
+syntax.error.control.char.in.string:
+    text: 字串文字中不允許使用控制字符 ''{0}''
+syntax.error.illegal.escape.sequence:
+    text: 非法轉義序列
+syntax.error.illegal.floating.point.literal:
+    text: 非法的浮點文字
+syntax.error.illegal.unicode.escape.sequence:
+    text: 非法unicode轉義序列
+syntax.error.missing.closing.quote:
+    text: 缺少結束報價

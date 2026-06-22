@@ -1,0 +1,18 @@
+color.settings.toml.boolean:
+    text: 布爾
+color.settings.toml.comments:
+    text: 註釋
+color.settings.toml.date:
+    text: 日期
+color.settings.toml.keys:
+    text: 鍵
+inspection.toml.message.inline.tables.on.single.line:
+    text: 內聯表應該出現在一行中
+inspection.toml.message.trailing.commas.in.inline.tables:
+    text: 內聯表中不允許使用尾隨逗號
+inspection.toml.unresolved.reference.display.name:
+    text: 未解析的引用
+intention.toml.name.expand.into.separate.table:
+    text: 展開為單獨的表
+intention.toml.name.remove.trailing.comma:
+    text: 移除尾隨逗號

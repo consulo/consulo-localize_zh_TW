@@ -1,0 +1,18 @@
+cannot.resolve.reference:
+    text: 無法解析引用
+overrides.method.in:
+    text: 覆寫 ''{1}'' 中的方法 ''{0}''
+implements.method.in:
+    text: 實作 ''{1}'' 中的方法 ''{0}''
+fields.to.generate.getters:
+    text: 選擇要生成 Getter 的欄位
+fields.to.generate.setters:
+    text: 選擇要生成 Setter 的欄位
+fields.to.generate.getters.setters:
+    text: 選擇要生成 Getter 和 Setter 的欄位
+choose.class.to.import.title:
+    text: 要匯入的類
+livetemplate.description.iter:
+    text: 迭代(for..in)
+livetemplate.description.itar:
+    text: 遍歷陣列元素

@@ -1,0 +1,958 @@
+action.delete.column:
+    text: 刪除列
+action.delete.columns:
+    text: 刪除列
+action.delete.row:
+    text: 刪除行
+action.delete.rows:
+    text: 刪除行
+action.insert.column.after.this:
+    text: 在此後面插入列
+action.insert.row.after.this:
+    text: 在此後面插入行
+action.insert.column.before.this:
+    text: 在此前面插入列
+action.insert.row.before.this:
+    text: 在此前面插入行
+action.split.column:
+    text: 拆分列
+action.split.row:
+    text: 拆分行
+error.class.does.not.exist:
+    text: 類 "{0}" 不存在
+error.multiple.toplevel.components:
+    text: 窗體無法編譯，因為頂層包含多個組件
+error.panel.not.laid.out:
+    text: 在此面板採用網格布局前無法編譯窗體
+error.no.field.in.class:
+    text: 類 "{1}" 中不存在欄位 "{0}"
+error.cant.bind.to.static:
+    text: 無法綁定到靜態欄位 "{0}"
+error.bind.incompatible.types:
+    text: 類型不相容。實際為 "{0}"，需要 "{1}"
+error.binding.already.exists:
+    text: 到欄位 "{0}" 的綁定已存在
+error.class.not.found.N:
+    text: '找不到類: {0}'
+error.class.not.found:
+    text: 找不到類
+error.required.class.not.found.N:
+    text: '找不到所需的類: {0}'
+error.required.class.not.found:
+    text: 找不到所需的類
+chk.copy.form.runtime:
+    text: 自動將表單運行時類複製到輸出目錄(&A)
+label.generate.gui.into:
+    text: '將 GUI 生成到:'
+radio.generate.into.java:
+    text: Java 原始碼(&S)
+radio.generate.into.class:
+    text: 二進制類檔案(&C)
+progress.converting:
+    text: '正在轉換: {0}'
+title.add.component:
+    text: 添加組件
+message.enter.group.name:
+    text: '輸入新的組名稱:'
+title.add.group:
+    text: 添加組
+title.converting.project:
+    text: 正在轉換專案…
+title.edit.component:
+    text: 編輯組件
+edit.enter.group.name:
+    text: '輸入組名稱:'
+title.edit.group:
+    text: 編輯組
+error.group.name.unique:
+    text: 組名稱應唯一
+title.gui.designer:
+    text: GUI 設計器
+error.cannot.remove.default.palette:
+    text: 您不能移除預設調色板組件。
+error.cannot.remove.default.group:
+    text: 您不能移除包含預設調色板組件的組。
+error.form.file.is.invalid:
+    text: 窗體檔案無效
+error.form.file.is.invalid.message:
+    text: '窗體檔案無效: {0}'
+error.class.cannot.be.instantiated:
+    text: 無法實例化類 "{0}"
+tab.untitled:
+    text: 無標題
+error.cannot.load.class:
+    text: 無法載入類 {0}
+action.create.dialog:
+    text: 創建對話框類
+action.description.create.dialog:
+    text: 創建新類實作 javax.swing.JDialog
+title.new.dialog:
+    text: 新建對話框
+error.cannot.create.dialog:
+    text: 無法創建對話框
+progress.creating.class:
+    text: 正在創建類 {0}。{1}
+comment.call.onCancel.cross:
+    text: // 點擊 X 時調用 onCancel()
+comment.call.onCancel.escape:
+    text: // 遇到 ESCAPE 時調用 onCancel()
+comment.onok:
+    text: // 在此處添加您的程式碼
+comment.oncancel:
+    text: // 必要時在此處添加您的程式碼
+edit.dialog.class.name:
+    text: '輸入新的對話框類名:'
+checkbox.generate.cancel:
+    text: 生成 'Cancel' 處理程序
+checkbox.generate.ok:
+    text: 生成 'OK' 處理程序
+checkbox.generate.main:
+    text: 生成可以創建並顯示對話框的 main() 方法
+info.form.not.bound:
+    text: 不執行任何操作。窗體應綁定到類。
+title.data.binding.wizard:
+    text: 資料綁定嚮導
+error.bound.to.not.found.class:
+    text: 窗體綁定到找不到的類 {0}。
+info.no.bound.components:
+    text: 不執行任何操作。窗體應至少包含一個綁定組件。
+action.alter.data.binding:
+    text: 更改資料綁定
+action.bind.to.another.bean:
+    text: 綁定到另一個 Bean
+info.data.binding.regenerate:
+    text: 發現資料綁定到 {0}。如果繼續，生成的方法將重新生成。
+title.data.binding:
+    text: 資料綁定
+title.form.preview:
+    text: 窗體預覽
+error.cannot.preview.form:
+    text: "無法預覽窗體 ''{0}''\n原因: {1}"
+error.cannot.read.form:
+    text: "無法讀取窗體檔案 ''{0}''。\n原因: {1}"
+error.cannot.preview.empty.form:
+    text: 無法預覽空窗體 ''{0}''
+progress.preview.started:
+    text: 已開始 {0} 預覽
+component.vertical.spacer:
+    text: 垂直分隔
+component.horizontal.spacer:
+    text: 水平分隔
+component.form:
+    text: 窗體
+component.no.binding:
+    text: 無綁定
+component.gui.designer.form.to.source.compiler:
+    text: GUI 設計器窗體到源編譯器
+progress.compiling.ui.forms:
+    text: 正在編譯 UI 窗體…
+error.cannot.process.form.file:
+    text: '無法處理窗體檔案。原因: {0}'
+error.cannot.copy.gui.designer.form.runtime:
+    text: "無法將 GUI 設計器窗體執行時類複製到模組 {0} 的輸出目錄中。\n原因: {1}"
+error.class.to.bind.does.not.exist:
+    text: '要綁定的類不存在: {0}'
+error.duplicate.bind:
+    text: "該窗體綁定到類 {0}。\n另一個窗體 {1} 也綁定到此類。"
+editbox.icon:
+    text: '圖標(&I):'
+editbox.class:
+    text: '類(&C):'
+checkbox.want.grow.horz:
+    text: 希望擴展(&W)
+checkbox.can.grow.horz:
+    text: 可以擴展(&G)
+checkbox.can.shrink.horz:
+    text: 可以收縮(&S)
+checkbox.want.grow.vert:
+    text: 希望擴展(&A)
+checkbox.can.grow.vert:
+    text: 可以擴展(&R)
+checkbox.can.shrink.vert:
+    text: 可以收縮(&H)
+error.item.already.added:
+    text: 'GUI 設計器調色板: 已添加此類的條目: {0}'
+property.horizontal:
+    text: 水平
+property.vertical:
+    text: 垂直
+property.always:
+    text: 始終
+property.as.needed:
+    text: 根據需要
+property.never:
+    text: 從不
+property.wrap:
+    text: 換行
+property.scroll:
+    text: 滾動
+property.top:
+    text: 頂部
+property.left:
+    text: 左側
+property.bottom:
+    text: 底部
+property.right:
+    text: 右側
+property.center:
+    text: 中心
+property.trailing:
+    text: 尾隨
+property.leading:
+    text: 前導
+property.horizontal.wrap:
+    text: 水平換行
+property.vertical.wrap:
+    text: 垂直換行
+property.selection.single:
+    text: 單一
+property.selection.single.interval:
+    text: 單間隔
+property.selection.multiple.interval:
+    text: 多間隔
+property.resize.off:
+    text: 關閉
+property.resize.next.column:
+    text: 下一列
+property.resize.subsequent.columns:
+    text: 後續列
+property.resize.last.column:
+    text: 最後一列
+property.resize.all.columns:
+    text: 所有列
+property.focuslost.commit:
+    text: 提交
+property.focuslost.commit.or.revert:
+    text: 提交或還原
+property.focuslost.persist:
+    text: 保持
+property.focuslost.revert:
+    text: 還原
+title.choose.component.class:
+    text: 選擇組件類
+chk.show.expert.properties:
+    text: 顯示專家屬性(&S)
+column.property:
+    text: 屬性
+column.value:
+    text: 值
+title.invalid.input:
+    text: 輸入無效
+error.value.should.not.be.less:
+    text: 值不應小於 {0}
+error.not.an.integer:
+    text: 所輸入的值不是整數
+title.chooser.value:
+    text: 選擇屬性鍵
+column.key:
+    text: 鍵
+editbox.bundle.name:
+    text: '捆綁包名稱(&N):'
+editbox.value:
+    text: '值:'
+editbox.key:
+    text: '鍵(&K):'
+editbox.value.2:
+    text: '值(&V):'
+title.edit.text:
+    text: 編輯文本
+radio.resource.bundle:
+    text: 資源包(&B)
+radio.string:
+    text: 字串(&S)
+title.choose.properties.file:
+    text: 選擇屬性檔案
+error.specify.bundle.name:
+    text: 請指定資源捆綁包的名稱
+error.bundle.does.not.exist:
+    text: 捆綁包“{0}”不存在
+message.rename.field:
+    text: 您是否還希望將欄位 "{0}" 重命名為 "{1}"?
+title.rename:
+    text: 重命名
+title.choose.class.to.bind:
+    text: 選擇要綁定的類
+class.in.package:
+    text: '{0} ({1} 內)'
+property.can.shrink:
+    text: 可以收縮
+property.can.grow:
+    text: 可以增大
+property.want.grow:
+    text: 希望增大
+property.fixed:
+    text: 已修正
+action.change.field.type:
+    text: 將欄位 ''{0}'' 類型從 ''{1}'' 更改為 ''{2}''
+error.cannot.change.field.type:
+    text: "無法更改欄位 ''{0}'' 類型。\n原因: {1}"
+action.create.class:
+    text: 創建類 ''{0}''
+error.cannot.create.class.not.in.source.root:
+    text: "無法創建類，因為窗體檔案不屬於\n任何源根"
+error.cannot.create.package:
+    text: "無法創建軟體套件 ''{0}''。\n原因: {1}"
+error.cannot.create.class:
+    text: "無法創建類 ''{0}''。\n原因: {1}"
+action.create.field:
+    text: 創建欄位 ''{0}''
+error.cannot.create.field:
+    text: 無法創建欄位 ''{0}''
+error.cannot.create.field.no.class:
+    text: "無法創建欄位 ''{0}''，因為\n類 ''{1}'' 不存在。"
+command.create.field:
+    text: 創建欄位
+error.cannot.create.field.reason:
+    text: "無法創建欄位 ''{0}''。\n原因: {1}"
+tooltip.press.accelerator:
+    text: 點擊或按{0}
+property.not.defined:
+    text: <未定義>
+editbox.class.2:
+    text: '類(&L):'
+radio.bind.to.existing.bean:
+    text: 綁定到現有 Bean(&B)
+editbox.package:
+    text: '軟體套件(&P):'
+radio.create.new.bean:
+    text: 創建新 Bean(&A)
+column.form.field:
+    text: 窗體欄位
+column.bean.property:
+    text: Bean 屬性
+group.horizontal.size.policy:
+    text: 水平大小策略
+group.vertical.size.policy:
+    text: 垂直大小策略
+title.choose.bean.class:
+    text: 選擇 Bean 類
+title.choose.package:
+    text: 選擇軟體套件
+error.cannot.read:
+    text: 無法讀取 {0}
+label.select.single.component.to.edit.its.properties:
+    text: "選擇一個組件\n以編輯其屬性"
+error.please.specify.class.name.of.the.bean.to.be.created:
+    text: 請指定要創建的 Bean 的類名
+error.X.is.not.a.valid.class.name:
+    text: '"{0}" 不是有效的類名'
+error.package.with.name.X.does.not.exist:
+    text: 名稱為“{0}”的軟體套件不存在
+error.cannot.create.class.X.because.it.already.exists:
+    text: 無法創建類“{0}”，因為此類已存在
+error.please.specify.fully.qualified.name.of.bean.class:
+    text: 請指定 Bean 類的完全限定名稱
+error.class.with.name.X.does.not.exist:
+    text: 名稱為“{0}”的類不存在
+error.X.is.not.a.valid.property.name:
+    text: “{0}”不是有效的屬性名稱
+error.form.file.is.not.in.source.root:
+    text: 窗體檔案不在源根中
+error.package.does.not.exist:
+    text: '軟體套件不存在: {0}'
+error.cannot.find.package:
+    text: '無法找到軟體套件: {0}'
+error.form.is.not.bound.to.a.class:
+    text: 窗體未綁定到類
+error.bound.class.does.not.exist:
+    text: 綁定類 {0} 不存在
+error.field.not.found.in.class:
+    text: 在類 {1} 中找不到欄位 {0}
+error.invalid.binding.field.type:
+    text: '無效的綁定欄位類型: 欄位 {0}，類 {1}'
+uidesigner.string.no.i18n:
+    text: 值無需國際化(&I)
+error.one.toplevel.component.required:
+    text: 頂層只有一個組件
+error.nonempty.xy.panels.found:
+    text: 存在採用 XY 布局的非空面板。請在網格中布局。
+error.class.to.bind.not.found:
+    text: '找不到要綁定的類: {0}'
+component.none:
+    text: <無>
+component.not.found:
+    text: <未找到>
+color.chooser.title:
+    text: 選擇 {0} 的顏色
+font.chooser.title:
+    text: 選擇 {0} 的字體
+font.chooser.font.tab:
+    text: 字體選擇器
+font.chooser.swing.tab:
+    text: Swing 字體
+font.chooser.font:
+    text: 字體(&F)
+font.chooser.style:
+    text: 樣式(&S)
+font.chooser.size:
+    text: 大小(&Z)
+font.chooser.preview.text:
+    text: 預覽文本
+font.chooser.regular:
+    text: 一般
+font.chooser.bold:
+    text: 粗體
+font.chooser.italic:
+    text: 斜體
+font.chooser.bold.italic:
+    text: 加粗傾斜
+title.choose.icon.file:
+    text: 選擇圖標檔案
+remove.property.quickfix:
+    text: 移除屬性
+form.inspections.group:
+    text: UI 窗體
+inspection.duplicate.mnemonics:
+    text: 助記鍵重複
+inspection.duplicate.mnemonics.message:
+    text: '助記鍵重複: {0}，{1}'
+inspection.missing.mnemonics:
+    text: 缺少助記鍵
+inspection.missing.mnemonics.message:
+    text: '缺少助記鍵: {0}'
+edit.text.searching.references:
+    text: 正在搜尋屬性引用
+edit.text.multiple.usages:
+    text: 屬性 {0} 具有 {1} 個用法。確定要更改其值嗎?
+edit.text.multiple.usages.title:
+    text: 更改屬性值
+inspections.missing.mnemonic.quickfix:
+    text: 分配助記鍵
+inspection.missing.mnemonics.quickfix.prompt:
+    text: '選擇包含助記鍵的文本:'
+inspection.missing.mnemonics.quickfix.title:
+    text: 分配助記鍵
+inspection.duplicate.mnemonics.quickfix:
+    text: 分配唯一助記鍵
+inspection.no.label.for:
+    text: 無組件標籤
+inspection.no.label.for.error:
+    text: 未為組件指定標籤
+inspection.no.label.for.quickfix:
+    text: 分配標籤 ''{0}''
+inspection.no.button.group:
+    text: 單選按鈕不在組中
+inspection.no.button.group.error:
+    text: 單選按鈕不在組中
+inspection.no.button.group.quickfix.create:
+    text: 將相鄰按鈕分組
+key.chooser.new.property:
+    text: 新建屬性(&N)…
+key.chooser.new.property.title:
+    text: 創建屬性
+key.chooser.new.property.name:
+    text: '鍵名(&N):'
+key.chooser.new.property.value:
+    text: '鍵值(&V):'
+choose.locale.description:
+    text: 選擇用於顯示本地化字串屬性的區域設定
+choose.locale.default:
+    text: <預設>
+add.component.form:
+    text: '窗體:'
+add.component.class:
+    text: '類:'
+add.component.cannot.load.form:
+    text: 無法載入窗體檔案 {0}
+add.component.form.not.bound:
+    text: 添加到調色板的窗體必須綁定到一個類
+add.component.root.not.bound:
+    text: 添加到調色板的窗體必須有針對頂層組件的綁定
+add.component.choose.form:
+    text: 選擇窗體檔案
+add.component.choose.icon:
+    text: 選擇圖標檔案
+inspection.no.scroll.pane:
+    text: 可滾動的組件不在 JScrollPane 中
+inspection.no.scroll.pane.quickfix:
+    text: 使用 JScrollPane 環繞
+surround.with.popup.title:
+    text: 環繞方式
+toolwindow.ui.designer.name:
+    text: UI 設計器
+toolwindow.ui.designer.title:
+    text: 組件樹
+error.cannot.delete.unused.field:
+    text: '無法刪除未使用的欄位: {0}'
+command.delete.unused.field:
+    text: 刪除未使用的欄位
+error.for.component:
+    text: '組件 {0}: {1}'
+button.group.name.prompt:
+    text: '輸入組名稱:'
+button.group.name.title:
+    text: 創建按鈕組
+button.group.none:
+    text: <無>
+button.group.new:
+    text: 新建…
+delete.row.nonempty:
+    text: 選定的 {1, choice, 1#行包含|2#{1} 行包含} {0} 個組件。您想刪除這些組件和{1, choice, 1#行|2#行}嗎?
+delete.column.nonempty:
+    text: 選定的 {1, choice, 1#列包含|2#{1} 列包含} {0} 個組件。您想刪除這些組件和{1, choice, 1#列|2#列}嗎?
+delete.row.title:
+    text: 刪除行
+delete.column.title:
+    text: 刪除列
+checkbox.auto.create.binding:
+    text: 自動創建綁定
+checkbox.can.attach.label:
+    text: 可以有附加的標籤
+error.cannot.create.form:
+    text: 無法創建窗體
+action.gui.form.text:
+    text: GUI 窗體
+action.gui.form.description:
+    text: 創建空 GUI 窗體
+title.new.gui.form:
+    text: 新建 GUI 窗體
+checkbox.create.bound.class:
+    text: 創建綁定類(&B)
+new.form.class.name.label:
+    text: '類名(&C):'
+new.form.form.name.label:
+    text: '窗體名稱(&F):'
+paste.choose.destination.prompt:
+    text: 選擇貼上目標位置。點擊或按 Enter 鍵貼上，按 Esc 鍵取消
+navigate.to.listener.title:
+    text: 導航到偵聽器
+navigate.to.listener.empty:
+    text: 找不到偵聽器
+palette.special.group:
+    text: 調色板
+palette.non.palette.component:
+    text: 非調色板組件…
+palette.non.palette.component.tooltip:
+    text: 添加調色板中沒有的組件
+palette.non.palette.component.title:
+    text: 添加非調色板組件
+default.layout.manager:
+    text: '預設布局管理器(&D):'
+error.card.already.exists:
+    text: 此容器中已存在名稱為 ''{0}'' 的卡片
+create.component.title:
+    text: 選擇要插入的組件
+error.no.custom.create.method:
+    text: 窗體包含具有“自訂創建”選項但沒有 createUIComponents() 方法的組件
+error.custom.create.no.binding:
+    text: 只有綁定到欄位的組件才能有自訂創建程式碼
+quickfix.generate.custom.create:
+    text: 生成 createUIComponents() 方法
+error.custom.create.binding.required:
+    text: 該組件需要自訂創建程式碼，因此必須具有非空綁定
+custom.create.field.name.prompt:
+    text: '具有自訂創建程式碼的組件需要綁定到欄位。請輸入欄位名稱:'
+custom.create.title:
+    text: 自訂創建
+client.property.name:
+    text: '屬性名稱(&P):'
+client.property.add.title:
+    text: 添加客戶端屬性
+client.properties.class.not.found:
+    text: 找不到類 {0}
+client.properties.class.not.component:
+    text: '不是組件類: {0}'
+client.properties.already.defined:
+    text: 已定義屬性 {0}
+client.properties.title:
+    text: 設定客戶端屬性
+client.properties.class.prompt:
+    text: '輸入類的完全限定名稱，為其設定客戶端屬性:'
+client.properties.name:
+    text: 名稱
+client.properties.class:
+    text: 類
+client.properties.configure:
+    text: (設定…)
+client.properties.type.header:
+    text: 屬性類型
+label:
+    text: 標籤
+morph.component.title:
+    text: 選擇要轉換成的組件
+morph.component.command:
+    text: 轉換組件
+inspection.bound.field.title:
+    text: 賦值給 UI 綁定欄位
+inspection.bound.field.message:
+    text: 賦值給 UI 綁定欄位將覆蓋 UI 設計器生成的欄位
+property.default:
+    text: 預設
+property.above.top:
+    text: 頂部上方
+property.below.top:
+    text: 頂部下方
+property.above.bottom:
+    text: 底部上方
+property.below.bottom:
+    text: 底部下方
+border.title.editor.title:
+    text: 邊框標題
+border.color.editor.title:
+    text: 邊框顏色
+property.javadoc.title:
+    text: '{0} 屬性的文檔'
+create.listener.title:
+    text: 創建偵聽器
+create.listener.class.not.found:
+    text: 無法找到偵聽器類
+create.listener.command:
+    text: 創建偵聽器
+list.editor.prompt:
+    text: '模型中的專案(一個專案一行)(&I):'
+list.editor.title:
+    text: '{0} 的列表模型'
+add.module.dependency.prompt:
+    text: 類 {0} 在模組 {1} 中定義。您想將模組 {2} 的依賴項添加到該模組嗎?
+add.module.dependency.title:
+    text: 添加模組依賴項
+add.library.dependency.prompt:
+    text: 類 {0} 在庫 {1} 中定義。您想將模組 {2} 中的依賴項添加到該庫嗎?
+add.library.dependency.title:
+    text: 添加庫依賴項
+i18n.quickfix.property:
+    text: 國際化屬性 ''{0}''
+i18n.quickfix.border.title:
+    text: 國際化邊框標題
+i18n.quickfix.tab.title:
+    text: 國際化 {0}
+inspection.one.button.group:
+    text: 包含一個按鈕的按鈕組
+inspection.one.button.group.error:
+    text: 包含一個按鈕的按鈕組
+inspection.no.button.group.quickfix.add:
+    text: 添加到組 ''{0}''
+property.fill:
+    text: 填充
+action.group.columns:
+    text: 將列分組
+action.group.rows:
+    text: 將行分組
+action.ungroup.columns:
+    text: 取消列分組
+action.ungroup.rows:
+    text: 取消行分組
+title.default.alignment:
+    text: 預設對齊
+alignment.left:
+    text: 左(&L)
+alignment.center:
+    text: 中心(&C)
+alignment.right:
+    text: 右(&R)
+alignment.fill:
+    text: 填充(&F)
+title.size:
+    text: 大小
+size.default:
+    text: 預設(&D)
+size.preferred:
+    text: 首選(&P)
+size.minimum:
+    text: 最小值(&M)
+size.constant:
+    text: 常數(&T)
+size.minimum.limit:
+    text: 最小值(&I)
+size.maximum.limit:
+    text: 最大值(&A)
+size.grow:
+    text: '擴展(&G):'
+alignment.top:
+    text: 頂部(&T)
+alignment.bottom:
+    text: 底部(&B)
+title.row.properties:
+    text: 行 {0} 屬性
+title.column.properties:
+    text: 列 {0} 屬性
+title.multiple.rows.selected:
+    text: 已選擇多行
+title.multiple.columns.selected:
+    text: 已選擇多列
+title.no.rows.selected:
+    text: 未選擇行
+title.no.columns.selected:
+    text: 未選擇列
+unit.pixels:
+    text: 像素
+unit.dialog.units:
+    text: 對話框單元
+unit.points:
+    text: 點
+unit.inches:
+    text: 英寸
+unit.centimeters:
+    text: 厘米
+unit.millimeters:
+    text: 毫米
+font.default:
+    text: <預設>
+action.suppress.for.component:
+    text: 對組件禁止
+action.suppress.for.all.components:
+    text: 對所有組件禁止
+action.suppress.named.for.component:
+    text: 禁止組件的 ''{0}''
+action.suppress.named.for.all.components:
+    text: 禁止所有組件的 ''{0}''
+insert.feedback.before.col:
+    text: '{0} (行 {1}，在列 {2} 前)'
+insert.feedback.after.col:
+    text: '{0} (行 {1}，在列 {2} 後)'
+insert.feedback.before.row:
+    text: '{0} (列 {1}，在行 {2} 前)'
+insert.feedback.after.row:
+    text: '{0} (列 {1}，在行 {2} 後)'
+insert.feedback.top:
+    text: 頂部
+insert.feedback.bottom:
+    text: 底部
+insert.feedback.left:
+    text: 左側
+insert.feedback.right:
+    text: 右側
+command.update.property:
+    text: 更改屬性值
+command.create.property:
+    text: 創建屬性值
+title.height:
+    text: 高度
+title.width:
+    text: 寬度
+tooltip.resize.row:
+    text: '行 {0}: {1}'
+tooltip.resize.column:
+    text: '列 {0}: {1}'
+edit.text.change.all:
+    text: 全部更改
+edit.text.make.unique:
+    text: 設為唯一
+edit.text.unique.key.prompt:
+    text: '輸入新屬性鍵的名稱:'
+delete.component.prompt:
+    text: 從調色板中移除組件 {0}?
+delete.component.title:
+    text: 刪除組件
+insert.feedback.fill:
+    text: 填充
+insert.feedback.add.tab:
+    text: '添加頁籤: {0} ({1})'
+generate.main.title:
+    text: 生成 main()
+generate.main.no.default.constructor:
+    text: 該類沒有預設的構造函數
+generate.main.empty.form:
+    text: 綁定到該類的窗體為空
+generate.main.no.root.binding:
+    text: 綁定到該類的窗體不具備根組件的有效綁定
+uidesigner.generated.code.folding.placeholder.text:
+    text: UI 設計器生成了程式碼
+node.button.groups:
+    text: 按鈕組
+node.suppressed.inspections:
+    text: 禁止的檢查
+button.group.name.label:
+    text: '名稱:'
+button.group.bound.checkbox:
+    text: 綁定到欄位
+error.binding.not.unique:
+    text: 綁定非唯一
+new.form.base.layout.manager.label:
+    text: '基礎布局管理器(&L):'
+combobox.group:
+    text: '組(&O):'
+checkbox.is.container:
+    text: 是容器(&C)
+command.set.property.value:
+    text: 設定屬性值
+command.flatten:
+    text: 平展
+command.drop.components:
+    text: 放置組件
+command.insert.component:
+    text: 插入組件
+command.delete.selection:
+    text: 刪除選取的部份
+command.cut:
+    text: 剪下
+command.delete.row:
+    text: 刪除行
+command.delete.column:
+    text: 刪除列
+command.edit.string.property:
+    text: 編輯字串屬性
+command.duplicate:
+    text: 複製
+group.buttons.title:
+    text: 將按鈕分組
+group.buttons.name.prompt:
+    text: '輸入按鈕組的名稱:'
+inspection.no.label.for.command:
+    text: 為組件分配標籤
+error.recursive.form.nesting:
+    text: 由於遞歸窗體嵌套，因此無法載入窗體
+error.instantiating.nested.form:
+    text: '實例化嵌套窗體 {0} 時出錯: {1}'
+ui.is.bound.header:
+    text: UI 綁定到<br>
+error.getting.value:
+    text: '獲取值時出錯: {0}'
+error.setting.value:
+    text: '設定值時出錯: {0}'
+error.no.message:
+    text: 沒有訊息
+inspection.invalid.property.in.form.quickfix.error.bundle.not.specified:
+    text: 未指定捆綁包
+inspection.invalid.property.in.form.quickfix.error.property.key.not.specified:
+    text: 未指定屬性鍵
+inspection.invalid.property.in.form.quickfix.error.bundle.not.found:
+    text: 找不到捆綁包 ''{0}''
+inspection.invalid.property.in.form.quickfix.error.key.not.found:
+    text: 在區域設定 ''{2}'' 的捆綁包 ''{1}'' 中找不到鍵 ''{0}''
+inspection.i18n.message.in.form:
+    text: '窗體中的硬編碼字串文字: ''''{0}'''''
+command.paste:
+    text: 貼上
+add.component.error.qualified.name.required:
+    text: 請輸入限定的類名
+add.component.error.component.required:
+    text: 請選擇一個從 JComponent 派生的類
+form.usage.type:
+    text: GUI 窗體中的用法
+unsupported.component.class.version:
+    text: 不支持的組件類版本
+field.is.overwritten.by.generated.code:
+    text: 欄位 ''{0}'' 被生成的程式碼覆蓋
+bound.field.type.mismatch:
+    text: GUI 組件 (''{0}'') 的類型和綁定欄位 (''{1}'') 不符合
+action.GuiDesigner.PreviewForm.text:
+    text: 預覽
+action.GuiDesigner.PreviewForm.description:
+    text: 預覽窗體
+action.GuiDesigner.DataBindingWizard.text:
+    text: 資料綁定嚮導…
+action.GuiDesigner.ChooseLocale.text:
+    text: 選擇 UI 設計器窗體區域設定
+action.GuiDesigner.ExpandSelection.text:
+    text: 展開選區
+action.GuiDesigner.ExpandSelection.description:
+    text: 從結構上展開選區
+action.GuiDesigner.ShrinkSelection.text:
+    text: 收縮選區
+action.GuiDesigner.ShrinkSelection.description:
+    text: 從結構上收縮選區
+action.GuiDesigner.IncreaseIndent.text:
+    text: 增加縮排
+action.GuiDesigner.IncreaseIndent.description:
+    text: 增加所選組件的縮排
+action.GuiDesigner.DecreaseIndent.text:
+    text: 減少縮排
+action.GuiDesigner.DecreaseIndent.description:
+    text: 減少所選組件的縮排
+action.GuiDesigner.GroupButtons.text:
+    text: 將按鈕分組
+action.GuiDesigner.GroupButtons.description:
+    text: 將所選按鈕添加到按鈕組
+action.GuiDesigner.UngroupButtons.text:
+    text: 取消按鈕分組
+action.GuiDesigner.UngroupButtons.description:
+    text: 從按鈕組中移除所選按鈕
+action.GuiDesigner.QuickJavadoc.text:
+    text: 快速 JavaDoc(_Q)
+action.GuiDesigner.QuickJavadoc.description:
+    text: 顯示包含所選屬性 JavaDoc 的彈出視窗
+action.GuiDesigner.Pack.text:
+    text: 打包
+action.GuiDesigner.Pack.description:
+    text: 將容器收縮至最小尺寸
+action.GuiDesigner.ShowGrid.text:
+    text: 顯示網格
+action.GuiDesigner.ShowGrid.description:
+    text: 切換容器布局網格的可見性
+action.GuiDesigner.ShowComponentTags.text:
+    text: 顯示組件標籤
+action.GuiDesigner.ShowComponentTags.description:
+    text: 切換標籤在沒有文本的大型組件上的可見性
+action.GuiDesigner.ResetValue.text:
+    text: 恢復預設值
+action.GuiDesigner.ResetValue.description:
+    text: 恢復所選屬性的預設值
+action.GuiDesigner.AddGroup.text:
+    text: 添加組
+action.GuiDesigner.AddGroup.description:
+    text: 添加組
+action.GuiDesigner.EditGroup.text:
+    text: 編輯組
+action.GuiDesigner.EditGroup.description:
+    text: 編輯組
+action.GuiDesigner.DeleteGroup.text:
+    text: 刪除組
+action.GuiDesigner.DeleteGroup.description:
+    text: 刪除組
+action.GuiDesigner.AddComponent.text:
+    text: 將組件添加到調色板…
+action.GuiDesigner.AddComponent.description:
+    text: 添加組件
+action.GuiDesigner.EditComponent.text:
+    text: 編輯組件
+action.GuiDesigner.EditComponent.description:
+    text: 編輯組件
+action.GuiDesigner.DeleteComponent.text:
+    text: 刪除組件
+action.GuiDesigner.DeleteComponent.description:
+    text: 刪除組件
+action.GuiDesigner.Duplicate.text:
+    text: 複製
+action.GuiDesigner.Duplicate.description:
+    text: 複製組件
+action.GuiDesigner.SurroundPopup.text:
+    text: 環繞方式…
+action.GuiDesigner.SurroundPopup.description:
+    text: 使用容器環繞所選控件
+action.GuiDesigner.AddTab.text:
+    text: 添加頁籤
+action.GuiDesigner.AddTab.description:
+    text: 將新頁籤添加到所選選項卡式窗格
+action.GuiDesigner.GoToListener.text:
+    text: 轉到偵聽器
+action.GuiDesigner.GoToListener.description:
+    text: 導航到附加到組件的偵聽器類
+action.GuiDesigner.CreateListener.text:
+    text: 創建偵聽器
+action.GuiDesigner.CreateListener.description:
+    text: 生成偵聽器類並將其附加到組件
+action.GuiDesigner.CreateComponent.text:
+    text: 創建組件
+action.GuiDesigner.CreateComponent.description:
+    text: 選擇組件類，並將該組件添加至窗體
+action.GuiDesigner.Flatten.text:
+    text: 平展
+action.GuiDesigner.Flatten.description:
+    text: 刪除所選容器，並將其內容移至父容器
+action.GuiDesigner.Morph.text:
+    text: 轉換組件...
+action.GuiDesigner.Morph.description:
+    text: 將此組件轉換為其他類，同時保留屬性
+action.GuiDesigner.GenerateMain.text:
+    text: 窗體 main()
+action.GuiDesigner.GenerateMain.description:
+    text: 生成 main() 方法以顯示 UI 窗體
+action.GuiDesigner.ReloadCustomComponents.text:
+    text: 重新載入自訂組件
+action.GuiDesigner.ReloadCustomComponents.description:
+    text: 重新載入修改的自訂組件類，並重新創建窗體
+action.GuiDesigner.FormSource.text:
+    text: 窗體源
+action.GuiDesigner.FormSource.description:
+    text: 顯示窗體 XML 內容
+action.NewDialog.text:
+    text: 對話框
+action.NewForm.text:
+    text: GUI 窗體
+default.field.accessibility:
+    text: 'UI 捆綁欄位的預設可存取性(&F):'
+group.GuiDesigner.MainToolbarActions.text:
+    text: UI 設計器工具欄操作
+group.GuiDesigner.NewActions.text:
+    text: Swing UI 設計器

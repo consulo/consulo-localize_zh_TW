@@ -1,0 +1,6 @@
+color.settings.function:
+    text: 函數和方法//宣告
+build.directory.label:
+    text: 建置目錄
+task.clean:
+    text: 清理

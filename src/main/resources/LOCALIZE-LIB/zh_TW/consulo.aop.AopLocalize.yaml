@@ -1,0 +1,106 @@
+add.pjp.parameter:
+    text: 添加一個 ProceedingJoinPoint 參數
+around.advice.call.cannot.proceed:
+    text: '建議調用無法繼續: 可能您忘記了宣告 ProceedingJoinPoint 參數'
+around.advice.should.return.something:
+    text: 連接點返回值將丟失
+around.advice.style.inspection:
+    text: Around 建議樣式檢查
+change.return.type.to.Object:
+    text: 將方法返回類型更改為物件
+empty.popup.text.navigate.to.classes:
+    text: 此引入不符合任何類
+empty.popup.text.navigate.to.methods:
+    text: 此建議未建議任何方法
+error.0.expected:
+    text: 應為 {0}
+error.0.or.1.expected:
+    text: 應為 {0} 或 {1}
+error.anno.expected:
+    text: 此處應為 @接口名稱
+error.argNames.should.match:
+    text: '{0}應與形式方法參數名符合'
+error.arrays.not.allowed.here:
+    text: 此處不允許使用陣列
+error.cannot.resolve.parameter:
+    text: 無法解析參數 ''{0}''
+error.cannot.resolve.pointcut:
+    text: 無法解析切入點 ''{0}''
+error.cannot.resolve.symbol:
+    text: 無法解析符號 ''{0}''
+error.constructor.pattern.expected:
+    text: 應為構造函數模式
+error.default.implementation.class.should.be.specified:
+    text: 應指定預設實作類
+error.double.ellipsis.prohibited:
+    text: 禁止使用多個 '..'
+error.field.name.pattern.expected:
+    text: 應為欄位名稱模式
+error.generics.not.allowed.here:
+    text: 此處不允許使用泛型
+error.id.expected:
+    text: 應為關鍵字
+error.interface.expected:
+    text: 此處應為接口
+error.invalid.number.of.arguments:
+    text: 切入點的參數數量不相容，應為 {0} 個，實際為 {1} 個
+error.method.annotation.name.expected:
+    text: 應為註解名稱
+error.method.args.pattern.expected:
+    text: 應為方法參數模式
+error.method.name.pattern.expected:
+    text: 應為方法名稱模式
+error.method.return.type.expected:
+    text: 應為方法返回類型
+error.non.abstract.class.implemention.0.expected:
+    text: 應為實作 {0} 的非 abstract 類
+error.pjp.not.allowed:
+    text: 只有 @Around 建議中允許將 ProceedingJoinPoint 作為第一個參數
+error.pointcut.arguments.expected:
+    text: 應為切入點參數
+error.pointcut.expression.expected:
+    text: 應為切入點表達式
+error.recursive.pointcut.reference:
+    text: 遞歸切入點引用
+error.throwable.expected:
+    text: 拋出參數的類型應為 java.lang.Throwable
+error.type.name.pattern.expected:
+    text: 應為類型名稱模式
+error.varargs.not.allowed.here:
+    text: 此處不允許使用 vararg
+error.varargs.not.last:
+    text: vararg 參數應為最後一個參數
+error.wildcards.not.allowed.here:
+    text: 此處不允許使用萬用字元
+inspection.display.name.argNames.errors:
+    text: 建議參數(argNames, returning, throwing)一致性檢查
+inspection.display.name.argNames.warnings:
+    text: '警告: 未定義 argNames'
+inspection.display.name.declareParents:
+    text: 引入(宣告父級)錯誤
+pointcut.method.style.inspection:
+    text: 切入點方法樣式
+pointcut.methods.should.have.empty.body:
+    text: 切入點方法應具有空體
+pointcut.methods.should.have.no.throws.clause:
+    text: 切入點方法不應具有 throws 子句
+pointcut.methods.should.have.void.return.type:
+    text: 切入點方法應具有 void 返回類型
+quickfix.name.arg.names.correct:
+    text: 糾正 {0} 特性
+quickfix.name.arg.names.remove:
+    text: 移除 {0} 特性
+quickfix.name.define.attribute:
+    text: 定義 {0} 特性
+tooltip.text.navigate.to.advices:
+    text: 導航到 AOP 建議
+tooltip.text.navigate.to.classes:
+    text: 導航到建議類
+tooltip.text.navigate.to.introductions:
+    text: 導航到 AOP 簡介
+tooltip.text.navigate.to.methods:
+    text: 導航到建議方法
+unbound.pointcut.parameter:
+    text: 未綁定的切入點參數 ''{0}''
+warning.argNames.should.be.defined:
+    text: '{0} 特性未定義'

@@ -1,0 +1,18 @@
+add:
+    text: 添加
+close:
+    text: 關閉(&C)
+compare.with:
+    text: 比較物件…
+edit:
+    text: 編輯
+file.created:
+    text: 已創建 <a href="">{0}</a>
+global.variable:
+    text: 全域變數
+preview:
+    text: 預覽
+value:
+    text: 值
+variable:
+    text: 變數

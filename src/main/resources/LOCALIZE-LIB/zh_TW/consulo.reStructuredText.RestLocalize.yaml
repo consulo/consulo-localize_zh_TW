@@ -1,0 +1,26 @@
+ANN.duplicate.target:
+    text: 重複的顯式目標名稱 ''{0}''
+ANN.inline.block:
+    text: 文字塊後需要空白行
+ANN.unknown.target:
+    text: 未知目標名稱 ''{0}''
+ANN.unusable.anonymous.target:
+    text: 匿名超鏈接目標沒有引用
+INSP.role.not.defined:
+    text: 未定義角色
+QFIX.ignore.role:
+    text: 忽略未定義的角色
+runcfg.dlg.select.script.path:
+    text: '選擇路徑:'
+runcfg.docutils.command:
+    text: '指令:'
+runcfg.docutils.description:
+    text: Python 文檔執行設定
+runcfg.docutils.display_name:
+    text: Python 文檔
+runcfg.docutils.input:
+    text: '輸入:'
+runcfg.docutils.options:
+    text: '選項:'
+runcfg.docutils.output:
+    text: '輸出:'

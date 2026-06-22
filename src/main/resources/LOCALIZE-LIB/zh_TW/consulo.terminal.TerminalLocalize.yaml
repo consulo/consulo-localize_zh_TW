@@ -1,0 +1,4 @@
+action.Terminal.OpenInTerminal.description:
+    text: 在終端中開啟當前檔案位置
+action.Terminal.OpenInTerminal.text:
+    text: 在終端中開啟

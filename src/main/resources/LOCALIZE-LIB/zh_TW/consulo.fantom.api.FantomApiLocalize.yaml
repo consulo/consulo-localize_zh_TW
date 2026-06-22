@@ -1,0 +1,20 @@
+identifier.expected:
+    text: 應為關鍵字
+type.expected:
+    text: 應為類型
+argument.expected:
+    text: 應為實參
+expression.expected:
+    text: 應為表達式
+button.configure:
+    text: 設定...
+sdk.select.prompt.title:
+    text: 選擇 SDK
+cannot.compile:
+    text: 無法編譯 Scala 檔案
+newclass.dlg.prompt:
+    text: 輸入新 Scala 類的名稱
+newclass.command.name:
+    text: 創建 Scala 類
+newclass.progress.text:
+    text: 正在創建 Scala 類 ''{0}''

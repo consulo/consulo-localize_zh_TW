@@ -1,0 +1,908 @@
+ACT.CMD.use.import:
+    text: 使用匯入的模組
+ACT.from.some.module.import:
+    text: 匯入自…
+ACT.qualify.with.module:
+    text: 使用匯入的模組進行限定
+ANN.assign.to.none:
+    text: 賦值給 None
+ANN.break.outside.loop:
+    text: '''break'' 在迴圈外'
+ANN.cant.assign.to.call:
+    text: 無法賦值給函數調用
+ANN.cant.assign.to.comprh:
+    text: 無法賦值給列表推導式
+ANN.cant.assign.to.dict.comprh:
+    text: 無法賦值給字典推導式
+ANN.cant.assign.to.generator:
+    text: 無法賦值給生成器表達式
+ANN.cant.assign.to.lambda:
+    text: 無法賦值給 lambda
+ANN.cant.assign.to.literal:
+    text: 無法賦值給文字
+ANN.cant.assign.to.operator:
+    text: 無法賦值給運算符
+ANN.cant.assign.to.parens:
+    text: 無法賦值給 ()
+ANN.cant.assign.to.set.comprh:
+    text: 無法賦值給集合推導式
+ANN.cant.aug.assign.to.comprh:
+    text: 無法對列表推導式進行增強賦值
+ANN.cant.aug.assign.to.dict.comprh:
+    text: 無法對字典推導式進行增強賦值
+ANN.cant.aug.assign.to.generator:
+    text: 無法對生成器表達式進行增強賦值
+ANN.cant.aug.assign.to.list.or.comprh:
+    text: 無法對列表文字或推導式進行增強賦值
+ANN.cant.aug.assign.to.set.comprh:
+    text: 無法對集合推導式進行增強賦值
+ANN.cant.aug.assign.to.tuple.or.generator:
+    text: 無法對元組文字或生成器表達式進行增強賦值
+ANN.cant.delete.call:
+    text: 無法刪除函數調用
+ANN.cant.delete.literal:
+    text: 無法刪除文字
+ANN.continue.outside.loop:
+    text: '''continue'' 在迴圈外'
+ANN.default.except.must.be.last:
+    text: 預設 'except:' 必須為最後一個
+ANN.deleting.none:
+    text: 刪除 None
+ANN.duplicate.param.name:
+    text: 重複的參數名稱
+ANN.missing.closing.quote:
+    text: 缺少右引號 [{0}]
+ANN.missing.closing.triple.quotes:
+    text: 缺少右三引號
+ANN.non.default.param.after.default:
+    text: 預設參數後面跟隨非預設參數
+ANN.regular.param.after.keyword:
+    text: 正則參數在 ** 參數後面
+ANN.regular.param.after.vararg:
+    text: 正則參數在 * 參數後面
+ANN.star.import.at.top.only:
+    text: 僅在模組級別允許 'import *'
+ANN.starred.param.after.kwparam:
+    text: '* 參數在 ** 參數後面'
+ANN.tuple.py3:
+    text: Python 3 中不支持元組參數解包
+CONFLICT.occurrence.pl:
+    text: 匹配項
+INSP.NAME.abstract.class:
+    text: 類必須實作所有 abstract 方法
+INSP.NAME.argument.equal.default:
+    text: 函數實參等於預設參數值
+INSP.NAME.attribute.outside.init:
+    text: 實例特性在 `__init__` 外部定義
+INSP.NAME.augment.assignment:
+    text: 賦值可取代為增強賦值
+INSP.NAME.bad.except.clauses.order:
+    text: 順序錯誤的 'except' 子句
+INSP.NAME.byte.literal:
+    text: 字節文字包含非 ASCII 字符
+INSP.NAME.chained.comparisons:
+    text: 過於複雜的鏈式比較
+INSP.NAME.check.can.be.simplified:
+    text: 冗餘布爾變數檢查
+INSP.NAME.class.has.no.init:
+    text: 類沒有 `__init__` 方法
+INSP.NAME.classic.class.usage:
+    text: 經典樣式類用法
+INSP.NAME.comparison.with.none:
+    text: 使用相等運算符與 None 進行比較
+INSP.NAME.compatibility:
+    text: 程式碼與特定的 Python 版本不相容
+INSP.NAME.decorator.outside.class:
+    text: 在類的外部使用了特定於類的裝飾器
+INSP.NAME.default.argument:
+    text: 預設實參是可變實參
+INSP.NAME.dict.creation:
+    text: 通過字典文字可以覆寫字典創建
+INSP.NAME.docstring.types:
+    text: docstring 中的類型與推斷的類型不符合
+INSP.NAME.duplicate.keys:
+    text: 字典包含重複鍵
+INSP.NAME.exception.not.inherit:
+    text: 不從標準 'Exception' 類繼承異常
+INSP.NAME.first.arg.assign:
+    text: 此方法的第一個實參被重新賦值
+INSP.NAME.from.future.import:
+    text: 位置不當的 from __future__ import
+INSP.NAME.global.undefined:
+    text: 全域變數並非在模組級別定義
+INSP.NAME.incorrect.call.arguments:
+    text: 錯誤的調用實參
+INSP.NAME.incorrect.docstring:
+    text: 不正確的 docstring
+INSP.NAME.init.return:
+    text: 返回值的 __init__ 方法
+INSP.NAME.invalid.interpreter:
+    text: 無效的解釋器
+INSP.NAME.list.creation:
+    text: 非最優列表宣告
+INSP.NAME.mandatory.encoding:
+    text: 未為檔案指定編碼
+INSP.NAME.method.may.be.static:
+    text: 方法未宣告為 static
+INSP.NAME.method.over:
+    text: 方法簽名與被覆蓋方法的簽名不符合
+INSP.NAME.missing.or.empty.docstring:
+    text: 缺失或空 docstring
+INSP.NAME.missing.super.constructor:
+    text: 缺少對超類 '__init__' 的調用
+INSP.NAME.nested.decorators:
+    text: 裝飾器嵌套有問題
+INSP.NAME.new.init.signature:
+    text: __new__ 和 __init__ 的簽名不相容
+INSP.NAME.non.ascii:
+    text: 檔案包含非 ASCII 字符
+INSP.NAME.none.function.assignment:
+    text: 分配不返回任何內容的函數調用
+INSP.NAME.oldstyle.class:
+    text: 老式類包含新式類功能
+INSP.NAME.problematic.first.parameter:
+    text: 不正確的第一個參數
+INSP.NAME.property.access:
+    text: 不當的屬性存取
+INSP.NAME.property.definition:
+    text: 不正確的屬性定義
+INSP.NAME.redeclaration:
+    text: 無用法的重新宣告名稱
+INSP.NAME.redundant.parentheses:
+    text: 冗餘圓括號
+INSP.NAME.requirements:
+    text: 未滿足的軟體套件要求
+INSP.NAME.set.function.to.literal:
+    text: 函數調用可取代為集合文字
+INSP.NAME.single.quoted.docstring:
+    text: 帶單引號的 docstring
+INSP.NAME.statement.effect:
+    text: 語句無效
+INSP.NAME.str.format:
+    text: 字串格式化操作出錯
+INSP.NAME.too.broad.exception.clauses:
+    text: 不明確的異常子句
+INSP.NAME.trailing.semicolon:
+    text: 語句中的禁止尾隨分號
+INSP.NAME.tuple.item.assignment:
+    text: 禁止元組條目賦值
+INSP.NAME.unbound:
+    text: 未綁定的局部變數
+INSP.NAME.unnecessary.backslash:
+    text: 不必要的反斜杠
+INSP.NAME.unreachable.code:
+    text: 不可到達的程式碼
+INSP.NAME.unresolved.refs:
+    text: 未解析的引用
+INSP.NAME.unused:
+    text: 未使用的局部符號
+INSP.NAME.wrong.super.arguments:
+    text: 錯誤的調用 super 實參
+INSP.argument.equals.to.default:
+    text: 實參等於預設參數值
+INSP.cant.return.value.from.init:
+    text: 無法從 __init__ 返回值
+INSP.class.has.no.init:
+    text: 類沒有 __init__ 方法
+INSP.classic.class.usage.old.style.class:
+    text: 老式類
+INSP.classic.class.usage.old.style.class.ancestors:
+    text: 老式類，因為它所繼承的所有類都是老式類
+INSP.decorator.receives.unexpected.builtin:
+    text: 此裝飾器不會收到所預期的可調用；內建裝飾器返回特殊物件
+INSP.deleter.should.not.return:
+    text: 刪除程序不應返回值
+INSP.deleter.signature.advice:
+    text: 刪除程序簽名應為 (self)
+INSP.doc.param.should.be.str:
+    text: doc 參數應為字串
+INSP.empty.docstring:
+    text: 空 docstring
+INSP.expression.can.be.simplified:
+    text: 可以簡化表達式
+INSP.first.param.must.not.be.tuple:
+    text: 非 static 方法的第一個參數不能是元組
+INSP.format.requires.mapping:
+    text: 格式需要映射
+INSP.format.requires.no.mapping:
+    text: 格式無需映射
+INSP.func.property.name.mismatch:
+    text: 函數和裝飾器的名稱不符合；未創建屬性存取器
+INSP.getter.return.smth:
+    text: Getter 應返回或生成某些內容
+INSP.getter.signature.advice:
+    text: Getter 簽名應為 (self)
+INSP.init.incompatible.to.new:
+    text: 簽名不相容 __new__
+INSP.message.single.quoted.docstring:
+    text: 應對 docstring 使用帶三個雙引號的字串。
+INSP.method.may.be.static:
+    text: 方法 <code>#ref</code> 可能為 'static'
+INSP.missing.parameter.in.docstring:
+    text: docstring 中的缺失參數 {0}
+INSP.missing.super.constructor.message:
+    text: 缺少對超類 __init__ 的調用
+INSP.must.have.first.parameter:
+    text: 方法必須有第一個參數，通常叫做 ''{0}''
+INSP.new.incompatible.to.init:
+    text: 簽名不相容 __init__
+INSP.no.docstring:
+    text: 缺失 docstring
+INSP.no.format.specifier.char:
+    text: 缺少格式說明符
+INSP.none.function.assignment:
+    text: 函數 ''{0}'' 不返回任何內容
+INSP.oldstyle.class.getattribute:
+    text: 老式類包含 __getattribute__ 定義
+INSP.oldstyle.class.slots:
+    text: 老式類包含 __slots__ 定義
+INSP.oldstyle.class.super:
+    text: 老式類包含對 super 方法的調用
+INSP.probably.mistyped.self:
+    text: 你不是指 'self' 嗎？
+INSP.redeclared.name:
+    text: 已重新宣告上文定義的無用法的 ''{0}''
+INSP.setter.should.not.return:
+    text: setter 不應返回值
+INSP.setter.signature.advice:
+    text: Setter 簽名應為 (self, value)
+INSP.signature.mismatch:
+    text: 方法 ''{0}'' 的簽名與類 ''{1}'' 中基方法的簽名不符合
+INSP.strange.arg.want.callable:
+    text: 奇怪實參；應為可調用對象
+INSP.too.few.args.for.fmt.string:
+    text: 格式字串的實參太少
+INSP.too.few.keys:
+    text: 映射鍵太少
+INSP.too.many.args.for.fmt.string:
+    text: 格式字串的實參太多
+INSP.try.except.import.error:
+    text: 包含 ''except ImportError'' 的 try 塊中的 ''{0}'' 也應在 except 塊中定義
+INSP.tuples.never.assign.items:
+    text: 元組不支持專案賦值
+INSP.unbound.function.too.large:
+    text: 函數 ''{0}'' 太大，無法分析
+INSP.unbound.local.variable:
+    text: 局部變數 ''{0}'' 可能在賦值前引用
+INSP.unbound.nonlocal.variable:
+    text: 非局部變數 ''{0}'' 必須綁定在外部函數範圍中
+INSP.unexpected.arg:
+    text: 意外實參
+INSP.unexpected.parameter.in.docstring:
+    text: docstring 中的意外參數 {0}
+INSP.unreachable.code:
+    text: 此程式碼無法存取
+INSP.unused.locals.local.class.isnot.used:
+    text: 未使用局部類 ''{0}''
+INSP.unused.locals.local.function.isnot.used:
+    text: 未使用本地函數 ''{0}''
+INSP.unused.locals.local.variable.isnot.used:
+    text: 未使用局部變數 ''{0}'' 的值
+INSP.unused.locals.parameter.isnot.used:
+    text: 未使用參數 ''{0}'' 的值
+INSP.unused.locals.replace.with.wildcard:
+    text: 取代為 _
+INSP.usually.named.self:
+    text: 方法的第一個參數通常叫做 'self'
+INTN.add.parameters.to.docstring:
+    text: 向 docstring 添加參數
+INTN.convert.builtin.import:
+    text: 將內建模組匯入轉換為支援的形式
+INTN.convert.dict.constructor.to.dict.literal:
+    text: 將 dict 構造函數轉換為 dict 文字
+INTN.convert.dict.literal.to.dict.constructor:
+    text: 將 dict 文字轉換為 dict 構造函數
+INTN.convert.except.to:
+    text: 將 'except exceptClass, Target' 轉換為 'except exceptClass as Target'
+INTN.convert.lambda.to.function:
+    text: 將 lambda 轉換為函數
+INTN.convert.method.to.property:
+    text: 將方法轉換為屬性
+INTN.convert.static.method.to.function:
+    text: 將 static 方法轉換為函數
+INTN.convert.to.fstring.literal:
+    text: 轉換為格式化字串文字
+INTN.convert.variadic.param:
+    text: 將可變形參轉換為正常參數
+INTN.flip.comparison:
+    text: 翻轉 ''{0}''
+INTN.format.operator.to.method:
+    text: 將格式運算符轉換為 'str.format' 方法調用
+INTN.insert.assertion:
+    text: 插入類型斷言
+INTN.join.if:
+    text: 聯接兩個 'if' 語句
+INTN.negate.comparison:
+    text: 將 ''{0}'' 求反為 ''{1}''
+INTN.quoted.string:
+    text: 將帶單引號的字串轉換為帶雙引號的字串，反之亦然
+INTN.quoted.string.double.to.single:
+    text: 將帶雙引號的字串轉換為帶單引號的字串
+INTN.quoted.string.single.to.double:
+    text: 將帶單引號的字串轉換為帶雙引號的字串
+INTN.replace.backquote.expression:
+    text: 取代反引號表達式
+INTN.replace.list.comprehensions:
+    text: 將列表推導式轉換為支援的形式
+INTN.replace.list.comprehensions.with.for:
+    text: 將列表推導式轉換為 'for' 迴圈
+INTN.replace.noteq.operator:
+    text: 取代不等運算符
+INTN.replace.octal.numeric.literal:
+    text: 將八進制數字文字轉換為支援的形式
+INTN.replace.plus.with.format.operator:
+    text: 將 + 取代為字串格式化運算符
+INTN.replace.plus.with.str.format:
+    text: 將 + 取代為 str.format 方法調用
+INTN.replace.raise.statement:
+    text: 將 raise 語句轉換為支援的形式
+INTN.replace.with.method:
+    text: 取代為 str.format 方法調用
+INTN.specify.return.type.in.annotation:
+    text: 使用註解指定返回類型
+INTN.specify.type.in.annotation:
+    text: 使用註解指定引用類型
+INTN.split.if:
+    text: 拆分成 2 條 'if' 語句
+INTN.string.concatenation.to.format:
+    text: 將字串串聯取代為 'str.format'
+INTN.transform.into.if.else.statement:
+    text: 將條件表達式轉換為 'if/else' 語句
+INTN.triple.quoted.string:
+    text: 將三引號字串轉換為帶單引號的字串
+INTN.yield.from:
+    text: 將含有 'yield' 的顯式迭代轉換為 'yield from' 表達式
+PARSE.expected.colon:
+    text: 應為 ':'
+PARSE.expected.colon.or.rbracket:
+    text: 應為 ':' 或 ']'
+PARSE.expected.comma:
+    text: 應為 ','
+PARSE.expected.comma.lpar.rpar:
+    text: 應為 ',' 或 '(' 或 ')'
+PARSE.expected.comma.or.rpar:
+    text: 應為 ',' 或 ')'
+PARSE.expected.else:
+    text: 應為 'else'
+PARSE.expected.expr.or.comma.or.bracket:
+    text: 應為表達式 ',' 或 ']'
+PARSE.expected.expression:
+    text: 應為表達式
+PARSE.expected.for.or.bracket:
+    text: 應為 ']' 或 'for'
+PARSE.expected.formal.param.name:
+    text: 應為參數名稱
+PARSE.expected.identifier:
+    text: 應為關鍵字
+PARSE.expected.in:
+    text: 應為 'in'
+PARSE.expected.lpar:
+    text: 應為 '('
+PARSE.expected.name:
+    text: 應為名稱
+PARSE.expected.rbrace:
+    text: 應為 '}'
+PARSE.expected.rbracket:
+    text: 應為 ']'
+PARSE.expected.rpar:
+    text: 應為 ')'
+PARSE.expected.statement.break:
+    text: 應為 break 語句
+PARSE.expected.tick:
+    text: 應為 '`' (反引號)
+QDOC.epydoc.python2.sdk.not.found:
+    text: 您需要設定好的 Python 2 SDK 來渲染 <a href='http://epydoc.sourceforge.net/'>Epydoc</a> docstring
+QDOC.module.path.unknown:
+    text: (模組路徑未知)
+QFIX.NAME.add.exception.base:
+    text: 添加 Exception 基類
+QFIX.NAME.add.specifier:
+    text: 添加格式說明符字符
+QFIX.NAME.change.signature:
+    text: 更改簽名
+QFIX.NAME.implement.methods:
+    text: 實作 abstract 方法
+QFIX.NAME.make.function:
+    text: 從方法中生成函數
+QFIX.NAME.make.list:
+    text: 將元組取代為列表
+QFIX.NAME.make.static:
+    text: 將方法設為 static
+QFIX.NAME.move.except.up:
+    text: 上移 except 子句
+QFIX.NAME.remove.argument:
+    text: 移除實參
+QFIX.NAME.remove.assignment:
+    text: 移除賦值
+QFIX.NAME.remove.call:
+    text: 移除調用
+QFIX.NAME.remove.dict.key:
+    text: 移除此鍵
+QFIX.NAME.remove.parameter:
+    text: 移除參數
+QFIX.NAME.remove.statement:
+    text: 移除語句
+QFIX.NAME.remove.underscores.in.numeric:
+    text: 移除數字文字中的下劃線
+QFIX.NAME.rename.argument:
+    text: 重命名實參
+QFIX.NAME.rename.element:
+    text: 重命名該元素
+QFIX.NAME.update.parameters:
+    text: 更新參數
+QFIX.action.failed:
+    text: 操作失敗
+QFIX.add.encoding:
+    text: 添加編碼宣告
+QFIX.add.global:
+    text: 添加全域語句
+QFIX.add.import.add.import:
+    text: 添加 "''{0}''"
+QFIX.add.parameter.self:
+    text: 添加參數 ''{0}''
+QFIX.add.property:
+    text: 添加欄位的屬性
+QFIX.add.super:
+    text: 添加超類調用
+QFIX.augment.assignment:
+    text: 將賦值取代為增強賦值
+QFIX.auto.import.import.name:
+    text: 匯入 ''{0}''
+QFIX.auto.import.import.this.name:
+    text: 匯入此名稱
+QFIX.chained.comparison:
+    text: 簡化鏈式比較
+QFIX.change.base.class:
+    text: 更改基類
+QFIX.classic.class.transform:
+    text: 從物件繼承
+QFIX.convert.single.quoted.docstring:
+    text: 將 docstring 轉換為帶三個雙引號的字串形式
+QFIX.convert.to.new.style:
+    text: 轉換為新樣式類
+QFIX.create.property:
+    text: 創建屬性
+QFIX.default.argument:
+    text: 取代可變預設實參
+QFIX.dict.creation:
+    text: 取代字典創建
+QFIX.docstring.insert.stub:
+    text: 插入 docstring
+QFIX.failed.to.add.field:
+    text: <br/>無法添加欄位!<br/><br/>
+QFIX.failed.to.add.function:
+    text: <br/>無法添加函數!<br/><br/>
+QFIX.failed.to.add.method:
+    text: <br/>無法添加方法!<br/><br/>
+QFIX.introduce.variable:
+    text: 為語句引入變數
+QFIX.list.creation:
+    text: 取代列表創建
+QFIX.local.auto.import.import.locally:
+    text: 本地{0}
+QFIX.make.public:
+    text: 設為 public
+QFIX.move.attribute:
+    text: 將特性移至 __init__ 方法
+QFIX.move.from.future.import:
+    text: 將 'from __future__ import' 移至正確位置
+QFIX.redundant.parentheses:
+    text: 移除冗餘圓括號
+QFIX.remove.argument.equal.default:
+    text: 移除等於預設值的實參
+QFIX.remove.decorator:
+    text: 移除裝飾器
+QFIX.remove.trailing.semicolon:
+    text: 移除尾隨分號
+QFIX.remove.unnecessary.backslash:
+    text: 移除表達式中不必要的反斜杠
+QFIX.rename.unresolved.reference:
+    text: 重命名引用
+QFIX.replace.equality:
+    text: 取代相等
+QFIX.replace.function.set.with.literal:
+    text: 將函數調用取代為集合文字
+QFIX.statement.effect:
+    text: 取代為函數調用
+QFIX.unresolved.reference:
+    text: 將 ''{0}'' 取代為 ''{1}.{0}''
+QFIX.unresolved.reference.add.param:
+    text: 創建參數 ''{0}''
+QFIX.use.property:
+    text: 使用此欄位的屬性
+active.sdk.dialog.project.interpreter:
+    text: 'Python 解釋器:'
+active.sdk.dialog.project.interpreter.path.mappings:
+    text: 路徑映射：
+active.sdk.dialog.project.interpreter.path.mappings.default.project.error:
+    text: 開啟或創建專案以設定映射
+active.sdk.dialog.show.all.item:
+    text: 全部顯示…
+commandLine.commandNotFound:
+    text: '{0}：找不到指令'
+commandLine.inspection.badArgument:
+    text: 實參不能具有此值。使用自動補全檢查可能的值的列表。
+commandLine.inspection.badCommand:
+    text: 指令錯誤或未知。確保存在此指令。
+commandLine.inspection.badOption:
+    text: 選項錯誤或未知。確保存在此選項。
+commandLine.inspection.excessArgument:
+    text: 實參過多或此處無法使用實參
+commandLine.inspection.name:
+    text: 不正確的 CLI 語法
+custom.type.mimic.name:
+    text: 基於 {0} 的動態類
+debug.popup.title.step.into.function:
+    text: 單步進入函數
+formatter.after.hash:
+    text: '''#'' 之後'
+formatter.after.local.imports:
+    text: 在本地匯入後面：
+formatter.align.when.multiline:
+    text: 多行時對齊
+formatter.around.eq.in.keyword.argument:
+    text: 在關鍵字實參中的 = 周圍
+formatter.around.eq.in.named.parameter:
+    text: 在命名參數中的 = 周圍
+formatter.around.multiplicative.operators:
+    text: 乘法運算符 (*, @, /, %)
+formatter.around.power.operator:
+    text: 冪運算符 (**)
+formatter.around.top.level.classes.and.function:
+    text: 圍繞頂層類和函數：
+formatter.around.top.level.imports:
+    text: 在頂層匯入後：
+formatter.before.backslash:
+    text: ''''' 之前'
+formatter.before.hash:
+    text: '''#'' 之前'
+formatter.braces:
+    text: 大括號
+formatter.collections.and.comprehensions:
+    text: 集合和推導
+formatter.dictionary.literals:
+    text: 字典文字
+formatter.force.new.line.after.colon:
+    text: 在冒號後強制換行
+formatter.imports.panel.optimize.imports:
+    text: 最佳化 import
+formatter.imports.panel.sort.by.type:
+    text: 在組中分別對 plain 匯入和 "from" 匯入進行排序
+formatter.imports.panel.sort.imports:
+    text: 對 import 語句排序
+formatter.imports.panel.sort.names.in.from.imports:
+    text: 對 "from" 匯入中的匯入名稱排序
+formatter.imports.panel.title:
+    text: 匯入
+formatter.left.bracket:
+    text: 左中括號
+formatter.multi.clause.statements:
+    text: 多子句語句
+formatter.panel.add.trailing.line.feed:
+    text: 在檔案末尾添加換行
+formatter.panel.dict.alignment.align.on.colon:
+    text: 通過冒號對齊
+formatter.panel.dict.alignment.align.on.value:
+    text: 通過值對齊
+formatter.panel.dict.alignment.do.not.align:
+    text: 不對齊
+formatter.panel.dict.alignment.label:
+    text: 字典對齊：
+formatter.panel.use.continuation.indent.for.arguments:
+    text: 方法調用實參
+formatter.single.clause.statements:
+    text: 單子句語句
+python.console:
+    text: Python 主控台
+refactoring.change.signature.dialog.default.value.checkbox:
+    text: 在簽名中使用預設值：
+refactoring.change.signature.dialog.name.label:
+    text: '名稱:'
+refactoring.change.signature.dialog.validation.default.missing:
+    text: 缺少預設值
+refactoring.change.signature.dialog.validation.function.name:
+    text: 函數名稱不正確
+refactoring.change.signature.dialog.validation.multiple.double.star:
+    text: 不允許多個 ** 實參
+refactoring.change.signature.dialog.validation.multiple.star:
+    text: 不允許多個 * 實參
+refactoring.change.signature.dialog.validation.name.defined:
+    text: 名稱已在範圍中定義
+refactoring.change.signature.dialog.validation.parameter.missing:
+    text: 缺少參數名稱
+refactoring.change.signature.dialog.validation.parameter.name:
+    text: 參數名稱不正確
+refactoring.change.signature.error.lambda.call:
+    text: 文字游標位於 lambda 調用上
+refactoring.change.signature.error.not.under.source.root:
+    text: 該函數不在源根下
+refactoring.change.signature.error.tuple.parameters:
+    text: 該函數包含元組參數
+refactoring.change.signature.error.wrong.caret.position.method.name:
+    text: 文字游標應置於要重構的方法的名稱處
+refactoring.change.signature.find.usages.of.base.class:
+    text: "類 {1} 的方法 {0}\n覆寫類 {2} 的方法。\n要重構基方法嗎?"
+refactoring.change.signature.usage.view.declarations.header:
+    text: 要重構的函數
+refactoring.convert.package.to.module.error.not.empty.package:
+    text: 軟體套件 "{0}" 不為空
+refactoring.error.directory.exists:
+    text: 目錄 "{0}" 已存在
+refactoring.error.file.exists:
+    text: 檔案"{0}" 已存在
+refactoring.extract.method:
+    text: 提取方法
+refactoring.extract.method.error.bad.selection:
+    text: 無法使用所選元素執行提取方法重構
+refactoring.extract.method.error.class.level:
+    text: 無法在類級別執行重構
+refactoring.extract.method.error.empty.fragment:
+    text: 無法從空程式碼段執行重構
+refactoring.extract.method.error.interrupted.execution.flow:
+    text: 執行流中斷時無法執行重構
+refactoring.extract.method.error.local.variable.modifications:
+    text: 無法從程式碼段內包含局部變數修改的表達式執行重構.
+refactoring.extract.method.error.local.variable.modifications.and.returns:
+    text: 無法從程式碼段內包含局部變數修改和返回指令的表達式執行重構
+refactoring.extract.method.error.name.clash:
+    text: 該方法名稱與現有名稱衝突
+refactoring.extract.method.error.returns:
+    text: 無法提取程式碼段內包含返回指令的方法
+refactoring.extract.method.error.star.import:
+    text: 無法使用程式碼塊內的星號 import 語句執行重構
+refactoring.extract.method.error.yield:
+    text: 無法使用程式碼塊內的 'yield' 語句執行重構
+refactoring.extract.super.class.no.members.allowed:
+    text: 無法提取任何成員
+refactoring.extract.super.name.0.must.be.ident:
+    text: 名稱 ''{0}'' 無效。必須為有效的 Python 關鍵字
+refactoring.extract.super.target.class.already.exists:
+    text: 此模組中已存在類 ''{0}''
+refactoring.extract.super.target.path.outside.roots:
+    text: 該目標目錄在專案外部。必須在內容根內
+refactoring.inline.local.multiassignment:
+    text: 使用多個賦值定義
+refactoring.introduce.constant.dialog.title:
+    text: 提取常數
+refactoring.introduce.constant.scope.error:
+    text: 已在範圍中宣告名稱
+refactoring.introduce.name.error:
+    text: 不正確的名稱
+refactoring.introduce.parameter.dialog.title:
+    text: 提取參數
+refactoring.make.function.top.level.error.attribute.writes:
+    text: 無法移動寫入實例特性的方法
+refactoring.make.function.top.level.error.method.calls:
+    text: 無法移動調用該類其他方法的方法
+refactoring.make.function.top.level.error.nonlocal.writes:
+    text: 無法移動包含非局部寫入的函數
+refactoring.make.function.top.level.error.outer.scope.reads:
+    text: 無法移動引用外部範圍中的名稱的方法
+refactoring.make.function.top.level.error.private.attributes:
+    text: 無法移動引用私有實例特性的方法
+refactoring.make.function.top.level.error.self.reads:
+    text: 無法移動外部範圍中包含 "self" 參數用法的函數
+refactoring.make.function.top.level.error.special.usage.of.self:
+    text: 無法移動包含 "self" 參數特殊用法的方法
+refactoring.make.local.function.top.level.dialog.description:
+    text: 將局部函數 {0} 移至頂層
+refactoring.make.local.function.top.level.dialog.title:
+    text: 使之為頂層局部函數
+refactoring.make.method.top.level.dialog.description:
+    text: 將方法 {0} 移至頂層
+refactoring.make.method.top.level.dialog.title:
+    text: 使之為頂層方法
+refactoring.move.choose.destination.file.title:
+    text: 選擇目標檔案
+refactoring.move.module.members:
+    text: 移動模組成員
+refactoring.move.module.members.dialog.description.class:
+    text: 移動類 {0}
+refactoring.move.module.members.dialog.description.function:
+    text: 移動函數 {0}
+refactoring.move.module.members.dialog.description.selection:
+    text: 移動所選元素
+refactoring.move.module.members.dialog.description.variable:
+    text: 移動全域變數 {0}
+refactoring.move.module.members.dialog.table.title:
+    text: 批量移動(&M)
+refactoring.move.module.members.dialog.title:
+    text: 移動模組成員
+refactoring.move.module.members.error.cannot.place.elements.into.nonpython.file:
+    text: 無法將元素放入非 Python 檔案中
+refactoring.move.module.members.error.selection:
+    text: 無法使用所選元素執行重構
+refactoring.pull.up.dialog.members.to.be.moved:
+    text: 將移動以下成員
+refactoring.pull.up.dialog.move.members.to.class:
+    text: 將成員移至類
+refactoring.pull.up.dialog.title:
+    text: 向上拉取成員至
+refactoring.pull.up.error.cannot.perform.refactoring.no.base.classes:
+    text: 類 {0} 沒有超類，或者所有超類都不能用於重構
+refactoring.pull.up.error.cannot.perform.refactoring.not.inside.class:
+    text: 無法執行向上拉取成員：不在此類中
+refactoring.will.not.be.accessible:
+    text: 您在嘗試移動的成員依賴於在此重構後無法存取的 ''{0}''
+remote.debug.info:
+    text: 資訊
+remote.debug.local.host:
+    text: IDE 主機名：
+remote.debug.local.root.folder:
+    text: 本地根資料夾
+remote.debug.port:
+    text: 遠端連接埠
+remote.debug.redirect.output:
+    text: 將輸出重定向到主控台
+remote.debug.remote.host:
+    text: 遠端主機
+remote.debug.remote.root.folder:
+    text: 遠端根資料夾
+remote.debug.server.hint:
+    text: 在服務器端使用以下指令以啟用遠端偵錯
+remote.debug.server.hint1.5:
+    text: 更新腳本：
+remote.debug.server.hint2:
+    text: '1. 將 pydevd-pycharm.egg 從 PyCharm 安裝目錄添加到 Python 路徑或執行：'
+remote.debug.server.hint3:
+    text: pip 安裝 pydevd-pycharm
+remote.debug.server.hint4:
+    text: '2. 添加以下指令以連接至偵錯伺服器：'
+remote.debug.settings:
+    text: 設定
+remote.debug.suspend.on.connect:
+    text: 連接後掛起
+remote.interpreter.configure.path.label:
+    text: 'Ruby 或版本管理器路徑(&R):'
+remote.interpreter.configure.path.title:
+    text: 選擇 Ruby 解釋器
+remote.interpreter.configure.temp.files.path.label:
+    text: 'Ruby 幫助程序路徑:'
+remote.interpreter.configure.temp.files.path.title:
+    text: 為 Ruby 幫助程序選擇資料夾
+remote.interpreter.configure.title:
+    text: 設定遠端 Ruby 解釋器
+remote.interpreter.unspecified.interpreter.path:
+    text: 指定 Ruby 解釋器路徑
+remote.interpreter.unspecified.temp.files.path:
+    text: 為 Ruby 幫助程序指定路徑
+remove.elif:
+    text: 移除 elif…
+remove.else:
+    text: 移除 else…
+run.configuration.remote.debug.name:
+    text: Ruby 遠端偵錯
+run.configuration.show.command.line.action.name:
+    text: 顯示偵錯主控台
+run.configuration.type.description:
+    text: 啟動伺服器進行遠端偵錯
+runcfg.captions.interpreter_options_dialog:
+    text: 輸入解釋器選項
+runcfg.captions.script_parameters_dialog:
+    text: 輸入腳本參數
+runcfg.labels.environment_variables:
+    text: 環境變數(&E)：
+runcfg.labels.interpreter:
+    text: 使用指定的解釋器(&U)：
+runcfg.labels.interpreter_options:
+    text: 解釋器選項(&O)：
+runcfg.labels.script_parameters:
+    text: '參數(&P):'
+runcfg.labels.working_directory:
+    text: '工作目錄(&W):'
+runcfg.test.description:
+    text: PyCharm 支援 Python 框架
+runcfg.test.display_name:
+    text: Python 測試
+runcfg.testing.no.test.framework:
+    text: 在所選解釋器中未找到 {0} 執行程序
+runcfg.tests.cant_rerun:
+    text: 無法重新執行測試，因為無法解析測試 ID。嘗試刪除執行設定，然後點擊右鍵以創建新設定。
+runcfg.unittest.dlg.all_in_folder_title:
+    text: 資料夾中的所有
+runcfg.unittest.dlg.all_in_script_title:
+    text: 腳本
+runcfg.unittest.dlg.class_label:
+    text: '類:'
+runcfg.unittest.dlg.folder_path:
+    text: 資料夾：
+runcfg.unittest.dlg.function_label:
+    text: '函數:'
+runcfg.unittest.dlg.interpreter_options_title:
+    text: 解釋器選項：
+runcfg.unittest.dlg.method_label:
+    text: '方法:'
+runcfg.unittest.dlg.pattern:
+    text: '模式:'
+runcfg.unittest.dlg.select.folder.path:
+    text: 選擇資料夾路徑：
+runcfg.unittest.dlg.select.script.path:
+    text: 選擇腳本路徑：
+runcfg.unittest.dlg.test_class_title:
+    text: 類
+runcfg.unittest.dlg.test_function_title:
+    text: 函數
+runcfg.unittest.dlg.test_method_title:
+    text: 方法
+runcfg.unittest.dlg.test_script_label:
+    text: '腳本:'
+runcfg.unittest.dlg.test_type_title:
+    text: '測試:'
+runcfg.unittest.no_class_name:
+    text: 請指定類名
+runcfg.unittest.no_folder_name:
+    text: 請指定包含測試的資料夾
+runcfg.unittest.no_method_name:
+    text: 請指定方法名稱
+runcfg.unittest.no_module_sdk:
+    text: 請選擇包含有效 Python SDK 的模組
+runcfg.unittest.no_script_name:
+    text: 請指定腳本名稱
+runcfg.unittest.no_sdk:
+    text: 請指定 Python SDK
+runcfg.unittest.no_valid_sdk:
+    text: 請選擇有效的 Python 解釋器
+sdk.create.venv.conda.dialog.label.python.version:
+    text: 'Python 版本:'
+sdk.create.venv.dialog.label.inherit.global.site.packages:
+    text: 繼承全域站點軟體套件
+sdk.details.dialog.error.duplicate.name:
+    text: 為解釋器指定唯一名稱
+sdk.details.dialog.show.interpreter.paths:
+    text: 顯示所選解釋器的路徑
+sdk.details.dialog.title:
+    text: Python 解釋器
+sdk.edit.dialog.associate.virtual.env.current.project:
+    text: 關聯此環境與當前專案
+sdk.edit.dialog.associate.virtual.env.with.path:
+    text: 關聯此虛擬環境與 {0}
+sdk.edit.dialog.specify.interpreter.path:
+    text: 指定解釋器路徑
+sdk.edit.dialog.title:
+    text: 編輯 Python 解釋器
+sdk.gen.reloading:
+    text: 正在重新載入生成的框架…
+sdk.gen.stubs.for.binary.modules:
+    text: 生成二進制模組 {0} 的存根
+sdk.gen.updating.interpreter:
+    text: 正在更新 Python 解釋器
+sdk.paths.dialog.added.by.user.suffix:
+    text: （使用者已添加）
+sdk.paths.dialog.reload.paths:
+    text: 重新載入路徑列表
+sdk.paths.dialog.removed.by.user.suffix:
+    text: （使用者已移除）
+sdk.paths.dialog.title:
+    text: 解釋器路徑
+sdk.scanning.installed.packages:
+    text: 正在掃描已安裝的軟體套件
+sdk.select.path:
+    text: 選擇 Python 解釋器
+sdk.some.skeletons.failed:
+    text: 無法生成某些框架
+smartKeys.insert.backslash.in.statement.on.enter:
+    text: 在語句內按 Enter 時插入反斜杠
+smartKeys.insert.self.in.method:
+    text: 定義方法時插入 'self'
+smartKeys.insert.type.placeholder.in.docstring.stub:
+    text: 在文檔註釋存根中插入類型佔位符
+unable.to.stop:
+    text: 無法停止當前正在執行的行程。先手動終止此行程。
+unwrap.elif:
+    text: 解開 elif…
+unwrap.else:
+    text: 解開 else…
+unwrap.for:
+    text: 解開 for…
+unwrap.if:
+    text: 解開 if…
+unwrap.try:
+    text: 解開 try…
+unwrap.while:
+    text: 解開 while…
+unwrap.with:
+    text: 解開 with…
+windowWithActions.closeWindow:
+    text: 關閉視窗
+windowWithActions.stopProcess:
+    text: 停止當前執行的行程

@@ -1,0 +1,112 @@
+all.tests.in.0:
+    text: '{0} 中的測試'
+cannot.resolve.reference:
+    text: 無法解析引用
+choose.dart.main.file:
+    text: 選擇 Dart 檔案
+dart.color.settings.description.bad.character:
+    text: 錯誤字符
+dart.color.settings.description.block.comment:
+    text: 塊註釋
+dart.color.settings.description.braces:
+    text: 大括號
+dart.color.settings.description.brackets:
+    text: 中括號
+dart.color.settings.description.class:
+    text: 類
+dart.color.settings.description.comma:
+    text: 逗號
+dart.color.settings.description.doc.comment:
+    text: 文檔註釋
+dart.color.settings.description.dot:
+    text: 點
+dart.color.settings.description.invalid.string.escape:
+    text: 無效的轉義序列
+dart.color.settings.description.keyword:
+    text: 關鍵字
+dart.color.settings.description.label:
+    text: 標籤
+dart.color.settings.description.line.comment:
+    text: 行註釋
+dart.color.settings.description.number:
+    text: 數字
+dart.color.settings.description.operator:
+    text: 運算符
+dart.color.settings.description.semicolon:
+    text: 分號
+dart.color.settings.description.string:
+    text: 字串
+dart.color.settings.description.valid.string.escape:
+    text: 轉義序列
+dart.commandline.app.title:
+    text: Dart 命令行套用
+dart.file.not.found:
+    text: '找不到 Dart 檔案: {0}'
+dart.fix.getter.none.found:
+    text: 找不到要為之生成 getter 的 private 欄位
+dart.fix.implement.none.found:
+    text: 找不到要實作的方法
+dart.fix.override.none.found:
+    text: 找不到要覆寫的方法
+dart.fix.setter.none.found:
+    text: 找不到要為之生成 setter 的 private 欄位
+dart.generate.constructor:
+    text: 生成構造函數
+dart.line.breakpoints.title:
+    text: Dart 行中斷點
+dart.pub.exception:
+    text: '異常: {0}'
+dart.refactoring.extract.method.error:
+    text: 提取方法錯誤
+dart.sdk.bad.dartpub.path:
+    text: "找不到可執行檔案: \n{0}"
+dart.sdk.is.not.configured:
+    text: 未設定 Dart SDK
+dart.sdk.path.label:
+    text: 'Dart SDK 路徑(&D):'
+dart.support.is.not.enabled.for.module.0:
+    text: 未為模組 ''{0}'' 啟用 Dart 支援
+dart.support.is.not.enabled.for.project:
+    text: 未為專案啟用 Dart 支援
+dart.web.app.title:
+    text: Dart Web 套用
+enable.dart.support:
+    text: 啟用 Dart 支援
+error.folder.specified.as.sdk.not.exists:
+    text: '錯誤: 指定為 Dart SDK 主目錄的資料夾不存在。'
+error.path.to.sdk.not.specified:
+    text: '錯誤: 未指定 Dart SDK 路徑。'
+error.sdk.not.found.in.specified.location:
+    text: '錯誤: 在指定位置找不到 Dart SDK。'
+fields.to.generate.getters:
+    text: 選擇要生成 Getter 的欄位
+fields.to.generate.getters.setters:
+    text: 選擇要生成 Getter 和 Setter 的欄位
+fields.to.generate.setters:
+    text: 選擇要生成 Setter 的欄位
+implements.method.in:
+    text: 實作 ''{1}'' 中的方法 ''{0}''
+livetemplate.description.itar:
+    text: 遍歷陣列元素
+livetemplate.description.iter:
+    text: 迭代(for..in)
+open.dart.settings:
+    text: 開啟 Dart 設定
+overrides.method.in:
+    text: 覆寫 ''{1}'' 中的方法 ''{0}''
+path.to.dart.file.not.set:
+    text: 未指定 Dart 原始碼路徑
+project.0:
+    text: 專案 ''{0}''
+runner.command.line.configuration.name:
+    text: Dart 命令行套用
+setup.dart.sdk:
+    text: 設定 Dart SDK
+test.0.in.1:
+    text: '{0} ({1} 內)'
+version.label:
+    text: '版本:'
+warning.no.modules.selected.dart.support.will.be.disabled:
+    text: '警告: 未選擇任何模組。將對該專案禁用 Dart 支援。'
+work.dir.does.not.exist:
+    text: '工作目錄不存在: {0}'

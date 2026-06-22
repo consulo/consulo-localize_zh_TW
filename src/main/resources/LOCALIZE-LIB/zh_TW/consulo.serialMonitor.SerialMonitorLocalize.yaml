@@ -1,0 +1,16 @@
+cancel:
+    text: 取消
+settings.display.name:
+    text: OpenAPI 規範
+label.port:
+    text: '連接埠(&P):'
+label.encoding:
+    text: '編碼:'
+action.settings.text:
+    text: 設定
+dialog.message.name:
+    text: '名稱:'
+button.disconnect:
+    text: 中斷
+action.save.text:
+    text: 儲存

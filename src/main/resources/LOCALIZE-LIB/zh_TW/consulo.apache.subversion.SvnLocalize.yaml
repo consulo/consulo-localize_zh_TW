@@ -1,0 +1,768 @@
+subversion.executable.notification.title:
+    text: 無法使用 Subversion 命令行客戶端
+subversion.executable.notification.description:
+    text: Subversion 可執行檔案的路徑可能是錯誤的。
+subversion.executable.too.old:
+    text: Subversion 命令行客戶端版本過舊({0})。
+subversion.roots.detection.errors.found.description:
+    text: 檢測 Subversion 工作副本時發現錯誤。
+action.Subversion.BrowseSVNRepository.text:
+    text: 瀏覽 Subversion 版本庫(_W)…
+action.Subversion.BrowseSVNRepository.description:
+    text: 瀏覽 Subversion 版本庫
+group.IgnoreChoicesGroup.text:
+    text: 忽略
+group.RevertIgnoreChoicesGroup.text:
+    text: 從忽略列表中移除
+action.Subversion.UndoIgnore.text:
+    text: 所選文件名
+action.Subversion.UndoIgnore.description:
+    text: 從資料夾忽略列表中移除文件名/遮罩
+action.Subversion.Ignore.ExactMatch.text:
+    text: 所選文件名
+action.Subversion.Ignore.ExactMatch.description:
+    text: 將所有所選檔案的名稱添加到資料夾忽略列表
+action.Subversion.Ignore.MatchExtension.description:
+    text: 將 {0} 遮罩添加到資料夾忽略列表
+action.Subversion.SetProperty.text:
+    text: 設定屬性(_T)…
+action.Subversion.SetProperty.description:
+    text: 在檔案或目錄中設定版本化屬性
+action.Subversion.Resolve.text:
+    text: 解決文本衝突(_S)…
+action.Subversion.Resolve.description:
+    text: 解決檔案中的文本衝突
+action.Subversion.MarkResolved.text:
+    text: 標記為已解決(_M)…
+action.Subversion.MarkResolved.description:
+    text: 將文本和屬性衝突標記為已解決
+action.Subversion.Clenaup.text:
+    text: 清理(_E)
+action.Subversion.Clenaup.description:
+    text: 解鎖鎖定的目錄，並執行其餘所有未完成的操作
+action.Subversion.Copy.text:
+    text: 分支或標記(_B)…
+action.Subversion.Copy.description:
+    text: 將選定的檔案或目錄複製到新的版本庫位置
+action.Subversion.Lock.text:
+    text: 鎖定(_L)…
+action.Subversion.Lock.description:
+    text: 鎖定檔案
+action.Subversion.Unlock.text:
+    text: 解鎖(_O)
+action.Subversion.Unlock.description:
+    text: 解鎖檔案
+action.name.refresh:
+    text: 更新
+action.Subversion.ImportToSVNRepository.text:
+    text: 匯入 Subversion(_M)…
+action.Subversion.Share.text:
+    text: 共享目錄(_S)…
+action.Subversion.ShowProperties.text:
+    text: 編輯屬性(_P)
+action.Subversion.ConfigureBranches.text:
+    text: 設定分支…
+action.Subversion.CompareWithBranch.text:
+    text: 與分支比較…
+action.Subversion.Relocate.text:
+    text: 重定位…
+action.Subversion.Relocate.description:
+    text: 將工作副本重定位到其他 URL
+action.Subversion.CleanupProject.text:
+    text: 清理專案
+action.Subversion.CleanupProject.description:
+    text: 對專案中的所有工作副本目錄執行清理
+dialog.title.branch:
+    text: 創建分支或標記
+label.copy.from:
+    text: 複製自
+label.copy.to:
+    text: 複製到
+label.copy.from.revision:
+    text: '修訂(&V):'
+radio.copy.working.copy:
+    text: 工作副本(&W)
+label.copy.comment:
+    text: '&註釋'
+label.copy.select.location.dialog.copy.as:
+    text: '複製為(&A):'
+dialog.title.lock.files:
+    text: 鎖定檔案
+dialog.title.lock.file:
+    text: 鎖定檔案
+label.lock.comment:
+    text: '鎖定註釋(&L):'
+label.locl.steal.existing:
+    text: '竊取現有鎖(&S):'
+label.ssh.key.file:
+    text: '密鑰檔案(&F):'
+label.ssh.passphrase:
+    text: '密碼短語(&R):'
+label.ssl.certificate.path:
+    text: '憑證路徑:'
+label.ssl.certificate.password:
+    text: '憑證密碼短語:'
+checkbox.ssl.keep.for.current.session:
+    text: 儲存憑證(&S)
+progress.text.create.remote.folder:
+    text: 創建遠端資料夾
+message.text.error:
+    text: 錯誤
+progress.title.browser.delete:
+    text: 刪除
+progress.text.browser.creating:
+    text: 正在創建 {0}
+progress.text.browser.moving:
+    text: 正在移動 {0}
+progress.text.browser.copying:
+    text: 正在拷貝{0}
+progress.text.browser.remote.destination:
+    text: 到 {0}
+progress.title.browser.move:
+    text: 移動
+progress.title.browser.copy:
+    text: 複製
+label.auth.authentication.realm:
+    text: '身份驗證領域: ''''{0}'''''
+label.auth.user.name:
+    text: '用戶名(&U):'
+label.auth.password:
+    text: '密碼(&P):'
+checkbox.auth.keep.for.current.session:
+    text: 儲存憑證(&S)
+dialog.title.authentication.required:
+    text: 需要身份驗證
+progress.text2.collecting.history:
+    text: 正在收集 ''{0}'' 的修訂歷史記錄
+checkbox.changes.filter.filter.by.author:
+    text: '作者(&U):'
+progress.text2.processing.revision:
+    text: 正在處理修訂 ''{0}''
+progress.text.changes.collecting.changes:
+    text: 正在收集有關變更的資訊
+progress.text2.changes.establishing.connection:
+    text: 正在建立與 ''{0}'' 的連接
+progress.text2.revision.processed:
+    text: 已處理修訂 ''{0}''
+status.group.name.replaced:
+    text: 已取代
+status.group.name.switched:
+    text: 已切換
+dialog.title.select.configuration.directory:
+    text: 選擇設定目錄
+action.title.select.configuration.directory:
+    text: 更改設定目錄
+dialog.description.select.configuration.directory:
+    text: 選擇 Subversion 設定目錄或創建新目錄
+button.text.clear.authentication.cache:
+    text: 清除身份驗證快取(&C)
+label.text.delete.stored.credentials:
+    text: 刪除為 'http'、'svn' 和 'svn+ssh' 協議存儲的所有憑證
+button.text.edit.proxies:
+    text: 編輯網絡選項(&O)…
+dialog.title.edit.http.proxies.settings:
+    text: 編輯與網絡層相關的 Subversion 選項
+dialog.edit.http.proxies.settings.error.same.group.names.text:
+    text: '檢測到同名的組: ''''{0}'''''
+dialog.edit.http.proxies.settings.error.ambiguous.group.patterns.text:
+    text: '找到與多個組符合的版本庫 URL: {0}'
+dialog.edit.http.proxies.settings.error.ambiguous.group.patterns.to.text:
+    text: URL {0} 符合 {1}
+dialog.edit.http.proxies.settings.tab.edit.user.file.title:
+    text: 使用者檔案
+dialog.edit.http.proxies.settings.tab.edit.system.file.title:
+    text: 系統檔案
+dialog.edit.http.proxies.settings.port.must.be.number.error:
+    text: 連接埠必須為數字(組 ''{0}'')
+dialog.edit.http.proxies.settings.timeout.must.be.number.error:
+    text: HTTP 超時必須為數字(組 ''{0}'')
+dialog.edit.http.proxies.settings.dialog.select.ssl.client.certificate.path.title:
+    text: 選擇憑證路徑
+dialog.edit.http.proxies.settings.panel.proxy.title:
+    text: HTTP 代理設定
+dialog.edit.http.proxies.settings.panel.ssl.title:
+    text: SSL 設定
+dialog.edit.http.proxies.settings.panel.repositories.title:
+    text: 版本庫
+dialog.edit.http.proxies.settings.patterns.text:
+    text: 'URL 模式(&R):'
+dialog.edit.http.proxies.settings.exceptions.text:
+    text: '異常(&X):'
+dialog.edit.http.proxies.settings.server.text:
+    text: '伺服器(&S):'
+dialog.edit.http.proxies.settings.user.text:
+    text: '使用者(&U):'
+dialog.edit.http.proxies.settings.port.text:
+    text: '連接埠(&O):'
+dialog.edit.http.proxies.settings.password.text:
+    text: 密碼(&W)：
+dialog.edit.http.proxies.settings.connection.timeout.text:
+    text: '連接超時(&I):'
+dialog.edit.http.proxies.settings.seconds.text:
+    text: 秒
+dialog.edit.http.proxies.settings.paths.to.authority.certificates.text:
+    text: 'CA 憑證檔案的逗號分隔路徑(&P):'
+dialog.edit.http.proxies.settings.ssl.client.certificate.file.text:
+    text: 'SSL 客戶端憑證檔案(&C):'
+dialog.edit.http.proxies.settings.client.certificate.passphrase.text:
+    text: 'SSL 客戶端憑證密碼短語(&H):'
+dialog.edit.http.proxies.settings.trust.default.cas.text:
+    text: 信任預設 CA(&A)
+dialog.edit.http.proxies.settings.test.connection.button.text:
+    text: 測試連接(&T)
+dialog.edit.http.proxies.settings.test.connection.settings.will.be.stored.title:
+    text: 警告
+dialog.edit.http.proxies.settings.test.connection.settings.will.be.stored.text:
+    text: 設定將被儲存
+dialog.edit.http.proxies.settings.test.connection.error.title:
+    text: 連接測試失敗
+confirmation.text.delete.stored.authentication.information:
+    text: "您將刪除所有存儲的 Subversion 身份驗證資訊。\n確定要刪除嗎?"
+confirmation.title.clear.authentication.cache:
+    text: 清除身份驗證快取
+command.line.interactive.mode.title:
+    text: 啟用交互模式
+command.line.interactive.mode.description:
+    text: <html>模擬直接從終端執行 Subversion 指令時的行為(交互模式)。<br>這是處理 svn+ssh 版本庫的密碼/密碼短語提示以及信任 https 版本庫的無效伺服器憑證所必需的。</html>
+non.english.locale.detected.warning:
+    text: 使用了非英語區域設定。
+ssh.settings.executable.label:
+    text: 'SSH 可執行檔案:'
+ssh.settings.user.name.label:
+    text: '用戶名:'
+ssh.settings.port.label:
+    text: '連接埠:'
+ssh.settings.password.choice.title:
+    text: 密碼
+ssh.settings.private.key.choice.title:
+    text: 私鑰
+ssh.settings.private.key.path.label:
+    text: '路徑:'
+ssh.settings.subversion.config.choice.title:
+    text: Subversion 設定
+ssh.settings.tunnel.label:
+    text: 'SSH 隧道:'
+ssh.settings.update.tunnel.title:
+    text: 更新
+label.configure.upgrade.label:
+    text: '工作副本升級策略:'
+radio.configure.upgrade.auto.16format:
+    text: 自動升級(使用 Subversion 1.6)(&6)
+radio.configure.upgrade.auto.17format:
+    text: 自動升級(使用 Subversion 1.7)(&7)
+radio.configure.upgrade.auto.18format:
+    text: 自動升級(使用 Subversion 1.8)(&8)
+label.configure.create.label:
+    text: "{0} 將要創建新的 Subversion 工作副本，\n請選擇所需的工作副本格式:"
+radio.configure.create.auto.16format:
+    text: '1.6 格式(&6)'
+radio.configure.create.auto.17format:
+    text: '1.7 格式(&7)'
+radio.configure.create.auto.18format:
+    text: '1.8 格式(&8)'
+label.configure.change.label:
+    text: '將工作副本 ''''{0}'''' 格式更改為:'
+radio.configure.change.auto.16format:
+    text: '1.6 格式(&6)'
+radio.configure.change.auto.17format:
+    text: '1.7 格式(&7)'
+radio.configure.change.auto.18format:
+    text: '1.8 格式(&8)'
+dialog.upgrade.wcopy.format.title:
+    text: Subversion 工作副本格式
+label.working.copy.root.outside.text:
+    text: "工作副本根位於“專案設定”中指定的目錄外部。\n整個工作副本將被轉換。"
+progress.text.loading.contents:
+    text: 正在載入 ''{0}'' 的內容
+progress.text2.revision.information:
+    text: 修訂{0}
+progress.title.loading.file.content:
+    text: 正在載入遠端檔案內容
+progress.title.loading.file.properties:
+    text: 正在載入遠端檔案屬性
+exception.text.file.miss.svn:
+    text: 檔案 ''{0}'' 為唯讀，但缺少 svn:needs-lock 屬性
+confirmation.text.edit.file:
+    text: 您要編輯的檔案在編輯前需要鎖定
+file.status.external:
+    text: 外部 (svn)
+file.status.obstructed:
+    text: 受阻 (svn)
+file.status.replaced:
+    text: 取代 (svn)
+confirmation.text.add.file:
+    text: "你要將以下檔案新增到VCS?\n{0}"
+confirmation.text.add.dir:
+    text: "您是否計劃將以下目錄添加到 Subversion?\n{0}"
+confirmation.title.add.file:
+    text: 日程安排
+confirmation.title.add.multiple.files:
+    text: 選擇要添加到 Subversion 的檔案
+action.name.ignore.files:
+    text: 添加忽略檔案遮罩
+action.name.undo.ignore.files:
+    text: 從忽略列表移除文件名(或遮罩)
+confirmation.text.delete.file:
+    text: "您是否計劃將以下檔案從 Subversion 刪除?\n{0}"
+confirmation.text.delete.dir:
+    text: "您是否計劃將以下目錄從 Subversion 刪除?\n{0}\n注意: 提交變更後，該目錄將從磁碟中刪除。"
+confirmation.text.delete.dir.17:
+    text: "您是否計劃將以下目錄從 Subversion 刪除?\n{0}"
+confirmation.title.delete.file:
+    text: 計劃刪除
+confirmation.title.delete.multiple.files:
+    text: 選擇要從 Subversion 刪除的檔案
+progress.text.locking.files:
+    text: 正在鎖定版本庫中的檔案…
+progress.text2.processing.file:
+    text: 正在處理檔案 {0}
+progress.title.lock.files:
+    text: 鎖定檔案
+exception.text.locking.file.failed:
+    text: '無法鎖定檔案: {0}'
+message.text.files.lock.failed:
+    text: '{0,choice, 0#無法鎖定檔案。|1#無法鎖定檔案。}'
+message.text.files.locked:
+    text: '{0,choice, 0#鎖定檔案失敗。|1#已鎖定 1 個檔案|2#已鎖定 {0,number} 個檔案}'
+progress.text.unlocking.files:
+    text: 正在解鎖版本庫中的檔案…
+progress.title.unlock.files:
+    text: 解鎖檔案
+exception.text.failed.to.unlock.file:
+    text: '無法解鎖檔案: {0}'
+message.title.unlock.failures:
+    text: 解鎖失敗
+message.text.files.unlocked:
+    text: '{0,choice, 0#解鎖檔案失敗。|1#已解鎖 1 個檔案|2#已解鎖 {0,number} 個檔案}'
+dialog.title.select.location:
+    text: 選擇位置
+exception.text.cleanupaction.batchperform.not.implemented:
+    text: CleanupAction.batchPerform 未實作
+progress.text2.adding:
+    text: 正在添加 ''{0}''
+progress.text2.deleting:
+    text: 正在刪除 ''{0}''
+progress.text2.sending:
+    text: 正在發送 ''{0}''
+progress.text2.replacing:
+    text: 正在取代 ''{0}''
+progress.text2.transmitting.delta:
+    text: 正在傳輸 ''{0}'' 的增量
+progress.title.copy:
+    text: Subversion 副本
+progress.text.copy.to:
+    text: 複製到 ''{0}''
+message.text.no.conflicts.found:
+    text: 未找到衝突
+message.title.no.conflicts.found:
+    text: 無衝突
+label.select.files.and.directories.to.mark.resolved:
+    text: '選擇要標記為已解決的檔案和目錄:'
+dialog.title.mark.resolved:
+    text: 標記已解決
+action.name.mark.resolved:
+    text: 標記已解決
+action.name.resolve.conflict:
+    text: 解決衝突
+action.name.revert:
+    text: 還原(&R)
+action.name.set.property:
+    text: 設定屬性
+exception.text.cannot.annotate.directory:
+    text: 註解操作僅對檔案有意義
+progress.text.computing.annotation:
+    text: 正在計算 ''{0}'' 的註解
+action.text.annotate:
+    text: 註解
+progress.title.commit:
+    text: 提交
+status.text.committed.revision:
+    text: 提交的修訂 {0}。
+checkin.operation.name:
+    text: 提交(_I)
+checkin.different.formats.involved:
+    text: "{0,choice,0#版本庫|1#版本庫} {1} 的選定變更\n屬於不同格式的 Subversion 工作副本。\n提交將分為多個提交。\n\n您可以在“變更 | Subversion 工作副本資訊”中將所有工作副本轉換為相同格式。\n是否要繼續提交?"
+progress.text2.fetching.external.location:
+    text: 正在獲取 ''{0}'' 的外部位置
+progress.text2.checked.out:
+    text: 已簽出 {1} 個檔案，正在簽出 {0}
+progress.text2.exported:
+    text: 已匯出 {1} 個檔案，正在匯出 {0}
+progress.text2.checked.out.revision:
+    text: 已簽出修訂 {0}。
+progress.text2.exported.revision:
+    text: 已匯出修訂 {0}。
+status.text.checked.out.revision:
+    text: 已簽出修訂 {0}。
+message.text.cannot.load.supported.formats:
+    text: '無法載入支援的格式: {0}'
+message.text.cannot.checkout:
+    text: '無法從 svn 簽出: {0}'
+message.text.cannot.export:
+    text: '無法從 svn 匯出: {0}'
+message.title.export:
+    text: 從 Subversion 匯出
+progress.text.checking.out:
+    text: 正在將檔案簽出到 ''{0}''
+progress.text.export:
+    text: 正在將檔案匯出到 ''{0}''
+button.text.select.all:
+    text: 全選(&A)
+button.text.deselect.all:
+    text: 取消全選(&D)
+dialog.title.select.repository.location:
+    text: 選擇版本庫位置
+button.text.ssl.accept:
+    text: 接受(_A)
+button.text.ssl.reject:
+    text: 拒絕(_R)
+button.text.ssh.accept:
+    text: 是 (_Y)
+button.text.ssh.reject:
+    text: 否 (_N)
+dialog.title.ssl.examine.server.crertificate:
+    text: 檢查伺服器憑證
+dialog.title.ssh.examine.server.fingerprints:
+    text: 驗證伺服器密鑰指紋
+label.ssl.server.provided.certificate:
+    text: '伺服器提供了以下憑證:'
+label.ssh.server.provided.fingerprints:
+    text: 無法建立主機 {0} 的驗證。
+label.ssh.server.provided.fingerprints2:
+    text: '{0} 密鑰指紋為'
+label.ssh.server.provided.fingerprints3:
+    text: 確定要繼續連接嗎?
+checkbox.svn.ssh.cache.fingerprint:
+    text: 將密鑰添加到 Subversion 快取(&A)
+dialog.title.set.property:
+    text: 設定屬性
+label.set.property.property.name:
+    text: '屬性名稱(&N):'
+radio.set.property.set.property.value:
+    text: '設定屬性值(&S):'
+radio.set.property.delete.property:
+    text: 刪除屬性(&D)
+checkbox.set.property.update.properties.recursively:
+    text: 遞歸更新屬性(&R)
+update.switch.configurable.name:
+    text: 更新/切換
+checkbox.update.switch.configurable.to.specific.revision:
+    text: '更新/切換到特定版本(&R):'
+checkbox.update.switch.configurable.try.merge.without.changes:
+    text: 嘗試合併，但不做任何變更(&T)
+progress.text.merging.dry.run.changes:
+    text: 正在將(dry run)變更合併到 ''{0}''
+progress.text.merging.changes:
+    text: 正在將變更合併到 ''{0}''
+progress.text.updating:
+    text: 正在更新 ''{0}''
+exception.text.root.was.not.properly.updated:
+    text: 'svn: {0} 未正確更新; 可能是因為它已經與父級一起從版本庫中移除。'
+message.text.update.no.directories.found:
+    text: 找不到要更新的版本管理目錄
+messate.text.update.error:
+    text: 'SVN: 更新錯誤'
+progress.text2.added:
+    text: 已添加 {0}
+progress.text2.deleted:
+    text: 已刪除 {0}
+progress.text2.conflicted:
+    text: '{0} 存在衝突'
+progress.text2.treeconflicted:
+    text: 已衝突 {0}(樹衝突)
+progres.text2.merged:
+    text: 已合併 {0}
+progres.text2.updated:
+    text: 已更新 {0}
+progress.text2.restored.file:
+    text: 已恢復 {0}
+progres.text2.updated.to.revision:
+    text: 已更新至修訂 {0}。
+status.text.updated.to.revision:
+    text: 已更新至修訂 {0}。
+progress.text2.skipped.file:
+    text: 已跳過 {0}
+update.group.name.skipped:
+    text: 已跳過
+progress.text.updating.external.location:
+    text: 正在更新 ''{0}'' 的外部位置
+server.ssl.accept.temporary.action.name:
+    text: 接受臨時(_T)
+integrate.display.name:
+    text: 整合
+integrate.configuration.revision1.label:
+    text: 修訂(&V)
+integrate.configuration.source2.label:
+    text: '源 2:'
+integrate.configuration.revision2.label:
+    text: 修訂(&R)
+integrate.configuration.source1.label:
+    text: '源 1:'
+integrate.configuration.description.label:
+    text: 將源之間的差異整合到工作副本中(比較源 2 和源 1)
+source.url.could.not.be.empty.error.message:
+    text: 源 URL 不能為空
+no.differences.between.sources.error.message:
+    text: 源和相同源之間沒有區別
+configure.revision.specified.radio:
+    text: 指定的
+update.configuration.specific.url:
+    text: '更新/切換到特定 URL(&U):'
+progress.text.import:
+    text: 匯入 {0}
+message.text.cannot.import:
+    text: '無法匯入 svn: {0}'
+message.title.import:
+    text: 匯入 Subversion
+revision.title:
+    text: 修訂
+checkout.dialog.title:
+    text: 從 Subversion 簽出
+checkout.dialog.button:
+    text: 檢出
+checkout.directory.chooser.title:
+    text: 簽出目錄
+checkout.directory.chooser.prompt:
+    text: 選擇要從 Subversion 簽出的目錄
+checkout.options.dialog.title:
+    text: SVN 簽出選項
+checkout.options.checkout.label:
+    text: '檢出:'
+configure.branches.title:
+    text: 設定 Subversion 分支
+configure.branches.error.wrong.url:
+    text: 主幹位置必須在版本庫根 ''{0}'' 下
+configure.branches.trunk.location:
+    text: '主幹位置:'
+configure.branches.branch.locations:
+    text: '分支位置:'
+refresh.branches.item:
+    text: 重新整理分支…
+copy.column.title:
+    text: 複製
+copy.column.tooltip:
+    text: 從 {0} 複製
+compare.with.branch.progress.loading.content:
+    text: 載入內容中...
+compare.with.branch.diff.title:
+    text: 與分支比較
+compare.with.branch.error.title:
+    text: 與分支比較
+compare.with.branch.popup.title:
+    text: 與分支比較
+compare.with.branch.location.error:
+    text: "在分支 ''{1}'' 下找不到檔案 ''{0}'' 的版本庫位置\n請檢查您的分支設定。"
+action.name.switch:
+    text: 切換
+import.dialog.title:
+    text: 匯入 Subversion
+import.dialog.button:
+    text: 匯入
+repository.browser.add.location.prompt:
+    text: '版本庫 URL:'
+repository.browser.add.location.title:
+    text: 新建版本庫位置
+repository.browser.details.action:
+    text: 顯示/隱藏詳細資訊
+repository.browser.refresh.action:
+    text: 重新整理選定樹節點
+repository.browser.add.location.menu.item:
+    text: 版本庫位置(_R)…
+repository.browser.edit.location.menu.item:
+    text: 編輯位置 URL(_U)…
+repository.browser.discard.location.action:
+    text: 丟棄位置(_L)
+repository.browser.discard.location.prompt:
+    text: 要丟棄位置 ''{0}'' 嗎?
+repository.browser.discard.location.title:
+    text: 丟棄位置
+repository.browser.new.folder.action:
+    text: 遠端資料夾(_F)…
+repository.browser.import.action:
+    text: 匯入(_I)…
+diff.options.title:
+    text: 與分支或標記比較
+diff.options.no.url.error:
+    text: 請選擇一個 URL 進行比較
+diff.options.same.url.error:
+    text: 請選擇其他 URL 進行比較
+diff.options.no.patch.file.error:
+    text: 請指定儲存補丁檔案的路徑
+diff.cant.get.properties.changes:
+    text: 無法顯示 SVN 屬性
+repository.browser.browse.changes.action:
+    text: 瀏覽變更(_B)…
+repository.browser.browse.changes.description:
+    text: 查看選定節點中的變更歷史記錄
+repository.browser.compare.title:
+    text: 比較 ''{0}'' 和 ''{1}''
+cleanup.action.name:
+    text: 清理
+changes.browser.revision.term:
+    text: 修訂
+progress.searching.for.files.with.conflicts:
+    text: 正在搜尋有衝突的檔案
+add.files.errors.title:
+    text: 添加檔案時出錯
+move.files.errors.title:
+    text: 移動檔案時出錯
+delete.files.errors.title:
+    text: 刪除檔案時出錯
+copy.dialog.title:
+    text: 分支或標籤
+move.dialog.title:
+    text: 移動或重命名
+select.location.invalid.url.message:
+    text: '無效的 Subversion 版本庫 URL: ''''{0}'''''
+share.directory.action:
+    text: 共享目錄…
+share.directory.commit.message:
+    text: "{2}\n{1} 創建的目錄 ''{0}''"
+share.directory.title:
+    text: 共享目錄
+share.directory.info.message:
+    text: 要完成共享操作，請提交 ''{0}''。
+share.directory.create.dir.progress.text:
+    text: 正在創建遠端資料夾 {0}
+share.directory.checkout.back.progress.text:
+    text: 正在簽出 {0}
+share.or.import.add.progress.text:
+    text: 正在排定 {0} 的添加時間表
+action.share.whole.project.text:
+    text: 共享專案(Subversion)…
+action.Subversion.integrate.changes.select.working.copy.text:
+    text: 整合到工作副本：
+action.Subversion.integrate.changes.message.not.under.control.text:
+    text: 所選目標不在 Subversio 的控制下。仍要繼續？
+action.Subversion.integrate.changes.message.another.wc.text:
+    text: 所選目標位於另一個版本庫的工作副本內。仍要繼續？
+action.Subversion.integrate.changes.branch.info.source.label.text:
+    text: 源分支 URL：{0}
+action.Subversion.integrate.changes.branch.info.target.label.text:
+    text: 目標分支 URL：{0}
+action.Subversion.integrate.changes.actionname:
+    text: 整合到分支…
+action.Subversion.integrate.changes.description:
+    text: 將選定的變更列表/變更集整合到選定的分支
+action.Subversion.integrate.changes.messages.title:
+    text: 整合到分支
+action.Subversion.integrate.changes.dialog.add.wc.text:
+    text: 添加
+action.Subversion.integrate.changes.dialog.remove.wc.text:
+    text: 移除
+action.Subversion.integrate.changes.message.files.up.to.date.text:
+    text: 所有檔案均為最新
+action.Subversion.integrate.changes.collecting.changes.to.commit.task.title:
+    text: 正在收集要提交的變更
+action.Subversion.integrate.changes.error.unable.to.collect.changes.text:
+    text: 收集要提交的更改時出錯：{0}
+error.cannot.load.revisions:
+    text: 無法載入修訂列表
+action.Subversion.integrate.changes.progress.integrating.text:
+    text: 正在合併更改
+update.switch.to.branch.text:
+    text: '使用分支:'
+progress.live.provider.loading.revisions.text:
+    text: 正在從伺服器載入修訂
+progress.live.provider.loading.revisions.details.text:
+    text: 正在從伺服器載入修訂…
+dialog.show.svn.map.title:
+    text: Subversion 工作副本資訊
+committed.changes.action.enable.merge.highlighting:
+    text: 高亮顯示整合項
+committed.changes.action.enable.merge.highlighting.description.text:
+    text: 選項僅適用於 SVN 版本庫和 1.5 版本的工作副本
+committed.changes.action.merge.highlighting.refresh.text:
+    text: 重新整理
+committed.changes.action.merge.highlighting.refresh.description:
+    text: 重新整理合併的修訂資訊
+dialog.Subversion.select.working.copy.title:
+    text: 設定工作副本路徑
+dialog.Subversion.select.working.copy.wcopy.list.title:
+    text: 已知工作副本
+action.Subversion.cleanup.progress.title:
+    text: Subversion 清理
+action.Subversion.cleanup.error.message:
+    text: '對 ''''{0}'''' 執行清理時出錯: {1}'
+action.Subversion.integrate.difference.option.use.ancestry.text:
+    text: 使用以前的版本(&U)
+use.idea.proxy.as.default:
+    text: 將 {0} 一般代理設定用作 Subversion 的預設設定
+use.idea.proxy.as.default.label.text:
+    text: 僅 HTTP 代理可用作預設值
+navigate.to.idea.proxy.settings:
+    text: 導航到一般代理設定
+tab.repository.merge.panel.filter.plus:
+    text: 篩選出整合項
+tab.repository.merge.panel.filter.minus:
+    text: 篩選出未整合項
+tab.repository.merge.panel.filter.others:
+    text: 篩選出其他
+browse.changes.settings.stop.on.copy:
+    text: 複製時停止(&S)
+action.mark.list.as.merged.text:
+    text: 標記為已合併
+action.mark.list.as.merged.description:
+    text: 將所選修訂版標記為已合併，但實際沒有合併
+action.mark.list.as.not.merged.text:
+    text: 標記為未合併
+action.mark.list.as.not.merged.description:
+    text: 將所選修訂版標記為未合併，但不會更改 svn:mergeinfo 之外的任何內容
+label.depth.text:
+    text: '深度(&D):'
+label.depth.description:
+    text: 取代舊的“遞歸”選項。“遞歸”為 false 等效於“直接子級”，“遞歸”為 true 等效於“無限”
+undo.integrate.to.branch:
+    text: 撤消整合到分支…
+undo.integrate.to.branch.description:
+    text: 從分支中移除修訂中所做的變更
+undo.integrate.to.branch.dialog.title:
+    text: 撤消整合到分支
+merge.source.details.title:
+    text: 合併 {0} [{1}] 的原始碼詳細資訊
+repository.browser.edit.location.dialog.title:
+    text: 編輯位置 URL
+action.Subversion.TogglePropertiesDiff.text:
+    text: 顯示屬性
+action.Subversion.TogglePropertiesDiff.description:
+    text: 顯示 SVN 屬性的差異
+action.IntegrateChangeSetAction.text:
+    text: 整合到分支
+show.properties.diff.progress.text.revision.information:
+    text: 修訂{0}
+show.properties.diff.progress.text2.property.information:
+    text: 屬性 {0}
+checkbox.ignore.whitespace.when.merge.text:
+    text: '&忽略空格'
+svn.integrate.changelist.warning.unresolved.conflicts.text:
+    text: 整合中斷。存在未解決的衝突或跳過的項。
+svn.option.ignore.whitespace.in.annotate:
+    text: 忽略註解中的空格差異
+annotation.show.merge.sources.default.text:
+    text: 在歷史記錄和註解中顯示合併原始碼
+annotation.original.revision:
+    text: 原始修訂
+confirmation.resolve.tree.conflict.merge.moved:
+    text: 將 {0} 中的變更應用到本地移動的 {1}?
+confirmation.resolve.tree.conflict.merge.renamed:
+    text: 將 {0} 中的變更套用到本地重命名的 {1}?
+svn.create.external.below.action:
+    text: 創建外部…
+svn.create.external.below.description:
+    text: 選擇 URL，添加 svn:external 屬性，然後可以選擇簽出
+svn.edit.commit.message.title:
+    text: '編輯修訂 #{0} 註釋'
+svn.edit.commit.message.attention:
+    text: 注意! 以前的訊息將丟失!
+svn.edit.commit.message.prompt:
+    text: '新修訂註釋:'
+quick.merge.variants.merge.all.explanation:
+    text: "所有未合併的修訂將被合併。\nSubversion 將使用本地副本中記錄的 svn:mergeinfo 屬性尋找未合併的修訂。"
+quick.merge.variants.quick.select.explanation:
+    text: "顯示來自目標分支、已合並和未合併分支的所有修訂。\n用於手動選擇。快速獲取結果。"
+quick.merge.variants.pre.select.explanation:
+    text: "尋找涉及的一個分支複製自另一個分支的位置。\n僅載入尚未合併的修訂以供選擇。執行可能需要很長時間。"
+dialog.create.branch.or.tag.from.working.copy.warning:
+    text: <html>使用此變體創建<b>具有本地變更</b>的分支。<br/>通常，不僅是目標目錄，還將有幾個項“帶歷史記錄添加”。<br/><br/>具有與根不同的修訂的各個檔案將被分別複製。<br/>因此，建議先更新工作副本，然後再創建分支。</html>
+exportable.SvnDiffSettings.presentable.name:
+    text: SVN 差異

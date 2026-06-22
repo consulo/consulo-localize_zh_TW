@@ -1,0 +1,2 @@
+command.0.execution.failed.with.exit.code.1:
+    text: 指令“{0}”執行失敗，退出程式碼 {1}

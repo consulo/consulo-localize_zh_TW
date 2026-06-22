@@ -1,0 +1,126 @@
+action.group.guice.description:
+    text: Google Guice 組件
+binding.annotation.without.inject.display.name:
+    text: 沒有 @Inject 的綁定註解
+binding.annotation.without.inject.problem.descriptor:
+    text: '沒有宣告 @Inject 的綁定註解 #ref #loc'
+conflicting.annotations.display.name:
+    text: Guice 註解衝突
+conflicting.annotations.problem.descriptor:
+    text: '註解 #ref 與宣告的其他註解衝突 #loc'
+delete.binding:
+    text: 刪除綁定
+interception.annotation.without.runtime.retention.display.name:
+    text: 沒有執行時保留的截取註解
+interception.annotation.without.runtime.retention.problem.descriptor:
+    text: '註解 #ref 沒有執行時保留 #loc'
+invalid.implemented.by.display.name:
+    text: '@ImplementedBy 註解無效'
+invalid.implemented.by.problem.descriptor:
+    text: '#ref 類未實作註解類 #loc'
+invalid.provided.by.display.name:
+    text: '@ProvidedBy 註解無效'
+invalid.provided.by.problem.descriptor:
+    text: '#ref 類未提供註解類 #loc'
+invalid.request.parameters.display.name:
+    text: '@RequestParameters 參數的類型不正確'
+invalid.request.parameters.problem.descriptor:
+    text: '標記為 #ref 的變數或參數的類型必須為 Map<String, String[]> #loc'
+make.injection.mandatory:
+    text: 將註解設為強制
+make.injection.optional:
+    text: 將註解設為可選
+move.binding.scope.to.class.family.name:
+    text: 將綁定範圍移至類
+move.binding.scope.to.class.text:
+    text: 將綁定範圍移至類
+move.binding.to.class.family.name:
+    text: 將綁定移至類
+move.binding.to.class.text:
+    text: 將綁定類移至類
+move.provider.binding.to.class.family.name:
+    text: 將提供程序綁定移至類
+move.provider.binding.to.class.text:
+    text: 將提供程序綁定移至類
+multiple.binding.annotations.display.name:
+    text: 變數有多個綁定註解
+multiple.binding.annotations.problem.descriptor:
+    text: '變數 #ref 有多個綁定註解 #loc'
+multiple.injected.constructors.for.class.display.name:
+    text: 類有多個 @Inject 構造函數
+multiple.injected.constructors.for.class.problem.descriptor:
+    text: '類 #ref 有多個 @Inject 構造函數 #loc'
+new.guice.binding.annotation.action.name:
+    text: 創建 Guice 綁定註解
+new.guice.binding.annotation.error:
+    text: 無法創建 Guice 綁定註解
+new.guice.binding.annotation.name:
+    text: '創建 Guice 綁定註解: {0}。{1}'
+new.guice.method.interceptor.action.name:
+    text: 創建 Guice 方法偵聽器
+new.guice.method.interceptor.error:
+    text: 無法創建 Guice 方法偵聽器
+new.guice.method.interceptor.name:
+    text: '創建 Guice 方法偵聽器: {0}。{1}'
+new.guice.module.action.name:
+    text: 創建 Guice 模組
+new.guice.module.error:
+    text: 無法創建 Guice 模組
+new.guice.module.name:
+    text: '創建 Guice 模組: {0}。{1}'
+new.guice.provider.action.name:
+    text: 創建 Guice 提供程序
+new.guice.provider.error:
+    text: 無法創建 Guice 提供程序
+new.guice.provider.name:
+    text: '創建 Guice 提供程序: {0}。{1}'
+new.guice.scope.annotation.action.name:
+    text: 創建 Guice 範圍註解
+new.guice.scope.annotation.error:
+    text: 無法創建 Guice 範圍註解
+pointless.binding.display.name:
+    text: 無意義的綁定
+pointless.binding.problem.descriptor:
+    text: '綁定非必要，可以移除 #loc'
+redundant.scope.binding.display.name:
+    text: 冗餘範圍綁定
+redundant.scope.binding.problem.descriptor:
+    text: '與範圍 #ref 的綁定冗餘 #loc'
+redundant.to.binding.display.name:
+    text: 冗餘綁定
+redundant.to.binding.problem.descriptor:
+    text: '與類 #ref 的綁定冗餘 #loc'
+redundant.to.provider.binding.display.name:
+    text: 冗餘提供程序綁定
+redundant.to.provider.binding.problem.descriptor:
+    text: '與類 #ref 的綁定冗餘 #loc'
+select.provided.class:
+    text: 選擇要提供的類
+session.scoped.injects.request.scoped.display.name:
+    text: '@SessionScoped 組件注入 @RequestScoped 組件'
+session.scoped.injects.request.scoped.problem.descriptor:
+    text: '@RequestScoped 類 #ref 的 @Inject 來自 @SessionScoped 類 #loc'
+singleton.injects.scoped.display.name:
+    text: '@Singleton 組件注入範圍組件'
+singleton.injects.scoped.problem.descriptor:
+    text: '範圍類 #ref 的 @Inject 來自 @Singleton 類 #loc'
+toggle.injection.required.family.name:
+    text: 切換注入
+toggle.required:
+    text: 切換 'optional'
+uninstantiable.binding.display.name:
+    text: 無法實例化的綁定
+uninstantiable.binding.problem.descriptor:
+    text: '類 #ref 不可實例化，因此不可綁定 #loc'
+uninstantiable.implemented.by.class.display.name:
+    text: 無法實例化的 @ImplementedBy 類
+uninstantiable.implemented.by.class.problem.descriptor:
+    text: '類 #ref 不可實例化，因此不能為 @ImplementedBy #loc'
+uninstantiable.provided.by.class.display.name:
+    text: 無法實例化的 @ProvidedBy 類
+uninstantiable.provided.by.class.problem.descriptor:
+    text: '類 #ref 不可實例化，因此不能為 @ProvidedBy #loc'
+unnecessary.static.injection.display.name:
+    text: 不必要的 static 注入
+unnecessary.static.injection.problem.descriptor:
+    text: '類 #ref 沒有 static @Inject 成員 #loc'

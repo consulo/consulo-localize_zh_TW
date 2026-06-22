@@ -1,0 +1,6 @@
+color.settings.comment:
+    text: 註釋
+color.settings.parentheses:
+    text: 大括號和運算符//圓括號
+color.settings.semicolon:
+    text: 大括號和運算符//分號

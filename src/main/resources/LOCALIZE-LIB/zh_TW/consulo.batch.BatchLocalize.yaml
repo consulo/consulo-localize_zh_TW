@@ -1,0 +1,12 @@
+runcfg.labels.script_parameters:
+    text: '參數(&P):'
+runcfg.labels.environment_variables:
+    text: 環境變數(&E)：
+runcfg.labels.working_directory:
+    text: '工作目錄(&W):'
+runcfg.labels.interpreter_options:
+    text: 解釋器選項(&O)：
+runcfg.captions.script_parameters_dialog:
+    text: 輸入腳本參數
+runcfg.captions.interpreter_options_dialog:
+    text: 輸入解釋器選項

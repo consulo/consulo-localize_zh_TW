@@ -1,0 +1,46 @@
+color.settings.keyword:
+    text: 關鍵字
+color.settings.comment:
+    text: 註釋
+color.settings.number:
+    text: 數字
+color.settings.string:
+    text: 字串//字符
+color.settings.escape_sequence:
+    text: 字串//轉義序列
+color.settings.operation:
+    text: 大括號和運算符//運算符
+color.settings.brackets:
+    text: 大括號和運算符//中括號
+color.settings.bad_character:
+    text: 未知字符
+color.settings.comma:
+    text: 逗號
+color.settings.semicolon:
+    text: 大括號和運算符//分號
+color.settings.heredoc_content:
+    text: Heredoc//Heredoc 內容
+color.settings.var:
+    text: 關鍵字//變數
+color.settings.identifier:
+    text: 關鍵字//預設
+color.settings.constant:
+    text: 關鍵字//常數
+color.settings.doccomment:
+    text: PHPDoc//文本
+color.settings.doctag:
+    text: PHPDoc//標記
+color.settings.docmarkup:
+    text: PHPDoc//標記
+color.settings.exec_command:
+    text: Shell 指令
+color.settings.predefined.symbols:
+    text: 關鍵字//預定義符號
+annotation.variable.variable:
+    text: 可變變數
+gutter.overriding.select.title:
+    text: 選擇要導航的父方法
+gutter.overriden.select.subclass.title:
+    text: 選擇 {0} 的子類
+gutter.overriden.select.implementation.title:
+    text: 選擇 {0} 的實作

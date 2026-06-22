@@ -1,0 +1,12 @@
+markdown.editor.colors.hrule:
+    text: 水平標尺
+markdown.editor.colors.table_separator:
+    text: 表分隔符
+markdown.editor.colors.text:
+    text: 文本
+markdown.layout.editor.and.preview:
+    text: 編輯器和預覽
+markdown.layout.editor.only:
+    text: 僅編輯器
+markdown.layout.preview.only:
+    text: 僅預覽

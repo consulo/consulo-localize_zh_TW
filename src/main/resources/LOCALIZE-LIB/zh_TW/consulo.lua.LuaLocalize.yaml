@@ -1,0 +1,24 @@
+color.settings.bad_character:
+    text: 未知字符
+color.settings.brackets:
+    text: 大括號和運算符//中括號
+color.settings.comma:
+    text: 逗號
+color.settings.comment:
+    text: 註釋
+color.settings.identifier:
+    text: 關鍵字//預設
+color.settings.keyword:
+    text: 關鍵字
+color.settings.number:
+    text: 數字
+color.settings.operation:
+    text: 大括號和運算符//運算符
+color.settings.parameter:
+    text: 函數和方法//參數
+color.settings.string:
+    text: 字串//字符
+new.library.file.chooser.title:
+    text: 新的庫檔案
+module.type.name:
+    text: R 模組

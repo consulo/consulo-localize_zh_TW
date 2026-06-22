@@ -1,0 +1,14 @@
+lbrace.expected:
+    text: 應為 '{'
+rbrace.expected:
+    text: 應為 '}'
+identifier.expected:
+    text: 應為關鍵字
+expression.expected:
+    text: 應為表達式
+constant.expected:
+    text: 應為 {0} 常數
+number:
+    text: 數字
+constant:
+    text: 常數

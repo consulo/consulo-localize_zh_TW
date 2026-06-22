@@ -1,0 +1,24 @@
+list.item.test:
+    text: 測試
+attribute.descriptor.number:
+    text: 數字
+attribute.descriptor.label:
+    text: 標籤
+attribute.descriptor.operator:
+    text: 運算符
+attribute.descriptor.keyword:
+    text: 關鍵字
+attribute.descriptor.attribute:
+    text: 特性
+attribute.descriptor.comma:
+    text: 逗號
+attribute.descriptor.semicolon:
+    text: 分號
+attribute.descriptor.braces:
+    text: 大括號
+attribute.descriptor.parentheses:
+    text: 圓括號
+attribute.descriptor.brackets:
+    text: 中括號
+command.name.introduce.variable:
+    text: 引入變數

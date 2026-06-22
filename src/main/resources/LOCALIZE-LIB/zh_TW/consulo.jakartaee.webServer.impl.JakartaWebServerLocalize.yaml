@@ -1,0 +1,44 @@
+Integration.name:
+    text: '{0} 伺服器'
+PersistentDataEditor.label.home:
+    text: '{0} 主目錄(&H):'
+PersistentDataEditor.label.version:
+    text: '{0} 版本:'
+PersistentDataEditor.chooser.title:
+    text: '{0} 主目錄'
+PersistentDataEditor.chooser.description:
+    text: 選擇 {0} 主目錄
+PersistentDataEditor.warning:
+    text: <html><body><b>警告:</b> 所選目錄不是有效的 {0} 主頁</body></html>
+PersistentDataEditor.unknown:
+    text: <未知>
+ServerHelper.libraries.title:
+    text: 正在搜尋應用程式伺服器庫
+ServerHelper.libraries.error:
+    text: 未找到應用程式伺服器庫
+ConfigurationType.name:
+    text: '{0} 伺服器'
+ConfigurationType.description:
+    text: '{0} 伺服器執行設定'
+RunEditor.title:
+    text: '{0} 伺服器設定'
+RunEditor.username:
+    text: '用戶名(&U):'
+RunEditor.password:
+    text: '密碼(&W):'
+AppDescriptor.title:
+    text: '{0} 應用程式部署描述符'
+EjbDescriptor.title:
+    text: '{0} EJB 部署描述符'
+CmpDescriptor.title:
+    text: '{0} CMP 部署描述符'
+WebDescriptor.title:
+    text: '{0} Web 部署描述符'
+ServerModel.password:
+    text: 已指定用戶名，但未指定密碼
+ServerModel.logfile:
+    text: '{0} 日誌'
+ServerInstance.artifact.status:
+    text: "[{0,time,yyyy-MM-dd hh:mm:ss,SSS}] 工件 {1}: {2}\n"
+Error.fileNotFound:
+    text: 找不到檔案 ''{0}''

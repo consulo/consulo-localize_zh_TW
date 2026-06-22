@@ -1,0 +1,512 @@
+module.ruby.title:
+    text: Ruby 模組
+module.ruby.description:
+    text: Ruby 模組用於開發 <b>Ruby</b> 和 <b>Ruby on Rails</b> 套用程序。
+ruby.configuration.gems.bin.dir.path:
+    text: 'Gem bin 目錄:'
+ruby.configuration.gems.bin.dir.path.tooltip:
+    text: gem 可執行腳本的安裝路徑
+ruby.configuration.gems.bin.dir.select.path:
+    text: 選擇 gem bin 目錄
+sdk.no.specified:
+    text: 未指定 SDK
+sdk.error.isnt.valid:
+    text: SDK ''{0}'' 不是有效的 Ruby SDK
+sdk.error.gems.bindir.doesnt.exist:
+    text: Gem bin 目錄不存在
+sdk.error.gems.bindir.isnt.directory:
+    text: Gem bin 目錄不是目錄
+sdk.error.no.rails.found:
+    text: '[未在 SDK 中找到 Rails]'
+execution.error.title:
+    text: 執行錯誤
+execution.ruby.script.get.available.generators:
+    text: "用於獲取可用生成器的腳本執行出錯:\n{0}"
+run.configuration.test.name:
+    text: Kotlin Mobile 測試
+run.configuration.messages.select.working.dir:
+    text: 選擇工作目錄
+run.configuration.messages.script.args:
+    text: 腳本實參
+run.configuration.messages.select.module:
+    text: '從模組中選擇 SDK:'
+run.configuration.messages.working.dir:
+    text: '工作目錄:'
+run.configuration.messages.ruby.args:
+    text: Ruby 實參
+run.configuration.messages.script.path:
+    text: 'Ruby 腳本:'
+run.configuration.messages.folder.path:
+    text: '資料夾:'
+run.configuration.messages.select.folder.path:
+    text: 選擇資料夾
+run.configuration.tests.messages.method.name:
+    text: '方法:'
+run.configuration.test.form.testtype.title:
+    text: '模式:'
+run.configuration.tests.dialog.components.folder:
+    text: 測試資料夾
+run.configuration.tests.dialog.components.search.mask:
+    text: '測試文件名遮罩:'
+run.configuration.tests.dialog.components.file:
+    text: Ruby 腳本
+run.configuration.tests.dialog.components.method:
+    text: 測試名稱篩選器
+run.configuration.tests.dialog.rb.allInFolder:
+    text: 資料夾中的所有測試(&A)
+run.configuration.tests.dialog.rb.method:
+    text: 測試方法(&M)
+rails.run.configuration.type.description:
+    text: Rails 執行設定
+run.configuration.server.dialog.port:
+    text: 連接埠
+run.configuration.server.dialog.ip:
+    text: IP 地址
+run.configuration.server.dialog.environment:
+    text: 環境
+run.configuration.server.dialog.server:
+    text: 伺服器
+run.configuration.server.args:
+    text: 伺服器實參
+rspec.run.configuration.type.description:
+    text: RSpec 範例執行設定
+rspec.run.configuration.tests.dialog.components.search.mask:
+    text: '文件名遮罩:'
+rspec.run.configuration.tests.dialog.components.folder:
+    text: 規範資料夾
+rspec.run.configuration.tests.dialog.rb.allInFolder:
+    text: 資料夾中的所有規範(&A)
+rspec.run.configuration.tests.dialog.rb.file:
+    text: 規範腳本(&S)
+rspec.run.configuration.tests.form.testtype.title:
+    text: '模式:'
+rspec.run.configuration.messages.script.path:
+    text: '規範腳本:'
+rspec.run.configuration.tests.dialog.components.select.spec.custom.runner:
+    text: 選擇自訂 RSpec 執行程序腳本
+rspec.run.configuration.tests.dialog.components.spec.custom.use:
+    text: '使用自訂 RSpec 執行程序腳本:'
+run.configuration.script.port.bad.format:
+    text: '''port'' 值不正確'
+run.configuration.script.ip.bad.format:
+    text: '''ip address'' 值不正確'
+run.configuration.script.not.specified:
+    text: 未指定 Ruby 腳本
+run.configuration.script.not.exists:
+    text: Ruby 腳本不存在
+run.configuration.script.is.not.file:
+    text: Ruby 腳本似乎不是檔案
+run.configuration.working.directory.not.exists:
+    text: 工作目錄不存在
+run.configuration.working.directory.error:
+    text: 工作目錄不是目錄
+run.configuration.test.folder.not.exists:
+    text: 測試資料夾不存在
+run.configuration.test.folder.not.dir:
+    text: 測試資料夾不是目錄
+run.configuration.test.no.mask:
+    text: '為測試名稱定義遮罩，例如: {0}'
+run.configuration.test.script.not.exists:
+    text: 測試腳本不存在
+run.configuration.test.script.is.dir:
+    text: 測試腳本是目錄
+run.configuration.test.default.name:
+    text: '{0} 中的所有測試: {1}'
+rspec.run.configuration.test.folder.not.exists:
+    text: 規範資料夾不存在
+rspec.run.configuration.test.folder.not.dir:
+    text: 規範資料夾不是目錄
+rspec.run.configuration.test.script.not.exists:
+    text: 規範測試腳本不存在
+rspec.run.configuration.test.custom.runner.not.exists:
+    text: 自訂 RSpec 執行程序腳本不存在
+rspec.run.configuration.test.script.is.dir:
+    text: 規範腳本是目錄
+rspec.run.configuration.test.default.name:
+    text: '{0} 中的所有規範: {1}'
+new.generate.common.action.prompt.title:
+    text: 生成 ''{0}''
+new.generate.common.error.title:
+    text: 生成錯誤
+new.generate.common.action.title:
+    text: 生成 ''{0}''
+new.generate.common.generating.title:
+    text: 生成腳本
+new.generate.common.error.script.arguments.should.be.specified:
+    text: 必須指定腳本實參。
+new.generate.common.error.no.rails:
+    text: 在您的 SDK 中找不到 Rails 腳本。如果不安裝 Rails，就無法調用 Rails 生成器。在模組設定中選擇其他 SDK 或安裝 Rails。
+dialog.generate.common.label.arguments.text:
+    text: '生成器實參(&A):'
+dialog.generate.common.checkBox.pretend.text:
+    text: 假定(&P)
+dialog.generate.common.checkBox.pretend.tooltip:
+    text: 執行但不進行任何更改。
+dialog.generate.common.checkBox.force.text:
+    text: 強制(&F)
+dialog.generate.common.checkBox.force.tooltip:
+    text: 覆蓋已存在的檔案。
+dialog.generate.common.checkBox.skip.text:
+    text: 跳過(&S)
+dialog.generate.common.checkBox.skip.tooltip:
+    text: 跳過已存在的檔案。
+dialog.generate.common.checkBox.backtrace.text:
+    text: 回溯(&B)
+dialog.generate.common.checkBox.backtrace.tooltip:
+    text: '偵錯: 出錯時顯示回溯。'
+dialog.generate.common.checkBox.svn.tooltip:
+    text: '使用 Subversion 修改檔案。(注意: svn 必須位於路徑中)。'
+dialog.generate.common.help.title:
+    text: '''''{0}'''' 的幫助'
+progress.dialog.generate.common.help.wait.title:
+    text: 正在載入幫助…
+new.generate.controller.description:
+    text: 為 Rails 應用程式生成控制器
+new.generate.controller.action.prompt.title:
+    text: 添加新控制器
+new.generate.controller.error.title:
+    text: 生成控制器錯誤
+dialog.generate.controller.label.dir.text:
+    text: '目錄(&D): (例如 ''admin'')'
+dialog.generate.controller.label.name.text:
+    text: '&{0} 名稱: (例如 ''''CreditCard'''')'
+new.generate.model.description:
+    text: 為 Rails 套用程序生成模型
+new.generate.model.action.prompt.title:
+    text: 添加新模型
+new.generate.model.error.title:
+    text: 生成模型錯誤
+rails.actions.execution.run.rails.script.title:
+    text: 執行 Rails 腳本
+rails.actions.execution.run.rails.script.dialog.button.ok.caption:
+    text: 執行
+rails.actions.execution.run.rails.script.dialog.description.caption:
+    text: 您可以從“[{0}]/script”目錄執行 Rails 腳本
+rails.actions.execution.run.rails.script.dialog.component.script.args.caption:
+    text: 實參
+rails.actions.execution.run.rails.script.dialog.component.script.path.caption:
+    text: 腳本
+rails.actions.execution.run.rails.script.dialog.component.script.path.caption.select:
+    text: 選擇腳本
+rails.actions.execution.run.rails.script.error.no.scripts.folder:
+    text: 無法執行 Rails 腳本。未找到“{0}/script”資料夾!
+rails.actions.execution.run.rails.script.error.script.want.found:
+    text: 無法執行 Rails 腳本。未找到腳本“{0}”!
+action.registered.shortcut.execute.disabled.title:
+    text: 不正確的操作
+color.settings.rhtml.scriptlet.start:
+    text: Scriptlet 開始
+color.settings.rhtml.scriptlet.end:
+    text: Scriptlet 結束
+color.settings.rhtml.expr.start:
+    text: 表達式開始
+color.settings.rhtml.expr.end:
+    text: 表達式結束
+color.settings.rhtml.scripting.bkg:
+    text: Ruby 注入背景
+color.settings.rhtml.omit.new.line:
+    text: 省略新行修飾符
+color.settings.rhtml.comment:
+    text: 註釋
+color.settings.ruby.keyword:
+    text: 關鍵字
+color.settings.ruby.comment:
+    text: 註釋
+color.settings.ruby.number:
+    text: 數字
+color.settings.ruby.string:
+    text: 字串和符號//字串
+color.settings.ruby.operation:
+    text: 大括號和運算符//運算符號
+color.settings.ruby.brackets:
+    text: 大括號和運算符//中括號
+color.settings.ruby.bad_character:
+    text: 錯誤字符
+color.settings.ruby.comma:
+    text: 大括號和運算符//逗號
+color.settings.ruby.semicolon:
+    text: 大括號和運算符//分號
+color.settings.ruby.symbol:
+    text: 字串和符號//符號
+color.settings.ruby.hash_assoc:
+    text: 哈希//哈希火箭
+color.settings.ruby.line_continuation:
+    text: 大括號和運算符//續行
+color.settings.ruby.regexp:
+    text: 字串和符號//RegExp//邊界
+color.settings.ruby.words:
+    text: 字串和符號//單詞
+color.settings.ruby.identifier:
+    text: 關鍵字//關鍵字
+color.settings.ruby.local.variable:
+    text: 變數//局部變數
+color.settings.ruby.constant:
+    text: 常數//常數
+color.settings.ruby.nth_ref:
+    text: 字串和符號//RegExp//組引用
+button.configure:
+    text: 設定...
+sdk.select.prompt.title:
+    text: 選擇 SDK
+module.rails.create.rake.tasks.title:
+    text: 正在生成 Rake 任務層次結構…
+module.rails.create.rake.generators.title:
+    text: 正在搜尋可用的生成器…
+parsing.error.expression:
+    text: 表達式
+parsing.symbol.content:
+    text: 符號內容
+parsing.alias.object:
+    text: 別名物件
+parsing.operation:
+    text: 運算
+parsing.method.name:
+    text: 方法名稱
+parsing.module.name:
+    text: 模組名稱
+parsing.class.name:
+    text: 類名
+parsing.singleton:
+    text: 單例
+parsing.rhtml.injection.in.ruby.title:
+    text: '%> 或 <% 或 <%='
+select.in.rails:
+    text: Rails 專案檢視
+rails.project.module.view.nodes.controllers.presentable:
+    text: 控制器
+rails.project.module.view.nodes.model.presentable:
+    text: 模型
+rails.project.module.view.nodes.partials.presentable:
+    text: 部分
+rails.project.module.view.nodes.shared.partials.presentable:
+    text: 共享部分
+rails.project.module.view.nodes.migrations.presentable:
+    text: 遷移
+ruby.intentions.relative.path.to.absolute:
+    text: 轉換為絕對路徑
+ruby.intentions.string.to.symbol:
+    text: 轉換為符號
+ruby.intentions.qualified.name.to.import:
+    text: 匯入 Java 類
+progress.indicator.title.directories.scanning:
+    text: 正在掃描目錄。
+progress.indicator.title.please.wait:
+    text: 請稍候…
+progress.backgnd.indicator.title.please.wait:
+    text: '{0}。請稍候…'
+error.report.to.jetbrains.action:
+    text: 報告給JetBrains (&R)
+error.report.submit.label:
+    text: <html>此錯誤報告將把 <b><a href="{1}{2}">{1}{2}</a></b> 處的<br>新 <b>JIRA</b> 問題 <br><b>''{0}''</b><br> 作為組件 <b>''{3}''</b> 進行創建。<br><br>請簡要描述該錯誤以及再現該問題的方式:</html>
+error.report.submit.register.in.jira:
+    text: <html><a href="{0}">註冊帳戶</a></html>
+error.report.submit.new.issue.url:
+    text: <html>您的問題已成功添加，請參閱 <br><a href="{0}">{0}</a></html>
+error.report.submit.new.issue.title:
+    text: 問題已添加
+error.report.wrong.login:
+    text: 用戶名或密碼無效。
+error.report.canceled:
+    text: 已取消發送報告
+error.report.error.creating.issue:
+    text: 創建新的 JIRA 問題時出錯
+error.report.jira.issue:
+    text: 'JetScala 問題 #{0}'
+error.report.dialog.title:
+    text: 提交錯誤
+error.report.dialog.wrong.password.title:
+    text: 發送失敗
+error.report.button.sendreport.caption:
+    text: 發送報告(&S)
+error.report.button.cancel.caption:
+    text: 取消(&C)
+codeInsight.rails.action_to_view.tooltip:
+    text: '''''{0}'''' 操作的檢視'
+codeInsight.rails.view_to_action.tooltip:
+    text: '''''{0}'''' 檢視的操作'
+codeInsight.rails.switch.to.view.title:
+    text: 轉到檢視
+codeInsight.rails.switch.to.controller.title:
+    text: 轉到控制器
+codeInsight.rails.navigation.title.action.view:
+    text: 選擇檢視
+codeInsight.rails.switch.to.view.cant.navigate:
+    text: 無法導航到相應檢視
+codeInsight.rails.switch.to.controller.cant.navigate:
+    text: 無法導航到相應控制器
+annotation.error.cannot.make.alias.for.nth.variable:
+    text: 無法為數字變數創建別名
+annotation.error.class.module.name.must.be.constant:
+    text: 類/模組名稱必須以大寫字母開頭
+annotation.error.class.in.method:
+    text: 方法體中存在類定義
+annotation.error.module.in.method:
+    text: 方法體中存在模組定義
+annotation.error.formal.arg.cannot.be.constant:
+    text: 形式參數不能是常數
+annotation.error.formal.arg.cannot.be.inst.var:
+    text: 形式參數不能是實例變數
+annotation.error.formal.arg.cannot.be.global.var:
+    text: 形式參數不能是全域變數
+annotation.error.formal.arg.cannot.be.class.var:
+    text: 形式參數不能是類變數
+in:
+    text: '位置:'
+parameter:
+    text: 參數
+local.variable:
+    text: 局部變數
+constant:
+    text: 常數
+global.variable:
+    text: 全域變數
+class.variable:
+    text: 類變數
+instance.variable:
+    text: 實例變數
+field.write:
+    text: 欄位寫入
+call:
+    text: 調用
+rename.incorrect.name:
+    text: '名稱不正確: ''''{0}'''''
+ruby.doc.module:
+    text: 模組
+ruby.doc.class:
+    text: 類
+ruby.doc.method.class:
+    text: 類方法
+ruby.doc.method.instance:
+    text: 實例方法
+inspection.resolve.name:
+    text: 未解析的引用
+inspection.resolve.cannot.find:
+    text: 無法找到 ''{0}''
+inspection.scopes.name:
+    text: 變數/參數範圍
+inspection.scopes.parameter.shadows.outer:
+    text: 參數 ''{0}'' 隱藏了外部參數或局部變數
+inspection.implement.interface.name:
+    text: 類缺少 Java 接口方法實作
+inspection.implement.interface.class.should.implement.method:
+    text: 類缺少對 ''{0}'' 的實作
+inspection.wrong.top.level.package:
+    text: 不正確的頂層軟體套件規範
+inspection.wrong.top.level.package.should.be.one.of:
+    text: 使用的頂層 Java 軟體套件應為 {0} 之一
+module.create.dialog.init.errors.title:
+    text: '模組 ''''{0}'''': 設定錯誤'
+module.settings.dialog.load.path.tab.title:
+    text: 載入路徑
+module.settings.dialog.load.path.list.caption:
+    text: '載入路徑(&L):'
+module.toggle.excluded.action:
+    text: 排除
+module.toggle.excluded.action.description:
+    text: 從模組中包含/排除目錄
+module.paths.excluded.group:
+    text: 排除的資料夾
+module.paths.unmark.tests.tooltip:
+    text: 取消標記測試
+module.paths.unmark.source.tooltip:
+    text: 取消標記源
+module.paths.remove.tooltip:
+    text: 移除
+module.paths.include.excluded.tooltip:
+    text: 包含
+module.paths.empty.node:
+    text: <空>
+title.new.filetype:
+    text: 新建 {0}
+title.new.from.template:
+    text: 新的{0}
+title.cannot.create.filetype:
+    text: 無法創建 {0}
+title.cannot.create.file:
+    text: 不能建立檔案
+command.create.file.from.template:
+    text: 建立檔案從範本
+progress.creating.filetype.in.directory:
+    text: 在 {2} 中創建{0} "{1}"
+progress.deleting:
+    text: 正在刪除
+error.please.enter.a.file.name:
+    text: 請輸入檔案名
+error.unable.to.parse.template.message:
+    text: "無法分析範本「{0}」\n錯誤訊息：{1}"
+tab.chooser.project:
+    text: 項目
+tab.chooser.search.by.name:
+    text: 按名稱搜索
+choose.test.method.dialog.title:
+    text: 選取測試方法
+choose.test.class.dialog.title:
+    text: 選取測試類別
+set.class.name.message:
+    text: 首先設定類別名
+cannot.browse.method.dialog.title:
+    text: 無法瀏覽方法
+class.does.not.exists.error.message:
+    text: 類別{0}不存在
+action.rerun:
+    text: 重試
+jruby.select.sdk:
+    text: 選擇 JRuby SDK
+rails.facet.wizard.error.no.skd:
+    text: 您未選擇包含 Rails 框架的 Ruby SDK
+rails.facet.wizard.error.skd.without.rails:
+    text: 您的 SDK 不包含 Rails 框架
+rails.facet.wizard.tab.rails.project.generator.title:
+    text: Rails 套用程序
+rails.facet.wizard.tab.rails.project.generator.select.rails.relative.path:
+    text: '<html>請指定將在其中生成應用程式的目錄。路徑應該相對於模組內容目錄。如果將此欄位留空，將使用模組內容目錄。 (範例: ''myapp'' 或 ''src/rails/myapp'' 或留空):</html>'
+rails.facet.wizard.tab.rails.project.generator.select.rails.preconfigure.for.db:
+    text: '為選定資料庫預設定(&P):'
+rails.facet.builder.run.configuration.server.creating:
+    text: 創建 Rails 執行設定
+rails.facet.builder.rails.application.searching:
+    text: 搜尋 Rails 套用程序
+rails.facet.builder.rails.application.choose.title:
+    text: Rails 套用程序根資料夾
+rails.facet.builder.rails.application.choose.relative.path:
+    text: 選擇模組內容根的相對路徑。
+rails.facet.settings.tab.general.title:
+    text: 資訊
+rails.facet.settings.tab.general.railsHomePath.caption:
+    text: 'Rails 套用程序主目錄:'
+rails.facet.action.regenerate.generators.error.wrong.sdk:
+    text: 無法重新載入可用的生成器。沒有為模組指定 SDK。
+rails.facet.action.regenerate.rakeTasks.error.wrong.sdk:
+    text: 無法重新載入可用的 Rake 任務。沒有為模組指定 SDK。
+rhtml.parsing.flex.error:
+    text: Lexer 錯誤!!!
+rhtml.parsing.named.element.is.not.closed:
+    text: 元素 {0} 未關閉
+rhtml.parsing.unexpected.end.of.file:
+    text: 意外的檔案結尾
+breadcrumbs.rhtml.presentation.omit.new.line:
+    text: 省略新行
+breadcrumbs.rhtml.presentation.comment:
+    text: 註釋
+breadcrumbs.rhtml.presentation.ruby.injection:
+    text: Ruby 注入
+refactoring.override.methods.title:
+    text: 選擇要覆寫的方法
+refactoring.implement.java.methods.title:
+    text: 選擇要實作的方法
+exception.text.unknown.error:
+    text: 未知錯誤
+command.name.open.error.message.view:
+    text: 開啟訊息檢視
+execution.error.title.generators.list:
+    text: '{0}: 獲取可用的生成器列表'
+execution.error.title.rake.tasks:
+    text: '{0}: 獲取可用的 Rake 任務'
+execution.error.title.generate.rails.app:
+    text: 為模組 ''{0}'' 生成 Rails 套用程序
+execution.error.title.abstract.script:
+    text: '{0}: 腳本執行錯誤'
+find.usages.ruby.declarations.group:
+    text: 宣告
+error.module.ror.valid.expected:
+    text: 應為 Ruby、Rails 或帶 JRuby Facet 的 Java 模組，但實際為 {0}

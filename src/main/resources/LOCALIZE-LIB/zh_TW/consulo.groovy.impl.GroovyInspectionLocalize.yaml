@@ -1,0 +1,102 @@
+Cannot.perform.undo.operation:
+    text: 無法執行撤消操作
+Undo.disable:
+    text: 撤消已禁用
+add.method:
+    text: 添加方法
+add.to.resources:
+    text: 添加到資源
+add.type.customizer.to.resources:
+    text: 將類型訂製器腳本添加到資源
+anonymous.class:
+    text: 匿名類
+call.can.throw.npe:
+    text: 調用鏈可能拋出 NullPointerException
+change.lvalue.type:
+    text: 將變數 ''{0}'' 類型更改為 ''{1}''
+closure:
+    text: 閉包
+create.directory.command:
+    text: 建立目錄
+destination.package:
+    text: '目標檔案包:'
+dialog.create.class.package.chooser.title:
+    text: 選取目標檔案包
+dynamic.element:
+    text: 動態元素
+expected.type.0:
+    text: 應為 ''{0}''，但實際為 ''{1}''
+fix.class:
+    text: 修正類 {0}
+getter.0.clashes.with.getter.1:
+    text: '發生衝突: ''''{0}'''' 和 ''''{1}'''''
+gr.package.inspection.check.scripts:
+    text: 檢查腳本
+highlight.if.groovy.object.methods.overridden:
+    text: 高亮顯示來自覆寫 invokeMethod()、getProperty() 或 setProperty() 的類的引用
+highlight.if.missing.methods.declared:
+    text: 高亮顯示來自宣告 missingMethod() 或 missingProperty() 的類的引用
+ignore.boolean.expressions:
+    text: 在布爾檢查中忽略未被賦值的變數
+implement.class:
+    text: 實作 {0}
+java.style.property.access:
+    text: Java 樣式存取器調用
+local.var.0.is.reassigned:
+    text: 局部變數 ''{0}'' 已重新賦值
+method.may.be.static:
+    text: 方法可能為 static
+method.may.be.static.ignore.empty.method.option:
+    text: 忽略空方法
+method.may.be.static.only.private.or.final.option:
+    text: 僅檢查 final 或 private 方法
+new.instance.of.singleton:
+    text: 使用 @groovy.lang.Singleton 註解的類的新實例
+no.applicable.signature.found:
+    text: 未找到適用的簽名
+no.return.message:
+    text: 並非所有執行路徑都返回值
+no.type.specified:
+    text: 未指定類型
+optimize.all.imports:
+    text: 最佳化未使用的 import 語句
+optimize.imports:
+    text: 最佳化匯入
+other:
+    text: 其他
+other.scope:
+    text: 其他範圍
+pointless.boolean.problem.descriptor:
+    text: '冗餘布爾運算 #loc'
+pointless.boolean.quickfix:
+    text: 簡化
+remove.0:
+    text: 移除 ''.{0}''
+replace.0.with.1:
+    text: 將 ''{0}'' 取代為 ''{1}''
+replace.postfix.0.with.prefix.0:
+    text: 將後綴 {0} 取代為前綴 {0}
+replace.qualified.name.with.import:
+    text: 將限定名稱取代為匯入
+rtype.cannot.contain.ltype:
+    text: '''''{1}'''' 不能包含 ''''{0}'''''
+second.unsafe.call:
+    text: 第二次不安全的調用
+target.0.does.not.exist:
+    text: 目標 ''{0}'' 不存在
+target.annotation.is.unused:
+    text: '@Target 未使用'
+type.customizer.is.not.marked.as.a.resource.file:
+    text: 類型訂製器腳本未被標記為編譯器資源
+type.doesnt.contain.method:
+    text: 類型 ''{0}'' 不能在範圍內進行迭代，因為它沒有方法 ''{1}''
+unassigned.access.tooltip:
+    text: 變數 ''{0}'' 可能未被賦值
+unresolved.type.status:
+    text: 類型 ''{0}'' 未解析
+unused.0:
+    text: 未使用的{0}
+unused.assignment.tooltip:
+    text: 未使用賦值
+unused.variable:
+    text: 未使用變數

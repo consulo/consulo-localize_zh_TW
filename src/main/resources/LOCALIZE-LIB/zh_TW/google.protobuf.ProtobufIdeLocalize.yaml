@@ -1,0 +1,26 @@
+action.prototext.InsertSchemaDirective.description:
+    text: 插入對此檔案的根 protobuf 訊息的引用，啟用補全、驗證和其他功能
+action.prototext.InsertSchemaDirective.text:
+    text: 插入架構註解
+attribute.descriptor.braces:
+    text: 大括號
+attribute.descriptor.brackets:
+    text: 中括號
+attribute.descriptor.comma:
+    text: 逗號
+attribute.descriptor.dot:
+    text: 點
+attribute.descriptor.number:
+    text: 數字
+attribute.descriptor.operator:
+    text: 運算符
+attribute.descriptor.parentheses:
+    text: 圓括號
+attribute.descriptor.semicolon:
+    text: 分號
+attribute.descriptor.string:
+    text: 字串
+location:
+    text: '位置(&L):'
+prefix:
+    text: 前綴
