@@ -4,7 +4,7 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-23T19:30:26.300656241Z",
+  "generatedAt" : "2026-06-23T19:49:25.620319648Z",
   "documents" : {
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
@@ -58,6 +58,34 @@
           "sig" : "501834d39a5fee602aee377b1c738b14",
           "state" : "Approved",
           "total" : 28,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    },
+    "consulo-github/consulo.github.GithubLocalize" : {
+      "source" : {
+        "revision" : 1,
+        "sig" : "e468a753896ebf13e78a3f4a84ab5d34"
+      },
+      "translations" : {
+        "en-US" : {
+          "sig" : "7a09e5b8576d3ce3677cd17faeb46cfd",
+          "state" : "Approved",
+          "total" : 335,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    },
+    "consulo-groovy/consulo.groovy.GroovyLocalize" : {
+      "source" : {
+        "revision" : 1,
+        "sig" : "ace07471f570ab08368f8817f74bb4c2"
+      },
+      "translations" : {
+        "en-US" : {
+          "sig" : "ef009c87bb3361a43c332816ebc9607d",
+          "state" : "Approved",
+          "total" : 346,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
         }
       }
