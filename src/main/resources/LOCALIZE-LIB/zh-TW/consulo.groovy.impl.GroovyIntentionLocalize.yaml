@@ -1,0 +1,320 @@
+add.return.type:
+    text: 添加返回類型
+add.return.type.to.method.declaration:
+    text: 將返回類型添加到方法宣告
+cannot.create.class:
+    text: 無法創建類
+change.to.end.of.line.comment.intention.family.name:
+    text: 取代為行尾註釋
+change.to.end.of.line.comment.intention.name:
+    text: 取代為行尾註釋
+closure.is.accessed.outside.of.groovy:
+    text: 在 Groovy 外部存取欄位 <b>{0}</b>
+closure.used.as.variable:
+    text: 閉包作為實參傳遞。重構會破壞語意。
+convert.cannot.itself:
+    text: 重構不適用於映射參數本身
+convert.closure.to.method.intention.family.name:
+    text: 將屬性轉換為方法
+convert.closure.to.method.intention.name:
+    text: 轉換為方法
+convert.concatenation.to.gstring.intention.family.name:
+    text: 將字串串聯轉換為 GString
+convert.concatenation.to.gstring.intention.name:
+    text: 轉換為 GString
+convert.from.geese.braces.intention.family.name:
+    text: 格式化單獨的行中的大括號
+convert.from.geese.braces.intention.name:
+    text: 格式化單獨的行中的大括號
+convert.g.string.to.string.intention.family.name:
+    text: 將 GString 轉換為字串
+convert.g.string.to.string.intention.name:
+    text: 轉換為字串
+convert.integer.to.binary.intention.family.name:
+    text: 轉換為二進制
+convert.integer.to.binary.intention.name:
+    text: 轉換為二進制
+convert.integer.to.decimal.intention.family.name:
+    text: 轉換為十進制
+convert.integer.to.decimal.intention.name:
+    text: 轉換為十進制
+convert.integer.to.hex.intention.family.name:
+    text: 轉換為十六進制
+convert.integer.to.hex.intention.name:
+    text: 轉換為十六進制
+convert.integer.to.octal.intention.family.name:
+    text: 轉換為八進制
+convert.integer.to.octal.intention.name:
+    text: 轉換為八進制
+convert.java.style.array.intention.family.name:
+    text: 將 Java 樣式陣列創建轉換為 Groovy 語法
+convert.java.style.array.intention.name:
+    text: 轉換 Java 樣式陣列創建
+convert.junit.assertion.to.assert.statement.intention.family.name:
+    text: 將 JUnit 斷言轉換為 assert 語句
+convert.junit.assertion.to.assert.statement.intention.name:
+    text: 將 JUnit 斷言轉換為 assert 語句
+convert.map.to.class.intention.family.name:
+    text: 將 Groovy 原生映射轉換為類實例
+convert.map.to.class.intention.name:
+    text: 轉換為類
+convert.method.to.closure.intention.family.name:
+    text: 將方法轉換為閉包類型的屬性
+convert.method.to.closure.intention.name:
+    text: 轉換為閉包屬性
+convert.multiline.string.to.single.line.intention.family.name:
+    text: 將多行字串轉換為單行
+convert.multiline.string.to.single.line.intention.name:
+    text: 轉換為單行文字
+convert.param.to.map.entry:
+    text: 將參數轉換為映射條目
+convert.parameter.to.map.entry.intention.family.name:
+    text: 將方法或閉包參數轉換為映射項
+convert.parameter.to.map.entry.intention.name:
+    text: 將參數轉換為映射條目
+convert.simple.getter.to.property.intention.family.name:
+    text: 將簡單的 getter 轉換為屬性
+convert.simple.getter.to.property.intention.name:
+    text: 轉換為屬性
+convert.string.to.g.string.intention.family.name:
+    text: 將字串轉換為 GString
+convert.string.to.g.string.intention.name:
+    text: 轉換為 GString
+convert.string.to.multiline.intention.family.name:
+    text: 將文字轉換為多行文字
+convert.string.to.multiline.intention.name:
+    text: 轉換為多行
+convert.to.geese.braces.intention.family.name:
+    text: 格式化一行中的右大括號
+convert.to.geese.braces.intention.name:
+    text: 格式化一行中的大括號
+create.parameter.for.field.intention.family.name:
+    text: 為欄位添加構造函數參數
+create.parameter.for.field.intention.name:
+    text: 為欄位添加構造函數參數
+demorgans.intention.name1:
+    text: "將 '\\&\\&' 取代為 '||'"
+demorgans.intention.name2:
+    text: "將 '||' 取代為 '\\&\\&'"
+demorgans.law.intention.family.name:
+    text: 德摩根定律
+do.you.want.to.change.method.return.type:
+    text: "是否要更改 ''{0}'' 方法的返回類型"
+do.you.want.to.change.type.of.parameter.in.method:
+    text: "是否要更改方法 ''{1}'' 中參數 ''{0}'' 的類型"
+do.you.want.to.change.variable.type:
+    text: "是否要更改 ''{0}'' 的類型"
+each.to.for.intention.family.name:
+    text: 將 each 取代為 for-in
+each.to.for.intention.name:
+    text: 取代為 for-in
+expand.boolean.intention.family.name:
+    text: 擴展布爾
+field.already.exists:
+    text: 欄位 <b>{0}</b> 已存在
+field.is.used.in.argument.label:
+    text: 在實參標籤中使用欄位 <b>{0}</b>
+flip.comparison.intention.name:
+    text: "將 ''{0}'' 翻轉為 ''{1}''"
+flip.conditional.intention.family.name:
+    text: 翻轉條件
+flip.conjunction.intention.family.name:
+    text: 翻轉合取操作數
+flip.if.intention.family.name:
+    text: 翻轉 if 語句
+flip.if.intention.name:
+    text: 翻轉 if 語句
+flip.smth.intention.name:
+    text: "翻轉 ''{0}''"
+for.to.each.intention.family.name:
+    text: 將 for-in 取代為 each
+for.to.each.intention.name:
+    text: 取代為“.each”
+gr.alias.import.intention.family.name:
+    text: 別名匯入靜態匯入的成員
+gr.alias.import.intention.name:
+    text: 別名匯入
+gr.break.string.on.line.breaks.intention.family.name:
+    text: "出現 '\\n' 時斷開字串"
+gr.break.string.on.line.breaks.intention.name:
+    text: "出現 '\\n' 時斷開字串"
+gr.convert.string.to.char.intention.family.name:
+    text: 轉換為 char
+gr.convert.string.to.char.intention.name:
+    text: 轉換為 char
+gr.convert.type.cast.to.safe.cast.intention.family.name:
+    text: 將轉換表達式轉換為安全的轉換表達式
+gr.convert.type.cast.to.safe.cast.intention.name:
+    text: 轉換為安全轉換
+gr.copy.string.concatenation.content.intention.family.name:
+    text: 將字串串聯文本複製到剪貼簿
+gr.copy.string.concatenation.content.intention.name:
+    text: 將字串串聯文本複製到剪貼簿
+gr.create.missing.switch.branches.intention.family.name:
+    text: "創建缺少的 'switch' 分支"
+gr.create.missing.switch.branches.intention.name:
+    text: "創建缺少的 'switch' 分支"
+gr.introduce.local.variable.intention.family.name:
+    text: 引入局部變數
+gr.introduce.local.variable.intention.name:
+    text: 引入局部變數
+gr.make.member.private.intention.family.name:
+    text: "設為 'private'"
+gr.make.member.private.intention.name:
+    text: "設為 'private'"
+gr.make.member.protected.intention.family.name:
+    text: "設為 'protected'"
+gr.make.member.protected.intention.name:
+    text: "設為 'protected'"
+gr.make.member.public.intention.family.name:
+    text: "設為 'public'"
+gr.make.member.public.intention.name:
+    text: "設為 'public'"
+gr.remove.annotation.intention.name:
+    text: 移除
+gr.set.strong.type.intention.family.name:
+    text: 宣告顯式類型
+gr.set.strong.type.intention.name:
+    text: 宣告顯式類型
+gr.split.declaration.intention.family.name:
+    text: 拆分變數宣告
+import.on.demand.intention.family.name:
+    text: 添加按需靜態匯入
+import.on.demand.intention.name:
+    text: 添加按需匯入
+import.static.intention.family.name:
+    text: 添加單成員靜態匯入
+import.static.intention.name:
+    text: 添加靜態匯入
+indexed.expression.conversion.intention.family.name:
+    text: 將 [] 形式轉換為索引方法
+indexed.expression.conversion.intention.name:
+    text: 將 [] 存取轉換為方法形式
+indexing.method.conversion.intention.family.name:
+    text: 將索引方法轉換為 [] 形式
+indexing.method.conversion.intention.name:
+    text: 轉換為 [] 形式
+intention.category.closures:
+    text: Groovy/閉包
+intention.category.comments:
+    text: Java/註釋
+intention.category.control.flow:
+    text: Java/控制流
+intention.category.conversions:
+    text: Groovy/表達式轉換
+intention.category.groovy.declaration:
+    text: Groovy/宣告
+intention.category.groovy.other:
+    text: Groovy/其他
+intention.category.groovy.style:
+    text: Groovy/Groovy 樣式
+invert.if.intention.family.name:
+    text: "反轉 'if' 條件"
+invert.if.intention.name:
+    text: "反轉 'if' 條件"
+java.style.properties.invocation.intention.family.name:
+    text: 將 Java 樣式存取器調用更改為 Groovy 樣式屬性引用
+java.style.properties.invocation.intention.name:
+    text: 更改為 Groovy 樣式屬性引用
+make.closure.call.explicit.intention.family.name:
+    text: 將閉包調用設為顯式
+make.closure.call.explicit.intention.name:
+    text: 將閉包調用設為顯式
+make.closure.call.implicit.intention.family.name:
+    text: 將閉包調用設為隱式
+make.closure.call.implicit.intention.name:
+    text: 將閉包調用設為隱式
+map.param.name:
+    text: '映射參數名稱(&N):'
+merge.else.if.intention.family.name:
+    text: 合併 else if
+merge.if.and.intention.family.name:
+    text: "合併嵌套的 'if' 語句"
+method.is.used.outside.of.groovy:
+    text: 在 Groovy 外部使用方法
+method.with.signature.already.exists:
+    text: 具有簽名 {0} 的方法已存在
+move.class.to.new.file.intention.family.name:
+    text: 將類移至單獨的檔案
+move.class.to.new.file.intention.name:
+    text: 移至單獨的檔案
+move.to.correct.dir:
+    text: "移至 ''{0}''"
+move.to.correct.dir.family.name:
+    text: 將檔案移至正確的軟體套件
+negate.comparison.intention.family.name:
+    text: 求反比較
+perform.refactoring:
+    text: 執行重構…
+remove.catch.block:
+    text: 移除 catch 塊
+remove.exception:
+    text: 移除異常
+remove.parameter.0:
+    text: "刪除參數 ''{0}''"
+remove.parentheses.from.method.call.intention.family.name:
+    text: 從方法調用中移除不必要的圓括號
+remove.parentheses.from.method.call.intention.name:
+    text: 移除不必要的圓括號
+remove.redundant.class.property.intention.family.name:
+    text: 移除冗餘 .class
+remove.redundant.class.property.intention.name:
+    text: 移除冗餘 .class
+remove.unnecessary.braces.in.g.string.intention.family.name:
+    text: 移除 GString 中不必要的大括號
+remove.unnecessary.braces.in.g.string.intention.name:
+    text: 移除 GString 中不必要的大括號
+remove.unnecessary.escape.characters.intention.family.name:
+    text: 移除不必要轉義字符
+remove.unnecessary.escape.characters.intention.name:
+    text: 移除不必要轉義字符
+remove.unnecessary.return.intention.family.name:
+    text: "移除不必要的 'return' 關鍵字"
+remove.unnecessary.return.intention.name:
+    text: "移除 'return' 關鍵字"
+remove.unused.parameter:
+    text: 移除未使用的參數
+rename.file.to.0:
+    text: "將檔案重命名為 ''{0}''"
+rename.file.with.class.intention.family.name:
+    text: 將檔案重命名為相應的類名
+rename.file.with.class.intention.name:
+    text: 將檔案重命名為類名
+replace.abstract.class.instance.by.map.intention.family.name:
+    text: 將匿名類更改為動態實例化
+replace.abstract.class.instance.by.map.intention.name:
+    text: 更改為動態實例化
+replace.if.with.ternary.intention.family.name:
+    text: 將 if 語句取代為三元運算符
+replace.if.with.ternary.intention.name:
+    text: '取代為 ?:'
+replace.primitive.type.with.wrapper:
+    text: 將基元類型取代為包裝器
+replace.qualified.reference.with.import.intention.family.name:
+    text: 將限定引用取代為匯入
+replace.qualified.reference.with.import.intention.name:
+    text: 取代為匯入
+replace.ternary.with.if.else.intention.family.name:
+    text: "將 '?:' 取代為 if else"
+replace.ternary.with.if.else.intention.name:
+    text: "將 '?:' 取代為 if else"
+replace.with.wrapper:
+    text: 取代為 {0}
+simplify.ternary.operator.intention.family.name:
+    text: 簡化條件表達式
+simplify.ternary.operator.intention.name:
+    text: 簡化條件表達式
+split.else.if.intention.family.name:
+    text: 拆分 else if
+split.if.intention.family.name:
+    text: "拆分成 2 條 'if' 語句"
+split.if.intention.name:
+    text: "拆分成 2 條 'if' 語句"
+split.into.declaration.and.assignment:
+    text: 拆分為宣告和賦值
+split.into.separate.declaration:
+    text: 拆分為單獨的宣告
+try.catch.fix:
+    text: Try-catch 修正
+write.access.to.closure.variable:
+    text: 欄位 <b>{0}</b> 的寫入存取權限

@@ -1,0 +1,6 @@
+group.other:
+    text: 其他
+multiple.repository.urls:
+    text: 多個儲存庫 URL
+multiple.repository.urls.fix.name:
+    text: 將多個儲存庫 URL 取代為單獨的儲存庫塊

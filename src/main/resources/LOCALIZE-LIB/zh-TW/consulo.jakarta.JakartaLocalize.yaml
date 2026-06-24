@@ -1,0 +1,921 @@
+Form.TransportManagerConfigurable.host:
+    text: '主機:'
+Form.TransportManagerConfigurable.type:
+    text: '類型:'
+LocalTransportHost.name:
+    text: 相同的檔案系統
+ScriptInfo.error.shutdown.script.not.found:
+    text: 未找到關機腳本檔案
+ScriptInfo.error.startup.script.not.found:
+    text: 未找到啟動腳本檔案
+action.CreateBeanManagedEntityBeanAction.text:
+    text: BMP 實體 Bean(_B)
+action.CreateCMPField.text:
+    text: CMP 欄位(_C)
+action.CreateContainerManagedEntityBeanAction.text:
+    text: CMP 實體 Bean(_C)
+action.CreateEJBInterceptor.text:
+    text: 偵聽器(_I)
+action.CreateEJBRelationship.text:
+    text: EJB 關係(_R)
+action.CreateFilterAction.description:
+    text: 創建新篩選器
+action.CreateFilterAction.text:
+    text: 過濾器(_F)
+action.CreateListenerAction.description:
+    text: 創建新偵聽器
+action.CreateListenerAction.text:
+    text: 偵聽器(_L)
+action.CreateMessageBean.text:
+    text: 訊息 Bean(_M)
+action.CreateServletAction.description:
+    text: 創建新 servlet
+action.CreateSingletonBean.text:
+    text: 單一實例會話 Bean(_G)
+action.CreateStatefulBean.text:
+    text: 有狀態會話 Bean(_F)
+action.CreateStatelessBean.text:
+    text: 無狀態會話 Bean(_L)
+action.CreateTransferObject.text:
+    text: 傳輸物件(_T)
+action.EditEntityListenerBindingsAction.text:
+    text: 編輯實體偵聽器綁定(_B)...
+action.EditInterceptorBindingsAction.text:
+    text: 編輯偵聽器綁定(_B)…
+action.GenerateEJBFinderOrSelectorMethod.text:
+    text: EJB Finder/選擇器方法…
+action.GenerateEJBReference.text:
+    text: '@EJB 引用'
+action.GenerateEntityListenerMethods.text:
+    text: 實體偵聽器方法…
+action.GenerateInterceptorMethods.text:
+    text: 偵聽器方法…
+action.GeneratePersistenceContextReference.text:
+    text: '@PersistenceContext/單元引用'
+action.GenerateResourceReference.text:
+    text: '@Resource 引用'
+action.OpenPersistenceERDiagramAction.text:
+    text: 實體關係圖
+action.PackageFile.description:
+    text: 將所選檔案添加到分離型部署目錄或 Java EE 歸檔中
+action.PackageFile.text:
+    text: 軟體套件檔案(_P)
+action.ValidateJsp.description:
+    text: 驗證選定的 JSP 檔案
+action.ValidateJsp.text:
+    text: 驗證 JSP(_V)
+action.description.add.application.server:
+    text: 添加應用程式伺服器
+action.description.build.on.frame.deactivation:
+    text: 切換出 IDE 時更新與此行程相關的資源
+action.description.create.new.cmp.field:
+    text: 創建新 CMP 欄位
+action.description.create.new.ejb.relationship:
+    text: 創建新 EJB 關係
+action.description.create.new.servlet:
+    text: 創建新 Servlet
+action.description.remove.application.server:
+    text: 移除應用程式伺服器
+action.description.validate:
+    text: 對所選條目中的所有檔案執行驗證
+action.jpa.AddJpaProviderSupport.text:
+    text: 添加 JPA 提供程序屬性
+action.name.build.on.frame.deactivation:
+    text: 切換出 IDE 時更新資源
+action.name.configure.j2ee.names:
+    text: Java EE 名稱(_J)…
+action.name.create.bmp.entity.bean:
+    text: 創建 BMP 實體 Bean
+action.name.create.cmp.entity.bean:
+    text: 創建 CMP 實體 Bean
+action.name.create.interceptor:
+    text: 創建偵聽器
+action.name.create.message.bean:
+    text: 創建訊息 Bean
+action.name.create.new.filter:
+    text: Web 篩選器
+action.name.create.new.listener:
+    text: Web 偵聽器
+action.name.create.new.transfer.object:
+    text: 傳輸物件
+action.name.create.singleton.bean:
+    text: 創建單一實例會話 Bean
+action.name.create.stateful.bean:
+    text: 創建有狀態會話 Bean
+action.name.create.stateless.bean:
+    text: 創建無狀態會話 Bean
+action.name.delete:
+    text: 刪除
+action.name.deploy.all:
+    text: 全部部署
+action.name.deploy.selected:
+    text: 部署
+action.name.edit.deployment.descriptor:
+    text: 編輯部署描述符…
+action.name.new.cmp.field:
+    text: 新建 CMP 欄位
+action.name.new.ejb.relationship:
+    text: 新建 EJB 關係
+action.name.refresh.deployment.status:
+    text: 重新整理部署狀態
+action.name.undeploy:
+    text: 取消部署
+action.name.validate:
+    text: 驗證
+action.name.validate.location:
+    text: 驗證 {0}
+action.text.select.all:
+    text: 全選
+action.text.unselect.all:
+    text: 取消全選
+action.text.validate.facet:
+    text: "驗證 facet ''{0}'' 中的所有檔案"
+add.web.root:
+    text: 將 {0} 設定為 Web 根
+additional.deployment.descriptor.file.description.additional.resource:
+    text: 其他資源
+application.servers.configurable.display.name:
+    text: 應用程式伺服器
+appserver.library.display.name:
+    text: 應用程式伺服器{0, choice, 1#庫|2#庫}
+appserver.validator.presentable.text:
+    text: '{1} 的 {0}'
+border.edit.deployment.descriptors.deployment.descriptors.group:
+    text: 部署描述符
+border.edit.web.module.web.resource.directories:
+    text: Web 資源目錄
+border.interceptor.binding:
+    text: 偵聽器綁定
+border.pk.class.dialog.primary.key.class.name:
+    text: '主鍵類名:'
+border.pk.class.dialog.primary.key.class.package:
+    text: '主鍵類軟體套件:'
+border.relationship.editor.role.1:
+    text: 角色 1
+border.relationship.editor.role.2:
+    text: 角色 2
+border.run.configuration.editor.environment.variables:
+    text: 環境變數
+border.run.configuration.editor.remote.connection.settings.group:
+    text: 遠端連接設定
+browser.no.suitable.configuration.running:
+    text: 未找到設定的/正在執行的 web 伺服器! 請執行任意一個 web 設定並點擊“重新整理”按鈕!
+browser.web.faced.not.configured:
+    text: 請先設定 Web Facet!
+button.add:
+    text: 新增...
+button.add.appserver.descriptor:
+    text: 添加應用程式和伺服器特定的描述符(&S)…
+button.configure:
+    text: 設定...
+button.configure.acclication.server:
+    text: 設定(&C)…
+button.configure.application.server:
+    text: 設定…
+button.delete:
+    text: 刪除
+button.edit:
+    text: 編輯...
+button.help:
+    text: 說明
+button.new:
+    text: 新增...
+checkbox.also.delete.file.from.disk.text:
+    text: 同時從磁碟刪除檔案(&A)
+checkbox.cmp.field.properties.generate.getter.in.local.interface:
+    text: 本地接口(&L)
+checkbox.cmp.field.properties.generate.getter.in.remote.interface:
+    text: 遠端接口(&R)
+checkbox.cmp.field.properties.generate.setter.in.local.interface:
+    text: 本地接口(&I)
+checkbox.cmp.field.properties.generate.setter.in.remote.interface:
+    text: 遠端接口(&E)
+checkbox.create.transfer.object.generate.getter.in.interface:
+    text: 在 {0} 接口中生成 getter(&G)
+checkbox.create.transfer.object.generate.setter.in.interface:
+    text: 在 {0} 接口中生成 setter(&S)
+checkbox.default.interceptor:
+    text: 預設偵聽器(&D)
+checkbox.delete.ejb.delete.following.classes:
+    text: '刪除以下類(&D):'
+checkbox.edit.cmp.field.primary.key:
+    text: 主鍵(&P)
+checkbox.edit.ejb.class.enable.local.interface:
+    text: 本地接口(&L)
+checkbox.edit.ejb.class.enable.remote.interface:
+    text: 遠端接口(&R)
+checkbox.edit.relationship.cascade.delete:
+    text: 級聯刪除
+checkbox.edit.relationship.enable.cmr.field:
+    text: CMR 欄位
+checkbox.edit.script.properties.use.default:
+    text: 使用預設值
+checkbox.run.configuration.editor.pass.environment.variables:
+    text: 傳遞環境變數
+class.role.business.local.interface:
+    text: 本地業務接口
+class.role.business.remote.interface:
+    text: 遠端業務接口
+class.role.ejb.class:
+    text: EJB 類
+class.role.home.interface:
+    text: 主接口
+class.role.interceptor.class:
+    text: 偵聽器
+class.role.local.home.interface:
+    text: 本地主接口
+class.role.local.interface:
+    text: 本地接口
+class.role.remote.interface:
+    text: 遠端接口
+class.role.service.endpoint.interface:
+    text: 服務端點接口
+class.role.unknown.ejb.class:
+    text: 未知 EJB 類
+column.name.description:
+    text: 描述
+column.name.edit.deployment.descriptors.path:
+    text: 路徑
+column.name.edit.deployment.descriptors.type:
+    text: 類型
+column.name.edit.web.roots..relative.to.deployment.root:
+    text: 相對於部署根的路徑
+column.name.edit.web.roots.web.resource.directory:
+    text: Web 資源目錄
+column.name.ejb.business.tree.intercept:
+    text: 截獲
+column.name.ejb.business.tree.name:
+    text: 名稱
+combobox.deployment.descriptor.version:
+    text: 部署描述符版本(&V)
+command.apply.interceptor.bindings.command:
+    text: 修改偵聽器綁定
+command.name.create.0.1:
+    text: "創建{0} ''{1}''"
+command.name.create.directory:
+    text: 創建目錄
+command.name.create.transfer.object:
+    text: 創建傳輸物件
+command.name.creating.web.root.dir:
+    text: 正在創建目錄
+command.name.delete.ejb.class:
+    text: 刪除 EJB 類
+confirmation.text.class.does.not.exist.create.it:
+    text: 類 {0} 不存在。要創建嗎?
+confirmation.text.classes.do.not.exist.create.them:
+    text: |-
+        類
+        {0}
+        不存在。要創建嗎?
+confirmation.text.create.directory:
+    text: "創建目錄 ''{0}''?"
+confirmation.text.regenerate.equals.and.hashcode.for.class:
+    text: "為類 ''{0}'' 重新生成 equals 和 hashCode 方法?"
+default.run.configuration.name.unnamed:
+    text: 未命名
+deployment.descriptor.panel.directory.path.relative.to.deployment.root.label:
+    text: '相對於部署根的目錄路徑(&P):'
+deployment.descriptor.title.application.module:
+    text: 應用程式模組部署描述符
+deployment.descriptor.title.ejb.module:
+    text: EJB 模組部署描述符
+deployment.descriptor.title.web.module:
+    text: WebLogic Web 模組部署描述符
+deployment.status.description.activating:
+    text: 正在部署工件，請稍候…
+deployment.status.description.deactivating:
+    text: 正在取消部署工件，請稍候…
+deployment.status.description.deployed:
+    text: 工件已成功部署
+deployment.status.description.excluded.from.deployment:
+    text: 工件已從部署中排除。要包含，請轉到“執行 | 編輯部署 | 部署”並選擇工件
+deployment.status.description.failed:
+    text: 部署工件時出錯。請參閱伺服器日誌了解詳細資訊。
+deployment.status.description.not.deployed:
+    text: 工件未部署。按“部署”以開始部署
+deployment.status.description.prepared:
+    text: 正在部署工件，請稍候…
+deployment.status.description.preparing:
+    text: 正在部署工件，請稍候…
+deployment.status.description.unknown:
+    text: 狀態未知。按“重新整理”從服務器重新載入部署狀態。
+deployment.status.description.unprepared:
+    text: 正在取消部署工件，請稍候…
+deployment.status.description.unpreparing:
+    text: 正在取消部署工件，請稍候…
+deployment.status.name.activating:
+    text: 正在啟用…
+deployment.status.name.deactivating:
+    text: 正在停用…
+deployment.status.name.deployed:
+    text: 已部署
+deployment.status.name.disconnected:
+    text: 已斷開連接
+deployment.status.name.excluded.from.deployment:
+    text: 從部署中排除
+deployment.status.name.failed:
+    text: 已失敗
+deployment.status.name.not.deployed:
+    text: 未部署
+deployment.status.name.prepared:
+    text: 已準備
+deployment.status.name.preparing:
+    text: 正在準備…
+deployment.status.name.unknown:
+    text: 未知
+deployment.status.name.unprepared:
+    text: 已取消準備
+deployment.status.name.unpreparing:
+    text: 正在取消準備…
+dialog.description.web.resource.directory:
+    text: 選擇存儲 web 檔案的 web 資源目錄
+dialog.title.cant.create.class:
+    text: 無法創建類
+dialog.title.choose.class:
+    text: 選擇類
+dialog.title.choose.cmp.field.class:
+    text: 選擇 CMP 欄位類
+dialog.title.choose.ejb.class:
+    text: 選擇 EJB 類
+dialog.title.choose.ejb.classes.package:
+    text: 選擇 EJB 類軟體套件
+dialog.title.choose.ejb.home.interface:
+    text: 選擇 EJB 主接口
+dialog.title.choose.ejb.local.home.interface:
+    text: 選擇 EJB 本地主接口
+dialog.title.choose.ejb.local.interface:
+    text: 選擇 EJB 本地接口
+dialog.title.choose.ejb.message.listener.interface:
+    text: 選擇 EJB 訊息偵聽器接口
+dialog.title.choose.ejb.primary.key.class:
+    text: 選擇 EJB 主鍵類
+dialog.title.choose.ejb.remote.interface:
+    text: 選擇 EJB 遠端接口
+dialog.title.choose.ejb.service.endpoint.interface:
+    text: 選擇 EJB 服務端點接口
+dialog.title.choose.entity.bean.primary.key.class:
+    text: 選擇實體 Bean 主鍵類
+dialog.title.choose.package:
+    text: 選擇軟體套件
+dialog.title.choose.primary.key.class.package:
+    text: 選擇主鍵類軟體套件
+dialog.title.configure.vm.and.program.parameters:
+    text: 設定虛擬機和程序參數
+dialog.title.create.appserver.specific.descriptor:
+    text: 創建應用程式伺服器特定的描述符
+dialog.title.create.new.0:
+    text: 創建 {0}
+dialog.title.create.new.cmp.field:
+    text: 創建 CMP 欄位
+dialog.title.create.new.ejb.0:
+    text: "創建新 EJB ''{0}''"
+dialog.title.default.shutdown.script:
+    text: 預設關機腳本
+dialog.title.default.startup.script:
+    text: 預設啟動腳本
+dialog.title.deployment.descriptor.location:
+    text: 部署描述符位置
+dialog.title.edit.0:
+    text: 編輯 {0}
+dialog.title.edit.ejb.ql.query:
+    text: 編輯 EJB QL 查詢
+dialog.title.edit.interceptor.bindings:
+    text: "編輯偵聽器 ''{0}'' 綁定"
+dialog.title.ejb.relationship.properties:
+    text: EJB 關係屬性
+dialog.title.new.filter:
+    text: 新 Web 篩選器
+dialog.title.new.listener:
+    text: 新 Web 偵聽器
+dialog.title.new.servlet:
+    text: 新建 Servlet
+dialog.title.new.typename:
+    text: 新建 {0}
+dialog.title.packaging.choose.facets:
+    text: 選擇 Facet
+dialog.title.remove.ejb.local.interface:
+    text: 移除 EJB 本地接口
+dialog.title.rename.0:
+    text: 重命名 {0}
+dialog.title.resource.location:
+    text: 資源位置
+dialog.title.restart.server:
+    text: 重啟伺服器
+dialog.title.select.accessors.of.fields.to.include.in.transfer.object:
+    text: 選擇要包含在傳輸物件中的欄位存取器
+dialog.title.select.startup.script:
+    text: 選擇啟動腳本
+dialog.title.vm.parameters:
+    text: VM 選項
+dialog.title.web.resource.directory:
+    text: Web 資源目錄
+dialog.title.web.resource.directory.path:
+    text: Web 資源目錄路徑
+directory.description.working.directory:
+    text: 工作目錄
+editbox.default.pk.class:
+    text: '預設 PK 類:'
+editbox.j2eenames.ejb.class:
+    text: EJB 類
+editbox.j2eenames.ejb.name.tag:
+    text: <ejb-name> 標記
+editbox.j2eenames.filter.class:
+    text: 篩選器類
+editbox.j2eenames.filter.name.tag:
+    text: <篩選器名稱> 標記
+editbox.j2eenames.home.interface:
+    text: 主接口
+editbox.j2eenames.listener.class:
+    text: 偵聽器類
+editbox.j2eenames.local.home.interface:
+    text: 本地主接口
+editbox.j2eenames.local.interface:
+    text: 本地接口
+editbox.j2eenames.remote.interface:
+    text: 遠端接口
+editbox.j2eenames.service.endpoint.interface:
+    text: 服務端點接口
+editbox.j2eenames.servlet.class:
+    text: Servlet 類
+editbox.j2eenames.servlet.name.tag:
+    text: <servlet-name> 標記
+editbox.j2eenames.transfer.object:
+    text: 傳輸物件
+ejb.interceptor.type:
+    text: 偵聽器
+ejb.type.bmp.entity.bean:
+    text: BMP 實體 Bean
+ejb.type.cmp.entity.bean:
+    text: CMP 實體 Bean
+ejb.type.entity.bean:
+    text: 實體 Bean
+ejb.type.message.bean:
+    text: 訊息 Bean
+ejb.type.session.bean:
+    text: 會話 Bean
+ejb.type.singleton.bean:
+    text: 單一實例會話 Bean
+ejb.type.stateful.bean:
+    text: 有狀態會話 Bean
+ejb.type.stateless.bean:
+    text: 無狀態會話 Bean
+error.cannot.create.deployment.descriptor:
+    text: |-
+        無法創建 {0}
+        {1}
+error.deployment.descriptor.already.exists:
+    text: "檔案 ''{0}'' 上的部署描述符已存在"
+error.deployment.descriptor.target.in.use:
+    text: "部署描述符目標檔案 ''{0}'' 正在使用"
+error.please.specify.path.to.deployment.descriptor:
+    text: 請指定 {0} 的路徑
+exception.text.address.is.in.use:
+    text: 地址 {0} 已在使用中
+exception.text.alternative.jre.not.specified:
+    text: 未指定替代 JRE
+exception.text.application.server.0.not.configured:
+    text: "未設定應用程式伺服器 ''{0}''"
+exception.text.application.server.not.specified:
+    text: 未指定應用程式伺服器
+exception.text.descriptor.not.defined:
+    text: "未定義 ''{0}''"
+exception.text.invalid.port.value:
+    text: '無效的連接埠值: {0}'
+exception.text.malformed.url:
+    text: "格式不正確的 URL: ''{0}''"
+exception.text.startup.script.is.not.specified:
+    text: 未指定啟動腳本
+facet.0.in.module.1.text:
+    text: '{0} ({1} 中)'
+facet.0.in.module.1.text.detailed:
+    text: "''{0}'' facet (在模組 ''{1}'' 中)"
+generic.application.server.default.name:
+    text: 通用
+group.GeneratePersistenceMapping.text:
+    text: 生成持久性映射
+group.JavaeeMigrationGroup.text:
+    text: 遷移操作
+group.JspActions.text:
+    text: JSP 操作
+group.NewGroupPersistence.text:
+    text: 新組持久性
+group.names.javaee.issues:
+    text: Java EE 問題
+inspection.ejb.display.name:
+    text: EJB 類錯誤
+inspection.ejb.xml.display.name:
+    text: EJB 描述符
+inspection.group.display.name.application.server.inspections:
+    text: 應用程式伺服器
+inspection.javaee.ejb.ql.display.name:
+    text: EJB QL 問題
+inspection.javaee.web.warnings.name:
+    text: Web.xml 警告
+inspection.javaee.web.xml.mime.type:
+    text: MIME 類型
+inspection.javaee.web.xml.mime.type.message:
+    text: "''{0}'' 不是有效的 MIME 類型"
+inspection.javaee.web.xml.name:
+    text: Web.xml 錯誤
+inspection.javaee.xml.display.name:
+    text: Java EE 應用程式描述符正確性
+intention.add.javaee.jar.text:
+    text: 將 {0} JAR 添加到模組依賴關係中
+intention.add.method.to.ejb.class.error.no.impl.class.message:
+    text: 未找到 Bean 實作類。未生成方法。
+intention.add.method.to.ejb.class.family:
+    text: 將方法添加到 EJB 類中
+intention.add.method.to.ejb.class.text:
+    text: "將 ''{0}'' 添加到 Bean 實作類 {1} 中"
+intention.add.method.to.ejb.interface.chooser.label:
+    text: "將 ''{0}'' 添加到"
+intention.add.method.to.ejb.interface.chooser.title:
+    text: 選擇接口
+intention.add.method.to.ejb.interface.command.name:
+    text: 添加方法
+intention.add.method.to.ejb.interface.error.no.home.interface:
+    text: 未找到 Bean 主接口類。未生成方法。
+intention.add.method.to.ejb.interface.error.no.interface:
+    text: 未找到 Bean 接口類。未生成方法。
+intention.add.method.to.ejb.interface.family:
+    text: 將方法添加到 EJB 接口中
+intention.add.method.to.ejb.interface.text:
+    text: "將 ''{0}'' 添加到 Bean 接口中"
+interceptor.method.container.node.title:
+    text: 偵聽器方法
+j2ee.facet.fake.file.type:
+    text: Java EE facet 假檔案類型
+javaee.facet.settings.display.name:
+    text: '{0} 設定'
+javaeeapp.facet.display.name:
+    text: JavaEE 套用程序
+label.application.server.containing.libraries:
+    text: 庫
+label.application.server.name:
+    text: '名稱(&N):'
+label.appserver.text:
+    text: '應用程式伺服器(&A):'
+label.choose.or.create.deployment.descriptor.file:
+    text: 為 {0} 選擇現有的 XML 檔案或指定目錄以創建新檔案。
+label.cmp.field.properties.generate.getter.in:
+    text: '在以下位置生成 getter:'
+label.cmp.field.properties.generate.setter.in:
+    text: '在以下位置生成 setter:'
+label.configure.j2ee.names.prefix.and.suffix.are.taken.from:
+    text: 前綴和後綴獲取自
+label.create.transfer.object.transfer.object.class.name:
+    text: '傳輸物件類名:'
+label.delete.deployment.descriptor.text:
+    text: 刪除選定的部署描述符?
+label.deployment.descriptors.wizard.step.text:
+    text: <html><body>設定將用於部署此 facet 的描述符。<br>您可以在此處添加標準、專有和套用程序伺服器特定的描述符。</body></html>
+label.deployment.settings.deployment.method:
+    text: '部署方法:'
+label.descriptor.type.text:
+    text: '描述符(&D):'
+label.descriptor.version.text:
+    text: '版本(&V):'
+label.edit.cmp.field.description:
+    text: '描述(&D):'
+label.edit.cmp.field.name:
+    text: '名稱(&N):'
+label.edit.cmp.field.type:
+    text: '類型(&T):'
+label.edit.ejb.class.cmp.version:
+    text: CMP 版本(&V)
+label.edit.parameters.program.parameters:
+    text: '程序實參(&P):'
+label.edit.relationship.description:
+    text: '描述(&D):'
+label.edit.relationship.field.name:
+    text: '欄位名稱:'
+label.edit.relationship.field.type:
+    text: '欄位類型:'
+label.edit.relationship.multiplicity:
+    text: '多重性:'
+label.edit.relationship.relationship.name:
+    text: '關係名稱(&N):'
+label.edit.relationship.role.name:
+    text: '角色名稱:'
+label.ejb.class.properties.ejb.class:
+    text: 'EJB 類(&C):'
+label.ejb.class.properties.local:
+    text: '本地(&A):'
+label.ejb.class.properties.local.home:
+    text: '本地主(&O):'
+label.ejb.class.properties.message.listener.interface:
+    text: '訊息偵聽器(&M):'
+label.ejb.class.properties.package:
+    text: '軟體套件(&P):'
+label.ejb.class.properties.primary.key.class:
+    text: '主鍵類(&K):'
+label.ejb.class.properties.remote:
+    text: '遠端(&E):'
+label.ejb.class.properties.remote.interface:
+    text: '主(&H):'
+label.ejb.class.properties.service.endpoint.interface:
+    text: '服務端點(&S):'
+label.ejb.roots.text:
+    text: EJB 類的源根
+label.j2eenames.filter:
+    text: 篩選器
+label.j2eenames.listener:
+    text: 偵聽器
+label.j2eenames.message.driven.bean:
+    text: 訊息驅動 Bean
+label.j2eenames.session.bean:
+    text: 會話 Bean
+label.new.web.root.web.resource.directory.path:
+    text: 'Web 資源目錄路徑(&P):'
+label.pk.class.dialog.pk.class.cant.contain.compound.primary.key:
+    text: "<html>PK 類 ''{0}'' 不能包含複合主鍵。<br>請任選以下操作:<ul><li>指定可以保留所有 CMP 欄位的主鍵類，或</li><li>提供軟體套件和類名以創建新主鍵類</li></html>"
+label.prefix:
+    text: 前綴
+label.properties.class:
+    text: '類(&C):'
+label.run.configuration.editor.add.vm.parameters:
+    text: <html><body>要{0}遠端伺服器 JVM，應從以下命令行實參開始<br/>(您可以複製並貼上它們):</body></html>
+label.run.configuration.editor.host:
+    text: '主機(&H):'
+label.run.configuration.editor.port:
+    text: '連接埠(&P):'
+label.run.configuration.editor.shutdown.script:
+    text: '關機腳本:'
+label.run.configuration.editor.startup.script:
+    text: '啟動腳本:'
+label.run.configuration.properties.application.server:
+    text: '應用程式伺服器(&S):'
+label.servlet.properties.package:
+    text: '軟體套件(&P):'
+label.suffix:
+    text: '後綴:'
+label.text.creating.ejb:
+    text: "正在創建 EJB ''{0}''"
+label.text.no.application.server.selected:
+    text: 未選擇應用程式伺服器
+label.web.root.dialog.relative.path.in.deployment.directory:
+    text: '部署目錄中的相關路徑(&R):'
+label.web.source.roots.text:
+    text: 源根
+libraries.node.text.application.server:
+    text: 庫包含將各種功能添加到您的應用程式的類。庫還包含源文件和 JavaDoc，它們可以幫助您開發專案。<br><br>IntelliJ IDEA 使用庫協助您完成程式碼補全、驗證、錯誤高亮顯示等。<br><br>應用程式伺服器庫是應用程式伺服器 (WebSphere、WebLogic、Tomcat 等) 的一部分並適用於通過這些伺服器設定的 Web 和 Java EE 套用程序。<br><br>擴展節點和選擇子項以管理您的系統中安裝的應用程式伺服器庫。<br><br>要將庫附加到模組，請選擇該模組，點擊“依賴關係”頁籤，點擊“添加”並指定庫位置。
+library.configure.appserver.title:
+    text: 設定應用程式伺服器庫
+link.display.text.configure.j2ee.names:
+    text: Java EE 名稱
+local.vcs.label.name.deleting.ejb.class:
+    text: 正在刪除 ejb 類 {0}
+location.to.validate.all.jsps.in.directory:
+    text: "目錄 ''{0}'' 中的所有檔案"
+location.to.validate.all.jsps.in.selected.directories:
+    text: 所選目錄中的所有檔案
+location.to.validate.jsp:
+    text: "檔案 ''{0}''"
+location.to.validate.selected.jsps:
+    text: 所選檔案
+message.text.able.to.bind.yet.able.to.connect.too:
+    text: 可以同時綁定並連接到 {0} - 應用程式伺服器可能會與連接埠上的一些其他軟體競爭
+message.text.application.server.already.exists:
+    text: "應用程式伺服器 ''{0}'' 已存在"
+message.text.application.server.name.cannot.be.empty:
+    text: 應用程式伺服器名稱不能為空
+message.text.cannot.find.file:
+    text: "找不到檔案 ''{0}''"
+message.text.cannot.open.url:
+    text: '無法開啟 URL。請檢查此 URL 是否正確:'
+message.text.class.not.fount.in.project:
+    text: "在專案中未找到類 ''{0}''"
+message.text.cmp.field.exists:
+    text: "CMP 欄位 ''{0}'' 已存在。"
+message.text.cmp.field.name.not.valid:
+    text: "CMP 欄位名稱 ''{0}'' 不是有效的關鍵字。"
+message.text.cmp.field.name.should.begin.with.a.lower.case.letter:
+    text: CMP 欄位名稱應以小寫字母開頭。
+message.text.cmr.field.0.already.defined:
+    text: "CMR 欄位 ''{0}'' 已在 {1} 中定義。"
+message.text.cmr.field.name.should.begin.with.a.lower.case.letter:
+    text: CMR 欄位名稱應以小寫字母開頭。
+message.text.connected.to.server:
+    text: 已連接到伺服器
+message.text.connected.to.the.server:
+    text: 已連接到伺服器
+message.text.disconnected.from.server:
+    text: 已與伺服器斷開連接
+message.text.duplicate.role.names:
+    text: 重複的角色名稱
+message.text.ejb.exists.in.ejb.facet:
+    text: "EJB ''{0}'' 在此 EJB facet 中已存在。"
+message.text.entity.bean.not.specified.for.cmr.field:
+    text: 應指定現有實體 EJB 名稱
+message.text.error.creating.directory:
+    text: |-
+        創建目錄時出錯。
+        {0}
+message.text.error.while.creating.temp.file:
+    text: '創建臨時檔案時出錯: {0}'
+message.text.existing.web.resource.directory.configured.in.dir.which.includes.dir:
+    text: "<html><body>''<b>{0}''</b> 中已設定 web 資源目錄，該資源目錄已包含當前目錄 ''<b>{1}''</b> 中。</body></html>"
+message.text.existing.web.resource.directory.configured.in.dir.which.will.be.included.in.dir:
+    text: "<html><body>''<b>{0}''</b> 中已設定 web 資源目錄，該資源目錄已包含在當前目錄 ''<b>{1}''</b> 中。</body></html>"
+message.text.exists:
+    text: "{0} ''{1}'' 在此 Web facet 中已存在。"
+message.text.must.be.cmp.entity.bean.with.local.interface:
+    text: 必須至少有一個具有本地接口的 CMP 實體 Bean
+message.text.name.is.not.valid.identifier:
+    text: '{0} 不是有效的關鍵字'
+message.text.no.ejbs.in.this.module.no.interceptors:
+    text: 此模組中沒有 EJB。
+message.text.recommended.transfer.object.class.agrees.with.pattern:
+    text: |-
+        建議傳輸物件類名
+        同意以下模式: {0}
+message.text.remove.selected.web.resource.directories:
+    text: 移除選定 web 資源目錄?
+message.text.remove.web.resource.directory:
+    text: "移除 web 資源目錄 ''{0}''?"
+message.text.run.configuration.already.run:
+    text: "執行設定 ''{0}'' 正在執行。"
+message.text.run.configuration.already.run.do.you.want.to.restart.in.1:
+    text: "執行設定 ''{0}'' 正在執行。要以 ''{1}'' 模式重啟伺服器嗎?"
+message.text.run.configuration.editor.no.specific.parameters.needed:
+    text: 無需特定參數
+message.text.select.field.to.include.in.transfer.object:
+    text: 請至少選擇一個要包含在傳輸物件中的欄位。
+message.text.type.not.found:
+    text: "未找到類型 ''{0}''。"
+message.text.unable.to.connect:
+    text: 無法連接到 {0}
+message.text.unmark.web.resource.directory:
+    text: "取消標記 Web 資源目錄 ''{0}''"
+message.text.web.resource.directory.should.be.located.under.module.root:
+    text: "Web 資源目錄應位於模組根下。\n請按 '...' (省略號) 按鈕來瀏覽模組根目錄。"
+message.title.cannot.create.relationship:
+    text: 無法創建關係
+message.title.change.ejb.classes:
+    text: 更改 EJB 類
+message.title.class.not.found:
+    text: 找不到 {0}
+message.title.conflicting.directory.found:
+    text: 已找到衝突的目錄
+message.title.directory.not.found:
+    text: 未找到目錄
+message.title.directory.not.in.module:
+    text: 模組中沒有目錄
+message.title.error:
+    text: 錯誤
+message.title.file.not.found:
+    text: 找不到檔案
+message.title.no.fields.selected:
+    text: 未選擇欄位
+message.title.open.url:
+    text: 開啟 URL
+message.title.primary.key.class.changed:
+    text: 主鍵類已更改
+message.title.remove.web.resource.directory:
+    text: 移除 Web 資源目錄
+message.title.unmark.web.resource.directory:
+    text: 取消標記 Web 資源目錄
+method.role.business.method.declaration:
+    text: 業務方法宣告
+method.role.business.method.implementation:
+    text: 業務方法實作
+method.role.cmp.field.getter.declaration:
+    text: CMP 欄位 Getter 宣告
+method.role.cmp.field.getter.implementation:
+    text: CMP 欄位 Getter 實作
+method.role.cmp.field.setter.declaration:
+    text: CMP 欄位 Setter 宣告
+method.role.cmp.field.setter.implementation:
+    text: CMP 欄位 Setter 實作
+method.role.cmr.field.getter.declaration:
+    text: CMR 欄位 Getter 宣告
+method.role.cmr.field.getter.implementation:
+    text: CMR 欄位 Getter 實作
+method.role.cmr.field.setter.declaration:
+    text: CMR 欄位 Setter 宣告
+method.role.cmr.field.setter.implementation:
+    text: CMR 欄位 Setter 實作
+method.role.create.method.declaration:
+    text: 創建方法宣告
+method.role.create.method.implementation:
+    text: 創建方法實作
+method.role.finder.method.declaration:
+    text: Finder 方法宣告
+method.role.finder.method.implementation:
+    text: Finder 方法實作
+method.role.home.business.method.declaration:
+    text: 主業務方法宣告
+method.role.home.business.method.implementation:
+    text: 主業務方法實作
+method.role.method.implementation:
+    text: 方法實作
+method.role.post.create.method.implementation:
+    text: 發佈創建方法實作
+method.role.selector.method.implementation:
+    text: 選擇器方法實作
+method.role.unknown.method.declaration:
+    text: 未知方法宣告
+model.object.type.ejb.local.reference:
+    text: EJB 局部引用
+model.object.type.ejb.message.destination.reference:
+    text: 訊息目標引用
+model.object.type.ejb.reference:
+    text: EJB 引用
+model.object.type.filter:
+    text: 篩選器
+model.object.type.listener:
+    text: 偵聽器
+model.object.type.managed.bean:
+    text: 托管 Bean
+model.object.type.security.role:
+    text: 安全角色
+model.object.type.service.reference:
+    text: Web 服務引用
+not.configured:
+    text: 未設定
+progress.validating.ejbs.text:
+    text: 正在驗證 EJB…
+quickfix.popup.title.select.an.artifact.to.deploy:
+    text: 選擇要部署的工件
+role.for.ejb.name.string.representation:
+    text: "EJB ''{1}'' 的{0}"
+role.for.interceptor.name.string.representation:
+    text: "''{1}'' 的{0}"
+run.configuration.local:
+    text: 本地
+run.configuration.remote:
+    text: 遠端
+run.tab.title.deployment:
+    text: 部署
+run.tab.title.output:
+    text: 輸出
+run.tab.title.server:
+    text: 伺服器
+runtime.configuration.error.description.file.does.not.exist:
+    text: "{0} ''{1}'' 不存在。"
+runtime.configuration.error.something.not.specified:
+    text: 未指定 {0}。
+security.role.name.should.accord.to.nmtoken.pattern:
+    text: 安全角色名稱應符合 NMTOKEN 模式
+select.in.j2ee:
+    text: 框架檢視
+servlet.reference.canonical.text:
+    text: "無法解析 servlet ''{0}''。"
+template.node.application:
+    text: 套用程序
+template.node.deployment.descriptors:
+    text: 部署描述符
+template.node.java.code.templates:
+    text: Java 程式碼模板
+terms.web.directory:
+    text: Web 目錄
+title.appserver.specific.validators:
+    text: 應用程式伺服器特定的驗證器
+title.choose.interceptor.method.types:
+    text: 選擇要實作的偵聽器方法
+title.edit.deployment.descriptor:
+    text: 編輯部署描述符
+title.entity.bean:
+    text: 實體 Bean
+title.j2ee.names:
+    text: Java EE 名稱
+title.run.configuration.editor.deployment:
+    text: 部署
+title.run.configuration.editor.server:
+    text: 伺服器
+tooltip.text.filter.class:
+    text: "篩選器 ''{0}'' 類"
+tooltip.text.listener.class:
+    text: "偵聽器 ''{0}'' 類"
+tooltip.text.primary.key.class:
+    text: 主鍵類
+tooltip.text.script.parameters:
+    text: 參數…
+tooltip.text.servlet.class:
+    text: "Servlet ''{0}'' 類"
+tooltip.text.web.resource.directory:
+    text: Web 資源目錄 ({0})
+updating.policy.hot.swap.classes:
+    text: 熱交換類(&H)
+updating.policy.redeploy:
+    text: 重新部署(&R)
+updating.policy.restart.server:
+    text: 重啟伺服器(&S)
+updating.policy.update.classes.and.resources:
+    text: 更新類和資源(&C)
+updating.policy.update.resources:
+    text: 更新資源(&U)
+value.should.either.0.or.1:
+    text: 值應為 {0} 或 {1}
+warning.delete.deployment.descriptor.title:
+    text: 刪除部署描述符
+warning.duplicate.relative.deployment.path.text:
+    text: "重複的相對部署路徑 ''{0}''"
+web.context.family:
+    text: Web 上下文系列
+web.context.fix:
+    text: "為 {0} 將上下文資料夾設定為 ''/''"
+web.context.fix.for.directory:
+    text: "為 {0} 目錄中的所有檔案將上下文資料夾設定為 ''/''"
+web.root.family:
+    text: 設定 Web 根

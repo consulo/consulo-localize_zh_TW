@@ -1,0 +1,106 @@
+YAMLDuplicatedKeysInspection.duplicated.key:
+    text: "鍵 ''{0}'' 重複"
+YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
+    text: 移除鍵
+YamlBooleanType.validation.error.quoted.value:
+    text: 應為布林值
+YamlDeprecatedKeysInspectionBase.deprecated.key:
+    text: "鍵 ''{0}'' 已棄用"
+YamlEnumType.validation.error.value.unknown:
+    text: "此處不需要值 ''{0}''"
+YamlEnumType.validation.warning.value.deprecated:
+    text: "值 ''{0}'' 已棄用"
+YamlIntegerType.error.integer.value:
+    text: 應為整數值
+YamlMetaClass.error.scalar.value:
+    text: 此處不允許標量值
+YamlMissingKeysInspectionBase.add.missing.keys.quickfix.name:
+    text: 添加缺少的鍵
+YamlMissingKeysInspectionBase.missing.keys:
+    text: "缺少必需的鍵: ''{0}''"
+YamlNonEditableKeyInspectionBase.strip.noneditable.keys.quickfix.name:
+    text: 從檔案中移除所有不可編輯的鍵
+YamlNonEditableKeysInspectionBase.noneditable.key:
+    text: "鍵 ''{0}'' 不能由使用者修改"
+YamlNumberType.error.numeric.value:
+    text: 應為數值
+YamlScalarType.error.scalar.value:
+    text: 應為標量值
+YamlUnknownKeysInspectionBase.unknown.key:
+    text: "此處不需要鍵 ''{0}''"
+YamlUnknownValuesInspectionBase.error.array.is.required:
+    text: 需要陣列
+YamlUnknownValuesInspectionBase.error.array.not.allowed:
+    text: 應為單值
+YamlUnknownValuesInspectionBase.error.value.is.required:
+    text: 值為必填項
+annotator.same.line.composed.value.message:
+    text: 禁止在與鍵相同的行中指定塊組成值
+color.settings.yaml.comment:
+    text: 註釋
+color.settings.yaml.dstring:
+    text: 帶雙引號的字串
+color.settings.yaml.key:
+    text: 鍵
+color.settings.yaml.scalar.list:
+    text: "'|' 塊"
+color.settings.yaml.scalar.text:
+    text: "'>' 塊"
+color.settings.yaml.sign:
+    text: '符號: 大括號、逗號等'
+color.settings.yaml.string:
+    text: 字串
+color.settings.yaml.text:
+    text: 文本
+element.presentation.document.type:
+    text: YAML 文檔
+find.usages.document:
+    text: 文檔
+find.usages.key.value:
+    text: 鍵-值
+find.usages.mapping:
+    text: 映射
+find.usages.scalar:
+    text: 標量
+find.usages.sequence:
+    text: 序列
+find.usages.unnamed:
+    text: <未命名>
+inspections.duplicated.keys.name:
+    text: 重複的 YAML 鍵
+inspections.invalid.child.in.block.mapping:
+    text: 塊映射中的子元素無效
+inspections.invalid.child.in.block.sequence:
+    text: 塊序列中的子元素無效
+inspections.invalid.key.indent:
+    text: 塊映射鍵縮排無效
+inspections.invalid.list.item.indent:
+    text: 列表項縮排無效
+inspections.recursive.alias.message:
+    text: 別名無法遞歸
+inspections.recursive.alias.name:
+    text: 遞歸別名
+inspections.schema.deprecation.name:
+    text: 棄用的 YAML 鍵
+inspections.schema.deprecation.text:
+    text: "鍵 ''{0}'' 已棄用: {1}"
+inspections.schema.validation.name:
+    text: 由 JSON 架構驗證
+inspections.schema.validation.prefix:
+    text: '架構驗證:'
+inspections.unresolved.alias.message:
+    text: 無法解析別名 {0}
+inspections.unresolved.alias.name:
+    text: 未解析的別名
+inspections.unused.anchor.message:
+    text: 定位標記 {0} 從未使用
+inspections.unused.anchor.name:
+    text: 未使用的定位標記
+inspections.unused.anchor.quickfix.name:
+    text: 移除定位標記
+new.name.conflicts.with:
+    text: "鍵與現有鍵衝突: ''{0}''"
+parsing.error.sequence.item.expected:
+    text: 應為序列條目
+rename.same.name:
+    text: 名稱相同

@@ -1,0 +1,180 @@
+all.invocations.in.project:
+    text: 內聯專案中的所有調用(&A)
+cannot.find.a.single.definition.to.inline.field:
+    text: 欄位沒有初始設定式
+cannot.find.a.single.definition.to.inline.local.var:
+    text: 無法找到內聯局部變數的單一定義
+cannot.inline.0.:
+    text: 無法內聯 {0}
+cannot.inline.reference.0:
+    text: "無法內聯引用 ''{0}''"
+cannot.introduce.field.in.interface:
+    text: 無法在接口中引入欄位
+cannot.introduce.field.in.script:
+    text: 範圍內沒有類
+cannot.rename.property.0:
+    text: "無法重命名覆寫方法 <bold>''{1}''</bold> 的屬性 <bold>''{0}''</bold>"
+cannot.rename.script.class.to.0:
+    text: "無法將腳本類 ''{0}'' 重命名為 ''{1}''"
+changeSignature.no.type.for.exception:
+    text: 指定異常的類型
+changeSignature.not.throwable.type:
+    text: "類型錯誤: 異常的 ''{0}''，應擴展 java.lang.Throwable"
+changeSignature.refactoring.name:
+    text: 變更簽名
+class.does.not.exist.in.the.module:
+    text: 模組中不存在類。要創建嗎?
+class.language.is.not.groovy:
+    text: 目標類的語言不是 Groovy
+closure.uses.external.variables:
+    text: 閉包使用外部非常數變數
+column.name.default.value:
+    text: 預設值
+column.name.name:
+    text: '名字:'
+column.name.type:
+    text: 類型
+convert.to.java.can.work.only.with.groovy:
+    text: 轉換為 Java 重構僅適用於 Groovy 檔案
+convert.to.java.refactoring.name:
+    text: 轉換為 Java
+converting.files.to.java:
+    text: 正在將檔案轉換為 Java
+declare.final:
+    text: final宣告
+error.wrong.caret.position.method.name:
+    text: 文字游標應置於要重構的方法的名稱處。
+expression.contains.errors:
+    text: 表達式包含錯誤
+extract.method.title:
+    text: 擷取方法
+field.0.is.already.defined:
+    text: 欄位 {0} 已定義
+field.cannot.be.initialized.in.field.declaration:
+    text: 無法在宣告中初始化欄位
+field.is.not.accessible.form.context.0:
+    text: 不能從調用站點存取內聯方法中使用的欄位 {0}
+files.to.be.converted:
+    text: 要轉換的檔案
+final.field.cant.be.initialized.in.cur.method:
+    text: 無法在當前方法中初始化最終欄位
+inline.local.variable.prompt.0.1:
+    text: "內聯局部變數 ''{0}''?"
+inline.method.border.title:
+    text: 內聯
+inline.method.label:
+    text: 方法 {0}
+inline.method.title:
+    text: 內聯方法
+introduce.closure.parameter.elements.header:
+    text: 正在將參數添加到閉包
+introduce.variable.title:
+    text: 引入變數
+introduced.variable.conflicts.with.parameter.0:
+    text: 引入的變數與參數 {0} 衝突
+introduced.variable.conflicts.with.variable.0:
+    text: 引入的變數與局部變數 {0} 衝突
+method.duplicate:
+    text: 具有簽名 {0} 的方法已在 {1} 中定義
+method.is.already.defined.in.class:
+    text: 方法 {0} 已在類 {1} 中定義。
+method.is.already.defined.in.script:
+    text: 方法 {0} 已在腳本 {1} 中定義。
+method.is.not.accessible.form.context.0:
+    text: 不能從調用站點存取內聯方法中使用的方法 {0}
+multiple.output.values:
+    text: 所選程式碼段有多個輸出值
+name.is.wrong:
+    text: "名稱 ''{0}'' 不正確"
+name.label:
+    text: '名稱(&N):'
+no.occurrences.found:
+    text: 未找到符合項
+only.in.groovy.files:
+    text: 此重構僅在 Groovy 檔案中可用
+parameters.border.title:
+    text: 參數
+ref.0.will.not.be.resolved.outside.of.current.context:
+    text: "不會在當前上下文範圍外解析引用 ''{0}''"
+refactored.method.will.cover.closure.property:
+    text: "重構的方法將覆寫 {1} 中的閉包屬性 ''{0}''"
+refactoring.cannot.be.applied.no.sources.attached:
+    text: '無法套用重構: 未附加任何源'
+refactoring.cannot.be.applied.to.abstract.methods:
+    text: 重構不能應用於 abstract 方法
+refactoring.cannot.be.applied.to.constructors:
+    text: 重構不能應用於構造函數
+refactoring.is.available.only.for.method.calls:
+    text: 重構僅適用於方法調用
+refactoring.is.not.supported.in.method.parameters:
+    text: 閉包或方法參數中不支持重構
+refactoring.is.not.supported.in.parameter.initializers:
+    text: 參數初始設定式中不支持重構
+refactoring.is.not.supported.in.the.current.context:
+    text: 當前上下文中不支持重構
+refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
+    text: 當 return 語句中斷執行流時，不支持重構
+reference.to.accessor.0.is.used:
+    text: 無法內聯對存取器 <bold>{0}<bold> 的引用。
+rename.groovy.property:
+    text: 重命名 Groovy 屬性(&G)
+rename.is.not.applicable.to.implicit.elements:
+    text: 無法重命名隱式元素
+rename.member:
+    text: 重命名 {0}
+rename.property:
+    text: "重命名屬性 ''{0}''"
+replace.all.occurrences:
+    text: 取代所有符合項
+replace.getter.for.property:
+    text: "屬性 ''{0}'' 的預設 getter 將被覆蓋"
+replace.setter.for.property:
+    text: "屬性 ''{0}'' 的預設 setter 將被覆蓋"
+return.type.is.wrong:
+    text: 返回類型錯誤
+row.move.down:
+    text: 下移(&D)
+row.move.up:
+    text: 上移(&U)
+selected.block.contains.invocation.of.another.class.constructor:
+    text: 所選塊包含調用另一個類構造函數
+selected.block.should.represent.a.statement.set:
+    text: 所選塊應代表一組語句或表達式
+selected.block.should.represent.an.expression:
+    text: 所選塊應代表一個表達式
+selected.expression.has.void.type:
+    text: 所選表達式有空隙類型
+selected.expression.should.not.be.lvalue:
+    text: 所選表達式不應位於賦值的左側
+selected.variable.is.used.for.write:
+    text: 所選變數用於寫入
+signature.preview.border.title:
+    text: 簽名預覽
+specify.default.value:
+    text: "為參數 ''{0}'' 指定預設值或初始設定式"
+specify.type.label:
+    text: 顯式指定返回類型(&T)
+super.reference.is.used:
+    text: 內聯方法中使用的 super 調用在內聯後將無效。
+target.class.must.not.be.script:
+    text: 目標類不得為腳本
+there.is.no.method.or.closure:
+    text: 沒有包含方法或閉包
+type.for.parameter.is.incorrect:
+    text: "參數 ''{0}'' 的類型不正確"
+variable.conflicts.with.field.0:
+    text: 所選名稱與欄位 {0} 衝突
+variable.conflicts.with.parameter.0:
+    text: 所選名稱與參數 {0} 衝突
+variable.conflicts.with.variable.0:
+    text: 所選名稱與局部變數 {0} 衝突
+variable.is.accessed.for.writing:
+    text: "變數 ''{0}'' 被存取以進行寫入"
+visibility.private:
+    text: 私有
+visibility.protected:
+    text: 受保護(&O)
+visibility.public:
+    text: 公用
+you.cannot.pass.as.parameter.0.because.you.remove.1.from.base.method:
+    text: "您無法將 ''{0}'' 作為參數傳遞，因為您從方法中移除了與其關聯的參數 ''{1}''。您應當在參數表中取消選擇“移除不再使用的參數 ''{0}''”或取消選擇參數 ''{1}''。"

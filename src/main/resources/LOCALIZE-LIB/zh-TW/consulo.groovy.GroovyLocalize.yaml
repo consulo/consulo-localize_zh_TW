@@ -1,0 +1,424 @@
+0.expressions.on.trait.fields.properties.are.not.supported.in.traits:
+    text: 特徵中不支持特徵欄位/屬性上的 {0} 個表達式
+0.is.deprecated:
+    text: "''{0}'' 已被棄用"
+Constructor:
+    text: 構造函數
+Equals:
+    text: 等號
+Inner.methods.are.not.supported:
+    text: 不支持內部方法
+abstract.methods.must.not.have.body:
+    text: abstract 方法不得有主體
+add.dynamic.element:
+    text: 添加動態元素
+add.dynamic.method:
+    text: 添加動態方法
+add.dynamic.method.0:
+    text: "添加動態方法 ''{0}''"
+add.dynamic.property:
+    text: "添加動態屬性 ''{0}''"
+ambiguous.code.block:
+    text: 不明確的程式碼塊
+annotation.collector.cannot.have.attributes:
+    text: 使用 @AnnotationCollector 註解的註解類型不能具有特性
+annotation.expected:
+    text: 應為註解
+annotation.field.can.only.be.used.within.a.script:
+    text: 註解 @Field 只能在腳本內使用
+annotation.field.can.only.be.used.within.a.script.body:
+    text: 註解 @Field 只能在腳本主體內使用
+annotation.type.cannot.be.inner:
+    text: 註解類型不能是內部類型
+annotation.types.may.not.have.extends.clause:
+    text: "註解類型不能具有 'extends' 子句"
+annotation.types.may.not.have.implements.clause:
+    text: "註解類型不能具有 'implements' 子句"
+anonymous.class.cannot.have.abstract.method:
+    text: 匿名類不能具有 abstract 方法
+anonymous.class.derived.from.0:
+    text: 派生自 {0} 的匿名類
+anonymous.classes.cannot.be.created.from.traits:
+    text: 從 Groovy 2.5.2 起可以使用特徵中的匿名類
+are.you.sure.to.delete.dynamic.property:
+    text: "確定要刪除 ''{0}'' 嗎''?"
+are.you.sure.to.delete.elements:
+    text: "確定要刪除 ''{0}'' 個元素嗎''?"
+at.interface.0.does.not.contain.attribute:
+    text: "@interface ''{0}'' 不包含特性 ''{1}''"
+attribute.name.expected:
+    text: 應為特性名稱
+break.outside.loop:
+    text: 僅允許在迴圈內使用具有命名標籤的 break 語句
+break.outside.loop.or.switch:
+    text: "僅允許在迴圈或冒號樣式的 switch 語句中使用 'break' 語句"
+cannot.access:
+    text: "對 ''{0}'' 的存取超出了其存取權限"
+cannot.apply.constructor:
+    text: "''{1}'' 中的構造函數 ''{0}'' 不能應用於 ''{2}''"
+cannot.apply.default.constructor:
+    text: "無法將預設構造函數應用於類 ''{0}''"
+cannot.apply.method.or.closure:
+    text: "''{0}'' 無法應用於 ''{1}''"
+cannot.apply.method1:
+    text: "''{1}'' 中的 ''{0}'' 無法應用於 ''{2}''"
+cannot.assign:
+    text: "無法將 ''{0}'' 分配給 ''{1}''"
+cannot.assign.a.value.to.final.field.0:
+    text: "無法將值賦給 final 欄位 ''{0}''"
+cannot.assign.a.value.to.final.parameter.0:
+    text: "無法將值賦給 final 參數 ''{0}''"
+cannot.assign.string.to.enum.0:
+    text: "無法將字串分配給枚舉 ''{0}''"
+cannot.cast:
+    text: "不能將 ''{0}'' 轉換為 ''{1}''"
+cannot.compile:
+    text: 無法編譯 Scala 檔案
+cannot.create.class.error.text:
+    text: "無法創建類 ''{0}'': {1}"
+cannot.create.class.error.title:
+    text: 無法創建類
+cannot.find.enum.constant.0.in.enum.1:
+    text: "無法在枚舉 ''{1}'' 中找到枚舉常數 ''{0}''"
+cannot.infer.argument.types:
+    text: 無法推斷實參類型
+cannot.instantiate.abstract.class:
+    text: "無法實例化 abstract 類 ''{0}''"
+cannot.instantiate.interface:
+    text: "無法實例化接口 ''{0}''"
+cannot.reference.non.static:
+    text: "無法從 static 上下文引用非靜態符號 ''{0}''"
+cannot.resolve:
+    text: 無法解析符號 {0}
+cannot.return.from.constructor:
+    text: 無法從構造函數返回物件
+cannot.return.from.void.method:
+    text: "無法從返回 'void' 的方法返回物件"
+cannot.return.type:
+    text: "無法從返回 ''{1}'' 的方法返回 ''{0}''"
+catch.statement.parameter.type.should.be.a.subclass.of.throwable:
+    text: catch 語句參數類型應當是 Throwable 的子類
+catch.without.try:
+    text: "'catch' 沒有 'try'"
+change.implements.and.extends.classes:
+    text: 標準化 extends 和 implements 列表
+change.modifier:
+    text: "將 ''{0}'' 設為{1}"
+change.modifier.family.name:
+    text: 更改修飾符
+change.modifier.not:
+    text: "將 ''{0}'' 設為非{1}"
+class.definition.is.not.expected.here:
+    text: 不應在此處使用類定義
+class.is.not.annotation:
+    text: "''{0}'' 不是一個註解"
+closure.is.too.complex.to.analyze:
+    text: |-
+        閉包分析起來很複雜。
+        無法推斷局部變數的類型。
+collection.literal.contains.named.argument.and.expression.items:
+    text: 集合文字同時包含命名實參和表達式實參
+configure.groovy.library:
+    text: 設定 Groovy SDK…
+constructor.cannot.have.static.modifier:
+    text: 構造函數可能不為 static
+constructors.are.not.allowed.in.anonymous.class:
+    text: 匿名類中不允許使用構造函數
+constructors.are.not.allowed.in.interface:
+    text: 接口中不允許使用構造函數
+constructors.cannot.have.return.type:
+    text: 構造函數中不允許使用返回類型元素
+continue.outside.loop:
+    text: 僅允許在迴圈內部使用 continue 語句
+create.annotation.text:
+    text: 註解為 @{0}
+create.class.family.name:
+    text: 創建類
+create.class.text:
+    text: 創建類 {0}
+create.enum:
+    text: 創建枚舉 {0}
+create.field.from.usage:
+    text: "創建欄位 ''{0}''"
+create.interface.text:
+    text: 創建接口 {0}
+create.method.from.usage:
+    text: "創建方法 ''{0}''"
+create.parameter.from.usage:
+    text: "創建參數 ''{0}''"
+create.trait:
+    text: 創建特徵 {0}
+create.variable.from.usage:
+    text: "創建變數 ''{0}''"
+cyclic.inheritance.involving.0:
+    text: "涉及 ''{0}'' 的迴圈繼承"
+debug.option:
+    text: 啟用偵錯堆疊跟踪
+default.initializers.are.not.allowed.in.abstract.method:
+    text: abstract 方法中不允許使用預設初始設定式
+doc.end.expected:
+    text: "應為 '*/'"
+duplicate.attribute:
+    text: 重複特性
+duplicate.class:
+    text: "重複的類: ''{0}''"
+duplicate.element.in.the.map:
+    text: "映射中存在重複的元素 ''{0}''"
+duplicate.inner.class:
+    text: "重複的類: ''{0}''"
+duplicate.modifier:
+    text: "重複的修飾符 ''{0}''"
+duplicated.named.parameter:
+    text: "已找到重複的命名參數 ''{0}''"
+dynamic.element.deletion:
+    text: 動態元素刪除
+dynamic.method.property.type:
+    text: '屬性類型(&T):'
+dynamic.method.return.type:
+    text: '返回類型(&T):'
+dynamic.name:
+    text: 名稱
+dynamic.properties.table.name:
+    text: 方法實參
+dynamic.property.deletion:
+    text: 刪除動態屬性
+dynamic.tool.window.id:
+    text: 動態成員
+dynamic.type:
+    text: 類型
+ellipsis.type.is.not.allowed.here:
+    text: 此處不允許使用 ellipsis 類型
+else.without.if:
+    text: "'else' 沒有 'if'"
+enums.may.not.have.extends.clause:
+    text: "枚舉不能具有 'extends' 子句"
+error.external:
+    text: 外部錯誤
+exception.0.has.already.been.caught:
+    text: "已捕捉到異常 ''{0}''"
+expected.0.to.be.inline.constant:
+    text: "''{0}'' 應是一個內聯常數"
+explicit.constructors.are.not.allowed.in.immutable.class:
+    text: '@Immutable 類不允許使用顯式構造函數'
+expression.expected:
+    text: 應為表達式
+field.already.defined:
+    text: "欄位 ''{0}'' 已定義"
+final.class.cannot.be.extended:
+    text: 無法擴展 final 類
+finally.without.try:
+    text: "'finally' 沒有 'try'"
+fix.package.name:
+    text: 修正軟體套件名稱
+groovy.debug.disable.specific.methods:
+    text: 不單步進入特定的 Groovy 類(&I)
+groovy.does.not.support.constructor.type.arguments:
+    text: Groovy 不支持構造函數類型實參
+groovy.file.0:
+    text: "Groovy 檔案 ''{0}''"
+groovy.file.extension.is.not.mapped.to.groovy.file.type:
+    text: "*.groovy 檔案已映射到 ''{0}''。\n您可以在“設定 | 檔案類型”中將它們映射到 Groovy"
+groovy.library.is.not.configured.for.module:
+    text: "沒有為模組 ''{0}'' 設定 Groovy SDK"
+identifier.expected:
+    text: 應為關鍵字
+identifier.or.block.expected:
+    text: 應為關鍵字或程式碼塊
+illegal.combination.of.modifiers:
+    text: 修飾符的組合非法
+illegal.combination.of.modifiers.abstract.and.final:
+    text: "修飾符 'abstract' 和 'final' 的組合非法"
+illegal.combination.of.modifiers.volatile.and.final:
+    text: "修飾符 'volatile' 和 'final' 的組合非法"
+illegal.escape.character.in.string.literal:
+    text: 字串文字中的非法轉義字符
+import.class:
+    text: 匯入類
+import.statement.cannot.have.modifiers:
+    text: import 語句不能具有修飾符
+incorrect.number.of.values:
+    text: '值的數量不正確。應為: {0}，實際為: {1}'
+incorrect.variable.name:
+    text: 變數名稱不正確
+initializer.cannot.be.0:
+    text: 初始設定式不能為 {0}
+initializer.cannot.have.annotations:
+    text: 初始設定式不能有註解
+initializers.are.not.allowed.in.interface:
+    text: 接口中不允許使用初始設定式
+injection.should.not.contain.line.feeds:
+    text: GString 注入不得包含換行
+intarface.cannot.have.modifier.final:
+    text: "接口不能具有修飾符 'final'"
+interface.members.are.not.allowed.to.be:
+    text: 接口成員不允許為 {0}
+interface.must.have.no.static.method:
+    text: 接口不得有 static 方法
+invalid.lvalue:
+    text: 要賦予的值無效
+invoke.completion.second.time.to.show.skipped.methods:
+    text: 第二次調用補全以顯示跳過的方法
+is.not.enclosing.class:
+    text: "''{0}'' 不是封閉類"
+java.style.for.each.statement.requires.a.type.declaration:
+    text: Java 樣式的 for-each 語句需要類型宣告
+label.already.used:
+    text: "標籤 ''{0}'' 已在使用中"
+method.0.cannot.have.weaker.access.privileges.1.than.2.in.3.4:
+    text: "方法 ''{0}'' 的存取權限(''{1}'')不能比 ''{3}'' (''{4}'')中的 ''{2}'' 弱"
+method.0.cannot.override.method.1.in.2.overridden.method.is.final:
+    text: "方法 ''{0}'' 無法覆寫 ''{2}'' 中的方法 ''{1}''；覆寫的方法為 final"
+method.0.is.too.complex.too.analyze:
+    text: "方法 ''{0}'' 過於複雜而無法分析。\n無法推斷局部變數的類型。"
+method.call.is.ambiguous:
+    text: 方法調用不明確
+method.duplicate:
+    text: "具有簽名 {0} 的方法已在類 ''{1}'' 中定義"
+method.has.incorrect.modifier.volatile:
+    text: "方法具有不正確的修飾符 'volatile'"
+method.is.not.implemented:
+    text: "方法 ''{0}'' 未實作"
+method.with.type.parameters.should.have.return.type:
+    text: 具有類型參數的方法應具有返回類型
+missed.attributes:
+    text: '缺少特性: {0}'
+mixing.private.and.public.protected.methods.of.the.same.name:
+    text: 將具有相同名稱的 private 和 public/protected 方法混合
+modifier.transient.not.allowed.here:
+    text: "此處不允許使用修飾符 'transient'"
+modifier.volatile.not.allowed.here:
+    text: "此處不允許使用修飾符 'volatile'"
+move.class.0.from.method:
+    text: "將 ''{0}'' 移至正確位置"
+move.class.from.method.family.name:
+    text: 移至正確位置快速修復
+multiple.assignments.without.list.expr:
+    text: 在靜態類型檢查模式下，不支持右側沒有列表表達式的多個賦值
+named.arguments.are.not.allowed.inside.index.operations:
+    text: 索引操作內不允許使用命名實參
+native.methods.cannot.have.body:
+    text: 原生方法不能有主體
+native.visibility.presentation:
+    text: 本機的
+new.class.dialog.title:
+    text: 新建 Groovy 類
+new.class.list.item.annotation:
+    text: 註解
+new.class.list.item.class:
+    text: 類
+new.class.list.item.enum:
+    text: 枚舉
+new.class.list.item.interface:
+    text: 接口
+new.class.list.item.record:
+    text: 記錄
+new.class.list.item.trait:
+    text: 特徵
+new.script.list.item.script:
+    text: Groovy 腳本
+new.script.list.item.script.dsl:
+    text: GroovyDSL 腳本
+no.class.expected.here:
+    text: 此處不應為類
+no.class.in.file.template:
+    text: 檔案模板中找不到類
+no.implements.clause.allowed.for.interface:
+    text: "接口不能具有 'implements' 子句"
+no.interface.expected.here:
+    text: 此處不應為接口
+no.such.property:
+    text: "屬性 ''{0}'' 不存在"
+no.super.classes.found:
+    text: 未找到超類
+no.super.method.found:
+    text: 未找到 super 方法
+not.abstract.method.should.have.body:
+    text: 非 abstract 方法應有主體
+only.abstract.class.can.have.abstract.method:
+    text: 只有 abstract 類可以具有 abstract 方法
+only.traits.expected.here:
+    text: 此處應僅有特徵
+package.definition.cannot.have.modifiers:
+    text: 軟體套件定義不能具有修飾符
+packageLocal.visibility.presentation:
+    text: 預設可見
+primitive.bound.types.are.not.allowed:
+    text: 不允許使用基元限定類型
+primitive.type.parameters.are.not.allowed:
+    text: 類型參數列表中不允許使用基元類型參數
+property.name.expected:
+    text: 應為屬性名稱
+qualified.0.is.allowed.only.in.nested.or.inner.classes:
+    text: 僅允許在嵌套/內部類中使用限定的 {0}
+qualified.new.of.static.class:
+    text: 限定新增 static 類
+recursive.constructor.invocation:
+    text: 構造函數被遞歸調用
+repetitive.method.name.0:
+    text: "重複的方法名稱 ''{0}''"
+return.type.is.incompatible:
+    text: '{1} 中 {0} 的返回類型與 {3} 中的 {2} 不相容'
+script.cannot.have.modifier.native:
+    text: "腳本不能具有修飾符 'native'"
+script.generated.with.same.name:
+    text: "為腳本程式碼生成了一個合成類 ''{0}''"
+script.method.cannot.have.modifier.abstract:
+    text: "腳本方法不能具有修飾符 'abstract'"
+semi.expected:
+    text: "應為 ';' 或換行符"
+shows.parameter.names.at.function.call.sites:
+    text: 在函數調用點顯示參數名稱。
+statement.expected:
+    text: 應為語句
+strictfp.visibility.presentation:
+    text: 嚴格的
+string.end.expected:
+    text: 應為字串結尾
+super.cannot.be.used.in.static.context:
+    text: "'super' 不能在 static 上下文中使用"
+synchronized.visibility.presentation:
+    text: 同步的
+the.usage.of.a.map.entry.expression.to.initialize.an.enum.is.currently.not.supported:
+    text: 當前不支持使用映射項表達式來初始化枚舉
+there.is.no.default.constructor.available.in.class.0:
+    text: "類 ''{0}'' 中沒有可用的預設構造函數"
+throws.clause.is.not.allowed.in.at.interface:
+    text: "@interface 成員中不允許使用 'throws' 子句"
+trait.method.cannot.be.protected:
+    text: 不允許 protected 特徵方法
+transient.visibility.presentation:
+    text: 短暫的
+tuple.cant.be.placed.in.class:
+    text: 不允許對欄位多次賦值
+tuple.declaration.should.end.with.def.modifier:
+    text: "元組宣告應以 'def' 修飾符結尾"
+type.argument.0.is.not.in.its.bound.should.extend.1:
+    text: "類型參數 ''{0}'' 不在其界限內；應擴展 ''{1}''"
+type.argument.list.is.not.allowed.here:
+    text: 此處不允許使用類型實參列表
+type.expected:
+    text: 應為類型
+type.parameters.are.unexpected:
+    text: 存在意外的類型參數
+undefined.label:
+    text: "未定義標籤 ''{0}''"
+unexpected.attribute.type.0:
+    text: "意外的特性類型: ''{0}''"
+unknown.class:
+    text: "未知類: ''{0}''"
+unnecessary.type:
+    text: "不必要的異常 ''{0}''。''{1}'' 已宣告"
+variable.0.might.not.have.been.initialized:
+    text: "變數 ''{0}'' 可能尚未初始化"
+variable.already.defined:
+    text: "變數 ''{0}'' 已定義"
+variable.cannot.be.abstract:
+    text: "變數不能具有修飾符 'abstract'"
+variable.cannot.be.native:
+    text: "變數不能具有修飾符 'native'"
+volatile.visibility.presentation:
+    text: 不穩定的
+wildcards.are.not.allowed.in.extends.list:
+    text: super 類型可能未指定萬用字元類型
+wrong.number.of.type.arguments:
+    text: '類型實參的數量錯誤: {0}；要求 {1} 個'

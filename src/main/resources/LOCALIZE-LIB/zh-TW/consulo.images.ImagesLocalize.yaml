@@ -1,0 +1,56 @@
+black.cell.color:
+    text: "顏色為 '黑色' (&B):"
+black.cell.color.descriptor:
+    text: "'黑色' 單元格"
+chessboard.cell.size:
+    text: '棋盤格尺寸(像素)(&S):'
+enable.mousewheel.zooming:
+    text: 使用滑鼠滾輪縮放圖像({0}+滑鼠滾輪)(&M)
+error.broken.image.file.format:
+    text: <html><b>圖片不能載入</b><br>嘗試從外部開啟它來解決格式問題</html>
+error.empty.external.editor.path:
+    text: 請設定外部編輯器的可執行路徑
+error.title.empty.external.editor.path:
+    text: 外部編輯器未設定
+error.title.launching.external.editor:
+    text: 啟動外部的執行問題
+external.editor.border.title:
+    text: 外部編輯器
+external.editor.executable.path:
+    text: '可執行路徑(&P):'
+grid.line.color.descriptor:
+    text: 網格線
+images.filetype.description:
+    text: 圖像檔案
+main.page.border.title:
+    text: 編輯
+plugin.Images.description:
+    text: 提供圖像檢視和預覽縮圖瀏覽
+select.external.executable.message:
+    text: 選取外部圖形編輯器
+select.external.executable.title:
+    text: 選取編輯器
+settings.page.name:
+    text: 圖片
+settings.preffered.smart.zoom.height:
+    text: '智慧型縮放的首選最小高度(像素)(&H):'
+settings.preffered.smart.zoom.width:
+    text: '智慧型縮放的首選最小寬度(像素)(&D):'
+show.grid.every:
+    text: '在每個像素之後顯示網格線(&E):'
+show.grid.lines:
+    text: 顯示網格線預設(&G)
+show.grid.zoom.limit:
+    text: '僅顯示網格線，然後縮放比例等於或大於(&O):'
+show.transparency.chessboard:
+    text: 預設顯示透明棋盤(&T)
+smart.zoom:
+    text: 啟用智慧型縮放(&Z)
+thumbnails.component.error.text:
+    text: 錯誤
+unknown.format:
+    text: 未知的格式
+white.cell.color:
+    text: "顏色為 '白色' (&W):"
+white.cell.color.descriptor:
+    text: "'白色' 單元格"

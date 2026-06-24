@@ -1,0 +1,20 @@
+gradle.settings.text.home.path:
+    text: 'Gradle 主目錄:'
+gradle.settings.text.vm.options:
+    text: 'Gradle VM 選項:'
+gradle.home.setting.type.explicit.incorrect:
+    text: |-
+        Gradle 位置不正確。
+        位置: {0}
+gradle.home.setting.type.explicit.empty:
+    text: 未指定 Gradle 位置
+gradle.codeInsight.action.apply_plugin.text:
+    text: 添加 Gradle 延伸模組
+gradle.codeInsight.action.apply_plugin.description:
+    text: 向專案中添加所選 Gradle 延伸模組
+gradle.codeInsight.action.apply_plugin.popup.title:
+    text: 選擇延伸模組
+gradle.codeInsight.action.add_maven_dependency.text:
+    text: 添加 Maven 工件依賴項
+gradle.codeInsight.action.add_maven_dependency.description:
+    text: 向專案中添加所選 Maven 工件依賴項

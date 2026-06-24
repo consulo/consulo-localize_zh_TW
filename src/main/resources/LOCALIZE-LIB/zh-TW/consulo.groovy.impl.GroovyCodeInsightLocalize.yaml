@@ -1,0 +1,12 @@
+generate.equals.compare.nested.arrays.comment:
+    text: //比較巢狀陣列——{0}這裡的價值觀
+generate.equals.compare.arrays.comment:
+    text: //可能的錯誤——比較物件[]陣列和陣列等於
+generate.property.missing.already.defined.warning:
+    text: propertyMissing() 已定義
+generate.property.missing.already.defined.title:
+    text: propertyMissing() 已定義
+generate.method.missing.already.defined.warning:
+    text: methodMissing() 已定義
+generate.method.missing.already.defined.title:
+    text: methodMissing() 已定義
