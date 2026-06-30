@@ -1,5 +1,5 @@
 inlay.hints.show.settings:
-    text: 函數 ''{0}'' 新增到黑名單...
+    text: "函數 ''{0}'' 新增到黑名單..."
 settings.hints:
     text: 嵌入提示
 settings.hints.group.annotations:

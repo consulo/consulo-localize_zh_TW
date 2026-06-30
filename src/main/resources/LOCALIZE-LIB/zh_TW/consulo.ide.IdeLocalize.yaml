@@ -105,11 +105,11 @@ action.create.template:
 action.delete:
     text: 刪除
 action.delete.all.favorites.lists.but.this:
-    text: 刪除所有使用者自訂清單，除了 ''{0}''
+    text: "刪除所有使用者自訂清單，除了 ''{0}''"
 action.delete.ellipsis:
     text: 刪除...
 action.delete.favorites.list:
-    text: 刪除收藏夾清單 ''{0}''
+    text: "刪除收藏夾清單 ''{0}''"
 action.description.create.new.module.group:
     text: 建立新的模組組
 action.description.create.new.package:
@@ -293,13 +293,13 @@ action.structureview.sort.by.visibility:
 action.sync.completed.successfully:
     text: '{0}已成功完成。'
 action.synchronize.file:
-    text: 同步 ''{0}''
+    text: "同步 ''{0}''"
 action.synchronize.selected.files:
     text: 同步選擇的檔案
 action.text.remove.0:
     text: 移除 {0}
 action.text.remove.abbreviation.0:
-    text: 移除縮寫 ''{0}''
+    text: "移除縮寫 ''{0}''"
 action.todo.edit.filters:
     text: 編輯過濾器
 action.todo.show.all:
@@ -333,7 +333,7 @@ add.shared.scope.action.text:
 alphabetical.mode.is.on.warning:
     text: 為 ON 時按字母順序排列標籤。是否轉為 OFF？
 attribute.0.should.be.defined:
-    text: '''''{0}'''' 屬性需要定義'
+    text: "''{0}'' 屬性需要定義"
 available.packages.dialog.title:
     text: 可用軟體套件
 bean.property:
@@ -441,7 +441,7 @@ button.wizard.previous:
 button.yes:
     text: 是
 change.encoding.command.name:
-    text: 更改 ''{0}'' 的編碼
+    text: "更改 ''{0}'' 的編碼"
 checkboox.cyclic.scrolling.in.lists:
     text: 循環捲動清單
 checkbox.allow.line.numbers:
@@ -537,7 +537,7 @@ checkbox.use.transparent.mode.for.floating.windows:
 checkbox.widescreen.tool.window.layout:
     text: 寬屏工具視窗佈局
 child.tag.0.should.be.defined:
-    text: '''''{0}'''' 子標籤需要定義'
+    text: "''{0}'' 子標籤需要定義"
 code.folding.settings:
     text: 代碼折疊設定
 column.description:
@@ -595,9 +595,9 @@ command.switch.active.editor:
 confirm.set.look.and.feel:
     text: 變更主題(&T)
 conversion.dialog.text.1:
-    text: 該項目'' {0}''有一個較舊的格式，將被轉換。你可能無法開啟用早期版本的{1}的項目。
+    text: "該項目'' {0}''有一個較舊的格式，將被轉換。你可能無法開啟用早期版本的{1}的項目。"
 conversion.dialog.text.2:
-    text: '<b> </b><a href="details">詳情...</a><br/><br/>舊版本的項目檔案將被儲存: ''''{0}'''''
+    text: "<b> </b><a href=\"details\">詳情...</a><br/><br/>舊版本的項目檔案將被儲存: ''{0}''"
 copy.reference:
     text: 複製引用(&Y)
 copy.references:
@@ -623,7 +623,7 @@ detach.library.from.module:
 dialog.message.cannot.save.the.file.0:
     text: 無法儲存檔案 {0}
 dialog.message.incompatible.encoding:
-    text: 您選擇的編碼(''{0}'')可能會更改 ''{1}'' 的內容。<br>是否要<br>1. 以新的編碼 ''{0}'' 從磁碟<b>重新載入</b>檔案，並覆蓋編輯器內容或<br>2. <b>轉換</b>文本並以新編碼覆蓋檔案?
+    text: "您選擇的編碼(''{0}'')可能會更改 ''{1}'' 的內容。<br>是否要<br>1. 以新的編碼 ''{0}'' 從磁碟<b>重新載入</b>檔案，並覆蓋編輯器內容或<br>2. <b>轉換</b>文本並以新編碼覆蓋檔案?"
 dialog.title.abbreviation:
     text: 縮寫
 dialog.title.choose.color:
@@ -639,21 +639,24 @@ dialog.title.convert.project:
 dialog.title.error.writing.file:
     text: 寫入檔案時錯誤
 dialog.title.file.0.can.t.be.reloaded:
-    text: 無法以 ''{1}'' 編碼重新載入檔案 ''{0}''。{2}
+    text: "無法以 ''{1}'' 編碼重新載入檔案 ''{0}''。{2}"
 dialog.title.file.0.most.likely.isn.t.stored:
-    text: 檔案 ''{0}'' 可能未以 ''{1}'' 編碼存儲。{2}
+    text: "檔案 ''{0}'' 可能未以 ''{1}'' 編碼存儲。{2}"
 dialog.title.go.to.line.column:
     text: 轉到行:列
 dialog.title.unable.to.save:
     text: 無法儲存
 diff.dialog.title:
-    text: '''''{0}''''和''''{1}''''之間的差異'
+    text: "''{0}''和''{1}''之間的差異"
 directory.module.content.root:
-    text: "模組內容根\n"
+    text: |
+        模組內容根
 directory.module.file:
-    text: "該模組檔案目錄\n"
+    text: |
+        該模組檔案目錄
 directory.project.file.directory:
-    text: "{0}檔案目錄\n"
+    text: |
+        {0}檔案目錄
 display.balloon.notifications:
     text: 顯示氣球通知
 dnd.with.alt.pressed.only:
@@ -703,11 +706,11 @@ empty.text.recent.files:
 empty.text.search.everywhere:
     text: 隨處搜尋
 encoding.do.not.convert.message:
-    text: 請勿轉換到 ''{0}''。
+    text: "請勿轉換到 ''{0}''。"
 encoding.not.available:
     text: 不適用
 encoding.unsupported.characters.message:
-    text: 編碼 ''{0}'' 不支持文本中的某些字符。
+    text: "編碼 ''{0}'' 不支持文本中的某些字符。"
 encodings.dialog.caption:
     text: <html>改變檔案或目錄編碼 $productName,點擊一個項目,然後選取從清單預設編碼編碼。<br><br>內置檔案編碼(例如JSP、HTML或XML)覆寫你在這裡指定的編碼。<br>如果沒有指定,檔案和目錄繼承父目錄的編碼設定或從項目編碼。</html>
 error.0.browser.path.not.specified:
@@ -719,7 +722,7 @@ error.adding.module.to.project:
 error.cannot.convert.project:
     text: 無法轉換項目：{0}
 error.cannot.create.temp.dir:
-    text: 無法建立臨時目錄 ''{0}''
+    text: "無法建立臨時目錄 ''{0}''"
 error.cannot.find.file:
     text: 無法找到檔案{0}
 error.cannot.load.project:
@@ -731,21 +734,25 @@ error.connection.failed.redirects:
 error.connection.failed.with.http.code.N:
     text: 連接失敗，HTTP代碼{0}
 error.content.root.already.defined.for.module:
-    text: "內容根「{0}」已定義的模組「{1}」。\n兩個模組中的一個項目不能共用相同的內容根。"
+    text: |-
+        內容根「{0}」已定義的模組「{1}」。
+        兩個模組中的一個項目不能共用相同的內容根。
 error.correct.pattern.syntax.errors.first:
     text: 正確的模式語法錯誤第一
 error.failed.to.create.directory:
     text: 無法建立目錄「{0}」
 error.favorites.list.already.exists:
-    text: 收藏清單中名稱為'' {0}''已存在
+    text: "收藏清單中名稱為'' {0}''已存在"
 error.file.contains.no.settings.to.import:
-    text: "檔案{0}沒有設定匯入。\n{1}"
+    text: |-
+        檔案{0}沒有設定匯入。
+        {1}
 error.file.does.not.exist:
     text: 檔案{0}不存在。
 error.file.download.failed:
     text: "無法下載 ''{0}'':\n{1}"
 error.file.not.found.message:
-    text: 檔案 ''{0}'' 未找到
+    text: "檔案 ''{0}'' 未找到"
 error.files.of.this.type.cannot.be.opened:
     text: 這種類型的檔案不能在開啟{0}
 error.invalid.template.file.name.or.extension:
@@ -755,23 +762,30 @@ error.keyword.cannot.be.empty:
 error.keyword.may.not.contain.spaces:
     text: 關鍵字不能包含空格
 error.license.collision:
-    text: "該授權被網路上其他地方的{0}使用。\n一次只有一個活躍的計算機可以使用授權。\n你想重新啟用，或者關閉。"
+    text: |-
+        該授權被網路上其他地方的{0}使用。
+        一次只有一個活躍的計算機可以使用授權。
+        你想重新啟用，或者關閉。
 error.loading.package.list:
     text: '載入軟體套件列表時出錯: {0}'
 error.malformed.url:
     text: 非法的URL：{0}
 error.message.cannot.make.files.writable:
-    text: "不能使下列檔案可寫入:\n{0}"
+    text: |-
+        不能使下列檔案可寫入:
+        {0}
 error.message.cannot.modify.file.0:
-    text: 不能修改檔案 ''{0}''
+    text: "不能修改檔案 ''{0}''"
 error.message.unable.to.create.file:
-    text: 無法建立檔案 ''{0}''
+    text: "無法建立檔案 ''{0}''"
 error.module.already.exists:
-    text: 模組命名為 ''{0}'' 已經存在
+    text: "模組命名為 ''{0}'' 已經存在"
 error.module.file.does.not.exist:
     text: 指定的路徑到模組檔案不存在
 error.module.not.iml:
-    text: "在「{0}」\n不是{1}模組檔案(.iml)"
+    text: |-
+        在「{0}」
+        不是{1}模組檔案(.iml)
 error.module.with.name.already.exists:
     text: 模組名稱為「{0}」已存在於項目
 error.name.cannot.be.empty:
@@ -787,7 +801,7 @@ error.please.enter.a.file.name:
 error.please.specify.module.file.location:
     text: 請指定模組檔案的位置
 error.please.specify.new.name.for.schema:
-    text: 請指定計劃'' {0}''新名稱。
+    text: "請指定計劃'' {0}''新名稱。"
 error.please.specify.path.to.module.file:
     text: 請指定路徑為{0}模組檔案(.iml)
 error.please.specify.path.to.web.browser:
@@ -801,11 +815,20 @@ error.project.file.does.not.exist:
 error.project.file.is.corrupted:
     text: 項目檔案已損壞
 error.reading.settings.file:
-    text: "讀取檔案時錯誤{0}。\n有{1}\n\n{2}"
+    text: |-
+        讀取檔案時錯誤{0}。
+        有{1}
+
+        {2}
 error.reading.settings.file.2:
-    text: "讀取檔案時錯誤{0}。\n\n{1}"
+    text: |-
+        讀取檔案時錯誤{0}。
+
+        {1}
 error.saving.license.data:
-    text: "錯誤儲存授權資料。\n{0}"
+    text: |-
+        錯誤儲存授權資料。
+        {0}
 error.saving.statistic.failed.to.create.folder:
     text: 無法建立資料夾 {0} 儲存系統訊息。
 error.saving.statistics:
@@ -813,17 +836,24 @@ error.saving.statistics:
 error.source.directory.should.be.under.module.content.root.directory:
     text: 源目錄應該是模組內容根目錄下
 error.text.file.already.exists:
-    text: "檔案{0}已存在\n你想覆寫它還是追加？"
+    text: |-
+        檔案{0}已存在
+        你想覆寫它還是追加？
 error.tips.not.found:
     text: 沒有找到竅門。確保您安裝{0}正確地做出。
 error.unable.to.parse.template.message:
-    text: "無法分析範本「{0}」\n錯誤訊息：{1}"
+    text: |-
+        無法分析範本「{0}」
+        錯誤訊息：{1}
 error.unable.to.read.tip.of.the.day:
     text: <html><body>無法讀取每日提示（{0}）。確保{1}已正確安裝。</body></html>
 error.updating.package.list:
     text: '更新軟體套件列表時出錯: {0}'
 error.writing.settings:
-    text: "錯誤寫入設定。\n\n{0}"
+    text: |-
+        錯誤寫入設定。
+
+        {0}
 error.writing.to.file:
     text: 寫入檔案時錯誤：{0}
 errortree.error:
@@ -839,9 +869,9 @@ errortree.warning:
 exception.missing.data:
     text: 無資料：{0}
 fail.open.project.message:
-    text: 無法從 ''{0}'' 開啟項目
+    text: "無法從 ''{0}'' 開啟項目"
 failed.to.install.package.dialog.title:
-    text: 無法安裝 ''{0}''
+    text: "無法安裝 ''{0}''"
 failed.to.install.packages.dialog.title:
     text: 無法安裝軟體套件
 favorites.empty.screen:
@@ -1001,13 +1031,13 @@ ide.shutdown.action:
 incompatible.encoding.dialog.title:
     text: '不相容的編碼: {0}'
 install.package.failure:
-    text: 安裝軟體套件 ''{0}'' 時發生錯誤。<a href="xxx">詳細資訊…</a>
+    text: "安裝軟體套件 ''{0}'' 時發生錯誤。<a href=\"xxx\">詳細資訊…</a>"
 item.file.templates:
     text: 檔案範本
 jar.build.include.in.jar.file:
     text: '包括JAR檔案:'
 jar.build.module.0.jar.settings:
-    text: '''''{0}''''模組 JAR 設定'
+    text: "''{0}''模組 JAR 設定"
 jar.build.modules.to.jar:
     text: 選取模組打包為jar
 jar.build.on.make:
@@ -1047,7 +1077,10 @@ label.icon.path:
 label.inactive.timeout.sec:
     text: 秒.
 label.java.source.files.have.been.found:
-    text: "來源檔案為你的模組已被發現。請選取目錄即會\n被標記為源路徑。這些路徑對應為預設（根，無名，頂級）封裝。\n註：該計劃將只承認那些來源檔案，位於下源目錄。"
+    text: |-
+        來源檔案為你的模組已被發現。請選取目錄即會
+        被標記為源路徑。這些路徑對應為預設（根，無名，頂級）封裝。
+        註：該計劃將只承認那些來源檔案，位於下源目錄。
 label.library.will.be.created.description.text:
     text: '{0} level library <b>{1}</b> with {2} {2, choice, 1#file|2#files} 將被建立'
 label.line.column:
@@ -1059,7 +1092,7 @@ label.macros:
 label.missed.libraries.prefix:
     text: '下面的庫遺失:'
 label.missed.libraries.text:
-    text: '''''{0}'''' 中的模組依賴關係清單中沒有發現庫'
+    text: "''{0}'' 中的模組依賴關係清單中沒有發現庫"
 label.module.file.will.be.saved.in:
     text: '模組檔案將被儲存在:'
 label.name:
@@ -1093,7 +1126,10 @@ label.please.enter.project.name:
 label.project.jdk:
     text: '項目的SDK:'
 label.project.roots.have.been.found:
-    text: "來源檔案為您的項目已被發現。請選取目錄即會\n要新增到項目的根。這些路徑對應為預設（根，無名，頂級）封裝。\n註：該計劃將只承認那些來源檔案，位於下這些目錄。"
+    text: |-
+        來源檔案為您的項目已被發現。請選取目錄即會
+        要新增到項目的根。這些路徑對應為預設（根，無名，頂級）封裝。
+        註：該計劃將只承認那些來源檔案，位於下這些目錄。
 label.project.roots.not.found:
     text: 找不到來源檔案為您的項目。
 label.scope:
@@ -1147,7 +1183,7 @@ listbox.customfiletype.keywords:
 loading.editors:
     text: 開啟編輯器...
 loading.in.progress:
-    text: '<html><body style=''text-align: center;padding-top:20px;''>正在載入…</body></html>'
+    text: "<html><body style='text-align: center;padding-top:20px;'>正在載入…</body></html>"
 local.scopes.node.text:
     text: 局部作用範圍
 low.disk.space.message:
@@ -1241,7 +1277,7 @@ manage.repositories.dialog.title:
 maven.repository.presentable.name:
     text: Maven倉庫
 message.educational.license:
-    text: '1年期教育授權。 {0}'
+    text: 1年期教育授權。 {0}
 message.evaluation.N.days:
     text: '{0}天'
 message.evaluation.has.expired:
@@ -1249,15 +1285,15 @@ message.evaluation.has.expired:
 message.evaluation.less.than.one.day:
     text: 少於1天
 message.evaluation.one.day:
-    text: '1 天'
+    text: 1 天
 message.evaluation.will.expire:
     text: 感謝您的評價{0}。搜尋在{1}有限公司您評估授權過期{2}
 message.expiration.date:
     text: 截止日期：{0}
 message.macro.exists:
-    text: 已經有一個叫做'' {0}''巨集。覆寫它嗎？
+    text: "已經有一個叫做'' {0}''巨集。覆寫它嗎？"
 message.module:
-    text: 模組 ''{0}''
+    text: "模組 ''{0}''"
 message.module.file.has.an.older.format.do.you.want.to.convert.it:
     text: 模組檔案有一個較舊的格式。你要轉換呢？
 message.modules:
@@ -1273,11 +1309,13 @@ message.nothing.to.show.in.structure.view:
 message.occurrence.N.of.M:
     text: 發現{0} {1}
 message.open.file.is.project:
-    text: "{0} 是一個項目檔案。\n你確認開啟這個項目嗎?"
+    text: |-
+        {0} 是一個項目檔案。
+        你確認開啟這個項目嗎?
 message.open.source.project.license:
     text: 開源項目授權。 {0}
 message.path.to.fqn.has.been.copied:
-    text: '''''{0}'''' 已複製。'
+    text: "''{0}'' 已複製。"
 message.personal.license:
     text: 個人授權
 message.please.ensure.correct.settings:
@@ -1287,7 +1325,7 @@ message.please.select.element.for.javadoc:
 message.purchase.or.upgrade:
     text: 有關如何升級評估軟體訊息，請拜訪{0}
 message.reference.to.fqn.has.been.copied:
-    text: 參考 ''{0}'' 已被複製。
+    text: "參考 ''{0}'' 已被複製。"
 message.server.no.licenses:
     text: 留在許可伺服器上沒有合適的授權
 message.server.not.available:
@@ -1297,9 +1335,13 @@ message.server.protocol.hijacked:
 message.settings.exported.successfully:
     text: "您的設定已成功匯出。\n你可以使用 ''檔案|匯入設定'' 匯入"
 message.settings.imported.successfully:
-    text: "設定成功匯入。你必須重新啟動{0}重新載入設定。\n關機{1}？"
+    text: |-
+        設定成功匯入。你必須重新啟動{0}重新載入設定。
+        關機{1}？
 message.settings.imported.successfully.restart:
-    text: "設定成功匯入。你必須重新啟動{0}重新載入設定。\n重新啟動{1}？"
+    text: |-
+        設定成功匯入。你必須重新啟動{0}重新載入設定。
+        重新啟動{1}？
 message.text.creating.deployment.descriptor:
     text: 建立部署描述符
 message.text.error.creating.deployment.descriptor:
@@ -1309,11 +1351,11 @@ message.text.unlock.read.only.files:
 message.upgrade.from.previous.required:
     text: 您的授權無效與此版本的{0}使用。 <BR/>有關如何升級您的許可訊息，請拜訪{1} <BR/>您也可以選取一個空閒時間限制的評估。
 message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
-    text: <html><body>你的模組轉換成功。<br> 舊版本被儲存為 ''{0}''</body></html>
+    text: "<html><body>你的模組轉換成功。<br> 舊版本被儲存為 ''{0}''</body></html>"
 model.highlighting.identity:
     text: 名稱 {0} 已經存在
 model.highlighting.identity.in.other.file:
-    text: '{0} 該名稱已經存在於檔案 ''''{1}'''''
+    text: "{0} 該名稱已經存在於檔案 ''{1}''"
 new.library.file.chooser.description:
     text: 在本機庫類別中選取JAR檔案
 new.library.file.chooser.title:
@@ -1357,11 +1399,11 @@ outdated.jre.version.message1:
 outdated.jre.version.message2:
     text: IDE 的 Java 執行環境 ({0}) 可能會導致不穩定。請更新到 {1} 或更高版本。
 package.0.installed.successfully:
-    text: 已成功安裝軟體套件 ''{0}''
+    text: "已成功安裝軟體套件 ''{0}''"
 package.installed.successfully:
     text: 已成功安裝軟體套件
 package.successfully.uninstalled:
-    text: 已成功解除安裝軟體套件 ''{0}''
+    text: "已成功解除安裝軟體套件 ''{0}''"
 package.successfully.upgraded:
     text: 已成功升級軟體套件 {0}
 packages.settings.latest.version:
@@ -1407,7 +1449,7 @@ progress.deleting:
 progress.deleting.class:
     text: 刪除類別{0}
 progress.locate.file.text:
-    text: 定位'' {0}''...
+    text: "定位'' {0}''..."
 progress.looking.for.todos:
     text: 尋找待辦事項...
 progress.searching:
@@ -1429,11 +1471,11 @@ progress.window.empty.text:
 progress.window.title:
     text: 後台工作
 project.directory.is.not.writable:
-    text: 目錄 ''{0}'' 似乎不可寫。請選擇其他位置。
+    text: "目錄 ''{0}'' 似乎不可寫。請選擇其他位置。"
 project.import.default.name.dotIdea:
     text: 從 {0} 匯入的
 project.import.open.existing:
-    text: 現有{1}在 ''{2}''中. 是否開啟現有項目或者刪除它,然後匯入 ''{3}''?
+    text: "現有{1}在 ''{2}''中. 是否開啟現有項目或者刪除它,然後匯入 ''{3}''?"
 project.import.open.existing.openExisting:
     text: 開啟現有項目
 project.import.open.existing.reimport:
@@ -1455,9 +1497,14 @@ prompt.choose.export.settings.file.path:
 prompt.choose.import.file.path:
     text: 選取設定檔案匯入或檔案所在的目錄位於
 prompt.confirm.project.no.jdk:
-    text: "你想建立一個沒有指定SDK的項目？\n編譯，診斷和執行應用程式 SDK 是必需的\n而且是標準的SDK類別。"
+    text: |-
+        你想建立一個沒有指定SDK的項目？
+        編譯，診斷和執行應用程式 SDK 是必需的
+        而且是標準的SDK類別。
 prompt.create.non.existing.package:
-    text: "包{0}不存在。\n你想建立它嗎？"
+    text: |-
+        包{0}不存在。
+        你想建立它嗎？
 prompt.delete.elements:
     text: 刪除{0}?
 prompt.delete.it.anyway:
@@ -1501,7 +1548,7 @@ prompt.gotofile.enter.file.name:
 prompt.gotosymbol.enter.symbol.name:
     text: '輸入符號名稱:'
 prompt.input.favorites.list.new.name:
-    text: '重新命名收藏夾清單 ''''{0}'''' 為:'
+    text: "重新命名收藏夾清單 ''{0}'' 為:"
 prompt.input.new.favorites.list.name:
     text: 輸入新的收藏清單名稱
 prompt.new.project.file.name:
@@ -1509,23 +1556,37 @@ prompt.new.project.file.name:
 prompt.open.project.in.new.frame:
     text: <html><body>新項目可以在新視窗中開啟或替換項目在現有的視窗。<br>你想如何開啟項目?</body></html>
 prompt.overwrite.project.folder:
-    text: "{0}資料夾已經在{1}存在。\n其內容可能會被覆寫。\n要繼續嗎？"
+    text: |-
+        {0}資料夾已經在{1}存在。
+        其內容可能會被覆寫。
+        要繼續嗎？
 prompt.overwrite.settings.file:
-    text: 覆寫'' {0}''？
+    text: "覆寫'' {0}''？"
 prompt.please.check.all.components.to.export:
     text: '請檢查輸出設定:'
 prompt.please.select.module.jdk:
     text: 請選取{0}要為這個模組設定
 prompt.please.select.project.jdk:
-    text: "請選取項目的SDK。\n該SDK將使用預設的所有項目模組。"
+    text: |-
+        請選取項目的SDK。
+        該SDK將使用預設的所有項目模組。
 prompt.please.specify.java.sources.directory:
-    text: "請指定一個目錄在哪裡可以找到適合您的項目的來源檔案。\n此路徑應該對應為預設（根，無名，頂級）封裝。\n註：該計劃將只承認那些來源檔案，位於此目錄下。"
+    text: |-
+        請指定一個目錄在哪裡可以找到適合您的項目的來源檔案。
+        此路徑應該對應為預設（根，無名，頂級）封裝。
+        註：該計劃將只承認那些來源檔案，位於此目錄下。
 prompt.please.specify.module.name:
     text: 請指定模組名
 prompt.please.specify.module.name.and.content.root:
-    text: "請指定模組名和模組的上​​下文根。\n一個模組的內容根本就是屬於該模組的檔案存儲在目錄中。"
+    text: |-
+        請指定模組名和模組的上​​下文根。
+        一個模組的內容根本就是屬於該模組的檔案存儲在目錄中。
 prompt.relative.path.to.sources.empty:
-    text: "相對路徑來源為空。\n你想標記模組內容根\n「{0}」\n作為源目錄？"
+    text: |-
+        相對路徑來源為空。
+        你想標記模組內容根
+        「{0}」
+        作為源目錄？
 prompt.reload.file.from.disk:
     text: 從磁盤重新載入"{0}"，失去所有的修改？
 prompt.reset.to.original.template:
@@ -1535,9 +1596,13 @@ prompt.select.module.file.to.import:
 prompt.select.source.directory:
     text: 選取源目錄
 prompt.specify.module.group.name:
-    text: "指定{0}將根據被顯示群組組名稱。\n\n"
+    text: |+
+        指定{0}將根據被顯示群組組名稱。
+
 prompt.specify.name.of.module.subgroup:
-    text: "指定的名稱{0}子群組{1}將根據顯示。\n\n"
+    text: |+
+        指定的名稱{0}子群組{1}將根據顯示。
+
 prompt.stop.searching.for.sources:
     text: '{0}正在尋找來源。你想停止搜索？'
 quick.lists.presentable.name:
@@ -1591,7 +1656,7 @@ run.anything.context.title.working.directory:
 run.anything.context.tooltip:
     text: 選擇將在其中執行當前指令的上下文
 run.anything.group.settings.title:
-    text: 顯示 ''{0}''
+    text: "顯示 ''{0}''"
 run.anything.help.list.empty.secondary.text:
     text: 選取命令
 run.anything.hint.initial.text:
@@ -1617,7 +1682,7 @@ run.canceled.by.user.message:
 run.configuration.error.executable.not.specified:
     text: 未指定可執行檔案
 scope.banner.text:
-    text: 作用範圍 ''{0}''
+    text: "作用範圍 ''{0}''"
 scope.class.hierarchy:
     text: 類別層次結構
 scope.current.file:
@@ -1703,9 +1768,9 @@ search.textfield.title:
 searcheverywhere.commands.tab.name:
     text: 指令
 searcheverywhere.indexing.incomplete.results:
-    text: 在 {1} 更新索引期間，''{0}'' 中的搜尋結果可能不完整
+    text: "在 {1} 更新索引期間，''{0}'' 中的搜尋結果可能不完整"
 searcheverywhere.indexing.mode.not.supported:
-    text: 在 {1} 更新索引期間，無法在 ''{0}'' 中搜尋
+    text: "在 {1} 更新索引期間，無法在 ''{0}'' 中搜尋"
 searcheverywhere.run.configs.tab.name:
     text: 執行設定
 searcheverywhere.runconfigurations.command.debug.description:
@@ -2049,10 +2114,18 @@ value.should.be.integer:
 vmoptions.warn.message:
     text: '{0} MB 的代碼快取太小了。增大到 {1} MB 或以上以避免性能問題。'
 warning.delete.all.files.and.subdirectories:
-    text: "\n中的所有檔案和子目錄「{0}」，將被刪除。\n你可能無法完全還原此操作！"
+    text: |4-
+
+        中的所有檔案和子目錄「{0}」，將被刪除。
+        你可能無法完全還原此操作！
 warning.delete.all.files.and.subdirectories.in.the.selected.directory:
-    text: "\n選擇的目錄中的所有檔案和子目錄都將被刪除。\n你可能無法完全還原此操作！"
+    text: |4-
+
+        選擇的目錄中的所有檔案和子目錄都將被刪除。
+        你可能無法完全還原此操作！
 warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
-    text: 該模組檔案''{0}''已經存在。
+    text: "該模組檔案''{0}''已經存在。"
 warning.text.0.do.you.want.to.overwrite.these.files:
-    text: "{0}\n你想覆寫 {1,choice,1#it|2#these files} 嗎？"
+    text: |-
+        {0}
+        你想覆寫 {1,choice,1#it|2#these files} 嗎？

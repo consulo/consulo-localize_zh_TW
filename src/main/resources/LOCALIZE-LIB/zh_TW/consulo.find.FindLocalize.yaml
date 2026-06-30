@@ -43,7 +43,7 @@ find.empty.search.text.error:
 find.excessive.total.size.prompt:
     text: 發現使用在檔案的總大小為{0}。如果你繼續, {1}可能會變得反應遲鈍,甚至無法跳出記憶體錯誤.要繼續嗎?
 find.field.accessors.prompt:
-    text: 你想搜索的 ''{0}''?
+    text: "你想搜索的 ''{0}''?"
 find.field.accessors.title:
     text: 搜索存取器
 find.filter.empty.file.mask.error:
@@ -97,7 +97,7 @@ find.origin.from.cursor.radio:
 find.origin.group:
     text: 從開始位置
 find.parameter.usages.in.overriding.methods.prompt:
-    text: 你想在重寫的方法中搜索參數 ''{0}'' 的用法?
+    text: "你想在重寫的方法中搜索參數 ''{0}'' 的用法?"
 find.parameter.usages.in.overriding.methods.title:
     text: 在重寫的方法中搜索
 find.pointcut.applications.not.found.title:
@@ -133,13 +133,16 @@ find.replace.history:
 find.replace.in.project.dialog.title:
     text: 在路徑中替換
 find.replace.invalid.replacement.string:
-    text: '您輸入了錯誤的替換字串: ''''{0}'''''
+    text: "您輸入了錯誤的替換字串: ''{0}''"
 find.replace.invalid.replacement.string.title:
     text: 替換錯誤
 find.replace.occurrences.found.in.read.only.files.status:
     text: 在唯讀檔案中找到符合項
 find.replace.occurrences.in.read.only.files.prompt:
-    text: "在唯讀檔案中找到的符合項。\n該操作不會影響他們。\n是否繼續？"
+    text: |-
+        在唯讀檔案中找到的符合項。
+        該操作不會影響他們。
+        是否繼續？
 find.replace.occurrences.in.read.only.files.title:
     text: 找到的唯讀檔案
 find.replace.select.on.editor.command:
@@ -197,13 +200,15 @@ find.search.history:
 find.search.string.not.found.message:
     text: '"{0}" 未找到'
 find.searched.elements.have.been.changed.error:
-    text: "搜索的元素已被變更。\n不能搜索使用實例。"
+    text: |-
+        搜索的元素已被變更。
+        不能搜索使用實例。
 find.searching.for.references.to.class.progress:
     text: 在{0}中搜索類別的參照...
 find.searching.for.string.in.file.occurrences.progress:
     text: '目前發現: {0,choice,0#No|1#{0}} {0,choice,0#occurrences|1#occurrence|2#occurrences}'
 find.searching.for.string.in.file.progress:
-    text: 搜尋 ''{0}'' in {1}...
+    text: "搜尋 ''{0}'' in {1}..."
 find.selection.only:
     text: 在所選內容中搜尋
 find.super.method.warning.action.verb:
@@ -215,11 +220,11 @@ find.text.to.find.label:
 find.usage.view.no.usages.text:
     text: 沒有找到的使用實例
 find.usage.view.tab.text:
-    text: 出現的 ''{0}''{1}
+    text: "出現的 ''{0}''{1}"
 find.usage.view.toolwindow.title:
-    text: 出現的 ''{0}'' in {1}{2}
+    text: "出現的 ''{0}'' in {1}{2}"
 find.usage.view.usages.text:
-    text: 出現的 ''{0}''
+    text: "出現的 ''{0}''"
 find.usages.dialog.title:
     text: 搜尋使用實例
 find.usages.in.file.dialog.title:
@@ -301,7 +306,7 @@ progress.title.updating.usage.view:
 recent.find.usages.action.nothing:
     text: 沒有最近的搜尋使用實例項目
 recent.find.usages.action.popup:
-    text: '{0} ''''{1}''''在{2}'
+    text: "{0} ''{1}''在{2}"
 recent.find.usages.action.title:
     text: 最近的搜尋實例
 results.options.group:

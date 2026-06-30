@@ -7,7 +7,7 @@ ACT.qualify.with.module:
 ANN.assign.to.none:
     text: 賦值給 None
 ANN.break.outside.loop:
-    text: '''break'' 在迴圈外'
+    text: "'break' 在迴圈外"
 ANN.cant.assign.to.call:
     text: 無法賦值給函數調用
 ANN.cant.assign.to.comprh:
@@ -43,9 +43,9 @@ ANN.cant.delete.call:
 ANN.cant.delete.literal:
     text: 無法刪除文字
 ANN.continue.outside.loop:
-    text: '''continue'' 在迴圈外'
+    text: "'continue' 在迴圈外"
 ANN.default.except.must.be.last:
-    text: 預設 'except:' 必須為最後一個
+    text: "預設 'except:' 必須為最後一個"
 ANN.deleting.none:
     text: 刪除 None
 ANN.duplicate.param.name:
@@ -61,7 +61,7 @@ ANN.regular.param.after.keyword:
 ANN.regular.param.after.vararg:
     text: 正則參數在 * 參數後面
 ANN.star.import.at.top.only:
-    text: 僅在模組級別允許 'import *'
+    text: "僅在模組級別允許 'import *'"
 ANN.starred.param.after.kwparam:
     text: '* 參數在 ** 參數後面'
 ANN.tuple.py3:
@@ -77,7 +77,7 @@ INSP.NAME.attribute.outside.init:
 INSP.NAME.augment.assignment:
     text: 賦值可取代為增強賦值
 INSP.NAME.bad.except.clauses.order:
-    text: 順序錯誤的 'except' 子句
+    text: "順序錯誤的 'except' 子句"
 INSP.NAME.byte.literal:
     text: 字節文字包含非 ASCII 字符
 INSP.NAME.chained.comparisons:
@@ -103,7 +103,7 @@ INSP.NAME.docstring.types:
 INSP.NAME.duplicate.keys:
     text: 字典包含重複鍵
 INSP.NAME.exception.not.inherit:
-    text: 不從標準 'Exception' 類繼承異常
+    text: "不從標準 'Exception' 類繼承異常"
 INSP.NAME.first.arg.assign:
     text: 此方法的第一個實參被重新賦值
 INSP.NAME.from.future.import:
@@ -129,7 +129,7 @@ INSP.NAME.method.over:
 INSP.NAME.missing.or.empty.docstring:
     text: 缺失或空 docstring
 INSP.NAME.missing.super.constructor:
-    text: 缺少對超類 '__init__' 的調用
+    text: "缺少對超類 '__init__' 的調用"
 INSP.NAME.nested.decorators:
     text: 裝飾器嵌套有問題
 INSP.NAME.new.init.signature:
@@ -217,13 +217,13 @@ INSP.init.incompatible.to.new:
 INSP.message.single.quoted.docstring:
     text: 應對 docstring 使用帶三個雙引號的字串。
 INSP.method.may.be.static:
-    text: 方法 <code>#ref</code> 可能為 'static'
+    text: "方法 <code>#ref</code> 可能為 'static'"
 INSP.missing.parameter.in.docstring:
     text: docstring 中的缺失參數 {0}
 INSP.missing.super.constructor.message:
     text: 缺少對超類 __init__ 的調用
 INSP.must.have.first.parameter:
-    text: 方法必須有第一個參數，通常叫做 ''{0}''
+    text: "方法必須有第一個參數，通常叫做 ''{0}''"
 INSP.new.incompatible.to.init:
     text: 簽名不相容 __init__
 INSP.no.docstring:
@@ -231,7 +231,7 @@ INSP.no.docstring:
 INSP.no.format.specifier.char:
     text: 缺少格式說明符
 INSP.none.function.assignment:
-    text: 函數 ''{0}'' 不返回任何內容
+    text: "函數 ''{0}'' 不返回任何內容"
 INSP.oldstyle.class.getattribute:
     text: 老式類包含 __getattribute__ 定義
 INSP.oldstyle.class.slots:
@@ -239,15 +239,15 @@ INSP.oldstyle.class.slots:
 INSP.oldstyle.class.super:
     text: 老式類包含對 super 方法的調用
 INSP.probably.mistyped.self:
-    text: 你不是指 'self' 嗎？
+    text: "你不是指 'self' 嗎？"
 INSP.redeclared.name:
-    text: 已重新宣告上文定義的無用法的 ''{0}''
+    text: "已重新宣告上文定義的無用法的 ''{0}''"
 INSP.setter.should.not.return:
     text: setter 不應返回值
 INSP.setter.signature.advice:
     text: Setter 簽名應為 (self, value)
 INSP.signature.mismatch:
-    text: 方法 ''{0}'' 的簽名與類 ''{1}'' 中基方法的簽名不符合
+    text: "方法 ''{0}'' 的簽名與類 ''{1}'' 中基方法的簽名不符合"
 INSP.strange.arg.want.callable:
     text: 奇怪實參；應為可調用對象
 INSP.too.few.args.for.fmt.string:
@@ -257,15 +257,15 @@ INSP.too.few.keys:
 INSP.too.many.args.for.fmt.string:
     text: 格式字串的實參太多
 INSP.try.except.import.error:
-    text: 包含 ''except ImportError'' 的 try 塊中的 ''{0}'' 也應在 except 塊中定義
+    text: "包含 ''except ImportError'' 的 try 塊中的 ''{0}'' 也應在 except 塊中定義"
 INSP.tuples.never.assign.items:
     text: 元組不支持專案賦值
 INSP.unbound.function.too.large:
-    text: 函數 ''{0}'' 太大，無法分析
+    text: "函數 ''{0}'' 太大，無法分析"
 INSP.unbound.local.variable:
-    text: 局部變數 ''{0}'' 可能在賦值前引用
+    text: "局部變數 ''{0}'' 可能在賦值前引用"
 INSP.unbound.nonlocal.variable:
-    text: 非局部變數 ''{0}'' 必須綁定在外部函數範圍中
+    text: "非局部變數 ''{0}'' 必須綁定在外部函數範圍中"
 INSP.unexpected.arg:
     text: 意外實參
 INSP.unexpected.parameter.in.docstring:
@@ -273,17 +273,17 @@ INSP.unexpected.parameter.in.docstring:
 INSP.unreachable.code:
     text: 此程式碼無法存取
 INSP.unused.locals.local.class.isnot.used:
-    text: 未使用局部類 ''{0}''
+    text: "未使用局部類 ''{0}''"
 INSP.unused.locals.local.function.isnot.used:
-    text: 未使用本地函數 ''{0}''
+    text: "未使用本地函數 ''{0}''"
 INSP.unused.locals.local.variable.isnot.used:
-    text: 未使用局部變數 ''{0}'' 的值
+    text: "未使用局部變數 ''{0}'' 的值"
 INSP.unused.locals.parameter.isnot.used:
-    text: 未使用參數 ''{0}'' 的值
+    text: "未使用參數 ''{0}'' 的值"
 INSP.unused.locals.replace.with.wildcard:
     text: 取代為 _
 INSP.usually.named.self:
-    text: 方法的第一個參數通常叫做 'self'
+    text: "方法的第一個參數通常叫做 'self'"
 INTN.add.parameters.to.docstring:
     text: 向 docstring 添加參數
 INTN.convert.builtin.import:
@@ -293,7 +293,7 @@ INTN.convert.dict.constructor.to.dict.literal:
 INTN.convert.dict.literal.to.dict.constructor:
     text: 將 dict 文字轉換為 dict 構造函數
 INTN.convert.except.to:
-    text: 將 'except exceptClass, Target' 轉換為 'except exceptClass as Target'
+    text: "將 'except exceptClass, Target' 轉換為 'except exceptClass as Target'"
 INTN.convert.lambda.to.function:
     text: 將 lambda 轉換為函數
 INTN.convert.method.to.property:
@@ -305,15 +305,15 @@ INTN.convert.to.fstring.literal:
 INTN.convert.variadic.param:
     text: 將可變形參轉換為正常參數
 INTN.flip.comparison:
-    text: 翻轉 ''{0}''
+    text: "翻轉 ''{0}''"
 INTN.format.operator.to.method:
-    text: 將格式運算符轉換為 'str.format' 方法調用
+    text: "將格式運算符轉換為 'str.format' 方法調用"
 INTN.insert.assertion:
     text: 插入類型斷言
 INTN.join.if:
-    text: 聯接兩個 'if' 語句
+    text: "聯接兩個 'if' 語句"
 INTN.negate.comparison:
-    text: 將 ''{0}'' 求反為 ''{1}''
+    text: "將 ''{0}'' 求反為 ''{1}''"
 INTN.quoted.string:
     text: 將帶單引號的字串轉換為帶雙引號的字串，反之亦然
 INTN.quoted.string.double.to.single:
@@ -325,7 +325,7 @@ INTN.replace.backquote.expression:
 INTN.replace.list.comprehensions:
     text: 將列表推導式轉換為支援的形式
 INTN.replace.list.comprehensions.with.for:
-    text: 將列表推導式轉換為 'for' 迴圈
+    text: "將列表推導式轉換為 'for' 迴圈"
 INTN.replace.noteq.operator:
     text: 取代不等運算符
 INTN.replace.octal.numeric.literal:
@@ -343,55 +343,55 @@ INTN.specify.return.type.in.annotation:
 INTN.specify.type.in.annotation:
     text: 使用註解指定引用類型
 INTN.split.if:
-    text: 拆分成 2 條 'if' 語句
+    text: "拆分成 2 條 'if' 語句"
 INTN.string.concatenation.to.format:
-    text: 將字串串聯取代為 'str.format'
+    text: "將字串串聯取代為 'str.format'"
 INTN.transform.into.if.else.statement:
-    text: 將條件表達式轉換為 'if/else' 語句
+    text: "將條件表達式轉換為 'if/else' 語句"
 INTN.triple.quoted.string:
     text: 將三引號字串轉換為帶單引號的字串
 INTN.yield.from:
-    text: 將含有 'yield' 的顯式迭代轉換為 'yield from' 表達式
+    text: "將含有 'yield' 的顯式迭代轉換為 'yield from' 表達式"
 PARSE.expected.colon:
-    text: 應為 ':'
+    text: "應為 ':'"
 PARSE.expected.colon.or.rbracket:
-    text: 應為 ':' 或 ']'
+    text: "應為 ':' 或 ']'"
 PARSE.expected.comma:
-    text: 應為 ','
+    text: "應為 ','"
 PARSE.expected.comma.lpar.rpar:
-    text: 應為 ',' 或 '(' 或 ')'
+    text: "應為 ',' 或 '(' 或 ')'"
 PARSE.expected.comma.or.rpar:
-    text: 應為 ',' 或 ')'
+    text: "應為 ',' 或 ')'"
 PARSE.expected.else:
-    text: 應為 'else'
+    text: "應為 'else'"
 PARSE.expected.expr.or.comma.or.bracket:
-    text: 應為表達式 ',' 或 ']'
+    text: "應為表達式 ',' 或 ']'"
 PARSE.expected.expression:
     text: 應為表達式
 PARSE.expected.for.or.bracket:
-    text: 應為 ']' 或 'for'
+    text: "應為 ']' 或 'for'"
 PARSE.expected.formal.param.name:
     text: 應為參數名稱
 PARSE.expected.identifier:
     text: 應為關鍵字
 PARSE.expected.in:
-    text: 應為 'in'
+    text: "應為 'in'"
 PARSE.expected.lpar:
-    text: 應為 '('
+    text: "應為 '('"
 PARSE.expected.name:
     text: 應為名稱
 PARSE.expected.rbrace:
-    text: 應為 '}'
+    text: "應為 '}'"
 PARSE.expected.rbracket:
-    text: 應為 ']'
+    text: "應為 ']'"
 PARSE.expected.rpar:
-    text: 應為 ')'
+    text: "應為 ')'"
 PARSE.expected.statement.break:
     text: 應為 break 語句
 PARSE.expected.tick:
-    text: 應為 '`' (反引號)
+    text: "應為 '`' (反引號)"
 QDOC.epydoc.python2.sdk.not.found:
-    text: 您需要設定好的 Python 2 SDK 來渲染 <a href='http://epydoc.sourceforge.net/'>Epydoc</a> docstring
+    text: "您需要設定好的 Python 2 SDK 來渲染 <a href='http://epydoc.sourceforge.net/'>Epydoc</a> docstring"
 QDOC.module.path.unknown:
     text: (模組路徑未知)
 QFIX.NAME.add.exception.base:
@@ -437,9 +437,9 @@ QFIX.add.encoding:
 QFIX.add.global:
     text: 添加全域語句
 QFIX.add.import.add.import:
-    text: 添加 "''{0}''"
+    text: "添加 \"''{0}''\""
 QFIX.add.parameter.self:
-    text: 添加參數 ''{0}''
+    text: "添加參數 ''{0}''"
 QFIX.add.property:
     text: 添加欄位的屬性
 QFIX.add.super:
@@ -447,7 +447,7 @@ QFIX.add.super:
 QFIX.augment.assignment:
     text: 將賦值取代為增強賦值
 QFIX.auto.import.import.name:
-    text: 匯入 ''{0}''
+    text: "匯入 ''{0}''"
 QFIX.auto.import.import.this.name:
     text: 匯入此名稱
 QFIX.chained.comparison:
@@ -485,7 +485,7 @@ QFIX.make.public:
 QFIX.move.attribute:
     text: 將特性移至 __init__ 方法
 QFIX.move.from.future.import:
-    text: 將 'from __future__ import' 移至正確位置
+    text: "將 'from __future__ import' 移至正確位置"
 QFIX.redundant.parentheses:
     text: 移除冗餘圓括號
 QFIX.remove.argument.equal.default:
@@ -505,9 +505,9 @@ QFIX.replace.function.set.with.literal:
 QFIX.statement.effect:
     text: 取代為函數調用
 QFIX.unresolved.reference:
-    text: 將 ''{0}'' 取代為 ''{1}.{0}''
+    text: "將 ''{0}'' 取代為 ''{1}.{0}''"
 QFIX.unresolved.reference.add.param:
-    text: 創建參數 ''{0}''
+    text: "創建參數 ''{0}''"
 QFIX.use.property:
     text: 使用此欄位的屬性
 active.sdk.dialog.project.interpreter:
@@ -535,7 +535,7 @@ custom.type.mimic.name:
 debug.popup.title.step.into.function:
     text: 單步進入函數
 formatter.after.hash:
-    text: '''#'' 之後'
+    text: "'#' 之後"
 formatter.after.local.imports:
     text: 在本地匯入後面：
 formatter.align.when.multiline:
@@ -553,9 +553,9 @@ formatter.around.top.level.classes.and.function:
 formatter.around.top.level.imports:
     text: 在頂層匯入後：
 formatter.before.backslash:
-    text: ''''' 之前'
+    text: "'' 之前"
 formatter.before.hash:
-    text: '''#'' 之前'
+    text: "'#' 之前"
 formatter.braces:
     text: 大括號
 formatter.collections.and.comprehensions:
@@ -621,7 +621,10 @@ refactoring.change.signature.error.tuple.parameters:
 refactoring.change.signature.error.wrong.caret.position.method.name:
     text: 文字游標應置於要重構的方法的名稱處
 refactoring.change.signature.find.usages.of.base.class:
-    text: "類 {1} 的方法 {0}\n覆寫類 {2} 的方法。\n要重構基方法嗎?"
+    text: |-
+        類 {1} 的方法 {0}
+        覆寫類 {2} 的方法。
+        要重構基方法嗎?
 refactoring.change.signature.usage.view.declarations.header:
     text: 要重構的函數
 refactoring.convert.package.to.module.error.not.empty.package:
@@ -651,13 +654,13 @@ refactoring.extract.method.error.returns:
 refactoring.extract.method.error.star.import:
     text: 無法使用程式碼塊內的星號 import 語句執行重構
 refactoring.extract.method.error.yield:
-    text: 無法使用程式碼塊內的 'yield' 語句執行重構
+    text: "無法使用程式碼塊內的 'yield' 語句執行重構"
 refactoring.extract.super.class.no.members.allowed:
     text: 無法提取任何成員
 refactoring.extract.super.name.0.must.be.ident:
-    text: 名稱 ''{0}'' 無效。必須為有效的 Python 關鍵字
+    text: "名稱 ''{0}'' 無效。必須為有效的 Python 關鍵字"
 refactoring.extract.super.target.class.already.exists:
-    text: 此模組中已存在類 ''{0}''
+    text: "此模組中已存在類 ''{0}''"
 refactoring.extract.super.target.path.outside.roots:
     text: 該目標目錄在專案外部。必須在內容根內
 refactoring.inline.local.multiassignment:
@@ -723,7 +726,7 @@ refactoring.pull.up.error.cannot.perform.refactoring.no.base.classes:
 refactoring.pull.up.error.cannot.perform.refactoring.not.inside.class:
     text: 無法執行向上拉取成員：不在此類中
 refactoring.will.not.be.accessible:
-    text: 您在嘗試移動的成員依賴於在此重構後無法存取的 ''{0}''
+    text: "您在嘗試移動的成員依賴於在此重構後無法存取的 ''{0}''"
 remote.debug.info:
     text: 資訊
 remote.debug.local.host:
@@ -743,11 +746,11 @@ remote.debug.server.hint:
 remote.debug.server.hint1.5:
     text: 更新腳本：
 remote.debug.server.hint2:
-    text: '1. 將 pydevd-pycharm.egg 從 PyCharm 安裝目錄添加到 Python 路徑或執行：'
+    text: 1. 將 pydevd-pycharm.egg 從 PyCharm 安裝目錄添加到 Python 路徑或執行：
 remote.debug.server.hint3:
     text: pip 安裝 pydevd-pycharm
 remote.debug.server.hint4:
-    text: '2. 添加以下指令以連接至偵錯伺服器：'
+    text: 2. 添加以下指令以連接至偵錯伺服器：
 remote.debug.settings:
     text: 設定
 remote.debug.suspend.on.connect:
@@ -883,7 +886,7 @@ sdk.some.skeletons.failed:
 smartKeys.insert.backslash.in.statement.on.enter:
     text: 在語句內按 Enter 時插入反斜杠
 smartKeys.insert.self.in.method:
-    text: 定義方法時插入 'self'
+    text: "定義方法時插入 'self'"
 smartKeys.insert.type.placeholder.in.docstring.stub:
     text: 在文檔註釋存根中插入類型佔位符
 unable.to.stop:

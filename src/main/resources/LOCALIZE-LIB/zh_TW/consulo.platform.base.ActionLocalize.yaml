@@ -119,7 +119,7 @@ action.ChangeSplitOrientation.text:
 action.ChangeTemplateDataLanguage.text:
     text: 變更範本資料語言
 action.ChangeToThisFileTypeAction.description:
-    text: 將檔案類型覆寫為 ''{0}''
+    text: "將檔案類型覆寫為 ''{0}''"
 action.ChangeTypeSignature.description:
     text: 方法的返回類型、欄位、參數、變數或類別類型參數變化時糾正所有參照
 action.ChangeTypeSignature.text:
@@ -1087,7 +1087,7 @@ action.OverrideFileTypeAction.description:
 action.OverrideFileTypeAction.text:
     text: 覆寫檔案類型
 action.OverrideFileTypeAction.verbose.description:
-    text: 將檔案 ''{0}''{1,choice,0#|1# ( 和其他 {1} 個檔案)}視為具有不同檔案類型的檔案
+    text: "將檔案 ''{0}''{1,choice,0#|1# ( 和其他 {1} 個檔案)}視為具有不同檔案類型的檔案"
 action.OverrideMethods.description:
     text: 在目前類別中重寫基礎類別方法
 action.OverrideMethods.text:
@@ -1275,7 +1275,7 @@ action.ReverteOverrideFileTypeAction.description:
 action.ReverteOverrideFileTypeAction.text:
     text: 還原檔案類型覆寫
 action.ReverteOverrideFileTypeAction.verbose.description:
-    text: 撤消“覆寫檔案類型”操作並為檔案 ''{0}''{1,choice,0#|1# (和其他 {1} 個檔案)}恢復舊的檔案類型
+    text: "撤消“覆寫檔案類型”操作並為檔案 ''{0}''{1,choice,0#|1# (和其他 {1} 個檔案)}恢復舊的檔案類型"
 action.RunAnything.description:
     text: 允許執行任何指令
 action.RunAnything.text:
@@ -1365,7 +1365,7 @@ action.Runner.RestoreLayout.text:
 action.Runner.RestoreView.description:
     text: 恢復診斷器網格中的檢視
 action.Runner.RestoreView.text:
-    text: 恢復 ''{0}'' 檢視
+    text: "恢復 ''{0}'' 檢視"
 action.Runner.ToggleToolbarLayout.description:
     text: 切換水平/垂直方向的工具列
 action.Runner.ToggleToolbarLayout.text:
@@ -1979,7 +1979,7 @@ group.OtherMenu.text:
 group.OverrideFileTypeAction.bundledPlugin:
     text: 捆綁
 group.OverrideFileTypeAction.fromNamedPlugin:
-    text: 自 ''{0}'' 延伸模組
+    text: "自 ''{0}'' 延伸模組"
 group.OverrideFileTypeAction.title:
     text: 選擇檔案類型
 group.PairFileActions.text:

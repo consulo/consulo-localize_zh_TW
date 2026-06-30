@@ -11,31 +11,31 @@ index.rebuild.notification.title:
 indexable.files.provider.indexing.additional.dependencies:
     text: 正在為依賴項編制索引
 indexable.files.provider.indexing.fileOrDir.name:
-    text: 正在為 ''{0}'' 編制索引
+    text: "正在為 ''{0}'' 編制索引"
 indexable.files.provider.indexing.internal.module.name:
     text: 正在編制索引
 indexable.files.provider.indexing.library.name:
-    text: 正在為庫 ''{0}'' 編制索引
+    text: "正在為庫 ''{0}'' 編制索引"
 indexable.files.provider.indexing.module.name:
-    text: 正在為模組 ''{0}'' 編制索引
+    text: "正在為模組 ''{0}'' 編制索引"
 indexable.files.provider.indexing.named.provider:
-    text: 正在為 ''{0}'' 編制索引
+    text: "正在為 ''{0}'' 編制索引"
 indexable.files.provider.indexing.sdk:
-    text: 正在為{0} ''{1}'' 編制索引
+    text: "正在為{0} ''{1}'' 編制索引"
 indexable.files.provider.scanning.additional.dependencies:
     text: 正在掃描依賴項
 indexable.files.provider.scanning.fileOrDir.name:
-    text: 正在掃描 ''{0}''
+    text: "正在掃描 ''{0}''"
 indexable.files.provider.scanning.files.contributor:
-    text: 正在掃描 ''{0}''
+    text: "正在掃描 ''{0}''"
 indexable.files.provider.scanning.internal.module.name:
     text: 正在掃描
 indexable.files.provider.scanning.library.name:
-    text: 正在掃描庫 ''{0}''
+    text: "正在掃描庫 ''{0}''"
 indexable.files.provider.scanning.module.name:
-    text: 正在掃描模組 ''{0}''
+    text: "正在掃描模組 ''{0}''"
 indexable.files.provider.scanning.sdk:
-    text: 正在掃描{0} ''{1}''
+    text: "正在掃描{0} ''{1}''"
 indexes.preparing.to.shutdown.message:
     text: 正在準備要關閉的索引…
 indexes.reloading:
@@ -61,9 +61,9 @@ psi.search.scope.project.and.libraries:
 removing.indexable.set.project.handler:
     text: 正在移除專案檔案的索引
 search.scope.module:
-    text: 模組 ''{0}''
+    text: "模組 ''{0}''"
 search.scope.module.runtime:
-    text: 模組 ''{0}'' 執行時範圍
+    text: "模組 ''{0}'' 執行時範圍"
 terms.directory:
     text: 目錄
 terms.file:

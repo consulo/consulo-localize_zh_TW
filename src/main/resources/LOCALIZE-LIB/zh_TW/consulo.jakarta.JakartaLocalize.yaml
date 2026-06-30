@@ -129,7 +129,7 @@ action.text.select.all:
 action.text.unselect.all:
     text: 取消全選
 action.text.validate.facet:
-    text: 驗證 facet ''{0}'' 中的所有檔案
+    text: "驗證 facet ''{0}'' 中的所有檔案"
 add.web.root:
     text: 將 {0} 設定為 Web 根
 additional.deployment.descriptor.file.description.additional.resource:
@@ -251,7 +251,7 @@ combobox.deployment.descriptor.version:
 command.apply.interceptor.bindings.command:
     text: 修改偵聽器綁定
 command.name.create.0.1:
-    text: 創建{0} ''{1}''
+    text: "創建{0} ''{1}''"
 command.name.create.directory:
     text: 創建目錄
 command.name.create.transfer.object:
@@ -263,11 +263,14 @@ command.name.delete.ejb.class:
 confirmation.text.class.does.not.exist.create.it:
     text: 類 {0} 不存在。要創建嗎?
 confirmation.text.classes.do.not.exist.create.them:
-    text: "類\n{0}\n不存在。要創建嗎?"
+    text: |-
+        類
+        {0}
+        不存在。要創建嗎?
 confirmation.text.create.directory:
-    text: 創建目錄 ''{0}''?
+    text: "創建目錄 ''{0}''?"
 confirmation.text.regenerate.equals.and.hashcode.for.class:
-    text: 為類 ''{0}'' 重新生成 equals 和 hashCode 方法?
+    text: "為類 ''{0}'' 重新生成 equals 和 hashCode 方法?"
 default.run.configuration.name.unnamed:
     text: 未命名
 deployment.descriptor.panel.directory.path.relative.to.deployment.root.label:
@@ -365,7 +368,7 @@ dialog.title.create.new.0:
 dialog.title.create.new.cmp.field:
     text: 創建 CMP 欄位
 dialog.title.create.new.ejb.0:
-    text: 創建新 EJB ''{0}''
+    text: "創建新 EJB ''{0}''"
 dialog.title.default.shutdown.script:
     text: 預設關機腳本
 dialog.title.default.startup.script:
@@ -377,7 +380,7 @@ dialog.title.edit.0:
 dialog.title.edit.ejb.ql.query:
     text: 編輯 EJB QL 查詢
 dialog.title.edit.interceptor.bindings:
-    text: 編輯偵聽器 ''{0}'' 綁定
+    text: "編輯偵聽器 ''{0}'' 綁定"
 dialog.title.ejb.relationship.properties:
     text: EJB 關係屬性
 dialog.title.new.filter:
@@ -457,11 +460,13 @@ ejb.type.stateful.bean:
 ejb.type.stateless.bean:
     text: 無狀態會話 Bean
 error.cannot.create.deployment.descriptor:
-    text: "無法創建 {0}\n{1}"
+    text: |-
+        無法創建 {0}
+        {1}
 error.deployment.descriptor.already.exists:
-    text: 檔案 ''{0}'' 上的部署描述符已存在
+    text: "檔案 ''{0}'' 上的部署描述符已存在"
 error.deployment.descriptor.target.in.use:
-    text: 部署描述符目標檔案 ''{0}'' 正在使用
+    text: "部署描述符目標檔案 ''{0}'' 正在使用"
 error.please.specify.path.to.deployment.descriptor:
     text: 請指定 {0} 的路徑
 exception.text.address.is.in.use:
@@ -469,21 +474,21 @@ exception.text.address.is.in.use:
 exception.text.alternative.jre.not.specified:
     text: 未指定替代 JRE
 exception.text.application.server.0.not.configured:
-    text: 未設定應用程式伺服器 ''{0}''
+    text: "未設定應用程式伺服器 ''{0}''"
 exception.text.application.server.not.specified:
     text: 未指定應用程式伺服器
 exception.text.descriptor.not.defined:
-    text: 未定義 ''{0}''
+    text: "未定義 ''{0}''"
 exception.text.invalid.port.value:
     text: '無效的連接埠值: {0}'
 exception.text.malformed.url:
-    text: '格式不正確的 URL: ''''{0}'''''
+    text: "格式不正確的 URL: ''{0}''"
 exception.text.startup.script.is.not.specified:
     text: 未指定啟動腳本
 facet.0.in.module.1.text:
     text: '{0} ({1} 中)'
 facet.0.in.module.1.text.detailed:
-    text: '''''{0}'''' facet (在模組 ''''{1}'''' 中)'
+    text: "''{0}'' facet (在模組 ''{1}'' 中)"
 generic.application.server.default.name:
     text: 通用
 group.GeneratePersistenceMapping.text:
@@ -509,7 +514,7 @@ inspection.javaee.web.warnings.name:
 inspection.javaee.web.xml.mime.type:
     text: MIME 類型
 inspection.javaee.web.xml.mime.type.message:
-    text: '''''{0}'''' 不是有效的 MIME 類型'
+    text: "''{0}'' 不是有效的 MIME 類型"
 inspection.javaee.web.xml.name:
     text: Web.xml 錯誤
 inspection.javaee.xml.display.name:
@@ -521,9 +526,9 @@ intention.add.method.to.ejb.class.error.no.impl.class.message:
 intention.add.method.to.ejb.class.family:
     text: 將方法添加到 EJB 類中
 intention.add.method.to.ejb.class.text:
-    text: 將 ''{0}'' 添加到 Bean 實作類 {1} 中
+    text: "將 ''{0}'' 添加到 Bean 實作類 {1} 中"
 intention.add.method.to.ejb.interface.chooser.label:
-    text: 將 ''{0}'' 添加到
+    text: "將 ''{0}'' 添加到"
 intention.add.method.to.ejb.interface.chooser.title:
     text: 選擇接口
 intention.add.method.to.ejb.interface.command.name:
@@ -535,7 +540,7 @@ intention.add.method.to.ejb.interface.error.no.interface:
 intention.add.method.to.ejb.interface.family:
     text: 將方法添加到 EJB 接口中
 intention.add.method.to.ejb.interface.text:
-    text: 將 ''{0}'' 添加到 Bean 接口中
+    text: "將 ''{0}'' 添加到 Bean 接口中"
 interceptor.method.container.node.title:
     text: 偵聽器方法
 j2ee.facet.fake.file.type:
@@ -623,7 +628,7 @@ label.j2eenames.session.bean:
 label.new.web.root.web.resource.directory.path:
     text: 'Web 資源目錄路徑(&P):'
 label.pk.class.dialog.pk.class.cant.contain.compound.primary.key:
-    text: <html>PK 類 ''{0}'' 不能包含複合主鍵。<br>請任選以下操作:<ul><li>指定可以保留所有 CMP 欄位的主鍵類，或</li><li>提供軟體套件和類名以創建新主鍵類</li></html>
+    text: "<html>PK 類 ''{0}'' 不能包含複合主鍵。<br>請任選以下操作:<ul><li>指定可以保留所有 CMP 欄位的主鍵類，或</li><li>提供軟體套件和類名以創建新主鍵類</li></html>"
 label.prefix:
     text: 前綴
 label.properties.class:
@@ -645,7 +650,7 @@ label.servlet.properties.package:
 label.suffix:
     text: '後綴:'
 label.text.creating.ejb:
-    text: 正在創建 EJB ''{0}''
+    text: "正在創建 EJB ''{0}''"
 label.text.no.application.server.selected:
     text: 未選擇應用程式伺服器
 label.web.root.dialog.relative.path.in.deployment.directory:
@@ -661,33 +666,33 @@ link.display.text.configure.j2ee.names:
 local.vcs.label.name.deleting.ejb.class:
     text: 正在刪除 ejb 類 {0}
 location.to.validate.all.jsps.in.directory:
-    text: 目錄 ''{0}'' 中的所有檔案
+    text: "目錄 ''{0}'' 中的所有檔案"
 location.to.validate.all.jsps.in.selected.directories:
     text: 所選目錄中的所有檔案
 location.to.validate.jsp:
-    text: 檔案 ''{0}''
+    text: "檔案 ''{0}''"
 location.to.validate.selected.jsps:
     text: 所選檔案
 message.text.able.to.bind.yet.able.to.connect.too:
     text: 可以同時綁定並連接到 {0} - 應用程式伺服器可能會與連接埠上的一些其他軟體競爭
 message.text.application.server.already.exists:
-    text: 應用程式伺服器 ''{0}'' 已存在
+    text: "應用程式伺服器 ''{0}'' 已存在"
 message.text.application.server.name.cannot.be.empty:
     text: 應用程式伺服器名稱不能為空
 message.text.cannot.find.file:
-    text: 找不到檔案 ''{0}''
+    text: "找不到檔案 ''{0}''"
 message.text.cannot.open.url:
     text: '無法開啟 URL。請檢查此 URL 是否正確:'
 message.text.class.not.fount.in.project:
-    text: 在專案中未找到類 ''{0}''
+    text: "在專案中未找到類 ''{0}''"
 message.text.cmp.field.exists:
-    text: CMP 欄位 ''{0}'' 已存在。
+    text: "CMP 欄位 ''{0}'' 已存在。"
 message.text.cmp.field.name.not.valid:
-    text: CMP 欄位名稱 ''{0}'' 不是有效的關鍵字。
+    text: "CMP 欄位名稱 ''{0}'' 不是有效的關鍵字。"
 message.text.cmp.field.name.should.begin.with.a.lower.case.letter:
     text: CMP 欄位名稱應以小寫字母開頭。
 message.text.cmr.field.0.already.defined:
-    text: CMR 欄位 ''{0}'' 已在 {1} 中定義。
+    text: "CMR 欄位 ''{0}'' 已在 {1} 中定義。"
 message.text.cmr.field.name.should.begin.with.a.lower.case.letter:
     text: CMR 欄位名稱應以小寫字母開頭。
 message.text.connected.to.server:
@@ -699,19 +704,21 @@ message.text.disconnected.from.server:
 message.text.duplicate.role.names:
     text: 重複的角色名稱
 message.text.ejb.exists.in.ejb.facet:
-    text: EJB ''{0}'' 在此 EJB facet 中已存在。
+    text: "EJB ''{0}'' 在此 EJB facet 中已存在。"
 message.text.entity.bean.not.specified.for.cmr.field:
     text: 應指定現有實體 EJB 名稱
 message.text.error.creating.directory:
-    text: "創建目錄時出錯。\n{0}"
+    text: |-
+        創建目錄時出錯。
+        {0}
 message.text.error.while.creating.temp.file:
     text: '創建臨時檔案時出錯: {0}'
 message.text.existing.web.resource.directory.configured.in.dir.which.includes.dir:
-    text: <html><body>''<b>{0}''</b> 中已設定 web 資源目錄，該資源目錄已包含當前目錄 ''<b>{1}''</b> 中。</body></html>
+    text: "<html><body>''<b>{0}''</b> 中已設定 web 資源目錄，該資源目錄已包含當前目錄 ''<b>{1}''</b> 中。</body></html>"
 message.text.existing.web.resource.directory.configured.in.dir.which.will.be.included.in.dir:
-    text: <html><body>''<b>{0}''</b> 中已設定 web 資源目錄，該資源目錄已包含在當前目錄 ''<b>{1}''</b> 中。</body></html>
+    text: "<html><body>''<b>{0}''</b> 中已設定 web 資源目錄，該資源目錄已包含在當前目錄 ''<b>{1}''</b> 中。</body></html>"
 message.text.exists:
-    text: '{0} ''''{1}'''' 在此 Web facet 中已存在。'
+    text: "{0} ''{1}'' 在此 Web facet 中已存在。"
 message.text.must.be.cmp.entity.bean.with.local.interface:
     text: 必須至少有一個具有本地接口的 CMP 實體 Bean
 message.text.name.is.not.valid.identifier:
@@ -719,25 +726,27 @@ message.text.name.is.not.valid.identifier:
 message.text.no.ejbs.in.this.module.no.interceptors:
     text: 此模組中沒有 EJB。
 message.text.recommended.transfer.object.class.agrees.with.pattern:
-    text: "建議傳輸物件類名\n同意以下模式: {0}"
+    text: |-
+        建議傳輸物件類名
+        同意以下模式: {0}
 message.text.remove.selected.web.resource.directories:
     text: 移除選定 web 資源目錄?
 message.text.remove.web.resource.directory:
-    text: 移除 web 資源目錄 ''{0}''?
+    text: "移除 web 資源目錄 ''{0}''?"
 message.text.run.configuration.already.run:
-    text: 執行設定 ''{0}'' 正在執行。
+    text: "執行設定 ''{0}'' 正在執行。"
 message.text.run.configuration.already.run.do.you.want.to.restart.in.1:
-    text: 執行設定 ''{0}'' 正在執行。要以 ''{1}'' 模式重啟伺服器嗎?
+    text: "執行設定 ''{0}'' 正在執行。要以 ''{1}'' 模式重啟伺服器嗎?"
 message.text.run.configuration.editor.no.specific.parameters.needed:
     text: 無需特定參數
 message.text.select.field.to.include.in.transfer.object:
     text: 請至少選擇一個要包含在傳輸物件中的欄位。
 message.text.type.not.found:
-    text: 未找到類型 ''{0}''。
+    text: "未找到類型 ''{0}''。"
 message.text.unable.to.connect:
     text: 無法連接到 {0}
 message.text.unmark.web.resource.directory:
-    text: 取消標記 Web 資源目錄 ''{0}''
+    text: "取消標記 Web 資源目錄 ''{0}''"
 message.text.web.resource.directory.should.be.located.under.module.root:
     text: "Web 資源目錄應位於模組根下。\n請按 '...' (省略號) 按鈕來瀏覽模組根目錄。"
 message.title.cannot.create.relationship:
@@ -829,9 +838,9 @@ progress.validating.ejbs.text:
 quickfix.popup.title.select.an.artifact.to.deploy:
     text: 選擇要部署的工件
 role.for.ejb.name.string.representation:
-    text: EJB ''{1}'' 的{0}
+    text: "EJB ''{1}'' 的{0}"
 role.for.interceptor.name.string.representation:
-    text: '''''{1}'''' 的{0}'
+    text: "''{1}'' 的{0}"
 run.configuration.local:
     text: 本地
 run.configuration.remote:
@@ -843,7 +852,7 @@ run.tab.title.output:
 run.tab.title.server:
     text: 伺服器
 runtime.configuration.error.description.file.does.not.exist:
-    text: '{0} ''''{1}'''' 不存在。'
+    text: "{0} ''{1}'' 不存在。"
 runtime.configuration.error.something.not.specified:
     text: 未指定 {0}。
 security.role.name.should.accord.to.nmtoken.pattern:
@@ -851,7 +860,7 @@ security.role.name.should.accord.to.nmtoken.pattern:
 select.in.j2ee:
     text: 框架檢視
 servlet.reference.canonical.text:
-    text: 無法解析 servlet ''{0}''。
+    text: "無法解析 servlet ''{0}''。"
 template.node.application:
     text: 套用程序
 template.node.deployment.descriptors:
@@ -875,15 +884,15 @@ title.run.configuration.editor.deployment:
 title.run.configuration.editor.server:
     text: 伺服器
 tooltip.text.filter.class:
-    text: 篩選器 ''{0}'' 類
+    text: "篩選器 ''{0}'' 類"
 tooltip.text.listener.class:
-    text: 偵聽器 ''{0}'' 類
+    text: "偵聽器 ''{0}'' 類"
 tooltip.text.primary.key.class:
     text: 主鍵類
 tooltip.text.script.parameters:
     text: 參數…
 tooltip.text.servlet.class:
-    text: Servlet ''{0}'' 類
+    text: "Servlet ''{0}'' 類"
 tooltip.text.web.resource.directory:
     text: Web 資源目錄 ({0})
 updating.policy.hot.swap.classes:
@@ -901,12 +910,12 @@ value.should.either.0.or.1:
 warning.delete.deployment.descriptor.title:
     text: 刪除部署描述符
 warning.duplicate.relative.deployment.path.text:
-    text: 重複的相對部署路徑 ''{0}''
+    text: "重複的相對部署路徑 ''{0}''"
 web.context.family:
     text: Web 上下文系列
 web.context.fix:
-    text: 為 {0} 將上下文資料夾設定為 ''/''
+    text: "為 {0} 將上下文資料夾設定為 ''/''"
 web.context.fix.for.directory:
-    text: 為 {0} 目錄中的所有檔案將上下文資料夾設定為 ''/''
+    text: "為 {0} 目錄中的所有檔案將上下文資料夾設定為 ''/''"
 web.root.family:
     text: 設定 Web 根

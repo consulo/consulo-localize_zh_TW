@@ -37,7 +37,7 @@ coverage.error.loading.report:
 coverage.info.string.file:
     text: '{0,choice,1#檔案|2#檔案}'
 coverage.is.not.importable:
-    text: 覆蓋率在此環境中不可匯入。請{0} coverage.py 或在“設定 | 覆蓋率”中{1} ''Use bundled coverage''。
+    text: "覆蓋率在此環境中不可匯入。請{0} coverage.py 或在“設定 | 覆蓋率”中{1} ''Use bundled coverage''。"
 coverage.is.not.importable.option.enable:
     text: 啟用
 coverage.is.not.importable.option.install:
@@ -63,7 +63,7 @@ coverage.results.suite.name:
 coverage.tab.title:
     text: 代碼覆寫率
 coverage.view.configuration.was.not.found:
-    text: 未找到設定 ''{0}''。
+    text: "未找到設定 ''{0}''。"
 coverage.view.edit.run.configuration.0:
     text: 點擊
 coverage.view.edit.run.configuration.1:
@@ -89,7 +89,7 @@ coverage.view.title:
 delete.file:
     text: 刪除檔案
 dialog.message.would.you.like.to.delete.file.on.disk:
-    text: 要刪除磁碟上的檔案 ''{0}'' 嗎?
+    text: "要刪除磁碟上的檔案 ''{0}'' 嗎?"
 display.coverage.prompt:
     text: 您要顯示覆寫率資料"{0}"嗎？
 extract.information.about.tests:
@@ -97,7 +97,7 @@ extract.information.about.tests:
 following.test.could.not.be.found.1:
     text: '找不到以下{0, choice, 1#測試|2#測試}: {1}'
 generate.coverage.report.for:
-    text: '生成覆蓋率報告: ''''{0}'''''
+    text: "生成覆蓋率報告: ''{0}''"
 hint.text.failed.to.load.covered.tests:
     text: 無法載入覆蓋的測試
 hits.message:
@@ -121,9 +121,9 @@ no.coverage.runner.available.for:
 no.coverage.suites.configured:
     text: 未設定覆蓋率套件。
 node.summary.coverage.statistic:
-    text: '''''{1}'''' 中的 {0}'
+    text: "''{1}'' 中的 {0}"
 node.summary.no.coverage:
-    text: '''''{0}'''' 中無覆蓋'
+    text: "''{0}'' 中無覆蓋"
 popup.title.tests.covering.line:
     text: 測試覆蓋行 {0}:{1}
 remote.suites.node:

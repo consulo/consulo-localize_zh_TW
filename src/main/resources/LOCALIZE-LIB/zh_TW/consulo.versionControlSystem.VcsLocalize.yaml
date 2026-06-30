@@ -133,7 +133,10 @@ before.checkin.new.todo.check.title:
 before.checkin.standard.options.check.smells:
     text: 執行代碼分析(&S)
 before.commit.files.contain.code.smells.edit.them.confirm.text:
-    text: "某些檔案包含的問題。\n{0,choice, 0#No errors|1#One error|2#{0} errors} and {1,choice, 0#no warnings|1#one warning|2#{1} warnings} found.\n您要對其進行審查？"
+    text: |-
+        某些檔案包含的問題。
+        {0,choice, 0#No errors|1#One error|2#{0} errors} and {1,choice, 0#no warnings|1#one warning|2#{1} warnings} found.
+        您要對其進行審查？
 border.changes.filter.change.number.filter:
     text: 改變
 border.changes.filter.date.filter:
@@ -193,15 +196,15 @@ cannot.apply.file.already.exists:
 cannot.find.file.to.patch:
     text: '找不到檔案: {0}'
 change.file.copied.from.text:
-    text: '-從{0}複製'
+    text: -從{0}複製
 change.file.moved.from.text:
-    text: '-從{0}移動'
+    text: -從{0}移動
 change.file.moved.to.text:
-    text: '-移動到{0}'
+    text: -移動到{0}
 change.file.renamed.from.text:
-    text: '-重新命名{0}'
+    text: -重新命名{0}
 change.file.renamed.to.text:
-    text: '-更名到{0}'
+    text: -更名到{0}
 change.file.replaced.text:
     text: '- 替換'
 change.list.manager.wait.lists.synchronization:
@@ -255,43 +258,23 @@ changes.changelist.chooser.title:
 changes.checkbox.delete.locally.added.files:
     text: 刪除已新增檔案的本機副本(D)
 changes.commit.partial.offer.to.move.text:
-    text: "提交時已經從目前變更清單中排除了一些檔案。\n你是否想把剩餘的修改移到另一個變更清單?"
+    text: |-
+        提交時已經從目前變更清單中排除了一些檔案。
+        你是否想把剩餘的修改移到另一個變更清單?
 changes.commit.partial.offer.to.move.title:
     text: 部份提交活動的修改清單
 changes.default.changelist.name:
     text: 預設
 changes.dialog.editchangelist.error.already.exists:
-    text: 變更清單名稱為''{0}''已存在
+    text: "變更清單名稱為''{0}''已存在"
 changes.dialog.editchangelist.title:
     text: 編輯變更清單t
 changes.dialog.newchangelist.title:
     text: 新增變更清單
 changes.newchangelist.warning.already.exists.text:
-    text: 變更清單''{0}''已經存在。
+    text: "變更清單''{0}''已經存在。"
 changes.newchangelist.warning.already.exists.title:
     text: 錯誤的變更清單名稱
-changes.nodetitle.have.outdated.files:
-    text: 有些伺服器上的檔案已被修改
-changes.nodetitle.ignored.files:
-    text: 忽略的檔案
-changes.nodetitle.locally.deleted.files:
-    text: 本機已刪除的檔案
-changes.nodetitle.locked.folders:
-    text: 鎖定working copy資料夾
-changes.nodetitle.locked.folders.tooltip:
-    text: 某些資料夾被鎖定，不允許進行VCS操作。應對其清理。
-changes.nodetitle.logicallt.locked.folders:
-    text: 顯式鎖定的檔案
-changes.nodetitle.modified.without.editing:
-    text: 修改檢出
-changes.nodetitle.switched.files:
-    text: 切換檔案
-changes.nodetitle.switched.roots:
-    text: 切換根目錄
-changes.nodetitle.unversioned.files:
-    text: 未加入版本控制的檔案
-changes.nodetitle.updating:
-    text: 更新中...
 changes.remove.active.empty.prompt:
     text: 選取的變更清單標為目前項：
 changes.remove.active.prompt:
@@ -299,7 +282,9 @@ changes.remove.active.prompt:
 changes.remove.active.title:
     text: 刪除活動的變更清單
 changes.removechangelist.multiple.warning.text:
-    text: "你確定要移動變更清單 {0} ?\n所有變化都將被轉移到活動的變更清單"
+    text: |-
+        你確定要移動變更清單 {0} ?
+        所有變化都將被轉移到活動的變更清單
 changes.removechangelist.warning.text:
     text: "你確定要刪除變更清單 ''{0}''?\n所有變化都將被轉移到活動的變更清單."
 changes.removechangelist.warning.title:
@@ -341,7 +326,10 @@ checkout.create.project.prompt:
 checkout.open.directory.prompt:
     text: 你確定開啟目錄{0}?
 checkout.open.project.prompt:
-    text: "已檢出{0}項目檔案：\n{1}\n你確定要開啟嗎？"
+    text: |-
+        已檢出{0}項目檔案：
+        {1}
+        你確定要開啟嗎？
 checkout.title:
     text: 從版本控制中檢出
 close.tab.action.name:
@@ -443,7 +431,9 @@ configuration.commit.message.margin.title:
 configuration.tab.name.general.settings:
     text: 常規設定
 confirmation.text.add.file:
-    text: "你要將以下檔案新增到VCS?\n{0}"
+    text: |-
+        你要將以下檔案新增到VCS?
+        {0}
 confirmation.text.check.in.with.empty.comment:
     text: 提交空註解？
 confirmation.title.add.file:
@@ -483,7 +473,9 @@ date.group.today:
 delete.all.already.unshelved:
     text: 刪除所有已經廢棄的
 delete.all.already.unshelved.confirmation:
-    text: "Do you want to delete all already unshelved changelists?\n此操作不可還原."
+    text: |-
+        Do you want to delete all already unshelved changelists?
+        此操作不可還原.
 dialog.enable.version.control.integration.hint.text:
     text: 版本控制的設定是：「設定」|「版本控制」
 dialog.enable.version.control.integration.select.vcs.label.text:
@@ -545,7 +537,7 @@ error.adding.files.prompt:
 error.adding.files.title:
     text: 新增檔案錯誤
 error.executing.commit:
-    text: '錯誤執行 ''''{0}'''': {1}'
+    text: "錯誤執行 ''{0}'': {1}"
 error.updating.changes:
     text: 錯誤更新修改：{0}
 exception.text.file.should.be.directory:
@@ -593,7 +585,9 @@ file.status.name.up.to.date.recursive.children:
 filter.structure.name:
     text: 結構
 get.committed.changes.intersecting.prompt:
-    text: "在選擇的檔案 {1, choice, 1#changelist|2#changelists} are also modified in {0} other {0,choice, 1#changelist|2#changelists}.\n變更所選檔案在這些變更清單也將被下載。"
+    text: |-
+        在選擇的檔案 {1, choice, 1#changelist|2#changelists} are also modified in {0} other {0,choice, 1#changelist|2#changelists}.
+        變更所選檔案在這些變更清單也將被下載。
 get.committed.changes.title:
     text: 獲取變更清單
 handle.ro.file.status.type.using.file.system:
@@ -769,7 +763,7 @@ message.title.vcs.update.errors:
 messge.text.cannot.save.settings:
     text: 無法執行操作：{0}
 move.to.changelist:
-    text: 移動變更到活動變更清單 (''{0}'') (&M)
+    text: "移動變更到活動變更清單 (''{0}'') (&M)"
 multiple.file.merge.accept.theirs:
     text: 接受他們的(T)
 multiple.file.merge.accept.yours:
@@ -969,7 +963,7 @@ shelf.tab:
 shelve.changes.action:
     text: 擱置的變更
 shelve.changes.delete.confirm:
-    text: 你確定要刪除擱置的變更表命名為''0}''嗎？此操作無法還原。
+    text: "你確定要刪除擱置的變更表命名為''0}''嗎？此操作無法還原。"
 shelve.changes.delete.files.from.list:
     text: 你要刪除{0}檔案擱置的變更清單。你確定嗎？
 shelve.changes.delete.files.from.list.title:
@@ -1031,7 +1025,7 @@ status.group.name.will.be.merged.with.tree.conflicts:
 status.group.name.will.be.restored:
     text: 將被還原
 switch.to.changelist:
-    text: 切換到修改清單(''{0}'')
+    text: "切換到修改清單(''{0}'')"
 todo.handler.only.added:
     text: <html><body><b>有沒有 {0,choice, 0#|1#was one|2#were {0}} 新增或編輯待辦 {0,choice, 0#|1#item|2#items} 發現。</b><br/>{1,choice, 0#|1#一個檔案被跳過。|2#{1} 檔案被跳過}你想回顧 {0,choice,1#it|2#them}?</body></html>
 todo.handler.only.both:

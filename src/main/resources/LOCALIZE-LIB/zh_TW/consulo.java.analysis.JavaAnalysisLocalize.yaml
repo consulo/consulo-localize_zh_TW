@@ -5,7 +5,7 @@ access.to.field.code.ref.code.outside.of.declared.guards.loc:
 add.explicit.type.arguments:
     text: 添加顯式類型實參
 annotate.as.safevarargs:
-    text: 註解為 '@SafeVarargs'
+    text: "註解為 '@SafeVarargs'"
 annotate.overridden.methods.parameters:
     text: 重寫方法參數註解"@{0}"
 annotation.on.static.member.qualifying.type.family.name:
@@ -27,21 +27,21 @@ change.type.arguments.to.0:
 change.visibility.level:
     text: 將 {0} 設為 {1}
 contract.return.validator.incompatible.return.parameter.type:
-    text: 返回類型 ''{0}'' 必須可以從參數類型 ''{1}'' 轉換而來
+    text: "返回類型 ''{0}'' 必須可以從參數類型 ''{1}'' 轉換而來"
 contract.return.validator.method.return.incompatible.with.method.containing.class:
     text: 方法返回類型應與包含類的方法相容
 contract.return.validator.not.applicable.for.constructor:
     text: 不適用於構造函數
 contract.return.validator.not.applicable.primitive:
-    text: 不適用於基元返回類型 ''{0}''
+    text: "不適用於基元返回類型 ''{0}''"
 contract.return.validator.not.applicable.static:
     text: 不適用於 static 方法
 contract.return.validator.return.type.must.be.boolean:
-    text: 方法返回類型必須為 'boolean'
+    text: "方法返回類型必須為 'boolean'"
 contract.return.validator.too.few.parameters:
     text: 不適用於{0, choice, 0#無形參|1#有一個參數|2#有 {0} 個參數}的方法
 convert.0.to.float:
-    text: 將 ''{0}'' 轉換為 float
+    text: "將 ''{0}'' 轉換為 float"
 custom.exception.class.should.have.a.constructor:
     text: 自訂異常類應具有一個包含字串類型的單個訊息參數的構造函數
 dataflow.message.array.index.out.of.bounds:
@@ -63,17 +63,17 @@ dataflow.message.constant.condition:
 dataflow.message.constant.condition.when.reached:
     text: '到達時，條件 <code>#ref</code> #loc 始終為 <code>{0, choice, 0#false|1#true}</code>'
 dataflow.message.constant.expression:
-    text: '<code>#ref</code> #loc 的結果總是 ''''{0}'''''
+    text: "<code>#ref</code> #loc 的結果總是 ''{0}''"
 dataflow.message.constant.method.reference:
-    text: 方法參照結果總是 ''{0}''
+    text: "方法參照結果總是 ''{0}''"
 dataflow.message.constant.no.ref:
     text: 條件始終為 {0, choice, 0#false|1#true}
 dataflow.message.constant.value:
-    text: '值 <code>#ref</code> #loc 總是 ''''{0}'''''
+    text: "值 <code>#ref</code> #loc 總是 ''{0}''"
 dataflow.message.contract.fail:
-    text: 根據方法合約， '#ref' 調用總是失敗
+    text: "根據方法合約， '#ref' 調用總是失敗"
 dataflow.message.contract.fail.index:
-    text: 根據索引越界， '#ref' 調用總是失敗
+    text: "根據索引越界， '#ref' 調用總是失敗"
 dataflow.message.immutable.modified:
     text: 不可變物件被修改
 dataflow.message.immutable.passed:
@@ -117,9 +117,9 @@ dataflow.message.passing.nullable.argument.nonannotated:
 dataflow.message.pointless.assignment.expression:
     text: '條件 <code>#ref</code> #loc 在賦值表達式的左側是永遠 <code>{0}</code>. 可以簡化'
 dataflow.message.pointless.same.argument.and.result:
-    text: '''#ref'' 的結果與{0,choice,1#第 1 個|2#第 2 個}實參相同使調用毫無意義'
+    text: "'#ref' 的結果與{0,choice,1#第 1 個|2#第 2 個}實參相同使調用毫無意義"
 dataflow.message.pointless.same.arguments:
-    text: '''#ref'' 的實參相同。調用包含相同實參的此方法毫無意義'
+    text: "'#ref' 的實參相同。調用包含相同實參的此方法毫無意義"
 dataflow.message.redundant.assignment:
     text: 變數已經分配給這個值
 dataflow.message.redundant.instanceof:
@@ -127,7 +127,7 @@ dataflow.message.redundant.instanceof:
 dataflow.message.redundant.update:
     text: 變數更新不執行任何操作
 dataflow.message.return.notnull.from.nullable:
-    text: '@{0} 方法 ''''{1}'''' 始終返回非 null 值'
+    text: "@{0} 方法 ''{1}'' 始終返回非 null 值"
 dataflow.message.return.null.from.notnull:
     text: <code>null</code> 由宣告為 @{0} 的方法返回
 dataflow.message.return.null.from.notnullable:
@@ -155,13 +155,13 @@ dataflow.not.precise:
 dataflow.too.complex:
     text: 方法 <code>#ref</code> 太複雜，無法通過數據流演算法進行分析
 delete.repeated.0:
-    text: 刪除重複的 ''{0}''
+    text: "刪除重複的 ''{0}''"
 delete.repeated.interface:
     text: 刪除重複的接口
 delimiters.argument.contains.duplicated.characters:
     text: 分隔符實參包含重複的字符
 deprecated.member.0.is.still.used:
-    text: 棄用的成員 ''{0}'' 仍在使用
+    text: "棄用的成員 ''{0}'' 仍在使用"
 detach.library.quickfix.name:
     text: 分離庫
 detach.library.roots.quickfix.name:
@@ -181,13 +181,13 @@ dfa.find.cause.comparison.arguments.are.different.constants:
 dfa.find.cause.comparison.arguments.are.the.same:
     text: 比較實參相同
 dfa.find.cause.compile.time.constant:
-    text: 編譯時常量，值為 ''{0}''
+    text: "編譯時常量，值為 ''{0}''"
 dfa.find.cause.condition.is.known.from.place:
-    text: 已知 ''{0}'' 來自 ___PLACE___
+    text: "已知 ''{0}'' 來自 ___PLACE___"
 dfa.find.cause.condition.was.checked.before:
-    text: 條件 ''{0}'' 先前已檢查
+    text: "條件 ''{0}'' 先前已檢查"
 dfa.find.cause.condition.was.deduced:
-    text: 條件 ''{0}'' 已被推導
+    text: "條件 ''{0}'' 已被推導"
 dfa.find.cause.contract.kind.explicit:
     text: 約定
 dfa.find.cause.contract.kind.hard.coded:
@@ -195,19 +195,19 @@ dfa.find.cause.contract.kind.hard.coded:
 dfa.find.cause.contract.kind.inferred:
     text: 推斷約定
 dfa.find.cause.contract.returns.on.condition:
-    text: 根據{0}，{1} ''{2}'' 會在{4}時返回 ''{3}''
+    text: "根據{0}，{1} ''{2}'' 會在{4}時返回 ''{3}''"
 dfa.find.cause.contract.throws.on.condition:
-    text: 根據{0}，{1} ''{2}'' 會在{3}時拋出異常
+    text: "根據{0}，{1} ''{2}'' 會在{3}時拋出異常"
 dfa.find.cause.contract.trivial:
-    text: 根據{0}，{1} ''{2}'' 始終返回 ''{3}'' 值
+    text: "根據{0}，{1} ''{2}'' 始終返回 ''{3}'' 值"
 dfa.find.cause.equality.established.from.condition:
-    text: '''''{0}'''' 自條件建立'
+    text: "''{0}'' 自條件建立"
 dfa.find.cause.field.assigned.nullability:
-    text: 已知欄位 ''{0}'' 始終初始化為 ''{1}'' 值
+    text: "已知欄位 ''{0}'' 始終初始化為 ''{1}'' 值"
 dfa.find.cause.field.initializer.nullability:
-    text: 欄位 ''{0}'' 初始化為 ''{1}'' 值
+    text: "欄位 ''{0}'' 初始化為 ''{1}'' 值"
 dfa.find.cause.instanceof.implies.non.nullity:
-    text: '''instanceof'' 檢查表示非 null'
+    text: "'instanceof' 檢查表示非 null"
 dfa.find.cause.left.operand.range.template:
     text: 左操作數為 %s
 dfa.find.cause.may.be.null:
@@ -219,23 +219,23 @@ dfa.find.cause.nonnull.expression.kind.literal:
 dfa.find.cause.nonnull.expression.kind.newly.created.object:
     text: 新創建的物件
 dfa.find.cause.nonnull.expression.kind.primitive.type:
-    text: 基元類型 ''{0}'' 的值
+    text: "基元類型 ''{0}'' 的值"
 dfa.find.cause.nonnull.expression.kind.this.object:
-    text: '''this'' 物件'
+    text: "'this' 物件"
 dfa.find.cause.nullability.explicitly.annotated:
-    text: '{0} ''''{1}'''' 註解為 ''''{2}'''''
+    text: "{0} ''{1}'' 註解為 ''{2}''"
 dfa.find.cause.nullability.externally.annotated:
-    text: '{0} ''''{1}'''' 外部註解為 ''''{2}'''''
+    text: "{0} ''{1}'' 外部註解為 ''{2}''"
 dfa.find.cause.nullability.inferred:
-    text: '{0} ''''{1}'''' 已推斷為 ''''{2}'''''
+    text: "{0} ''{1}'' 已推斷為 ''{2}''"
 dfa.find.cause.nullability.inherited.from.class:
-    text: '{0} ''''{1}'''' 自類 {2} 繼承註解，因此 ''''{3}'''''
+    text: "{0} ''{1}'' 自類 {2} 繼承註解，因此 ''{3}''"
 dfa.find.cause.nullability.inherited.from.container:
-    text: '{0} ''''{1}'''' 繼承容器註解，因此 ''''{2}'''''
+    text: "{0} ''{1}'' 繼承容器註解，因此 ''{2}''"
 dfa.find.cause.nullability.inherited.from.named.element:
-    text: '{0} ''''{1}'''' 繼承自 {2}，因此 ''''{3}'''''
+    text: "{0} ''{1}'' 繼承自 {2}，因此 ''{3}''"
 dfa.find.cause.nullability.inherited.from.package:
-    text: '{0} ''''{1}'''' 自軟體套件 {2} 繼承註解，因此 ''''{3}'''''
+    text: "{0} ''{1}'' 自軟體套件 {2} 繼承註解，因此 ''{3}''"
 dfa.find.cause.numeric.cast.operand.template:
     text: 轉換操作數為 %s
 dfa.find.cause.numeric.range.generic.template:
@@ -259,17 +259,17 @@ dfa.find.cause.place.line.number:
 dfa.find.cause.range.is.known.from.place:
     text: 從 ___PLACE___ 已知範圍
 dfa.find.cause.range.is.specified.by.annotation:
-    text: 註解將 ''{0}'' 的範圍指定為 {1}
+    text: "註解將 ''{0}'' 的範圍指定為 {1}"
 dfa.find.cause.result.of.numeric.operation.template:
-    text: '''''{0}'''' 的結果為 %s'
+    text: "''{0}'' 的結果為 %s"
 dfa.find.cause.result.of.primitive.cast.template:
-    text: '''''({0})'''' 轉換的結果為 %s'
+    text: "''({0})'' 轉換的結果為 %s"
 dfa.find.cause.right.operand.range.template:
     text: 右操作數為 %s
 dfa.find.cause.string.length.is.always.non.negative:
     text: 字串長度始終為非負數
 dfa.find.cause.type.is.known.from.place:
-    text: 從 ___PLACE___ 已知 ''{0}'' 類型
+    text: "從 ___PLACE___ 已知 ''{0}'' 類型"
 dfa.find.cause.type.known:
     text: '{0} 類型為 {1}'
 dfa.find.cause.unable:
@@ -277,21 +277,21 @@ dfa.find.cause.unable:
 dfa.find.cause.value.is.always.the.same:
     text: 值始終為 {0}
 dfa.find.cause.value.is.known.from.place:
-    text: '''''{0}'''' 已知為來自 ___PLACE___ 的 ''''{1}'''''
+    text: "''{0}'' 已知為來自 ___PLACE___ 的 ''{1}''"
 dfa.find.cause.value.x.is.always.the.same:
-    text: 值 ''{0}'' 始終為 ''{1}''
+    text: "值 ''{0}'' 始終為 ''{1}''"
 dfa.find.cause.values.cannot.be.equal.because:
     text: 值不能相等，因為 {0}
 dfa.find.cause.variable.is.initialized:
-    text: '{0} ''''{1}'''' 初始化為 {2}'
+    text: "{0} ''{1}'' 初始化為 {2}"
 dfa.find.cause.was.assigned:
-    text: '''''{0}'''' 已分配'
+    text: "''{0}'' 已分配"
 dfa.find.cause.was.assigned.to:
-    text: '''''{0}'''' 已分配到 ''''{1}'''''
+    text: "''{0}'' 已分配到 ''{1}''"
 dfa.find.cause.was.dereferenced:
-    text: '''''{0}'''' 已取消引用'
+    text: "''{0}'' 已取消引用"
 dfa.find.cause.was.passed.as.non.null.parameter:
-    text: '''''{0}'''' 作為實參傳遞到接受非 null 參數的方法'
+    text: "''{0}'' 作為實參傳遞到接受非 null 參數的方法"
 dftype.presentation.empty.optional:
     text: 空 Optional
 dftype.presentation.present.optional:
@@ -325,7 +325,7 @@ feature.binary.literals:
 feature.diamond.types:
     text: Diamond 類型
 feature.enhanced.switch:
-    text: 增強的 'switch' 塊
+    text: "增強的 'switch' 塊"
 feature.extension.methods:
     text: 擴展方法
 feature.for.each:
@@ -351,7 +351,7 @@ feature.modules:
 feature.multi.catch:
     text: 多 catch
 feature.patterns.instanceof:
-    text: '''instanceof'' 中的模式'
+    text: "'instanceof' 中的模式"
 feature.records:
     text: 記錄
 feature.sealed.classes:
@@ -361,9 +361,9 @@ feature.static.imports:
 feature.static.interface.calls:
     text: static 接口方法調用
 feature.switch.expressions:
-    text: '''switch'' 表達式'
+    text: "'switch' 表達式"
 feature.text.block.escape.sequences:
-    text: '''\s'' 和 '''' 轉義序列'
+    text: "'\\s' 和 '' 轉義序列"
 feature.text.blocks:
     text: 文本塊文字
 feature.try.with.resources.refs:
@@ -375,7 +375,7 @@ feature.type.receivers:
 feature.underscores.in.literals:
     text: 在文字中加下劃線
 feature.var.lambda.parameter:
-    text: lambda 參數中的 'var'
+    text: "lambda 參數中的 'var'"
 feature.varargs:
     text: 可變 arity 方法
 find.searching.for.references.to.class.progress:
@@ -413,19 +413,19 @@ ignore.inside.non.static.imports:
 ignore.members.of.deprecated.classes:
     text: 忽略棄用類的成員
 ignore.operation.which.results.in.negative.value:
-    text: 忽略 '<<' 操作，後者會導致負值
+    text: "忽略 '<<' 操作，後者會導致負值"
 inspection.annotate.method.quickfix.name:
-    text: 使用 ''@{0}'' 註解方法
+    text: "使用 ''@{0}'' 註解方法"
 inspection.annotate.overridden.method.and.self.quickfix.family.name:
     text: 註解重寫的方法及自己
 inspection.annotate.overridden.method.and.self.quickfix.name:
-    text: 使用 ''@{0}'' 註解覆寫的方法和本身
+    text: "使用 ''@{0}'' 註解覆寫的方法和本身"
 inspection.annotate.overridden.method.nullable.quickfix.name:
-    text: 將覆寫的方法註解為 ''@{0}''
+    text: "將覆寫的方法註解為 ''@{0}''"
 inspection.annotate.overridden.method.quickfix.family.name:
     text: 註解重寫的方法
 inspection.annotate.overridden.method.quickfix.name:
-    text: 使用 ''@{0}'' 註解覆寫的方法
+    text: "使用 ''@{0}'' 註解覆寫的方法"
 inspection.anonymous.has.lambda.alternative.display.name:
     text: 匿名類型有較短的 lambda 替代項
 inspection.block.marker.comments.display.name:
@@ -447,11 +447,11 @@ inspection.can.be.local.parameter.problem.descriptor:
 inspection.can.be.local.variable.problem.descriptor:
     text: 變數<code>#ref</code>可以有<code>final</code>修飾符
 inspection.can.be.replaced.with.message:
-    text: 可取代為 ''{0}''
+    text: "可取代為 ''{0}''"
 inspection.class.has.no.to.string.method.description:
-    text: 類 ''{0}'' 不會覆寫 ''toString()'' 方法
+    text: "類 ''{0}'' 不會覆寫 ''toString()'' 方法"
 inspection.class.has.no.to.string.method.display.name:
-    text: 類不會覆寫 'toString()' 方法
+    text: "類不會覆寫 'toString()' 方法"
 inspection.class.has.no.to.string.method.exclude.classes.reg.exp.option:
     text: '排除類 (reg exp):'
 inspection.class.has.no.to.string.method.ignore.abstract.classes.option:
@@ -469,7 +469,7 @@ inspection.class.has.no.to.string.method.ignore.test.classes.option:
 inspection.common.if.parts.disable.highlight.tail.call:
     text: 如果尾語句是調用，則不要高亮顯示公用部分
 inspection.common.if.parts.family.else.if.description:
-    text: 可以合併 'else if'
+    text: "可以合併 'else if'"
 inspection.common.if.parts.settings.highlight.when.tail.call:
     text: 在最後一條公用語句為調用時高亮顯示
 inspection.compiler.javac.quirks.anno.array.comma.fix:
@@ -485,33 +485,33 @@ inspection.compiler.javac.quirks.qualifier.type.args.problem:
 inspection.constant.on.wrong.side.of.a.comparison.side.option:
     text: '常數應在比較的這一側:'
 inspection.contract.checker.boolean.condition.for.nonboolean.parameter:
-    text: 參數 ''{0}'' 具有 ''{1}'' 類型(應為布爾型)
+    text: "參數 ''{0}'' 具有 ''{1}'' 類型(應為布爾型)"
 inspection.contract.checker.clause.syntax:
     text: 協定子句的格式必須為 arg1, ..., argN -> 返回值
 inspection.contract.checker.contract.clause.never.satisfied:
-    text: 協定子句 ''{0}'' 從未滿足，因為以前的協定涵蓋了其條件
+    text: "協定子句 ''{0}'' 從未滿足，因為以前的協定涵蓋了其條件"
 inspection.contract.checker.contract.violated:
-    text: 違反協定子句 ''{0}''
+    text: "違反協定子句 ''{0}''"
 inspection.contract.checker.empty.constraint:
     text: 約束不應為空
 inspection.contract.checker.inferred.notnull.parameter.notnull:
-    text: 參數 ''{0}'' 被推斷為非 null，因此 ''!null'' 始終滿足
+    text: "參數 ''{0}'' 被推斷為非 null，因此 ''!null'' 始終滿足"
 inspection.contract.checker.inferred.notnull.parameter.null:
-    text: 參數 ''{0}'' 被推斷為非 null，因此 ''null'' 不適用
+    text: "參數 ''{0}'' 被推斷為非 null，因此 ''null'' 不適用"
 inspection.contract.checker.method.always.fails.nontrivial:
-    text: 子句 ''{0}'' 的返回值可取代為 ''fail''，因為此子句中的方法總是失敗
+    text: "子句 ''{0}'' 的返回值可取代為 ''fail''，因為此子句中的方法總是失敗"
 inspection.contract.checker.method.always.fails.trivial:
-    text: 子句 ''{0}'' 的返回值可取代為 ''fail''，因為方法總是失敗
+    text: "子句 ''{0}'' 的返回值可取代為 ''fail''，因為方法總是失敗"
 inspection.contract.checker.no.exception.thrown:
-    text: '違反協定子句 ''''{0}'''': 未拋出異常'
+    text: "違反協定子句 ''{0}'': 未拋出異常"
 inspection.contract.checker.notnull.parameter.notnull:
-    text: 參數 ''{0}'' 被註解為非 null，因此 ''!null'' 始終滿足
+    text: "參數 ''{0}'' 被註解為非 null，因此 ''!null'' 始終滿足"
 inspection.contract.checker.notnull.parameter.null:
-    text: 參數 ''{0}'' 被註解為非 null，因此 ''null'' 不適用
+    text: "參數 ''{0}'' 被註解為非 null，因此 ''null'' 不適用"
 inspection.contract.checker.parameter.count.mismatch:
-    text: 方法採用 {0} 個參數，而協定子句 ''{1}'' 預期 {2} 個
+    text: "方法採用 {0} 個參數，而協定子句 ''{1}'' 預期 {2} 個"
 inspection.contract.checker.primitive.parameter.nullability:
-    text: 參數 ''{0}'' 具有基元類型 ''{1}''，因此 ''{2}'' 不適用
+    text: "參數 ''{0}'' 具有基元類型 ''{1}''，因此 ''{2}'' 不適用"
 inspection.contract.checker.pure.method.mutation.contract:
     text: 純方法不能有突變協定
 inspection.contract.checker.unknown.constraint:
@@ -519,11 +519,11 @@ inspection.contract.checker.unknown.constraint:
 inspection.contract.checker.unknown.return.value:
     text: '返回值應為以下值之一: {0}。實際為 {1}'
 inspection.contract.checker.unreachable.contract.clause:
-    text: '協定子句 ''''{0}'''' 不可到達: 以前的協定涵蓋了所有可能的情況'
+    text: "協定子句 ''{0}'' 不可到達: 以前的協定涵蓋了所有可能的情況"
 inspection.contract.display.name:
     text: 合同的問題
 inspection.convert.2.diamond.display.name:
-    text: 顯式類型可取代為 '<>'
+    text: "顯式類型可取代為 '<>'"
 inspection.convert.2.lambda.display.name:
     text: 匿名類型可取代為 lambda
 inspection.data.flow.redundant.instanceof.quickfix:
@@ -557,23 +557,23 @@ inspection.export.results.can.be.final.description:
 inspection.field.access.not.guarded.display.name:
     text: 不受保護的欄位存取或方法調用
 inspection.field.not.used.in.to.string.description:
-    text: 方法 ''{0}'' 未在 ''toString()'' 方法中使用
+    text: "方法 ''{0}'' 未在 ''toString()'' 方法中使用"
 inspection.field.not.used.in.to.string.description2:
-    text: 欄位 ''{0}'' 未在 ''toString()'' 方法中使用
+    text: "欄位 ''{0}'' 未在 ''toString()'' 方法中使用"
 inspection.field.not.used.in.to.string.display.name:
-    text: 欄位未在 'toString()' 方法中使用
+    text: "欄位未在 'toString()' 方法中使用"
 inspection.i18n.quickfix.annotate.as:
     text: 註解為 @{0}
 inspection.i18n.quickfix.annotate.element.as:
-    text: 註解{0} ''{1}'' 為 @{2}
+    text: "註解{0} ''{1}'' 為 @{2}"
 inspection.implicit.subclass.display.forClass:
-    text: 類別 ''{0}'' 可以隱式的子類別化且不能為 final
+    text: "類別 ''{0}'' 可以隱式的子類別化且不能為 final"
 inspection.implicit.subclass.display.name:
     text: Final 宣告無法在執行時重寫
 inspection.implicit.subclass.extendable:
-    text: 使 ''{0}'' 可重寫
+    text: "使 ''{0}'' 可重寫"
 inspection.implicit.subclass.make.class.extendable:
-    text: 使 ''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 個所需方法 }可繼承
+    text: "使 ''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 個所需方法 }可繼承"
 inspection.inconsistent.language.level.display.name:
     text: 語言級別設定不一致
 inspection.infinite.loop.option:
@@ -581,11 +581,11 @@ inspection.infinite.loop.option:
 inspection.instance.guarded.by.static.display.name:
     text: 由 static 欄位保護的實例成員
 inspection.invalid.comparator.method.reference.display.name:
-    text: 用於 'Comparator' 的無效方法引用
+    text: "用於 'Comparator' 的無效方法引用"
 inspection.java.8.list.sort.display.name:
-    text: '''Collections.sort()'' 可取代為 ''List.sort()'''
+    text: "'Collections.sort()' 可取代為 'List.sort()'"
 inspection.java.9.redundant.requires.statement.display.name:
-    text: module-info 中的冗餘 'requires' 指令
+    text: "module-info 中的冗餘 'requires' 指令"
 inspection.local.can.be.final.display.name:
     text: 局部變數或參數可以最終
 inspection.local.can.be.final.option:
@@ -599,29 +599,29 @@ inspection.local.can.be.final.option3:
 inspection.local.can.be.final.option4:
     text: 報告隱式 final 的變數
 inspection.message.code.generation.different.nullability.annotation.will.be.used:
-    text: 生成的程式碼將使用 ''{1}'' 而不是 ''{0}''。
+    text: "生成的程式碼將使用 ''{1}'' 而不是 ''{0}''。"
 inspection.message.javac.quick.intersection.type.problem:
-    text: 因為 ''{1}'' 為 final，交叉點類型 ''{0}'' 無法實例化
+    text: "因為 ''{1}'' 為 final，交叉點類型 ''{0}'' 無法實例化"
 inspection.message.non.annotated.method.implements.non.null.method:
-    text: '''''{1}'''' 中的非註解方法 ''''{0}'''' 實作 ''''{2}'''' 中的非 null 方法'
+    text: "''{1}'' 中的非註解方法 ''{0}'' 實作 ''{2}'' 中的非 null 方法"
 inspection.message.non.annotated.parameter.should.not.override.non.null.parameter:
-    text: '''''{2}'''' 中方法 ''''{1}'''' 的非註解參數 ''''{0}'''' 不應當覆寫 ''''{3}'''' 中非 null 參數'
+    text: "''{2}'' 中方法 ''{1}'' 的非註解參數 ''{0}'' 不應當覆寫 ''{3}'' 中非 null 參數"
 inspection.message.non.null.parameter.should.not.override.non.annotated.parameter:
-    text: '''''{2}'''' 中方法 ''''{1}'''' 的非 null 參數 ''''{0}'''' 不應當覆寫 ''''{3}'''' 中的非註解參數'
+    text: "''{2}'' 中方法 ''{1}'' 的非 null 參數 ''{0}'' 不應當覆寫 ''{3}'' 中的非註解參數"
 inspection.message.non.null.parameter.should.not.override.nullable.parameter:
-    text: '''''{2}'''' 中方法 ''''{1}'''' 的非 null 參數 ''''{0}'''' 不應當覆寫 ''''{3}'''' 中可為 null 的參數'
+    text: "''{2}'' 中方法 ''{1}'' 的非 null 參數 ''{0}'' 不應當覆寫 ''{3}'' 中可為 null 的參數"
 inspection.message.nullable.method.implements.non.null.method:
-    text: '''''{1}'''' 中可為 null 的方法 ''''{0}'''' 實作 ''''{2}'''' 中的非 null 方法'
+    text: "''{1}'' 中可為 null 的方法 ''{0}'' 實作 ''{2}'' 中的非 null 方法"
 inspection.non.final.field.in.immutable.display.name:
-    text: '''@Immutable'' 類中有非 final 欄位'
+    text: "'@Immutable' 類中有非 final 欄位"
 inspection.non.final.guard.display.name:
-    text: 非 final '@GuardedBy' 欄位
+    text: "非 final '@GuardedBy' 欄位"
 inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
     text: 使用 @{0} 註解的參數不得覆寫 @{1} 參數
 inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
     text: 參數標注 @{0} 不應該覆寫非註解參數
 inspection.nullable.problems.NotNull.parameter.receives.null.literal:
-    text: 使用 @{0} 註解的參數不應該接收 ''null'' 作為實參
+    text: "使用 @{0} 註解的參數不應該接收 ''null'' 作為實參"
 inspection.nullable.problems.Nullable.NotNull.conflict:
     text: 不能同時使用 @{0} 和 @{1} 註解
 inspection.nullable.problems.Nullable.method.overrides.NotNull:
@@ -661,7 +661,7 @@ inspection.nullable.problems.receiver.annotation:
 inspection.numeric.overflow.display.name:
     text: 數值溢出
 inspection.objects.equals.can.be.simplified.display.name:
-    text: '''Objects.equals()'' 可取代為 ''equals()'''
+    text: "'Objects.equals()' 可取代為 'equals()'"
 inspection.redundant.cast.display.name:
     text: 多餘的類型轉換
 inspection.redundant.cast.problem.descriptor:
@@ -671,7 +671,7 @@ inspection.redundant.cast.remove.quickfix:
 inspection.redundant.field.initialization.option:
     text: 僅在初始化為 null 時發出警告
 inspection.redundant.throws.display.name:
-    text: 冗餘 'throws' 子句
+    text: "冗餘 'throws' 子句"
 inspection.redundant.throws.problem.descriptor:
     text: 宣告的異常{0}在方法中從未拋出
 inspection.redundant.throws.problem.descriptor1:
@@ -693,11 +693,11 @@ inspection.reference.implicit.constructor.name:
 inspection.requires.auto.module:
     text: 依賴於自動模組
 inspection.requires.auto.module.message:
-    text: 對自動模組的 'requires' 指令
+    text: "對自動模組的 'requires' 指令"
 inspection.requires.auto.module.option:
     text: 僅高亮傳遞依賴
 inspection.requires.auto.module.transitive:
-    text: 對自動模組的 'requires transitive' 指令
+    text: "對自動模組的 'requires transitive' 指令"
 inspection.safe.varargs.detector.display.name:
     text: 參數化 vararg 類型可能導致堆污染
 inspection.same.return.value.display.name:
@@ -711,9 +711,9 @@ inspection.same.return.value.problem.descriptor2:
 inspection.static.guarded.by.instance.display.name:
     text: 由實例欄位或 this 防護的 static 成員
 inspection.string.tokenizer.delimiter.display.name:
-    text: '''StringTokenizer'' 中的分隔符重複'
+    text: "'StringTokenizer' 中的分隔符重複"
 inspection.surround.requirenonnull.quickfix:
-    text: 用 ''Objects.requireNonNull({0})'' 取代
+    text: "用 ''Objects.requireNonNull({0})'' 取代"
 inspection.suspicious.array.method.call.display.name:
     text: 可疑陣列方法調用
 inspection.suspicious.array.method.call.problem.arrays:
@@ -723,7 +723,7 @@ inspection.suspicious.array.method.call.problem.element:
 inspection.suspicious.collections.method.calls.display.name:
     text: 可疑集合方法呼叫
 inspection.suspicious.collections.method.calls.problem.descriptor:
-    text: '''''{0}''''可能不包含物件類型''''{1}'''''
+    text: "''{0}''可能不包含物件類型''{1}''"
 inspection.suspicious.collections.method.calls.problem.descriptor1:
     text: 可疑的叫"{0}"
 inspection.suspicious.getter.setter.field.option:
@@ -737,11 +737,11 @@ inspection.test.only.problems.test.only.method.call:
 inspection.unary.plus.unary.binary.option:
     text: 僅在混亂的二進制或一元表達式上下文中報告
 inspection.unknown.guard.display.name:
-    text: 未知 '@GuardedBy' 欄位
+    text: "未知 '@GuardedBy' 欄位"
 inspection.unnecessary.super.qualifier.option:
-    text: 忽略說明 'super' 限定符
+    text: "忽略說明 'super' 限定符"
 inspection.use.compare.method.display.name:
-    text: 可以使用 'compare()' 方法比較數值
+    text: "可以使用 'compare()' 方法比較數值"
 inspection.use.compare.method.fix.family.name:
     text: 取代為單個比較方法
 inspection.visibility.accept.quickfix:
@@ -761,7 +761,7 @@ intention.add.type.annotation.family:
 intention.family.name.move.annotation.to.array:
     text: 將註解移動到陣列
 intention.name.qualify.expression:
-    text: 使用 ''{1}'' 限定 {0} 表達式
+    text: "使用 ''{1}'' 限定 {0} 表達式"
 intention.text.remove.annotation:
     text: 移除
 junit.rule.classrule.option:
@@ -785,19 +785,19 @@ long.range.set.presentation.two.values:
 make.0.default.annotation:
     text: 將“{0}”設為預設註解
 make.default.the.last.case.family.name:
-    text: 使 'default' 為最後一個 case
+    text: "使 'default' 為最後一個 case"
 make.final.and.annotate.as.safevarargs:
-    text: 設為 final 並註解為 '@SafeVarargs'
+    text: "設為 final 並註解為 '@SafeVarargs'"
 message.class.inaccessible:
-    text: 類 ''{0}'' 無法在此處存取
+    text: "類 ''{0}'' 無法在此處存取"
 message.class.inaccessible.from.module:
-    text: 類 ''{0}'' 無法從模組 ''{1}'' 存取
+    text: "類 ''{0}'' 無法從模組 ''{1}'' 存取"
 method.reference.mapped.to.comparator:
-    text: 映射到 'Comparator' 接口的方法引用不會履行 'Comparator' 約定
+    text: "映射到 'Comparator' 接口的方法引用不會履行 'Comparator' 約定"
 module.0.with.language.level.1.depends.on.module.2.with.language.level.3:
     text: 語言級別為 {1} 的模組 {0} 取決於語言級別為 {3} 的模組 {2}
 move.0.to.the.beginning:
-    text: 將 ''{0}'' 移動到開頭
+    text: "將 ''{0}'' 移動到開頭"
 move.to.front:
     text: 移到前面
 mutability.modifiable:
@@ -809,13 +809,13 @@ mutability.unmodifiable:
 mutability.unmodifiable.view:
     text: 不可修改的檢視
 mutation.signature.problem.invalid.token:
-    text: '無效的令牌: {0}；受支援的令牌為 ''''this''''、''''param1''''、''''param2'''' 等。'
+    text: "無效的令牌: {0}；受支援的令牌為 ''this''、''param1''、''param2'' 等。"
 mutation.signature.problem.parameter.has.immutable.type:
-    text: '參數 #{0} 具有不可變類型 ''''{1}'''''
+    text: "參數 #{0} 具有不可變類型 ''{1}''"
 mutation.signature.problem.reference.to.parameter.invalid:
     text: '參數 #{0} 的引用無效'
 mutation.signature.problem.static.method.cannot.mutate.this:
-    text: static 方法無法改變 'this'
+    text: "static 方法無法改變 'this'"
 navigate.to.overridden.methods.title:
     text: '{0} 的覆寫方法'
 non.final.field.code.ref.code.in.immutable.class.loc:
@@ -865,13 +865,13 @@ remove.dependency:
 remove.left.side.of.assignment:
     text: 移除賦值的左側
 remove.switch.branch.0:
-    text: 移除 switch 分支 ''{0}''
+    text: "移除 switch 分支 ''{0}''"
 remove.switch.label:
     text: 移除 switch 標籤
 remove.switch.label.0:
-    text: 移除 switch 標籤 ''{0}''
+    text: "移除 switch 標籤 ''{0}''"
 replace.0.with:
-    text: 將 ''{0}()'' 取代為 ''+=''
+    text: "將 ''{0}()'' 取代為 ''+=''"
 replace.anonymous.class.with.lambda.alternative:
     text: 將匿名類取代為 lambda 替代項
 replace.get.class.with.class.literal:
@@ -881,7 +881,7 @@ replace.operator.assignment.with.assignment:
 replace.stringtokenizer.delimiters.parameter.with.unique.symbols:
     text: 將 StringTokenizer 分隔符參數取代為唯一的符號
 replace.var.with.explicit.type:
-    text: 將 'var' 取代為顯式類型
+    text: "將 'var' 取代為顯式類型"
 replace.with.0:
     text: 取代為 {0}
 replace.with.comparator:
@@ -939,17 +939,17 @@ suppress.inspection.method:
 suppress.inspection.module:
     text: 隱藏模組宣告
 suspected.module.dependency.problem.descriptor:
-    text: 模組''{0}''不依賴於模組''{1}''. 雖然''{2}''不需要為輸出依賴關係檢查''{1}''
+    text: "模組''{0}''不依賴於模組''{1}''. 雖然''{2}''不需要為輸出依賴關係檢查''{1}''"
 suspicious.invocation.handler.implementation.display.name:
-    text: 可疑的 'InvocationHandler' 實作
+    text: "可疑的 'InvocationHandler' 實作"
 suspicious.invocation.handler.implementation.method.unused.message:
-    text: '方法從未在 ''invoke'' 中使用: ''hashCode''、''equals'' 和 ''toString'' 不太可能正確實作'
+    text: "方法從未在 'invoke' 中使用: 'hashCode'、'equals' 和 'toString' 不太可能正確實作"
 suspicious.invocation.handler.implementation.null.returned.for.toString.message:
-    text: '代理方法 ''toString()'' 時，可能返回 null: 不建議如此操作'
+    text: "代理方法 'toString()' 時，可能返回 null: 不建議如此操作"
 suspicious.invocation.handler.implementation.null.returned.message:
-    text: '代理方法 ''''{0}()'''' 時，可能返回 null: 這可能導致 NullPointerException'
+    text: "代理方法 ''{0}()'' 時，可能返回 null: 這可能導致 NullPointerException"
 suspicious.invocation.handler.implementation.type.mismatch.message:
-    text: '代理方法 ''''{0}()'''' 時，可能返回不相容類型: 要求 {1}，實際為 {2}'
+    text: "代理方法 ''{0}()'' 時，可能返回不相容類型: 要求 {1}，實際為 {2}"
 text.raw.ctor.reference.with.type.parameters:
     text: 原始構造函數引用具有構造函數的顯式類型參數
 text.shebang.mechanism.in.java.files.not.permitted:
@@ -981,7 +981,7 @@ unknown.guardedby.reference.ref.loc:
 unnecessary.module.dependency.display.name:
     text: 不必要的模組依賴
 unnecessary.module.dependency.problem.descriptor:
-    text: 模組''{0}''源不依賴於模組''{1}''源
+    text: "模組''{0}''源不依賴於模組''{1}''源"
 unused.import.display.name:
     text: 未使用的匯入
 unused.import.statement:
@@ -989,10 +989,10 @@ unused.import.statement:
 unused.library.display.name:
     text: 未使用的庫
 unused.library.problem.descriptor:
-    text: 未使用的庫''{0}''
+    text: "未使用的庫''{0}''"
 unused.library.roots.problem.descriptor:
     text: 未使用的根{0}從圖書館"{1}"
 var.can.be.replaced.with.explicit.type:
-    text: '''var'' 可取代為顯式類型'
+    text: "'var' 可取代為顯式類型"
 vararg.method.call.with.50.poly.arguments:
     text: 具有超過 50 個 poly 實參的 vararg 方法調用可能會導致編譯和分析速度減慢

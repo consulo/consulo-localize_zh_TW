@@ -55,7 +55,7 @@ dataflow.message.assigning.null:
 dataflow.message.assigning.nullable:
     text: 運算式 <code>#ref</code> might evaluate to null but is assigned to a variable that is annotated with @NotNull
 dataflow.message.constant.method.reference:
-    text: 方法參照結果總是 ''{0}''
+    text: "方法參照結果總是 ''{0}''"
 dataflow.message.loop.on.empty.array:
     text: 陣列 <code>#ref</code> 總是空
 dataflow.message.loop.on.empty.collection:
@@ -135,7 +135,7 @@ duplicate.property.value.progress.indicator.text:
 edit.dependency.rules.family:
     text: 編輯依賴關係規則
 edit.inspection.options:
-    text: 編輯 ''{0}'' 選項
+    text: "編輯 ''{0}'' 選項"
 edit.options.of.reporter.inspection.family:
     text: 編輯選項的記者檢驗
 edit.options.of.reporter.inspection.text:
@@ -271,7 +271,7 @@ inspection.1.7.problem.descriptor:
 inspection.1.8.problem.descriptor:
     text: 預設 {0, choice, 0#|1#method is|2# methods are} 不重寫。它會導致JDK編譯問題 {1}
 inspection.1.8.problem.single.descriptor:
-    text: 預設的方法 ''{0}'' 不重寫。它會導致JDK編譯問題 {1}
+    text: "預設的方法 ''{0}'' 不重寫。它會導致JDK編譯問題 {1}"
 inspection.action.apply.quickfix:
     text: 套用一個補丁
 inspection.action.apply.quickfix.description:
@@ -331,7 +331,7 @@ inspection.application.starting.up:
 inspection.as:
     text: 作為 {0}
 inspection.assert.quickfix:
-    text: 維護 ''{0}''
+    text: "維護 ''{0}''"
 inspection.can.be.final.accept.quickfix:
     text: 設為 final
 inspection.can.be.final.display.name:
@@ -351,9 +351,9 @@ inspection.capitalized.done:
 inspection.collection.factories.fix.family.name:
     text: 用集合工廠調用取代
 inspection.collection.factories.fix.name:
-    text: 用 ''{0}.{1}'' 調用取代
+    text: "用 ''{0}.{1}'' 調用取代"
 inspection.collection.factories.message:
-    text: 可以取代為 ''{0}.{1}'' 調用
+    text: "可以取代為 ''{0}.{1}'' 調用"
 inspection.collection.factories.option.ignore.non.constant:
     text: 當內容不是常數時不警告
 inspection.command.line.explanation:
@@ -383,7 +383,7 @@ inspection.contract.display.name:
 inspection.convert.to.local.quickfix:
     text: 轉換為當地
 inspection.data.flow.filter.notnull.quickfix:
-    text: 插入 'filter(Objects::nonNull)' 步驟
+    text: "插入 'filter(Objects::nonNull)' 步驟"
 inspection.data.flow.ignore.assert.statements:
     text: 忽略 assert 語句
 inspection.data.flow.report.not.null.required.parameter.with.null.literal.argument.usages:
@@ -399,7 +399,7 @@ inspection.data.flow.simplify.to.assignment.quickfix.name:
 inspection.data.flow.treat.non.annotated.members.and.parameters.as.nullable:
     text: 將未註解的成員和參數視為 @Nullable
 inspection.data.flow.use.computeifpresent.quickfix:
-    text: 將 'compute' 取代為 'computeIfPresent'
+    text: "將 'compute' 取代為 'computeIfPresent'"
 inspection.dead.code.comment:
     text: // --註解掉檢查
 inspection.dead.code.comment.quickfix:
@@ -469,9 +469,11 @@ inspection.dead.code.problem.synopsis3:
 inspection.dead.code.remove.from.entry.point.quickfix:
     text: 移除從入口點
 inspection.dead.code.start.comment:
-    text: "// --註解掉檢查 START ({0}):\n"
+    text: |
+        // --註解掉檢查 START ({0}):
 inspection.dead.code.stop.comment:
-    text: "// --註解掉檢查 STOP ({0})\n"
+    text: |
+        // --註解掉檢查 STOP ({0})
 inspection.default.annotation.param:
     text: 預設的註解參數值
 inspection.dependency.configure.button.text:
@@ -509,11 +511,11 @@ inspection.duplicates.message:
 inspection.duplicates.message.in.this.file:
     text: (在此檔案中)
 inspection.duplicates.message.more:
-    text: ... ({0}更多)
+    text: '... ({0}更多)'
 inspection.duplicates.navigate.to.occurrences:
     text: 導航到符合項
 inspection.duplicates.occurrences.view.title:
-    text: 重複的 ''{0}''
+    text: "重複的 ''{0}''"
 inspection.duplicates.option:
     text: 最小字串長度：(&M)
 inspection.duplicates.option.report.propertykey.expressions:
@@ -535,9 +537,9 @@ inspection.empty.method.problem.descriptor4:
 inspection.equals.hashcode.display.name:
     text: equals()和hashCode()沒有配對
 inspection.equals.hashcode.generate.equals.quickfix:
-    text: 產生 'equals()'
+    text: "產生 'equals()'"
 inspection.equals.hashcode.generate.hashcode.quickfix:
-    text: 產生 'hashCode()'
+    text: "產生 'hashCode()'"
 inspection.equals.hashcode.only.one.defined.problem.descriptor:
     text: 類別有{0}定義但沒有定義{1}
 inspection.error.level.popup.menu.title:
@@ -647,41 +649,41 @@ inspection.generating.html.progress.title:
 inspection.generating.xml.progress.title:
     text: 轉存 XML...
 inspection.handle.signature.change.type.fix.name:
-    text: 變更類型為 ''{0}''
+    text: "變更類型為 ''{0}''"
 inspection.handle.signature.field.cannot.resolve:
-    text: 無法剖析欄位 ''{0}''
+    text: "無法剖析欄位 ''{0}''"
 inspection.handle.signature.field.not.static:
-    text: 欄位 ''{0}'' 是非靜態的
+    text: "欄位 ''{0}'' 是非靜態的"
 inspection.handle.signature.field.static:
-    text: 欄位 ''{0}'' 是靜態的
+    text: "欄位 ''{0}'' 是靜態的"
 inspection.handle.signature.field.type:
-    text: 欄位 ''{0}'' 的類型是 ''{1}''
+    text: "欄位 ''{0}'' 的類型是 ''{1}''"
 inspection.handle.signature.method.not.static:
-    text: 方法 ''{0}'' 是非靜態的
+    text: "方法 ''{0}'' 是非靜態的"
 inspection.handle.signature.method.static:
-    text: 方法 ''{0}'' 是靜態的
+    text: "方法 ''{0}'' 是靜態的"
 inspection.handle.signature.name:
     text: MethodHandle/VarHandle 類型不符合
 inspection.handle.signature.replace.with.fix.name:
-    text: 取代為 ''{0}''
+    text: "取代為 ''{0}''"
 inspection.handle.signature.use.constructor.fix.family.name:
     text: 使用構造函數重載之一
 inspection.handle.signature.use.constructor.fix.name:
-    text: 使用構造函數 ''{0}''
+    text: "使用構造函數 ''{0}''"
 inspection.handle.signature.use.method.fix.family.name:
     text: 使用方法重載之一
 inspection.handle.signature.use.method.fix.name:
-    text: 使用方法 ''{0}''
+    text: "使用方法 ''{0}''"
 inspection.implicit.subclass.display.forClass:
-    text: 類別 ''{0}'' 可以隱式的子類別化且不能為 final
+    text: "類別 ''{0}'' 可以隱式的子類別化且不能為 final"
 inspection.implicit.subclass.display.forMethod:
-    text: 方法 ''{0}'' 應可重寫
+    text: "方法 ''{0}'' 應可重寫"
 inspection.implicit.subclass.display.name:
     text: Final 宣告無法在執行時重寫
 inspection.implicit.subclass.extendable:
-    text: 使 ''{0}'' 可重寫
+    text: "使 ''{0}'' 可重寫"
 inspection.implicit.subclass.make.class.extendable:
-    text: 使 ''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 個所需方法 }可繼承
+    text: "使 ''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 個所需方法 }可繼承"
 inspection.javadoc.dialog.title:
     text: 編輯附加的JavaDoc標籤
 inspection.javadoc.display.name:
@@ -711,7 +713,7 @@ inspection.javadoc.option.tab.title.method:
 inspection.javadoc.option.tab.title.package:
     text: 包
 inspection.javadoc.problem.add.param.tag:
-    text: 為參數''{0}''新增標籤@param
+    text: "為參數''{0}''新增標籤@param"
 inspection.javadoc.problem.add.param.tag.family:
     text: 新增缺少的 Javadoc 參數標籤
 inspection.javadoc.problem.add.tag:
@@ -787,9 +789,9 @@ inspection.null.value.for.optional.context.return:
 inspection.null.value.for.optional.fix.family.name:
     text: 用空 Optional 方法取代
 inspection.null.value.for.optional.fix.name:
-    text: 取代為 ''{0}''
+    text: "取代為 ''{0}''"
 inspection.null.value.for.optional.message:
-    text: Null 用於 ''Optional'' 類型在 {0} 中
+    text: "Null 用於 ''Optional'' 類型在 {0} 中"
 inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
     text: 使用 @{0} 註解的參數不得覆寫 @{1} 參數
 inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
@@ -885,41 +887,41 @@ inspection.reference.noname:
 inspection.reflect.handle.invocation.argument.not.array:
     text: 參數不是陣列類型
 inspection.reflect.handle.invocation.argument.not.exact:
-    text: 參數類型應該完全是 ''{0}''
+    text: "參數類型應該完全是 ''{0}''"
 inspection.reflect.handle.invocation.primitive.argument.null:
-    text: '''''{0}'''' 類型的參數不能為 ''''null'''''
+    text: "''{0}'' 類型的參數不能為 ''null''"
 inspection.reflect.handle.invocation.receiver.incompatible:
-    text: 調用接收器類型不相容：期望 ''{0}''
+    text: "調用接收器類型不相容：期望 ''{0}''"
 inspection.reflect.handle.invocation.receiver.null:
-    text: 調用接收器是 'null'
+    text: "調用接收器是 'null'"
 inspection.reflect.handle.invocation.result.not.assignable:
-    text: 應該轉換為 ''{0}'' 或它的超類別
+    text: "應該轉換為 ''{0}'' 或它的超類別"
 inspection.reflect.handle.invocation.result.not.exact:
-    text: 應該轉換為 ''{0}''
+    text: "應該轉換為 ''{0}''"
 inspection.reflect.handle.invocation.result.null:
-    text: 返回類型總是 'null'
+    text: "返回類型總是 'null'"
 inspection.reflect.handle.invocation.result.void:
-    text: 返回類型是 'void'
+    text: "返回類型是 'void'"
 inspection.reflection.invocation.argument.count:
     text: 期望 {0} 個參數
 inspection.reflection.invocation.argument.not.assignable:
-    text: 參數不能賦給 ''{0}''
+    text: "參數不能賦給 ''{0}''"
 inspection.reflection.invocation.array.not.assignable:
     text: 陣列元素不相容
 inspection.reflection.invocation.item.count:
     text: 期望 {0,choice,0#空|1#單元素|1<{0} 元素} 陣列
 inspection.reflection.invocation.item.not.assignable:
-    text: 數線元素不能賦值給 ''{0}''
+    text: "數線元素不能賦值給 ''{0}''"
 inspection.reflection.invocation.name:
     text: 反射調用參數不符合
 inspection.reflection.member.access.cannot.resolve.constructor.arguments:
     text: 無法用指定的參數類型剖析構造方法
 inspection.reflection.member.access.cannot.resolve.field:
-    text: 無法剖析欄位 ''{0}''
+    text: "無法剖析欄位 ''{0}''"
 inspection.reflection.member.access.cannot.resolve.method:
-    text: 無法剖析方法 ''{0}''
+    text: "無法剖析方法 ''{0}''"
 inspection.reflection.member.access.cannot.resolve.method.arguments:
-    text: 無法用指定的參數類型剖析方法 ''{0}''
+    text: "無法用指定的參數類型剖析方法 ''{0}''"
 inspection.reflection.member.access.check.exists:
     text: 檢查該欄位/方法是否存在於非 final 類別中
 inspection.reflection.member.access.check.exists.exclude:
@@ -929,13 +931,13 @@ inspection.reflection.member.access.check.exists.exclude.chooser:
 inspection.reflection.member.access.constructor.not.public:
     text: 構造方法不是公共的
 inspection.reflection.member.access.field.not.in.class:
-    text: 欄位 ''{0}'' 未在類別 ''{1}'' 中宣告
+    text: "欄位 ''{0}'' 未在類別 ''{1}'' 中宣告"
 inspection.reflection.member.access.field.not.public:
-    text: 欄位 ''{0}'' 不是公共的
+    text: "欄位 ''{0}'' 不是公共的"
 inspection.reflection.member.access.method.not.in.class:
-    text: 方法 ''{0}'' 未在類別 ''{1}'' 中宣告
+    text: "方法 ''{0}'' 未在類別 ''{1}'' 中宣告"
 inspection.reflection.member.access.method.not.public:
-    text: 方法 ''{0}'' 不是公共的
+    text: "方法 ''{0}'' 不是公共的"
 inspection.reflection.member.access.name:
     text: 對不存在/不可見類別成員的反射存取
 inspection.reflection.visibility.name:
@@ -943,25 +945,25 @@ inspection.reflection.visibility.name:
 inspection.replace.methodref.ternary.quickfix:
     text: 用空檢查的 lambda 取代
 inspection.replace.ternary.quickfix:
-    text: 使用 ''{0} != null ?:'' 替換
+    text: "使用 ''{0} != null ?:'' 替換"
 inspection.replace.with.enhanced.switch.statement.fix.name:
-    text: 取代為增強的 'switch' 語句
+    text: "取代為增強的 'switch' 語句"
 inspection.replace.with.switch.expression.fix.name:
-    text: 取代為 'switch' 表達式
+    text: "取代為 'switch' 表達式"
 inspection.replace.with.trivial.lambda.fix.family.name:
     text: 用瑣碎的 lambda 取代
 inspection.replace.with.trivial.lambda.fix.name:
-    text: 用返回 ''{0}'' 的 lambda 取代
+    text: "用返回 ''{0}'' 的 lambda 取代"
 inspection.required.attributes.display.name:
     text: 缺少必需的屬性
 inspection.requires.auto.module:
     text: 依賴於自動模組
 inspection.requires.auto.module.message:
-    text: 對自動模組的 'requires' 指令
+    text: "對自動模組的 'requires' 指令"
 inspection.requires.auto.module.option:
     text: 僅高亮傳遞依賴
 inspection.requires.auto.module.transitive:
-    text: 對自動模組的 'requires transitive' 指令
+    text: "對自動模組的 'requires transitive' 指令"
 inspection.results.title:
     text: 結果通過編輯器設定
 inspection.root.node.title:
@@ -971,7 +973,7 @@ inspection.same.parameter.display.name:
 inspection.same.parameter.fix.name:
     text: 內聯值"{1}"參數"{0}"
 inspection.same.parameter.problem.descriptor:
-    text: 實際的參數值 ''{0}'' 永遠是 ''{1}''
+    text: "實際的參數值 ''{0}'' 永遠是 ''{1}''"
 inspection.same.return.value.display.name:
     text: 方法返回相同的值
 inspection.same.return.value.problem.descriptor:
@@ -987,7 +989,7 @@ inspection.severity:
 inspection.surround.if.family:
     text: 使用 if 包裹
 inspection.surround.requirenonnull.quickfix:
-    text: 用 ''Objects.requireNonNull({0})'' 取代
+    text: "用 ''Objects.requireNonNull({0})'' 取代"
 inspection.suspicious.array.method.call.display.name:
     text: 可疑陣列方法調用
 inspection.suspicious.array.method.call.problem.arrays:
@@ -999,7 +1001,7 @@ inspection.suspicious.collections.method.calls.display.name:
 inspection.suspicious.collections.method.calls.problem.descriptor1:
     text: 可疑的叫"{0}"
 inspection.switch.expression.migration.inspection.switch.description:
-    text: Switch 語句可取代為增強的 'switch'
+    text: "Switch 語句可取代為增強的 'switch'"
 inspection.switch.expression.migration.warn.only.on.expression:
     text: 僅在可以轉換為表達式時顯示警告
 inspection.test.only.problems.test.only.class.reference:
@@ -1073,11 +1075,11 @@ long.line.display.name:
 lossy.encoding:
     text: 有損編碼
 module.not.in.requirements:
-    text: 模組 ''{0}'' 在要求中沒有模組 ''{1}''
+    text: "模組 ''{0}'' 在要求中沒有模組 ''{1}''"
 module.package.not.exported:
-    text: 模組 ''{0}'' 沒有將包 ''{1}'' 匯出到模組 ''{2}''
+    text: "模組 ''{0}'' 沒有將包 ''{1}'' 匯出到模組 ''{2}''"
 module.package.not.open:
-    text: 模組 ''{0}'' 未開啟包 ''{1}'' 給模組 ''{2}''
+    text: "模組 ''{0}'' 未開啟包 ''{1}'' 給模組 ''{2}''"
 no.errors.found.in.this.file:
     text: 在這個檔案中沒有發現的錯誤
 non.ascii.characters:
@@ -1107,9 +1109,9 @@ problematic.whitespace.display.name:
 problematic.whitespace.show.whitespaces.quickfix:
     text: 在編輯器中切換顯示空白
 problematic.whitespace.spaces.problem.descriptor:
-    text: 檔案 ''{0}'' 使用空格縮進
+    text: "檔案 ''{0}'' 使用空格縮進"
 problematic.whitespace.tabs.problem.descriptor:
-    text: 檔案 ''{0}'' 使用製表符縮進
+    text: "檔案 ''{0}'' 使用製表符縮進"
 profile.activate.action.text:
     text: 設定為項目預設
 profile.assignment.repeatable.scope.warning:
@@ -1207,7 +1209,7 @@ suppress.inspection.problem:
 suppress.inspection.statement:
     text: 隱藏for語句
 suspected.module.dependency.problem.descriptor:
-    text: 模組''{0}''不依賴於模組''{1}''. 雖然''{2}''不需要為輸出依賴關係檢查''{1}''
+    text: "模組''{0}''不依賴於模組''{1}''. 雖然''{2}''不需要為輸出依賴關係檢查''{1}''"
 suspicious.name.combination.add.titile:
     text: 新增組名字
 suspicious.name.combination.display.name:
@@ -1233,7 +1235,7 @@ unnecessary.module.dependency.exported.problem.descriptor:
 unnecessary.module.dependency.exported.problem.descriptor1:
     text: 模組「{0}」不依賴於「{1}」。儘管「{0}」取決於「{2}」通過「{1}」的出口依賴
 unnecessary.module.dependency.problem.descriptor:
-    text: 模組''{0}''源不依賴於模組''{1}''源
+    text: "模組''{0}''源不依賴於模組''{1}''源"
 unsupported.character.for.the.charset:
     text: 不支援的字元的字元集"{0}"
 unused.import.display.name:
@@ -1245,7 +1247,7 @@ unused.library.backward.analysis.job.description:
 unused.library.display.name:
     text: 未使用的庫
 unused.library.problem.descriptor:
-    text: 未使用的庫''{0}''
+    text: "未使用的庫''{0}''"
 unused.library.roots.problem.descriptor:
     text: 未使用的根{0}從圖書館"{1}"
 unused.symbol:

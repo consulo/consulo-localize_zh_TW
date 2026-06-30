@@ -5,13 +5,13 @@ tools.add.title:
 tools.after.commit.description:
     text: '執行工具:'
 tools.before.run.description:
-    text: 外部工具'' {0}'&#39；
+    text: "外部工具'' {0}'&#39；"
 tools.before.run.provider.name:
     text: 執行外部工具
 tools.caption:
     text: '工具:'
 tools.completed.message:
-    text: 外部工具'' {0}''完成，結束代碼{1}
+    text: "外部工具'' {0}''完成，結束代碼{1}"
 tools.copy.button:
     text: 複製
 tools.copy.title:

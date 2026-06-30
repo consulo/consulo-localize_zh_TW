@@ -11,25 +11,25 @@ aop.warning.aspectj.isnt.enabled:
 aop.warnings.inspection.display.name:
     text: Spring AOP 切面和切入點設定不正確
 bean.autowiring.by.type:
-    text: '無法自動裝配。存在多個 ''''{0}'''' 類型的 Bean。Bean: {1}。屬性: ''''{2}'''''
+    text: "無法自動裝配。存在多個 ''{0}'' 類型的 Bean。Bean: {1}。屬性: ''{2}''"
 bean.autowiring.by.type.none:
-    text: 無法自動裝配。找不到 ''{0}'' 類型的 Bean。
+    text: "無法自動裝配。找不到 ''{0}'' 類型的 Bean。"
 bean.bad.property.type:
-    text: '''''{0}'''' 類型的屬性不能由 ''''{1}'''' 注入'
+    text: "''{0}'' 類型的屬性不能由 ''{1}'' 注入"
 bean.class.autowired.by.type:
-    text: 無法自動裝配。存在多個 ''{0}'' 類型的 Bean。
+    text: "無法自動裝配。存在多個 ''{0}'' 類型的 Bean。"
 bean.class.autowired.incorrect.qualifier.type:
-    text: 無法自動裝配。限定 Bean 必須為 ''{0}'' 類型。
+    text: "無法自動裝配。限定 Bean 必須為 ''{0}'' 類型。"
 bean.class.unknown.qualifier.bean:
-    text: 找不到具有限定符 ''{0}'' 的 Bean
+    text: "找不到具有限定符 ''{0}'' 的 Bean"
 bean.dependencies.popup.title:
-    text: '''''{0}'''' 類的依賴項'
+    text: "''{0}'' 類的依賴項"
 bean.must.be.of.type:
-    text: Bean 必須為 ''{0}'' 類型
+    text: "Bean 必須為 ''{0}'' 類型"
 cannot.autowire.bean.of.type:
-    text: 無法自動裝配。Bean 必須為 ''{0}'' 類型
+    text: "無法自動裝配。Bean 必須為 ''{0}'' 類型"
 cannot.find.bean.constructor.with.parameters.count:
-    text: 在類 ''{0}'' 中未找到符合的構造函數
+    text: "在類 ''{0}'' 中未找到符合的構造函數"
 cannot.find.bean.qualified.by:
     text: 找不到使用 {0} 限定的 Bean
 cannot.find.constructor.arg.index:
@@ -41,7 +41,7 @@ cannot.find.factory.method.index:
 cannot.find.factory.method.with.parameters.count:
     text: 在類中未找到符合的工廠方法
 cannot.resolve.method:
-    text: 無法解析方法 ''{0}''
+    text: "無法解析方法 ''{0}''"
 config.display.name:
     text: 設定
 config.file.is.not.spring:
@@ -53,7 +53,7 @@ config.new.file:
 constructor.arg.incorrect.value.type:
     text: 注入值類型必須對應於構造函數實參類型
 create.missing.mappings:
-    text: 為 ''{0}'' 創建缺少的映射
+    text: "為 ''{0}'' 創建缺少的映射"
 create.missing.properties:
     text: 創建缺少的屬性
 create.new.spring.configuration.file:
@@ -67,7 +67,7 @@ do.you.want.to.move.bean.to.the.top.level:
 error.pointcut.or.pointcut.ref.should.be.defined:
     text: 應定義 pointcut 或 pointcut-ref 特性
 idref.cannot.be.added.in.collection:
-    text: 無法添加到 ''{0}'' 類型的集合中
+    text: "無法添加到 ''{0}'' 類型的集合中"
 incorrect.constructor.arg.index.not.unique:
     text: 索引必須唯一
 interface.not.allowed:
@@ -75,27 +75,27 @@ interface.not.allowed:
 introduce.bean.intention:
     text: 引入 Bean
 jdk.proxy.intercepts.class:
-    text: 'Bean 屬性必須具有接口類型: ''''{0}'''''
+    text: "Bean 屬性必須具有接口類型: ''{0}''"
 mark.bean.as.abstract:
     text: 將 Bean 標記為 abstract
 method.cannot.instantiate.bean:
-    text: 工廠方法  ''{0}'' 無法實例化 Bean
+    text: "工廠方法  ''{0}'' 無法實例化 Bean"
 method.must.be.public:
-    text: 工廠方法 ''{0}'' 應為 public
+    text: "工廠方法 ''{0}'' 應為 public"
 method.must.be.static:
-    text: 工廠方法 ''{0}'' 必須為 static
+    text: "工廠方法 ''{0}'' 必須為 static"
 method.must.not.be.static:
-    text: 工廠方法 ''{0}'' 不得為 static
+    text: "工廠方法 ''{0}'' 不得為 static"
 missing.aspectj.autoproxy.inspection.display.name:
     text: 缺少 aspectj-autoproxy
 model.add.constructor.args.for.method.quickfix.message:
-    text: 為 ''{0}'' 添加 <constructor-arg>
+    text: "為 ''{0}'' 添加 <constructor-arg>"
 model.bean.error.message:
-    text: 無法解析 Bean ''{0}''
+    text: "無法解析 Bean ''{0}''"
 model.bean.quickfix.message:
-    text: 創建新 Bean ''{0}''
+    text: "創建新 Bean ''{0}''"
 model.create.factory.method.quickfix.message:
-    text: 創建工廠方法 ''{0}''
+    text: "創建工廠方法 ''{0}''"
 model.inspection.bean.autowiring:
     text: XML Spring Bean 自動裝配不正確
 model.inspection.bean.constructor.arg:
@@ -107,7 +107,7 @@ model.inspection.bean.property.value:
 model.inspection.display.bean.name.convention:
     text: 非建議的 Spring Bean 名稱
 model.inspection.display.name:
-    text: '''flow'' 元素設定不正確'
+    text: "'flow' 元素設定不正確"
 model.inspection.injection.value.add.list:
     text: 添加 <list> 標記
 model.inspection.injection.value.add.map:
@@ -133,15 +133,15 @@ model.inspection.injection.value.style.ref.message:
 model.inspection.injection.value.style.value.fix:
     text: 將 <value> 元素取代為 "{0}" 特性
 model.inspection.invalid.identifier.message:
-    text: '''''{0}'''' 未遵循 Bean 命名慣例'
+    text: "''{0}'' 未遵循 Bean 命名慣例"
 model.inspection.invalid.lowercase.name.message:
-    text: '''''{0}'''' 應以小寫字母開頭'
+    text: "''{0}'' 應以小寫字母開頭"
 model.inspection.validator.description.text:
     text: Spring 模型
 model.inspection.validator.progress.text:
     text: 正在驗證 Spring 模型…
 model.property.error.message:
-    text: 無法解析屬性 ''{0}''
+    text: "無法解析屬性 ''{0}''"
 model.qualifiers.in.class.inspection.display.name:
     text: Spring Bean 組件中的注入點自動裝配問題
 move.bean:
@@ -159,11 +159,13 @@ parse.custom.bean.success:
 parse.no.custom.beans:
     text: 解析器未生成 Bean
 parse.no.namespace.handler:
-    text: 找不到命名空間 ''{0}'' 的自訂處理程序
+    text: "找不到命名空間 ''{0}'' 的自訂處理程序"
 parse.only.infrastructure.beans:
     text: 解析器僅生成架構 Bean
 parse.these.beans:
-    text: "自訂命名空間處理程序已生成以下 Bean 定義:\n{0}"
+    text: |-
+        自訂命名空間處理程序已生成以下 Bean 定義:
+        {0}
 parse.these.beans.induct:
     text: "自訂命名空間處理程序生成以下 Bean 定義:\n{0}\n\n要假設名稱空間 ''{1}'' 中 \n本地名稱為 ''{2}'' 的所有 Bean 具有\n相同的類並且從 ''{3}'' 特性獲得 ID 嗎?"
 parse.these.beans.induct.only.this:
@@ -175,9 +177,9 @@ process.unexpectedly.terminated:
 required.properties.inspection:
     text: 未注入 Spring Bean @Required 屬性
 required.properties.missed:
-    text: '缺少必需屬性: ''''{0}'''''
+    text: "缺少必需屬性: ''{0}''"
 required.property.not.mapped:
-    text: 未注入必需屬性 ''{0}''
+    text: "未注入必需屬性 ''{0}''"
 required.spring.bean.type.inspection:
     text: 不正確的注入 Bean 類型
 scopes.inspection.display.name:
@@ -221,7 +223,7 @@ spring.bean.instantiation.inspection:
 spring.bean.instantiation.using.factory.method:
     text: Spring Bean (由 static 工廠方法實例化)
 spring.bean.lookup.method.bean.has.no.class:
-    text: '''''{0}'''' Bean 沒有類'
+    text: "''{0}'' Bean 沒有類"
 spring.bean.lookup.method.constructor.not.allowed:
     text: 此處不允許使用構造函數
 spring.bean.lookup.method.incorrect.return.type:
@@ -235,7 +237,7 @@ spring.bean.lookup.method.must.be.public.or.protected:
 spring.bean.lookup.method.must.have.no.parameters:
     text: 方法不得有參數
 spring.bean.lookup.method.return.type.mismatch:
-    text: Lookup 方法返回類型與 ''{0}'' Bean 類不符合
+    text: "Lookup 方法返回類型與 ''{0}'' Bean 類不符合"
 spring.bean.map.entry:
     text: 映射條目
 spring.bean.properties.chooser.title:
@@ -293,10 +295,12 @@ use.cglib.proxying:
 use.p.namespace:
     text: 轉換為 p-namespace
 util.schema.inspection.name:
-    text: XML 應用程式上下文中定義的 'util' 架構 Bean 設定不正確
+    text: "XML 應用程式上下文中定義的 'util' 架構 Bean 設定不正確"
 warning.pointcut.should.have.id:
     text: 切入點應具有 ID
 xml.schema.update.is.required:
     text: 需要更新 XML 架構
 xml.schema.will.be.updated:
-    text: "XML 架構將更新為 spring-beans.xsd。\n要繼續嗎?"
+    text: |-
+        XML 架構將更新為 spring-beans.xsd。
+        要繼續嗎?

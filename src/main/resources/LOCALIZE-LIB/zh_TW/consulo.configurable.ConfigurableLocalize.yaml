@@ -389,7 +389,9 @@ options.xml.attribute.descriptor.tag.data:
 options.xml.attribute.descriptor.tag.name:
     text: 標籤名稱
 project.file.read.only.error.message:
-    text: "項目檔案是唯讀的。\n該設定導致無法儲存，直到你修改檔案為可寫入的。"
+    text: |-
+        項目檔案是唯讀的。
+        該設定導致無法儲存，直到你修改檔案為可寫入的。
 settings.panel.title:
     text: 設定
 template.project.settings.display.name:

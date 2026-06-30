@@ -29,13 +29,13 @@ class.cannot.be.inlined.because.it.has.usages.of.its.class.literal:
 class.cannot.be.inlined.because.it.has.usages.of.its.inner.classes:
     text: 無法內聯類，因為其具有自身內部類的用法
 class.cannot.be.inlined.because.it.is.used.as.a.this.qualifier:
-    text: 無法內聯類，因為其用作 'this' 限定符
+    text: "無法內聯類，因為其用作 'this' 限定符"
 class.cannot.be.inlined.because.it.is.used.in.a.catch.clause:
-    text: 無法內聯類，因為其用於 'catch' 子句
+    text: "無法內聯類，因為其用於 'catch' 子句"
 class.cannot.be.inlined.because.it.is.used.in.a.throws.clause:
-    text: 無法內聯類，因為其用於 'throws' 子句
+    text: "無法內聯類，因為其用於 'throws' 子句"
 class.cannot.be.inlined.because.its.constructor.contains.return.statements:
-    text: 無法內聯類，因為其構造函數包含 'return' 語句
+    text: "無法內聯類，因為其構造函數包含 'return' 語句"
 class.cannot.be.inlined.because.its.superclass.cannot.be.resolved:
     text: 無法內聯類，因為無法解析其超類
 class.cannot.be.inlined.because.there.are.usages.of.its.methods.not.inherited.from.its.superclass.or.interface:
@@ -73,7 +73,7 @@ extract.delegate.unable.create.warning.message:
 extracted.class.command.name:
     text: 已提取類 {0}
 extracted.class.should.have.unique.name:
-    text: 已提取類應具有唯一名稱。已有一個內部類使用名稱 ''{0}''
+    text: "已提取類應具有唯一名稱。已有一個內部類使用名稱 ''{0}''"
 extracting.from.class:
     text: '正在從類提取:'
 field.selected.is.not.used.as.a.delegate:
@@ -115,7 +115,7 @@ inline.super.class.label:
 inline.super.no.anonymous.class:
     text: 無法內聯到匿名類中。
 inline.super.no.inner.class:
-    text: 無法內聯到內部類中。將 ''{0}'' 移動到上一級別
+    text: "無法內聯到內部類中。將 ''{0}'' 移動到上一級別"
 inline.super.non.project.class.warning.message:
     text: 無法內聯非專案類
 interfaces.cannot.be.inlined:
@@ -125,7 +125,7 @@ introduce.parameter.object:
 introduce.type.parameter:
     text: 引入類型參數
 invalid.extracted.class.name:
-    text: '''''{0}'''' 是無效的已提取類名'
+    text: "''{0}'' 是無效的已提取類名"
 library.classes.cannot.be.inlined:
     text: 庫類無法內聯
 members.to.extract.label:
@@ -133,7 +133,7 @@ members.to.extract.label:
 method.selected.has.no.parameters:
     text: 選定方法沒有參數。
 method.selected.returns.void:
-    text: 所選方法返回 'void'。
+    text: "所選方法返回 'void'。"
 method.to.wrap.returns.from.label:
     text: '從中包裝返回值的方法:'
 method.whose.return.are.to.wrapped:

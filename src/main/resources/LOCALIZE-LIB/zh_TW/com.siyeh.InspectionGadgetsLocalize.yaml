@@ -11,7 +11,7 @@ absolute.alignment.in.user.interface.problem.descriptor:
 abstract.class.extends.concrete.class.display.name:
     text: abstract 類擴展具體類
 abstract.class.extends.concrete.class.problem.descriptor:
-    text: '類 <code>#ref</code> 被宣告為 ''abstract''，並擴展一個具體類 #loc'
+    text: "類 <code>#ref</code> 被宣告為 'abstract'，並擴展一個具體類 #loc"
 abstract.class.naming.convention.element.description:
     text: abstract 類
 abstract.class.never.implemented.display.name:
@@ -23,13 +23,13 @@ abstract.class.with.only.one.direct.inheritor.display.name:
 abstract.class.with.only.one.direct.inheritor.problem.descriptor:
     text: '只有一個直接繼承者的 abstract 類 <code>#ref</code> #loc'
 abstract.class.without.abstract.methods.display.name:
-    text: 沒有 'abstract' 方法的 abstract 類
+    text: "沒有 'abstract' 方法的 abstract 類"
 abstract.class.without.abstract.methods.problem.descriptor:
-    text: '類 <code>#ref</code> 被宣告為 ''abstract''，並且沒有 ''abstract'' 方法 #loc'
+    text: "類 <code>#ref</code> 被宣告為 'abstract'，並且沒有 'abstract' 方法 #loc"
 abstract.method.call.in.constructor.display.name:
     text: 物件構造期間調用的 abstract 方法
 abstract.method.call.in.constructor.problem.descriptor:
-    text: '物件構造期間調用 ''abstract'' 方法 <code>#ref()</code> #loc'
+    text: "物件構造期間調用 'abstract' 方法 <code>#ref()</code> #loc"
 abstract.method.overrides.abstract.method.display.name:
     text: abstract 方法覆寫 abstract 方法
 abstract.method.overrides.abstract.method.ignore.different.javadoc.option:
@@ -49,13 +49,13 @@ abstract.method.with.missing.implementations.problem.descriptor:
 access.to.non.thread.safe.static.field.from.instance.class.chooser.title:
     text: 選擇非執行緒安全類
 access.to.non.thread.safe.static.field.from.instance.display.name:
-    text: 非執行緒安全的 'static' 欄位存取
+    text: "非執行緒安全的 'static' 欄位存取"
 access.to.non.thread.safe.static.field.from.instance.field.problem.descriptor:
-    text: '存取類型為 ''''{0}'''' 的非執行緒安全 static 欄位 <code>#ref</code> #loc'
+    text: "存取類型為 ''{0}'' 的非執行緒安全 static 欄位 <code>#ref</code> #loc"
 access.to.non.thread.safe.static.field.from.instance.option.title:
     text: '非執行緒安全類:'
 access.to.static.field.locked.on.instance.display.name:
-    text: 存取實例資料上鎖定的 'static' 欄位
+    text: "存取實例資料上鎖定的 'static' 欄位"
 access.to.static.field.locked.on.instance.problem.descriptor:
     text: '存取實例資料上鎖定的 static 欄位 <code>#ref</code> #loc'
 accessing.non.public.field.of.another.object.display.name:
@@ -63,31 +63,31 @@ accessing.non.public.field.of.another.object.display.name:
 accessing.non.public.field.of.another.object.problem.descriptor:
     text: '直接存取另一個物件的非 public 欄位 <code>#ref</code> #loc'
 add.0.to.ignore.if.annotated.by.list.quickfix:
-    text: 將 ''{0}'' 添加到“有註解時忽略”列表中
+    text: "將 ''{0}'' 添加到“有註解時忽略”列表中"
 add.serialversionuidfield.quickfix:
-    text: 添加 'serialVersionUID' 欄位
+    text: "添加 'serialVersionUID' 欄位"
 add.this.qualifier.quickfix:
-    text: 添加 'this' 限定符
+    text: "添加 'this' 限定符"
 all.levels.option:
     text: 所有日誌級別
 allow.resource.to.be.opened.inside.a.try.block:
-    text: 允許在 'try' 塊內開啟資源
+    text: "允許在 'try' 塊內開啟資源"
 ambiguous.field.access.display.name:
     text: 對繼承欄位的存取類似於對周圍程式碼中元素的存取
 ambiguous.field.access.hides.field.problem.descriptor:
-    text: '存取超類 ''''{0}'''' 中的 <code>#ref</code> 欄位類似於存取周圍類中的欄位 #loc'
+    text: "存取超類 ''{0}'' 中的 <code>#ref</code> 欄位類似於存取周圍類中的欄位 #loc"
 ambiguous.field.access.hides.local.variable.problem.descriptor:
-    text: '存取超類 ''''{0}'''' 中的 <code>#ref</code> 欄位類似於存取局部變數 #loc'
+    text: "存取超類 ''{0}'' 中的 <code>#ref</code> 欄位類似於存取局部變數 #loc"
 ambiguous.field.access.hides.parameter.problem.descriptor:
-    text: '存取超類 ''''{0}'''' 中的 <code>#ref</code> 欄位類似於存取參數 #loc'
+    text: "存取超類 ''{0}'' 中的 <code>#ref</code> 欄位類似於存取參數 #loc"
 ambiguous.field.access.quickfix:
-    text: 將 'super' 限定符添加到欄位存取
+    text: "將 'super' 限定符添加到欄位存取"
 ambiguous.method.call.display.name:
     text: 對繼承方法的調用類似於對本地方法的調用
 ambiguous.method.call.problem.descriptor:
-    text: '對來自超類 ''''{0}'''' 的方法 <code>#ref()</code> 的調用類似於對來自類 ''''{1}'''' 的方法的調用 #loc'
+    text: "對來自超類 ''{0}'' 的方法 <code>#ref()</code> 的調用類似於對來自類 ''{1}'' 的方法的調用 #loc"
 ambiguous.method.call.quickfix:
-    text: 向方法調用中添加 'super' 限定符
+    text: "向方法調用中添加 'super' 限定符"
 annotation.class.display.name:
     text: 註解類
 annotation.class.problem.descriptor:
@@ -107,11 +107,11 @@ anonymous.class.variable.hides.containing.method.variable.display.name:
 anonymous.class.variable.hides.containing.method.variable.problem.descriptor:
     text: '匿名類局部變數 <code>#ref</code> 隱藏包含方法中的變數 #loc'
 anonymous.extends.concrete.collection.problem.descriptor:
-    text: '匿名類顯式擴展 ''''{0}'''' #loc'
+    text: "匿名類顯式擴展 ''{0}'' #loc"
 anonymous.extends.thread.problem.descriptor:
-    text: '匿名類直接擴展 ''java.lang.Thread'' #loc'
+    text: "匿名類直接擴展 'java.lang.Thread' #loc"
 anonymous.extends.throwable.problem.descriptor:
-    text: '匿名類直接擴展 ''java.lang.Throwable'' #loc'
+    text: "匿名類直接擴展 'java.lang.Throwable' #loc"
 anonymous.inner.class.display.name:
     text: 匿名內部類可取代為內部類
 anonymous.inner.class.problem.descriptor:
@@ -121,11 +121,11 @@ anonymous.inner.class.with.too.many.methods.display.name:
 anonymous.inner.class.with.too.many.methods.problem.descriptor:
     text: '具有太多方法的匿名內部類 (方法計數 = {0}) #loc'
 anonymous.inner.may.be.named.static.inner.class.display.name:
-    text: 匿名類可能是命名為 'static' 的內部類
+    text: "匿名類可能是命名為 'static' 的內部類"
 anonymous.inner.may.be.named.static.inner.class.problem.descriptor:
-    text: '匿名類 <code>#ref</code> 可能是命名為 ''static'' 的內部類 #loc'
+    text: "匿名類 <code>#ref</code> 可能是命名為 'static' 的內部類 #loc"
 anonymous.inner.may.be.named.static.inner.class.quickfix:
-    text: 轉換為命名 'static' 內部類
+    text: "轉換為命名 'static' 內部類"
 any.method.may.close.resource.argument:
     text: 任何方法都可能關閉作為實參傳遞的資源
 array.allocation.zero.length.display.name:
@@ -133,61 +133,61 @@ array.allocation.zero.length.display.name:
 array.allocation.zero.length.problem.descriptor:
     text: '零長度陣列的分配 #loc'
 array.comparison.display.name:
-    text: 使用 '==' 而不是 'Arrays.equals()' 進行陣列比較
+    text: "使用 '==' 而不是 'Arrays.equals()' 進行陣列比較"
 array.comparison.problem.descriptor:
-    text: '使用 <code>#ref</code> 而不是 ''Arrays.equals()'' 來比較陣列物件 #loc'
+    text: "使用 <code>#ref</code> 而不是 'Arrays.equals()' 來比較陣列物件 #loc"
 array.creation.without.new.keyword.family.quickfix:
-    text: 添加 'new' 表達式
+    text: "添加 'new' 表達式"
 array.creation.without.new.keyword.name:
-    text: 創建不帶 'new' 表達式的陣列
+    text: "創建不帶 'new' 表達式的陣列"
 array.creation.without.new.keyword.quickfix:
-    text: 添加 ''new {0}''
+    text: "添加 ''new {0}''"
 array.hash.code.display.name:
-    text: 在陣列上調用了 'hashCode()'
+    text: "在陣列上調用了 'hashCode()'"
 array.hash.code.problem.descriptor:
-    text: '陣列上調用的 <code>#ref()</code> 可能應當是 ''Arrays.hashCode()'' #loc'
+    text: "陣列上調用的 <code>#ref()</code> 可能應當是 'Arrays.hashCode()' #loc"
 array.length.in.loop.condition.display.name:
     text: 迴圈條件下的 Array.length
 array.length.in.loop.condition.problem.descriptor:
     text: '檢查迴圈條件下的陣列 <code>#ref</code> #loc'
 array.objects.equals.display.name:
-    text: 對陣列使用淺層方法或 'Objects' 方法
+    text: "對陣列使用淺層方法或 'Objects' 方法"
 arrays.as.list.with.one.argument.problem.descriptor:
     text: '僅使用一個實參調用 <code>#ref()</code> #loc'
 arrays.as.list.with.zero.arguments.problem.descriptor:
     text: '調用 <code>#ref()</code> 以創建空列表 #loc'
 arrays.as.list.with.zero.or.one.argument.display.name:
-    text: '''Arrays.asList()'' 調用的實參過少'
+    text: "'Arrays.asList()' 調用的實參過少"
 assert.can.be.if.quickfix:
-    text: 將 'assert' 取代為 'if' 語句
+    text: "將 'assert' 取代為 'if' 語句"
 assert.keyword.is.considered.an.assertion:
-    text: '''assert'' 關鍵字被視為斷言'
+    text: "'assert' 關鍵字被視為斷言"
 assert.message.not.string.display.name:
-    text: '''assert'' 訊息不是字串'
+    text: "'assert' 訊息不是字串"
 assert.message.not.string.only.warn.boolean.option:
-    text: 僅當 'assert' 訊息為 'boolean' 或 'java.lang.Boolean' 時發出警告
+    text: "僅當 'assert' 訊息為 'boolean' 或 'java.lang.Boolean' 時發出警告"
 assert.message.of.type.boolean.problem.descriptor:
-    text: '類型為 ''''{0}'''' 的 ''''assert'''' 訊息 #loc'
+    text: "類型為 ''{0}'' 的 ''assert'' 訊息 #loc"
 assert.statement.display.name:
-    text: '''assert'' 語句'
+    text: "'assert' 語句"
 assert.with.side.effects.display.name:
-    text: 具有副作用的 'assert' 語句
+    text: "具有副作用的 'assert' 語句"
 assert.with.side.effects.problem.descriptor:
     text: '<code>#ref</code> 具有副作用: {0} #loc'
 assertequals.between.inconvertible.types.display.name:
-    text: '''assertEquals()'' 位於不可轉換類型的物件之間'
+    text: "'assertEquals()' 位於不可轉換類型的物件之間"
 assertequals.between.inconvertible.types.problem.descriptor:
-    text: '<code>#ref()</code> 位於 ''''{0}'''' 和 ''''{1}'''' 不可轉換類型的物件之間 #loc'
+    text: "<code>#ref()</code> 位於 ''{0}'' 和 ''{1}'' 不可轉換類型的物件之間 #loc"
 assertequals.called.on.arrays.display.name:
-    text: 在陣列上調用了 'assertEquals()'
+    text: "在陣列上調用了 'assertEquals()'"
 assertequals.called.on.arrays.problem.descriptor:
     text: '在陣列上調用了 <code>#ref()</code> #loc'
 assertequals.may.be.assertsame.display.name:
-    text: '''assertEquals()'' 可能是 ''assertSame()'''
+    text: "'assertEquals()' 可能是 'assertSame()'"
 assertequals.may.be.assertsame.problem.descriptor:
-    text: '<code>#ref()</code> 可能是 ''assertSame()'' #loc'
+    text: "<code>#ref()</code> 可能是 'assertSame()' #loc"
 assertion.can.be.if.name:
-    text: 斷言可取代為 'if' 語句
+    text: "斷言可取代為 'if' 語句"
 asserts.without.messages.display.name:
     text: 斷言上缺少訊息
 assignment.replaceable.with.operator.assignment.display.name:
@@ -197,15 +197,15 @@ assignment.replaceable.with.operator.assignment.ignore.conditional.operators.opt
 assignment.replaceable.with.operator.assignment.ignore.obscure.operators.option:
     text: 忽略模糊的 ^ 和 % 運算符
 assignment.replaceable.with.operator.assignment.problem.descriptor:
-    text: '<code>#ref</code> 可以簡化為 ''''{0}'''' #loc'
+    text: "<code>#ref</code> 可以簡化為 ''{0}'' #loc"
 assignment.to.catch.block.parameter.display.name:
-    text: 賦值給 'catch' 塊參數
+    text: "賦值給 'catch' 塊參數"
 assignment.to.catch.block.parameter.problem.descriptor:
-    text: '賦值給 ''catch'' 塊參數 <code>#ref</code> #loc'
+    text: "賦值給 'catch' 塊參數 <code>#ref</code> #loc"
 assignment.to.for.loop.parameter.check.foreach.option:
-    text: 檢查增強型 'for' 迴圈參數
+    text: "檢查增強型 'for' 迴圈參數"
 assignment.to.for.loop.parameter.display.name:
-    text: 賦值給 'for' 迴圈參數
+    text: "賦值給 'for' 迴圈參數"
 assignment.to.for.loop.parameter.problem.descriptor:
     text: '賦值給 for 迴圈參數 <code>#ref</code> #loc'
 assignment.to.lambda.parameter.display.name:
@@ -219,11 +219,11 @@ assignment.to.method.parameter.ignore.transformation.option:
 assignment.to.method.parameter.problem.descriptor:
     text: '賦值給方法參數 <code>#ref</code> #loc'
 assignment.to.null.display.name:
-    text: '''null'' 賦值'
+    text: "'null' 賦值"
 assignment.to.null.option:
     text: 忽略對欄位的賦值
 assignment.to.null.problem.descriptor:
-    text: '''null'' 已賦值給變數 <code>#ref</code> #loc'
+    text: "'null' 已賦值給變數 <code>#ref</code> #loc"
 assignment.to.static.field.from.instance.method.display.name:
     text: 從實例上下文賦值給 static 欄位
 assignment.to.static.field.from.instance.method.problem.descriptor:
@@ -231,17 +231,17 @@ assignment.to.static.field.from.instance.method.problem.descriptor:
 assignment.to.superclass.field.display.name:
     text: 構造函數將值賦給在超類中定義的欄位
 assignment.to.superclass.field.problem.descriptor:
-    text: '賦值給在超類 ''''{1}'''' 中定義的欄位 ''''{0}'''' #loc'
+    text: "賦值給在超類 ''{1}'' 中定義的欄位 ''{0}'' #loc"
 assignment.used.as.condition.display.name:
     text: 用作條件的賦值
 assignment.used.as.condition.problem.descriptor:
     text: '賦值 <code>#ref</code> 作為條件使用 #loc'
 atomic.field.updater.issues.display.name:
-    text: '''AtomicFieldUpdater'' 宣告不一致'
+    text: "'AtomicFieldUpdater' 宣告不一致"
 atomic.field.updater.not.static.final.display.name:
-    text: '''AtomicFieldUpdater'' 欄位未被宣告為 ''static final'''
+    text: "'AtomicFieldUpdater' 欄位未被宣告為 'static final'"
 atomic.field.updater.not.static.final.problem.descriptor:
-    text: '{0} 欄位 <code>#ref</code> 未被宣告為 ''''static final'''' #loc'
+    text: "{0} 欄位 <code>#ref</code> 未被宣告為 ''static final'' #loc"
 auto.boxing.display.name:
     text: 自動裝箱
 auto.boxing.ignore.added.to.collection.option:
@@ -251,11 +251,11 @@ auto.boxing.make.boxing.explicit.quickfix:
 auto.boxing.problem.descriptor:
     text: '自動裝箱 <code>#ref</code> #loc'
 auto.closeable.resource.display.name:
-    text: 在沒有 'try-with-resources' 的情況下使用 AutoCloseable
+    text: "在沒有 'try-with-resources' 的情況下使用 AutoCloseable"
 auto.closeable.resource.problem.descriptor:
-    text: '在沒有 ''''try-with-resources'''' 語句的情況下使用 ''''{0}'''' #loc'
+    text: "在沒有 ''try-with-resources'' 語句的情況下使用 ''{0}'' #loc"
 auto.closeable.resource.quickfix:
-    text: 忽略此方法返回的 'AutoCloseable'
+    text: "忽略此方法返回的 'AutoCloseable'"
 auto.closeable.resource.returned.option:
     text: 忽略從所有方法調用返回的 AutoCloseable 實例
 auto.unboxing.display.name:
@@ -265,15 +265,15 @@ auto.unboxing.make.unboxing.explicit.quickfix:
 auto.unboxing.problem.descriptor:
     text: '自動拆箱 <code>#ref</code> #loc'
 await.not.in.loop.display.name:
-    text: 未在迴圈中調用的 'await()'
+    text: "未在迴圈中調用的 'await()'"
 await.not.in.loop.problem.descriptor:
     text: '<code>#ref()</code> 調用不在迴圈中 #loc'
 await.without.corresponding.signal.display.name:
-    text: 沒有相應 'signal()' 的 'await()'
+    text: "沒有相應 'signal()' 的 'await()'"
 await.without.corresponding.signal.problem.descriptor:
     text: '在沒有相應 <code>signal()</code> 或 <code>signalAll()</code> 的情況下調用 <code>#ref()</code> #loc'
 bad.exception.caught.display.name:
-    text: 已捕獲禁止的 'Exception'
+    text: "已捕獲禁止的 'Exception'"
 bad.exception.caught.problem.descriptor:
     text: '已捕獲禁止異常 <code>#ref</code> #loc'
 bad.exception.declared.display.name:
@@ -283,25 +283,25 @@ bad.exception.declared.problem.descriptor:
 bad.exception.thrown.display.name:
     text: 已拋出禁止異常
 bad.exception.thrown.problem.descriptor:
-    text: '已拋出禁止異常 ''''{0}'''' #loc'
+    text: "已拋出禁止異常 ''{0}'' #loc"
 bad.oddness.display.name:
     text: 可疑的奇數檢查
 bad.oddness.problem.descriptor:
     text: '對負值進行奇數檢查將會失敗 #loc'
 big.decimal.equals.display.name:
-    text: 在 'BigDecimal' 上調用了 'equals()'
+    text: "在 'BigDecimal' 上調用了 'equals()'"
 big.decimal.equals.problem.descriptor:
-    text: 'BigDecimal 值之間的 <code>#ref()</code> 可能應當是 ''compareTo()'' #loc'
+    text: "BigDecimal 值之間的 <code>#ref()</code> 可能應當是 'compareTo()' #loc"
 big.decimal.method.without.rounding.called.display.name:
-    text: '''BigDecimal'' 方法調用沒有舍入模式實參'
+    text: "'BigDecimal' 方法調用沒有舍入模式實參"
 big.decimal.method.without.rounding.called.problem.descriptor:
-    text: 在沒有舍入模式實參的情況下調用了 'BigDecimal.#ref()'
+    text: "在沒有舍入模式實參的情況下調用了 'BigDecimal.#ref()'"
 bigdecimal.legacy.method.display.name:
-    text: 調用了 'BigDecimal' 遺留方法
+    text: "調用了 'BigDecimal' 遺留方法"
 bigdecimal.legacy.method.problem.descriptor:
-    text: 對 'BigDecimal.#ref()' 的調用可以使用 'RoundingMode' 枚舉常數
+    text: "對 'BigDecimal.#ref()' 的調用可以使用 'RoundingMode' 枚舉常數"
 bigdecimal.legacy.method.quickfix:
-    text: 使用 'RoundingMode' 枚舉常數
+    text: "使用 'RoundingMode' 枚舉常數"
 boolean.constructor.display.name:
     text: 布爾構造函數調用
 boolean.constructor.problem.descriptor:
@@ -309,7 +309,7 @@ boolean.constructor.problem.descriptor:
 boolean.constructor.simplify.quickfix:
     text: 簡化
 boolean.expression.can.be.simplified.problem.descriptor:
-    text: '<code>#ref</code> 可以簡化為 ''''{0}'''' #loc'
+    text: "<code>#ref</code> 可以簡化為 ''{0}'' #loc"
 boolean.expression.may.be.conditional.display.name:
     text: 布爾表達式可取代為條件表達式
 boolean.field.always.inverted.problem.descriptor:
@@ -321,17 +321,17 @@ boolean.method.name.must.start.with.question.problem.descriptor:
 boolean.method.name.must.start.with.question.table.column.name:
     text: 布爾方法名稱前綴
 boolean.parameter.constructor.problem.descriptor:
-    text: '''public'' 構造函數 <code>#ref()</code> 具有 ''boolean'' 參數 #loc'
+    text: "'public' 構造函數 <code>#ref()</code> 具有 'boolean' 參數 #loc"
 boolean.parameter.display.name:
-    text: '''public'' 方法具有 ''boolean'' 參數'
+    text: "'public' 方法具有 'boolean' 參數"
 boolean.parameter.only.report.multiple.option:
     text: 僅報告具有多個布爾參數的方法
 boolean.parameter.problem.descriptor:
-    text: '''public'' 方法 <code>#ref()</code> 具有 ''boolean'' 參數 #loc'
+    text: "'public' 方法 <code>#ref()</code> 具有 'boolean' 參數 #loc"
 boolean.parameters.constructor.problem.descriptor:
-    text: '''public'' 構造函數 <code>#ref()</code> 具有 ''boolean'' 參數 #loc'
+    text: "'public' 構造函數 <code>#ref()</code> 具有 'boolean' 參數 #loc"
 boolean.parameters.problem.descriptor:
-    text: '''public'' 方法 <code>#ref()</code> 具有 ''boolean'' 參數 #loc'
+    text: "'public' 方法 <code>#ref()</code> 具有 'boolean' 參數 #loc"
 boolean.variable.always.inverted.display.name:
     text: 布爾變數始終反轉
 boolean.variable.always.inverted.problem.descriptor:
@@ -343,9 +343,9 @@ boxing.boxed.value.problem.descriptor:
 boxing.boxed.value.quickfix:
     text: 移除不必要的裝箱
 break.statement.display.name:
-    text: '''break'' 語句'
+    text: "'break' 語句"
 break.statement.with.label.display.name:
-    text: 帶標籤的 'break' 語句
+    text: "帶標籤的 'break' 語句"
 break.statement.with.label.problem.descriptor:
     text: '帶標籤的 <code>#ref</code> 語句 #loc'
 busy.wait.display.name:
@@ -363,21 +363,21 @@ cached.number.constructor.call.ignore.string.arguments.option:
 cached.number.constructor.call.problem.descriptor:
     text: '數字構造函數調用具有基元實參 #loc'
 call.to.date.tostring.display.name:
-    text: 調用 'Date.toString()'
+    text: "調用 'Date.toString()'"
 call.to.date.tostring.problem.descriptor:
     text: '國際化上下文中使用的 <code>Date.#ref()</code> #loc'
 call.to.native.method.while.locked.display.name:
-    text: 鎖定時調用 'native' 方法
+    text: "鎖定時調用 'native' 方法"
 call.to.native.method.while.locked.problem.descriptor:
     text: '在同步上下文中調用本地方法 <code>#ref()</code> #loc'
 call.to.numeric.tostring.display.name:
-    text: 調用 'Number.toString()'
+    text: "調用 'Number.toString()'"
 call.to.numeric.tostring.problem.descriptor:
     text: '國際化上下文中調用的 <code>Number.#ref()</code> #loc'
 call.to.private.setter.in.class.option:
-    text: 僅在 setter 為 'private' 時報告
+    text: "僅在 setter 為 'private' 時報告"
 call.to.private.simple.getter.in.class.option:
-    text: 僅在 getter 為 'private' 時報告
+    text: "僅在 getter 為 'private' 時報告"
 call.to.simple.getter.in.class.display.name:
     text: 從類內調用簡單 getter
 call.to.simple.getter.in.class.ignore.option:
@@ -395,31 +395,31 @@ call.to.simple.setter.in.class.inline.quickfix:
 call.to.simple.setter.in.class.problem.descriptor:
     text: '從類內調用簡單 setter <code>#ref()</code> #loc'
 call.to.string.concat.can.be.replaced.by.operator.display.name:
-    text: 對 'String.concat()' 的調用可取代為 '+'
+    text: "對 'String.concat()' 的調用可取代為 '+'"
 call.to.string.concat.can.be.replaced.by.operator.problem.descriptor:
-    text: '對 <code>#ref()</code> 的調用可取代為 ''+'' 表達式 #loc'
+    text: "對 <code>#ref()</code> 的調用可取代為 '+' 表達式 #loc"
 call.to.string.concat.can.be.replaced.by.operator.quickfix:
-    text: 用 '+' 取代 'concat()'
+    text: "用 '+' 取代 'concat()'"
 call.to.suspicious.string.method.display.name:
-    text: 調用可疑的 'String' 方法
+    text: "調用可疑的 'String' 方法"
 call.to.suspicious.string.method.problem.descriptor:
     text: '國際化上下文中調用的 <code>String.#ref()</code> #loc'
 cast.conflicts.with.instanceof.display.name:
-    text: 轉換與 'instanceof' 衝突
+    text: "轉換與 'instanceof' 衝突"
 cast.conflicts.with.instanceof.problem.descriptor:
-    text: 轉換為 ''{0}'' 類型將與前面的 ''instanceof {1}'' 檢查衝突
+    text: "轉換為 ''{0}'' 類型將與前面的 ''instanceof {1}'' 檢查衝突"
 cast.conflicts.with.instanceof.quickfix1:
-    text: 在轉換中將 ''{0}'' 取代為 ''{1}''
+    text: "在轉換中將 ''{0}'' 取代為 ''{1}''"
 cast.conflicts.with.instanceof.quickfix2:
-    text: 在 instanceof 中將 ''{0}'' 取代為 ''{1}''
+    text: "在 instanceof 中將 ''{0}'' 取代為 ''{1}''"
 cast.that.loses.precision.display.name:
     text: 損失精度的數字轉換
 cast.that.loses.precision.negative.problem.descriptor:
-    text: '''''{0}'''' 到 <code>#ref</code> 的轉換可能導致負實參的精度損失 #loc'
+    text: "''{0}'' 到 <code>#ref</code> 的轉換可能導致負實參的精度損失 #loc"
 cast.that.loses.precision.option:
     text: 忽略從 int 到 char 的轉換
 cast.that.loses.precision.problem.descriptor:
-    text: '''''{0}'''' 到 <code>#ref</code> 的轉換可能導致精度損失 #loc'
+    text: "''{0}'' 到 <code>#ref</code> 的轉換可能導致精度損失 #loc"
 cast.to.concrete.class.problem.descriptor:
     text: '轉換為具體類 <code>{0}</code> #loc'
 casting.to.incompatible.interface.display.name:
@@ -433,9 +433,9 @@ caught.exception.immediately.rethrown.problem.descriptor:
 chain.of.class.equality.checks.problem.descriptor:
     text: '類相等檢查鏈指示抽象失敗 #loc'
 chain.of.instanceof.checks.display.name:
-    text: '''instanceof'' 檢查鏈'
+    text: "'instanceof' 檢查鏈"
 chain.of.instanceof.checks.problem.descriptor:
-    text: '''instanceof'' 檢查鏈指示抽象失敗 #loc'
+    text: "'instanceof' 檢查鏈指示抽象失敗 #loc"
 chained.equality.comparisons.display.name:
     text: 鏈式相等比較
 chained.equality.comparisons.problem.descriptor:
@@ -447,15 +447,15 @@ chained.method.call.ignore.option:
 chained.method.call.problem.descriptor:
     text: '鏈式方法調用 <code>#ref()</code> #loc'
 change.modifier.quickfix:
-    text: 設為 ''{0}''
+    text: "設為 ''{0}''"
 channel.opened.not.closed.display.name:
-    text: 開啟了 'Channel'，但未安全關閉
+    text: "開啟了 'Channel'，但未安全關閉"
 char.used.in.arithmetic.context.cast.quickfix:
     text: 插入到 {0} 的轉換
 char.used.in.arithmetic.context.display.name:
-    text: 在算術上下文中使用 'char' 表達式
+    text: "在算術上下文中使用 'char' 表達式"
 char.used.in.arithmetic.context.problem.descriptor:
-    text: '算術上下文中使用了 ''char'' #loc'
+    text: "算術上下文中使用了 'char' #loc"
 char.used.in.arithmetic.context.quickfix:
     text: 轉換為字串文字
 character.comparison.display.name:
@@ -481,13 +481,13 @@ choose.logger.class:
 class.escapes.defined.scope.display.module.option:
     text: 模組的 API 公開未匯出的類(Java 9+)
 class.escapes.defined.scope.display.name:
-    text: 公開不可存取的 'class'
+    text: "公開不可存取的 'class'"
 class.escapes.defined.scope.display.package.option:
     text: Package-local API 公開 private 類
 class.escapes.defined.scope.display.public.option:
     text: 公共 API 公開不可存取的類
 class.escapes.defined.scope.java9.modules.descriptor:
-    text: 類 <code>#ref</code> 未從模組 ''{0}'' 匯出
+    text: "類 <code>#ref</code> 未從模組 ''{0}'' 匯出"
 class.escapes.defined.scope.problem.descriptor:
     text: '類 <code>#ref</code> 在其定義範圍之外公開 #loc'
 class.extends.utility.class.display.name:
@@ -495,31 +495,31 @@ class.extends.utility.class.display.name:
 class.extends.utility.class.ignore.utility.class.option:
     text: 如果覆寫類為實用程序類，則忽略
 class.extends.utility.class.problem.descriptor:
-    text: '類 <code>#ref</code> 擴展實用程序類 ''''{0}'''' #loc'
+    text: "類 <code>#ref</code> 擴展實用程序類 ''{0}'' #loc"
 class.independent.of.module.display.name:
     text: 獨立於其模組的類
 class.independent.of.module.problem.descriptor:
     text: '類 <code>#ref</code> 在其模組中沒有依賴或依賴項 #loc'
 class.initializer.display.name:
-    text: 非 'static' 初始設定式
+    text: "非 'static' 初始設定式"
 class.initializer.may.be.static.display.name:
-    text: 類初始設定式可能為 'static'
+    text: "類初始設定式可能為 'static'"
 class.initializer.may.be.static.problem.descriptor:
-    text: '類初始設定式可能為 ''static'' #loc'
+    text: "類初始設定式可能為 'static' #loc"
 class.initializer.move.code.to.constructor.quickfix:
     text: 將初始設定式程式碼移動到構造函數
 class.initializer.option:
     text: 僅在類具有一個或多個構造函數時警告
 class.initializer.problem.descriptor:
-    text: '非 ''static'' 初始設定式 #loc'
+    text: "非 'static' 初始設定式 #loc"
 class.loader.instantiation.display.name:
-    text: '''ClassLoader'' 實例化'
+    text: "'ClassLoader' 實例化"
 class.loader.instantiation.problem.descriptor:
     text: '實例化 <code>#ref</code> 可能造成安全問題 #loc'
 class.may.be.interface.convert.quickfix:
     text: 將類轉換為接口
 class.may.be.interface.display.name:
-    text: '''abstract'' 類可以是 ''interface'''
+    text: "'abstract' 類可以是 'interface'"
 class.may.be.interface.java8.option:
     text: 使用 Java 8 時報告包含非 abstract 方法的類
 class.may.be.interface.problem.descriptor:
@@ -543,21 +543,21 @@ class.naming.convention.display.name:
 class.naming.convention.element.description:
     text: 類
 class.new.instance.display.name:
-    text: 對 'Class.newInstance()' 的調用不安全
+    text: "對 'Class.newInstance()' 的調用不安全"
 class.new.instance.problem.descriptor:
     text: '對 <code>#ref()</code> 的調用可能會拋出未宣告的已檢查的異常 #loc'
 class.only.used.in.one.module.display.name:
     text: 僅在其他模組中使用的類
 class.only.used.in.one.module.problem.descriptor:
-    text: '類 <code>#ref</code> 在其模組 ''''{0}'''' 中只有依賴和/或依賴性 #loc'
+    text: "類 <code>#ref</code> 在其模組 ''{0}'' 中只有依賴和/或依賴性 #loc"
 class.only.used.in.one.package.display.name:
     text: 僅在其他軟體套件中使用的類
 class.only.used.in.one.package.problem.descriptor:
-    text: '類 <code>#ref</code> 在其軟體套件 ''''{0}'''' 中只有依賴和/或依賴項 #loc'
+    text: "類 <code>#ref</code> 在其軟體套件 ''{0}'' 中只有依賴和/或依賴項 #loc"
 class.references.subclass.display.name:
     text: 類引用其子類之一
 class.references.subclass.problem.descriptor:
-    text: '類 ''''{0}'''' 引用子類 <code>#ref</code> #loc'
+    text: "類 ''{0}'' 引用子類 <code>#ref</code> #loc"
 class.references.subclass.problem.descriptor.anonymous:
     text: '匿名類引用子類 <code>#ref</code> #loc'
 class.too.deep.display.name:
@@ -571,33 +571,33 @@ class.unconnected.to.package.display.name:
 class.unconnected.to.package.problem.descriptor:
     text: 類 <code>#ref</code> 在其軟體套件中沒有依賴或依賴項
 class.with.only.private.constructors.display.name:
-    text: 僅包含 'private' 構造函數的類應被宣告為 'final'
+    text: "僅包含 'private' 構造函數的類應被宣告為 'final'"
 class.with.only.private.constructors.problem.descriptor:
-    text: 僅包含 'private' 構造函數的類 <code>#ref</code> 應被宣告為 'final'
+    text: "僅包含 'private' 構造函數的類 <code>#ref</code> 應被宣告為 'final'"
 class.with.too.many.dependencies.display.name:
     text: 依賴過多的類
 class.with.too.many.dependencies.max.option:
     text: 最大依賴項數
 class.with.too.many.dependencies.problem.descriptor:
-    text: 類 ''{0}'' 的依賴過多 ({1} > {2})
+    text: "類 ''{0}'' 的依賴過多 ({1} > {2})"
 class.with.too.many.dependents.display.name:
     text: 依賴項過多的類
 class.with.too.many.dependents.max.option:
     text: 最大依賴項數
 class.with.too.many.dependents.problem.descriptor:
-    text: 類 ''{0}'' 的依賴項過多 ({1} > {2})
+    text: "類 ''{0}'' 的依賴項過多 ({1} > {2})"
 class.with.too.many.transitive.dependencies.display.name:
     text: 可傳遞依賴項過多的類
 class.with.too.many.transitive.dependencies.max.option:
     text: 最大可傳遞依賴項數
 class.with.too.many.transitive.dependencies.problem.descriptor:
-    text: 類 ''{0}'' 的可傳遞依賴項過多({1} > {2})
+    text: "類 ''{0}'' 的可傳遞依賴項過多({1} > {2})"
 class.with.too.many.transitive.dependents.display.name:
     text: 傳遞依賴項過多的類
 class.with.too.many.transitive.dependents.max.option:
     text: 最大傳遞依賴項數
 class.with.too.many.transitive.dependents.problem.descriptor:
-    text: 類 ''{0}'' 的可傳遞依賴項過多({1} > {2})
+    text: "類 ''{0}'' 的可傳遞依賴項過多({1} > {2})"
 class.without.constructor.create.quickfix:
     text: 生成空構造函數
 class.without.constructor.display.name:
@@ -611,47 +611,47 @@ class.without.no.arg.constructor.ignore.option:
 class.without.no.arg.constructor.problem.descriptor:
     text: '<code>#ref</code> 沒有無實參構造函數 #loc'
 clone.doesnt.declare.clonenotsupportedexception.declare.quickfix:
-    text: 將 'CloneNotSupportedException' 添加到 throws 子句
+    text: "將 'CloneNotSupportedException' 添加到 throws 子句"
 clone.doesnt.declare.clonenotsupportedexception.display.name:
-    text: '''clone()'' 未宣告 ''CloneNotSupportedException'''
+    text: "'clone()' 未宣告 'CloneNotSupportedException'"
 clone.doesnt.declare.clonenotsupportedexception.problem.descriptor:
-    text: '<code>#ref()</code> #loc 未宣告 ''CloneNotSupportedException'''
+    text: "<code>#ref()</code> #loc 未宣告 'CloneNotSupportedException'"
 clone.instantiates.objects.with.constructor.display.name:
-    text: '''clone()'' 用構造函數實例化物件'
+    text: "'clone()' 用構造函數實例化物件"
 clone.instantiates.objects.with.constructor.problem.descriptor:
-    text: '''clone()'' 創建新的 <code>#ref</code> 實例 #loc'
+    text: "'clone()' 創建新的 <code>#ref</code> 實例 #loc"
 clone.method.in.non.cloneable.class.display.name:
-    text: 不可克隆類中的 'clone()' 方法
+    text: "不可克隆類中的 'clone()' 方法"
 clone.method.in.non.cloneable.class.problem.descriptor:
-    text: '<code>#ref()</code> 在不可克隆類 ''''{0}'''' 中定義 #loc'
+    text: "<code>#ref()</code> 在不可克隆類 ''{0}'' 中定義 #loc"
 clone.method.in.non.cloneable.interface.problem.descriptor:
-    text: '<code>#ref()</code> 在不可克隆接口 ''''{0}'''' 中定義 #loc'
+    text: "<code>#ref()</code> 在不可克隆接口 ''{0}'' 中定義 #loc"
 clone.returns.class.type.display.name:
-    text: '''clone()'' 應當具有等於其所包含類的返回類型'
+    text: "'clone()' 應當具有等於其所包含類的返回類型"
 clone.returns.class.type.family.quickfix:
     text: 將返回類型更改為類類型
 clone.returns.class.type.problem.descriptor:
-    text: '''''clone()'''' 應當具有返回類型 ''''{0}'''' #loc'
+    text: "''clone()'' 應當具有返回類型 ''{0}'' #loc"
 clone.returns.class.type.quickfix:
-    text: 將返回類型更改為 ''{0}''
+    text: "將返回類型更改為 ''{0}''"
 cloneable.class.in.secure.context.display.name:
     text: 安全上下文中的可克隆類
 cloneable.class.in.secure.context.problem.descriptor:
     text: '類 <code>#ref</code> 可能被克隆，影響安全性 #loc'
 cloneable.class.without.clone.display.name:
-    text: 沒有 'clone()' 方法的可克隆類
+    text: "沒有 'clone()' 方法的可克隆類"
 cloneable.class.without.clone.ignore.option:
     text: 忽略由於繼承而可克隆的類
 cloneable.class.without.clone.problem.descriptor:
-    text: '<code>#ref</code> 為 ''Cloneable''，但未定義 ''clone()'' 方法 #loc'
+    text: "<code>#ref</code> 為 'Cloneable'，但未定義 'clone()' 方法 #loc"
 cloneable.class.without.clone.quickfix:
-    text: 生成 'clone()' 方法
+    text: "生成 'clone()' 方法"
 collection.added.to.self.display.name:
     text: 集合已添加到自身
 collection.added.to.self.problem.descriptor:
-    text: '在以自身作為實參的集合 <code>#ref</code> 上調用了 ''''{0}()'''' #loc'
+    text: "在以自身作為實參的集合 <code>#ref</code> 上調用了 ''{0}()'' #loc"
 collection.contains.url.display.name:
-    text: '''Map'' 或 ''Set'' 可能包含 ''URL'' 物件'
+    text: "'Map' 或 'Set' 可能包含 'URL' 物件"
 collection.contains.url.problem.decriptor:
     text: '{0} <code>#ref</code> 可能包含 URL 物件 #loc'
 collection.declared.by.class.display.name:
@@ -659,41 +659,41 @@ collection.declared.by.class.display.name:
 collection.declared.by.class.ignore.locals.option:
     text: 忽略局部變數
 collection.declared.by.class.ignore.private.members.option:
-    text: 忽略 'private' 欄位和方法
+    text: "忽略 'private' 欄位和方法"
 collection.declared.by.class.problem.descriptor:
-    text: '<code>#ref</code> 的宣告可能應當被削弱為 ''''{0}'''' #loc'
+    text: "<code>#ref</code> 的宣告可能應當被削弱為 ''{0}'' #loc"
 collections.field.access.replaceable.by.method.call.display.name:
     text: 對空集合欄位的引用可取代為方法調用
 collections.field.access.replaceable.by.method.call.problem.descriptor:
-    text: '<code>#ref</code> 可取代為 ''''Collections.{0}'''' #loc'
+    text: "<code>#ref</code> 可取代為 ''Collections.{0}'' #loc"
 collections.must.have.initial.capacity.display.name:
     text: 沒有初始容量的集合
 collections.must.have.initial.capacity.problem.descriptor:
     text: '沒有初始容量的 <code>new #ref()</code> #loc'
 comparable.implemented.but.equals.not.overridden.display.name:
-    text: 已實作 'Comparable'，但 'equals()' 未被覆寫
+    text: "已實作 'Comparable'，但 'equals()' 未被覆寫"
 comparable.implemented.but.equals.not.overridden.problem.descriptor:
-    text: '類 <code>#ref</code> 實作 ''java.lang.Comparable''，但未覆寫 ''equals()'' #loc'
+    text: "類 <code>#ref</code> 實作 'java.lang.Comparable'，但未覆寫 'equals()' #loc"
 comparator.not.serializable.display.name:
-    text: '''Comparator'' 類未被宣告為 ''Serializable'''
+    text: "'Comparator' 類未被宣告為 'Serializable'"
 comparator.not.serializable.problem.descriptor:
     text: '比較器類 <code>#ref</code> 未被宣告為可序列化 #loc'
 comparison.of.short.and.char.display.name:
-    text: 比較 'short' 和 'char' 值
+    text: "比較 'short' 和 'char' 值"
 comparison.of.short.and.char.problem.descriptor:
     text: 'short 和 char 值的相等比較 <code>#ref</code> #loc'
 comparison.to.nan.display.name:
-    text: 與 'Double.NaN' 或 'Float.NaN' 比較
+    text: "與 'Double.NaN' 或 'Float.NaN' 比較"
 comparison.to.nan.problem.descriptor1:
     text: '與 <code>#ref</code> 的比較始終為 false #loc'
 comparison.to.nan.problem.descriptor2:
     text: '與 <code>#ref</code> 的比較始終為 true #loc'
 concrete.class.method.parameter.problem.descriptor:
-    text: '具體類 <code>#ref</code> 的參數 ''''{0}'''' #loc'
+    text: "具體類 <code>#ref</code> 的參數 ''{0}'' #loc"
 condition.signal.display.name:
-    text: 調用 'signal()' 而不是 'signalAll()'
+    text: "調用 'signal()' 而不是 'signalAll()'"
 condition.signal.problem.descriptor:
-    text: '<code>#ref</code> 可能應當取代為 ''signalAll()'' #loc'
+    text: "<code>#ref</code> 可能應當取代為 'signalAll()' #loc"
 conditional.can.be.pushed.inside.expression.display.name:
     text: 可以將條件推送到分支表達式內部
 conditional.can.be.pushed.inside.expression.option:
@@ -715,7 +715,7 @@ conditional.expression.with.identical.branches.display.name:
 conditional.expression.with.identical.branches.problem.descriptor:
     text: '具有相同分支的條件表達式 <code>#ref</code> #loc'
 confusing.else.option:
-    text: 當 'if' 語句之後沒有其他語句時報告
+    text: "當 'if' 語句之後沒有其他語句時報告"
 confusing.floating.point.literal.change.quickfix:
     text: 更改為規範形式
 confusing.floating.point.literal.display.name:
@@ -725,9 +725,9 @@ confusing.floating.point.literal.option:
 confusing.floating.point.literal.problem.descriptor:
     text: '引起混淆的浮點文字 <code>#ref</code> #loc'
 confusing.main.method.display.name:
-    text: 引起混淆的 'main()' 方法
+    text: "引起混淆的 'main()' 方法"
 confusing.main.method.problem.descriptor:
-    text: '方法名稱 <code>#ref</code> 沒有簽名 ''public static void main(String[])'' #loc'
+    text: "方法名稱 <code>#ref</code> 沒有簽名 'public static void main(String[])' #loc"
 confusing.octal.escape.sequence.display.name:
     text: 引起混淆的八進制轉義序列
 confusing.octal.escape.sequence.problem.descriptor:
@@ -735,19 +735,19 @@ confusing.octal.escape.sequence.problem.descriptor:
 connection.opened.not.safely.closed.display.name:
     text: 集合已開啟，但未安全關閉
 consider.static.final.fields.constant.option:
-    text: 考慮 'static final' 欄位常數
+    text: "考慮 'static final' 欄位常數"
 constant.assert.condition.display.name:
-    text: '''assert'' 語句中的常數條件'
+    text: "'assert' 語句中的常數條件"
 constant.assert.condition.problem.descriptor:
     text: '斷言條件 <code>#ref</code> 是常數 #loc'
 constant.conditional.expression.display.name:
     text: 常數條件表達式
 constant.conditional.expression.problem.descriptor:
-    text: '<code>#ref</code> 可以簡化為 ''''{0}'''' #loc'
+    text: "<code>#ref</code> 可以簡化為 ''{0}'' #loc"
 constant.conditional.expression.simplify.quickfix:
     text: 簡化
 constant.declared.in.abstract.class.display.name:
-    text: 在 'abstract' 類中宣告的常數
+    text: "在 'abstract' 類中宣告的常數"
 constant.declared.in.abstract.class.problem.descriptor:
     text: '常數 <code>#ref</code> 在 abstract 類中宣告 #loc'
 constant.declared.in.interface.display.name:
@@ -765,7 +765,7 @@ constant.junit.assert.argument.display.name:
 constant.junit.assert.argument.problem.descriptor:
     text: '實參 <code>#ref</code> 是常數 #loc'
 constant.math.call.display.name:
-    text: 對 'Math' 的常數調用
+    text: "對 'Math' 的常數調用"
 constant.math.call.problem.descriptor:
     text: '對 <code>#ref()</code> 的常數調用可以簡化 #loc'
 constant.naming.convention.element.description:
@@ -781,13 +781,13 @@ constant.value.variable.use.problem.descriptor:
 constructor.visibility.option:
     text: '忽略具有以下可見性的構造函數:'
 continue.or.break.from.finally.block.display.name:
-    text: '''continue'' 或 ''break'' 位於 ''finally'' 塊內'
+    text: "'continue' 或 'break' 位於 'finally' 塊內"
 continue.or.break.from.finally.block.problem.descriptor:
-    text: '<code>#ref</code> 位於 ''finally'' 塊內 #loc'
+    text: "<code>#ref</code> 位於 'finally' 塊內 #loc"
 continue.statement.display.name:
-    text: '''continue'' 語句'
+    text: "'continue' 語句"
 continue.statement.with.label.display.name:
-    text: 帶標籤的 'continue' 語句
+    text: "帶標籤的 'continue' 語句"
 continue.statement.with.label.problem.descriptor:
     text: '帶標籤的 <code>#ref</code> 語句 #loc'
 control.flow.statement.without.braces.add.quickfix:
@@ -795,47 +795,47 @@ control.flow.statement.without.braces.add.quickfix:
 control.flow.statement.without.braces.display.name:
     text: 不帶大括號的控制流語句
 control.flow.statement.without.braces.message:
-    text: 將大括號添加到 ''{0}'' 語句
+    text: "將大括號添加到 ''{0}'' 語句"
 control.flow.statement.without.braces.problem.descriptor:
     text: '不帶大括號的 <code>{0}</code> #loc'
 convert.junit3.test.class.quickfix:
-    text: 將 JUnit 3 類 ''{0}'' 轉換為 JUnit 4
+    text: "將 JUnit 3 類 ''{0}'' 轉換為 JUnit 4"
 convert.octal.literal.to.decimal.literal.quickfix:
     text: 將八進制文字轉換為十進制文字
 convert.to.variable.arity.method.quickfix:
     text: 轉換為 vararg 方法
 covariant.equals.display.name:
-    text: 協變 'equals()'
+    text: "協變 'equals()'"
 covariant.equals.problem.descriptor:
-    text: '<code>#ref()</code> 應當以 ''Object'' 作為其實參 #loc'
+    text: "<code>#ref()</code> 應當以 'Object' 作為其實參 #loc"
 cstyle.array.method.declaration.problem.descriptor:
     text: '方法 <code>#ref()</code> 返回類型的 C 樣式陣列宣告 #loc'
 cstyle.array.variable.declaration.problem.descriptor:
     text: '{0, choice, 1#欄位|2#參數|3#記錄組件|4#局部變數} <code>#ref</code> 的 C 樣式陣列宣告 #loc'
 custom.classloader.display.name:
-    text: 宣告了自訂的 'ClassLoader'
+    text: "宣告了自訂的 'ClassLoader'"
 custom.classloader.problem.descriptor:
     text: '自訂 ClassLoader 類 <code>#ref</code> #loc'
 custom.security.manager.display.name:
-    text: 自訂 'SecurityManager'
+    text: "自訂 'SecurityManager'"
 custom.security.manager.problem.descriptor:
     text: '自訂 SecurityManager 類 <code>#ref</code> #loc'
 cyclic.class.dependency.1.problem.descriptor:
-    text: 類 ''{0}'' 迴圈依賴於類 ''{1}''
+    text: "類 ''{0}'' 迴圈依賴於類 ''{1}''"
 cyclic.class.dependency.2.problem.descriptor:
-    text: 類 ''{0}'' 迴圈依賴於類 ''{1}'' 和 ''{2}''
+    text: "類 ''{0}'' 迴圈依賴於類 ''{1}'' 和 ''{2}''"
 cyclic.class.dependency.display.name:
     text: 迴圈類依賴
 cyclic.class.dependency.problem.descriptor:
-    text: 類 ''{0}'' 迴圈依賴於其他 {1} 個類
+    text: "類 ''{0}'' 迴圈依賴於其他 {1} 個類"
 cyclic.package.dependency.1.problem.descriptor:
-    text: 軟體套件 ''{0}'' 迴圈依賴於軟體套件 ''{1}''
+    text: "軟體套件 ''{0}'' 迴圈依賴於軟體套件 ''{1}''"
 cyclic.package.dependency.2.problem.descriptor:
-    text: 軟體套件 ''{0}'' 迴圈依賴於軟體套件 ''{1}'' 和 ''{2}''
+    text: "軟體套件 ''{0}'' 迴圈依賴於軟體套件 ''{1}'' 和 ''{2}''"
 cyclic.package.dependency.display.name:
     text: 迴圈軟體套件依賴關係
 cyclic.package.dependency.problem.descriptor:
-    text: 軟體套件 ''{0}'' 迴圈依賴於其他 {1} 個軟體套件
+    text: "軟體套件 ''{0}'' 迴圈依賴於其他 {1} 個軟體套件"
 cyclomatic.complexity.display.name:
     text: 過度複雜的方法
 cyclomatic.complexity.limit.option:
@@ -853,17 +853,17 @@ dangling.javadoc.problem.descriptor:
 debug.level.and.lower.option:
     text: 偵錯級別和更低
 declare.collection.as.interface.quickfix:
-    text: 削弱為 ''{0}''
+    text: "削弱為 ''{0}''"
 default.not.last.case.in.switch.display.name:
-    text: '''default'' 不是 ''switch'' 中的最後一個 case'
+    text: "'default' 不是 'switch' 中的最後一個 case"
 default.not.last.case.in.switch.problem.descriptor:
-    text: '<code>#ref</code> 分支不是 ''''switch'''' {0} 中的最後一個 case #loc'
+    text: "<code>#ref</code> 分支不是 ''switch'' {0} 中的最後一個 case #loc"
 default.tostring.call.display.name:
-    text: 調用預設 'toString()'
+    text: "調用預設 'toString()'"
 default.tostring.call.problem.descriptor:
-    text: '調用 <code>#ref</code> 上的預設 ''toString()'' #loc'
+    text: "調用 <code>#ref</code> 上的預設 'toString()' #loc"
 delete.catch.section.quickfix:
-    text: 刪除 'catch' 部分
+    text: "刪除 'catch' 部分"
 delete.import.quickfix:
     text: 刪除不必要的匯入
 deserializable.class.in.secure.context.problem.descriptor:
@@ -875,7 +875,7 @@ design.for.extension.problem.descriptor:
 diamond.can.be.replaced.with.explicit.type.arguments.name:
     text: diamond 可取代為顯式類型實參
 diamond.can.be.replaced.with.explicit.type.arguments.quickfix:
-    text: 將 '<>' 取代為顯式類型實參
+    text: "將 '<>' 取代為顯式類型實參"
 disjoint.package.display.name:
     text: 具有不相交依賴關係圖的軟體套件
 disjoint.package.problem.descriptor:
@@ -885,9 +885,9 @@ divide.by.zero.display.name:
 divide.by.zero.problem.descriptor:
     text: '除以零 #loc'
 dollar.sign.in.name.display.name:
-    text: 在關鍵字中使用 '$'
+    text: "在關鍵字中使用 '$'"
 dollar.sign.in.name.problem.descriptor:
-    text: '關鍵字 <code>#ref</code> 包含 ''$'' #loc'
+    text: "關鍵字 <code>#ref</code> 包含 '$' #loc"
 double.brace.initialization.display.name:
     text: 雙大括號初始化
 double.brace.initialization.quickfix:
@@ -897,9 +897,9 @@ double.checked.locking.display.name:
 double.checked.locking.problem.descriptor:
     text: '雙重檢查鎖定 #loc'
 double.checked.locking.quickfix:
-    text: 將 ''{0}'' 設為 volatile
+    text: "將 ''{0}'' 設為 volatile"
 double.literal.may.be.float.literal.display.name:
-    text: 轉換為 'float' 可以是 'float' 文字
+    text: "轉換為 'float' 可以是 'float' 文字"
 double.negation.display.name:
     text: 雙重否定
 double.negation.problem.descriptor:
@@ -907,11 +907,11 @@ double.negation.problem.descriptor:
 double.negation.quickfix:
     text: 移除雙重否定
 drivermanager.call.display.name:
-    text: 使用 'DriverManager' 獲取 JDBC 連接
+    text: "使用 'DriverManager' 獲取 JDBC 連接"
 drivermanager.call.problem.descriptor:
     text: '調用 <code>DriverManager.#ref()</code> #loc'
 dumpstack.call.display.name:
-    text: 調用 'Thread.dumpStack()'
+    text: "調用 'Thread.dumpStack()'"
 dumpstack.call.problem.descriptor:
     text: '對 <code>Thread.#ref()</code> 的調用可能應當取代為更可靠的日誌 #loc'
 duplicate.condition.display.name:
@@ -921,15 +921,15 @@ duplicate.condition.ignore.method.calls.option:
 duplicate.condition.problem.descriptor:
     text: '重複條件 <code>#ref</code> #loc'
 dynamic.regex.replaceable.by.compiled.pattern.display.name:
-    text: 動態正則表達式可取代為已編譯的 'Pattern'
+    text: "動態正則表達式可取代為已編譯的 'Pattern'"
 dynamic.regex.replaceable.by.compiled.pattern.problem.descriptor:
-    text: '<code>#ref()</code> 可取代為已編譯的 ''java.util.regex.Pattern'' 結構 #loc'
+    text: "<code>#ref()</code> 可取代為已編譯的 'java.util.regex.Pattern' 結構 #loc"
 dynamic.regex.replaceable.by.compiled.pattern.quickfix:
-    text: 取代為對已編譯 'Pattern' 常數的方法的調用
+    text: "取代為對已編譯 'Pattern' 常數的方法的調用"
 empty.anonymous.class.problem.descriptor:
     text: '匿名類為空 #loc'
 empty.catch.block.display.name:
-    text: 空 'catch' 塊
+    text: "空 'catch' 塊"
 empty.class.display.name:
     text: 冗餘空類
 empty.class.file.without.class.problem.descriptor:
@@ -945,7 +945,7 @@ empty.class.initializer.problem.descriptor:
 empty.class.problem.descriptor:
     text: '類 <code>#ref</code> 為空 #loc'
 empty.directories.delete.quickfix:
-    text: 刪除空目錄 ''{0}''
+    text: "刪除空目錄 ''{0}''"
 empty.directories.only.under.source.roots.option:
     text: 僅報告位於源資料夾下的空目錄
 empty.directories.problem.descriptor:
@@ -953,25 +953,25 @@ empty.directories.problem.descriptor:
 empty.directory.display.name:
     text: 空目錄
 empty.finally.block.display.name:
-    text: 空 'finally' 塊
+    text: "空 'finally' 塊"
 empty.finally.block.problem.descriptor:
     text: '空 <code>#ref</code> 塊 #loc'
 empty.synchronized.statement.display.name:
-    text: 空 'synchronized' 語句
+    text: "空 'synchronized' 語句"
 empty.synchronized.statement.problem.descriptor:
     text: '空 <code>#ref</code> 語句 #loc'
 empty.try.block.display.name:
-    text: 空 'try' 塊
+    text: "空 'try' 塊"
 empty.try.block.problem.descriptor:
     text: '空 <code>#ref</code> 塊 #loc'
 encapsulate.variable.quickfix:
-    text: 封裝欄位 ''{0}''
+    text: "封裝欄位 ''{0}''"
 enum.switch.statement.which.misses.cases.display.name:
-    text: 缺少 case 的枚舉 'switch' 語句
+    text: "缺少 case 的枚舉 'switch' 語句"
 enum.switch.statement.which.misses.cases.option:
     text: 忽略具有預設分支的 switch 語句
 enum.switch.statement.which.misses.cases.problem.descriptor:
-    text: '枚舉類型 ''''{0}'''' 上的 <code>#ref</code> 語句缺少 case: {1} #loc'
+    text: "枚舉類型 ''{0}'' 上的 <code>#ref</code> 語句缺少 case: {1} #loc"
 enumerated.class.display.name:
     text: 枚舉類
 enumerated.class.naming.convention.element.description:
@@ -983,127 +983,127 @@ enumerated.constant.naming.convention.element.description:
 enumeration.can.be.iteration.display.name:
     text: 枚舉可以是迭代
 enumeration.can.be.iteration.problem.descriptor:
-    text: '<code>#ref()</code> 可取代為 ''''{0}'''' 結構 #loc'
+    text: "<code>#ref()</code> 可取代為 ''{0}'' 結構 #loc"
 enumeration.can.be.iteration.quickfix:
-    text: 取代為 'Iterator' 結構
+    text: "取代為 'Iterator' 結構"
 equals.between.inconvertible.types.display.name:
     text: 不可轉換類型物件之間的相等測試
 equals.between.inconvertible.types.problem.descriptor:
-    text: '在不可轉換類型 ''''{0}'''' 和 ''''{1}'''' 的物件之間的相等測試 #loc'
+    text: "在不可轉換類型 ''{0}'' 和 ''{1}'' 的物件之間的相等測試 #loc"
 equals.called.on.array.display.name:
-    text: 在陣列上調用了 'equals()'
+    text: "在陣列上調用了 'equals()'"
 equals.called.on.array.problem.descriptor:
-    text: '陣列之間的 <code>#ref()</code> 可能應當是 ''Arrays.equals()'' #loc'
+    text: "陣列之間的 <code>#ref()</code> 可能應當是 'Arrays.equals()' #loc"
 equals.called.on.enum.constant.display.name:
-    text: 對枚舉值調用了 'equals()'
+    text: "對枚舉值調用了 'equals()'"
 equals.called.on.enum.constant.problem.descriptor:
     text: '對枚舉值調用了 <code>#ref()</code> #loc'
 equals.called.on.suspicious.object.display.name:
-    text: 在 'StringBuilder'上調用了 'equals()'
+    text: "在 'StringBuilder'上調用了 'equals()'"
 equals.called.on.suspicious.object.problem.descriptor:
-    text: '''''{0}'''' 物件上存在可疑的 ''''equals()'''' 調用'
+    text: "''{0}'' 物件上存在可疑的 ''equals()'' 調用"
 equals.doesnt.check.class.parameter.display.name:
-    text: 不檢查參數的類的 'equals()' 方法
+    text: "不檢查參數的類的 'equals()' 方法"
 equals.doesnt.check.class.parameter.problem.descriptor:
     text: '<code>#ref()</code> 應當檢查其參數的類 #loc'
 equals.hashcode.called.on.url.display.name:
-    text: 在 'URL' 物件上調用了 'equals()' 或 'hashCode()'
+    text: "在 'URL' 物件上調用了 'equals()' 或 'hashCode()'"
 equals.hashcode.called.on.url.problem.descriptor:
     text: '在 URL 物件上調用 <code>#ref()</code> #loc'
 equals.replaceable.by.objects.call.display.name:
-    text: '''equals()'' 表達式可取代為 ''Objects.equals()'' 表達式'
+    text: "'equals()' 表達式可取代為 'Objects.equals()' 表達式"
 equals.replaceable.by.objects.call.problem.descriptor:
-    text: '<code>#ref</code> 可取代為 ''Objects.equals()'' 表達式 #loc'
+    text: "<code>#ref</code> 可取代為 'Objects.equals()' 表達式 #loc"
 equals.replaceable.by.objects.check.not.null.option:
-    text: 高亮顯示與 'a != null \&\& a.equals(b)' 類似的表達式
+    text: "高亮顯示與 'a != null \\&\\& a.equals(b)' 類似的表達式"
 equals.with.itself.display.name:
-    text: 在自身上調用了 'equals()'
+    text: "在自身上調用了 'equals()'"
 equals.with.itself.problem.descriptor:
     text: 在自身上調用了 <code>#ref()</code>
 error.rethrown.display.name:
-    text: '''Error'' 未重新拋出'
+    text: "'Error' 未重新拋出"
 error.rethrown.problem.descriptor:
     text: '錯誤 <code>#ref</code> 未重新拋出 #loc'
 exception.class.column.name:
     text: 異常類
 exception.from.catch.which.doesnt.wrap.display.name:
-    text: '''throw'' 位於忽略已捕獲異常的 ''catch'' 塊內'
+    text: "'throw' 位於忽略已捕獲異常的 'catch' 塊內"
 exception.from.catch.which.doesnt.wrap.problem.descriptor:
-    text: '''catch'' 塊內的 <code>#ref</code> 忽略捕獲的異常 #loc'
+    text: "'catch' 塊內的 <code>#ref</code> 忽略捕獲的異常 #loc"
 exception.from.catch.which.doesntwrap.ignore.cant.wrap.option:
     text: 如果拋出的異常無法包裝異常，則忽略
 exception.from.catch.which.doesntwrap.ignore.option:
     text: 如果使用異常方法調用的結果，則忽略
 exception.name.doesnt.end.with.exception.display.name:
-    text: 異常類名不以 'Exception' 結尾
+    text: "異常類名不以 'Exception' 結尾"
 exception.name.doesnt.end.with.exception.problem.descriptor:
-    text: '異常類名 <code>#ref</code> 未以 ''Exception'' 結尾 #loc'
+    text: "異常類名 <code>#ref</code> 未以 'Exception' 結尾 #loc"
 expected.exception.never.thrown.display.name:
     text: 從未在測試方法正文中拋出預期異常
 expected.exception.never.thrown.problem.descriptor:
-    text: '從未在 ''''{0}()'''' 的正文中拋出預期 <code>#ref</code> #loc'
+    text: "從未在 ''{0}()'' 的正文中拋出預期 <code>#ref</code> #loc"
 explicit.array.to.string.problem.descriptor:
-    text: '調用陣列上的 ''#ref()'' #loc'
+    text: "調用陣列上的 '#ref()' #loc"
 expression.can.be.replaced.problem.descriptor:
-    text: '<code>#ref</code> 可取代為 ''''{0}'''' #loc'
+    text: "<code>#ref</code> 可取代為 ''{0}'' #loc"
 extended.for.statement.display.name:
-    text: 增強的 'for' 語句
+    text: "增強的 'for' 語句"
 extended.for.statement.problem.descriptor:
     text: '擴展 <code>#ref</code> 語句 #loc'
 extended.for.statement.replace.quickfix:
-    text: 取代為舊式 'for' 語句
+    text: "取代為舊式 'for' 語句"
 extends.annotation.display.name:
     text: 類擴展註解接口
 extends.annotation.interface.problem.descriptor:
-    text: '接口 ''''{0}'''' 擴展註解接口 <code>#ref</code> #loc'
+    text: "接口 ''{0}'' 擴展註解接口 <code>#ref</code> #loc"
 extends.annotation.problem.descriptor:
-    text: '類 ''''{0}'''' 實作註解接口 <code>#ref</code> #loc'
+    text: "類 ''{0}'' 實作註解接口 <code>#ref</code> #loc"
 extends.concrete.collection.display.name:
-    text: 類顯式擴展 'Collection' 類
+    text: "類顯式擴展 'Collection' 類"
 extends.concrete.collection.problem.descriptor:
-    text: '類 <code>#ref</code> 顯式擴展 ''''{0}'''' #loc'
+    text: "類 <code>#ref</code> 顯式擴展 ''{0}'' #loc"
 extends.object.display.name:
-    text: 類顯式擴展 'Object'
+    text: "類顯式擴展 'Object'"
 extends.object.problem.descriptor:
-    text: '類 <code>#ref</code> 顯式擴展 ''java.lang.Object'' #loc'
+    text: "類 <code>#ref</code> 顯式擴展 'java.lang.Object' #loc"
 extends.object.remove.quickfix:
-    text: 移除冗餘的 'extends Object'
+    text: "移除冗餘的 'extends Object'"
 extends.thread.display.name:
-    text: 類直接擴展 'Thread'
+    text: "類直接擴展 'Thread'"
 extends.thread.problem.descriptor:
-    text: '類 <code>#ref</code> 直接擴展 ''java.lang.Thread'' #loc'
+    text: "類 <code>#ref</code> 直接擴展 'java.lang.Thread' #loc"
 extends.throwable.display.name:
-    text: 類直接擴展 'Throwable'
+    text: "類直接擴展 'Throwable'"
 extends.throwable.problem.descriptor:
-    text: '類 <code>#ref</code> 直接擴展 ''java.lang.Throwable'' #loc'
+    text: "類 <code>#ref</code> 直接擴展 'java.lang.Throwable' #loc"
 externalizable.with.serialization.methods.display.name:
-    text: 具有 'readObject()' 或 'writeObject()' 的可外部化類
+    text: "具有 'readObject()' 或 'writeObject()' 的可外部化類"
 externalizable.with.serialization.methods.problem.descriptor.both:
-    text: '可外部化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 ''readObject()'' 和 ''writeObject()'' #loc'
+    text: "可外部化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 'readObject()' 和 'writeObject()' #loc"
 externalizable.with.serialization.methods.problem.descriptor.read:
-    text: '可外部化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 ''readObject()'' #loc'
+    text: "可外部化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 'readObject()' #loc"
 externalizable.with.serialization.methods.problem.descriptor.write:
-    text: '可外部化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 ''writeObject()'' #loc'
+    text: "可外部化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 'writeObject()' #loc"
 externalizable.without.public.no.arg.constructor.display.name:
-    text: 沒有 'public' 無實參構造函數的 'Externalizable' 類
+    text: "沒有 'public' 無實參構造函數的 'Externalizable' 類"
 externalizable.without.public.no.arg.constructor.problem.descriptor:
-    text: '可外部化類 <code>#ref</code> 沒有 ''public'' 無實參構造函數 #loc'
+    text: "可外部化類 <code>#ref</code> 沒有 'public' 無實參構造函數 #loc"
 extract.method.quickfix:
     text: 提取方法
 extract.parameter.as.local.variable.quickfix:
     text: 提取參數作為局部變數
 fallthru.in.switch.statement.display.name:
-    text: '''switch'' 語句中的直落'
+    text: "'switch' 語句中的直落"
 fallthru.in.switch.statement.problem.descriptor:
-    text: '''switch'' 語句存在直落 #loc'
+    text: "'switch' 語句存在直落 #loc"
 fallthru.in.switch.statement.quickfix:
-    text: 添加 ''{0}''
+    text: "添加 ''{0}''"
 feature.envy.display.name:
     text: 特性依戀
 feature.envy.problem.descriptor:
-    text: '類 ''''{0}'''' 在方法 <code>#ref()</code> 中被重複存取 #loc'
+    text: "類 ''{0}'' 在方法 <code>#ref()</code> 中被重複存取 #loc"
 field.accessed.synchronized.and.unsynchronized.display.name:
-    text: 同時在 'synchronized' 和未同步上下文中存取欄位
+    text: "同時在 'synchronized' 和未同步上下文中存取欄位"
 field.accessed.synchronized.and.unsynchronized.option:
     text: 簡單的 getter 和 setter 也被視為欄位存取
 field.accessed.synchronized.and.unsynchronized.problem.descriptor:
@@ -1113,25 +1113,25 @@ field.count.inspection.include.constant.fields.in.count.checkbox:
 field.count.inspection.include.enum.constants.in.count:
     text: 在計數中包含枚舉常數
 field.count.inspection.static.final.fields.count.as.constant.checkbox:
-    text: 將 'static final' 欄位計為常數
+    text: "將 'static final' 欄位計為常數"
 field.has.setter.but.no.getter.display.name:
     text: 欄位具有 setter 但沒有 getter
 field.has.setter.but.no.getter.problem.descriptor:
     text: '欄位 <code>#ref</code> 有 setter 但沒有 getter #loc'
 field.has.static.modifier.problem.descriptor:
-    text: 欄位 ''{0}'' 具有 ''static'' 修飾符
+    text: "欄位 ''{0}'' 具有 ''static'' 修飾符"
 field.incorrect.type.problem.descriptor:
-    text: 欄位 ''{0}'' 沒有類型 ''{1}''
+    text: "欄位 ''{0}'' 沒有類型 ''{1}''"
 field.may.be.final.display.name:
-    text: 欄位可能為 'final'
+    text: "欄位可能為 'final'"
 field.may.be.final.problem.descriptor:
-    text: '欄位 <code>#ref</code> 可能為 ''final'' #loc'
+    text: "欄位 <code>#ref</code> 可能為 'final' #loc"
 field.may.be.static.display.name:
-    text: 欄位可以為 'static'
+    text: "欄位可以為 'static'"
 field.may.be.static.problem.descriptor:
-    text: '欄位 <code>#ref</code> 可能為 ''static'' #loc'
+    text: "欄位 <code>#ref</code> 可能為 'static' #loc"
 field.missing.volatile.modifier.problem.descriptor:
-    text: 欄位 ''{0}'' 沒有 ''volatile'' 修飾符
+    text: "欄位 ''{0}'' 沒有 ''volatile'' 修飾符"
 field.name.hides.in.superclass.display.name:
     text: 子類欄位隱藏超類欄位
 field.name.hides.in.superclass.ignore.option:
@@ -1139,7 +1139,7 @@ field.name.hides.in.superclass.ignore.option:
 field.name.hides.in.superclass.problem.descriptor:
     text: '欄位 <code>#ref</code> 隱藏超類中的欄位 #loc'
 field.not.found.in.class.problem.descriptor:
-    text: 類 ''{1}'' 中未找到命名為 ''{0}'' 的欄位
+    text: "類 ''{1}'' 中未找到命名為 ''{0}'' 的欄位"
 final.class.display.name:
     text: 類禁止繼承
 final.class.problem.descriptor:
@@ -1147,33 +1147,33 @@ final.class.problem.descriptor:
 final.method.display.name:
     text: 不能覆寫方法
 final.method.in.final.class.display.name:
-    text: '''final'' 類位於 ''final'' 方法中'
+    text: "'final' 類位於 'final' 方法中"
 final.method.in.final.class.problem.descriptor:
-    text: '方法在 ''final'' 類中被宣告為 <code>#ref</code> #loc'
+    text: "方法在 'final' 類中被宣告為 <code>#ref</code> #loc"
 final.method.problem.descriptor:
     text: '方法被宣告為 <code>#ref</code> #loc'
 final.private.method.display.name:
-    text: '''private'' 方法被宣告為 ''final'''
+    text: "'private' 方法被宣告為 'final'"
 final.private.method.problem.descriptor:
-    text: '''private'' 方法被宣告為 <code>#ref</code> #loc'
+    text: "'private' 方法被宣告為 <code>#ref</code> #loc"
 final.static.method.display.name:
-    text: '''static'' 方法被宣告為 ''final'''
+    text: "'static' 方法被宣告為 'final'"
 final.static.method.problem.descriptor:
-    text: '''static'' 方法被宣告為 <code>#ref</code> #loc'
+    text: "'static' 方法被宣告為 <code>#ref</code> #loc"
 finalize.called.explicitly.display.name:
-    text: '''finalize()'' 被顯式調用'
+    text: "'finalize()' 被顯式調用"
 finalize.called.explicitly.problem.descriptor:
     text: '<code>#ref()</code> 被顯式調用 #loc'
 finalize.declaration.display.name:
-    text: '''finalize()'' 不應被覆寫'
+    text: "'finalize()' 不應被覆寫"
 finalize.declaration.problem.descriptor:
-    text: '''finalize()'' 不應被覆寫 #loc'
+    text: "'finalize()' 不應被覆寫 #loc"
 finalize.not.declared.protected.display.name:
-    text: '''finalize()'' 應為 protected，不應為 public'
+    text: "'finalize()' 應為 protected，不應為 public"
 finalize.not.declared.protected.problem.descriptor:
-    text: '''finalize()'' 應具有 protected 存取權限，不應具有 public 存取權限 #loc'
+    text: "'finalize()' 應具有 protected 存取權限，不應具有 public 存取權限 #loc"
 finally.block.cannot.complete.normally.display.name:
-    text: 不能正常完成的 'finally' 塊
+    text: "不能正常完成的 'finally' 塊"
 finally.block.cannot.complete.normally.problem.descriptor:
     text: '<code>#ref</code> 塊無法正常完成 #loc'
 flip.comparison.quickfix:
@@ -1183,15 +1183,15 @@ floating.point.equality.display.name:
 floating.point.equality.problem.descriptor:
     text: '<code>#ref</code>: 比較浮點值以實作完全相等 #loc'
 for.can.be.foreach.display.name:
-    text: '''for'' 迴圈可取代為增強的 for 迴圈'
+    text: "'for' 迴圈可取代為增強的 for 迴圈"
 for.can.be.foreach.option:
-    text: 報告索引的 'java.util.List' 迴圈
+    text: "報告索引的 'java.util.List' 迴圈"
 for.can.be.foreach.option2:
     text: 不報告無類型集合上的迭代
 for.can.be.foreach.problem.descriptor:
-    text: '<code>#ref</code> 迴圈可取代為增強的 ''for'' #loc'
+    text: "<code>#ref</code> 迴圈可取代為增強的 'for' #loc"
 for.loop.not.use.loop.variable.display.name:
-    text: '''for'' 迴圈中的 update 或 condition 未使用迴圈變數'
+    text: "'for' 迴圈中的 update 或 condition 未使用迴圈變數"
 for.loop.not.use.loop.variable.problem.descriptor.both.condition.and.update:
     text: '<code>#ref</code> 語句中的 condition 和 update 未使用 for 迴圈變數 #loc'
 for.loop.not.use.loop.variable.problem.descriptor.condition:
@@ -1199,17 +1199,17 @@ for.loop.not.use.loop.variable.problem.descriptor.condition:
 for.loop.not.use.loop.variable.problem.descriptor.update:
     text: '<code>#ref</code> 語句中的 update 未使用 for 迴圈變數 #loc'
 for.loop.replaceable.by.while.display.name:
-    text: '''for'' 迴圈可取代為 ''while'' 迴圈'
+    text: "'for' 迴圈可取代為 'while' 迴圈"
 for.loop.replaceable.by.while.ignore.option:
-    text: 忽略無條件迴圈的 'infinite'
+    text: "忽略無條件迴圈的 'infinite'"
 for.loop.replaceable.by.while.problem.descriptor:
-    text: '<code>#ref</code> 迴圈語句可取代為 ''while'' 迴圈 #loc'
+    text: "<code>#ref</code> 迴圈語句可取代為 'while' 迴圈 #loc"
 for.loop.replaceable.by.while.replace.quickfix:
-    text: 取代為 'while'
+    text: "取代為 'while'"
 for.loop.with.missing.component.collection.loop.option:
     text: 忽略集合迭代
 for.loop.with.missing.component.display.name:
-    text: 缺少組件的 'for' 迴圈
+    text: "缺少組件的 'for' 迴圈"
 for.loop.with.missing.component.problem.descriptor1:
     text: '<code>#ref</code> 語句缺少初始設定式 #loc'
 for.loop.with.missing.component.problem.descriptor2:
@@ -1225,9 +1225,9 @@ for.loop.with.missing.component.problem.descriptor6:
 for.loop.with.missing.component.problem.descriptor7:
     text: '<code>#ref</code> 語句缺少初始設定式、條件和更新 #loc'
 foreach.replace.quickfix:
-    text: 取代為增強 'for'
+    text: "取代為增強 'for'"
 gc.call.display.name:
-    text: 調用 'System.gc()' 或 'Runtime.gc()'
+    text: "調用 'System.gc()' 或 'Runtime.gc()'"
 gc.call.problem.descriptor:
     text: '<code>#ref</code> 不應在生產程式碼中調用 #loc'
 hardcoded.file.separator.display.name:
@@ -1243,39 +1243,39 @@ hardcoded.line.separator.problem.descriptor:
 hibernate.resource.opened.not.closed.display.name:
     text: Hibernate 資源已開啟，但未安全關閉
 html.tag.can.be.javadoc.tag.display.name:
-    text: '''<code>...</code>'' 可取代為 ''{@code ...}'''
+    text: "'<code>...</code>' 可取代為 '{@code ...}'"
 html.tag.can.be.javadoc.tag.problem.descriptor:
-    text: '<code>#ref...\&lt;/code\&gt;</code> 可取代為 ''{@code ...}'' #loc'
+    text: "<code>#ref...\\&lt;/code\\&gt;</code> 可取代為 '{@code ...}' #loc"
 i.o.resource.opened.not.closed.display.name:
     text: I/O 資源已開啟，但未安全關閉
 if.can.be.assertion.name:
-    text: 語句可取代為 'assert' 或 'Objects.requireNonNull'
+    text: "語句可取代為 'assert' 或 'Objects.requireNonNull'"
 if.can.be.switch.display.name:
-    text: '''if'' 可取代為 ''switch'''
+    text: "'if' 可取代為 'switch'"
 if.can.be.switch.enum.option:
     text: 對枚舉啟用 switch 建議
 if.can.be.switch.int.option:
     text: 對數字啟用 switch 建議
 if.can.be.switch.minimum.branch.option:
-    text: '''if'' 條件分支的最小數量:'
+    text: "'if' 條件分支的最小數量:"
 if.can.be.switch.null.safe.option:
     text: 僅對 null-safe 表達式啟用建議
 if.can.be.switch.problem.descriptor:
-    text: '<code>#ref</code> 語句可取代為 ''switch'' 語句 #loc'
+    text: "<code>#ref</code> 語句可取代為 'switch' 語句 #loc"
 if.may.be.conditional.problem.descriptor:
     text: '<code>#ref</code> 可取代為條件表達式 #loc'
 if.may.be.conditional.quickfix:
     text: 取代為條件表達式
 if.statement.with.identical.branches.display.name:
-    text: '''if'' 語句的分支相同'
+    text: "'if' 語句的分支相同"
 if.statement.with.too.many.branches.display.name:
-    text: '''if'' 語句的分支過多'
+    text: "'if' 語句的分支過多"
 if.statement.with.too.many.branches.max.option:
     text: '最大分支數:'
 if.statement.with.too.many.branches.problem.descriptor:
     text: '<code>#ref</code> 的分支過多 ({0}) #loc'
 ignore.accesses.from.equals.method:
-    text: 忽略來自 'equals()' 方法的存取
+    text: "忽略來自 'equals()' 方法的存取"
 ignore.accesses.from.the.same.class:
     text: 忽略來自同一類的存取
 ignore.anonymous.inner.classes:
@@ -1283,7 +1283,7 @@ ignore.anonymous.inner.classes:
 ignore.boolean.methods.in.an.interface.option:
     text: 忽略 @&interface 中的布爾方法
 ignore.branches.of.switch.statements:
-    text: 忽略 'switch' 語句的分支
+    text: "忽略 'switch' 語句的分支"
 ignore.calls.to.property.getters:
     text: 忽略對屬性 getter 的調用
 ignore.calls.to.static.methods:
@@ -1291,13 +1291,13 @@ ignore.calls.to.static.methods:
 ignore.classes.in.hierarchy.column.name:
     text: '忽略以下物件的子類:'
 ignore.cloneable.option:
-    text: 忽略 'java.lang.Cloneable'
+    text: "忽略 'java.lang.Cloneable'"
 ignore.equals.hashcode.and.tostring:
-    text: 忽略 'equals()'、'hashCode()' 和 'toString()' 方法
+    text: "忽略 'equals()'、'hashCode()' 和 'toString()' 方法"
 ignore.exceptions.declared.on.library.override.option:
     text: 忽略在覆寫庫方法的方法上宣告的異常(&L)
 ignore.for.equals.methods.option:
-    text: 對 'equals()' 方法忽略(&E)
+    text: "對 'equals()' 方法忽略(&E)"
 ignore.guard.clauses.option:
     text: 忽略臨界子句(&G)
 ignore.if.annotated.by:
@@ -1311,7 +1311,7 @@ ignore.methods.in.anonymous.classes:
 ignore.methods.overriding.super.method:
     text: 忽略覆寫/實作 super 方法的方法(O&)
 ignore.methods.with.boolean.return.type.option:
-    text: 忽略具有 'java.lang.Boolean' 返回類型的方法(&B)
+    text: "忽略具有 'java.lang.Boolean' 返回類型的方法(&B)"
 ignore.overflowing.byte.casts.option:
     text: 忽略從 int 128-255 到字節的轉換
 ignore.parameter.if.annotated.by:
@@ -1319,17 +1319,17 @@ ignore.parameter.if.annotated.by:
 ignore.parentheses.around.single.no.formal.type.lambda.parameter:
     text: 忽略單個非正式類型 lambda 參數周圍的括號
 ignore.serializable.option:
-    text: 忽略 'java.io.Serializable'
+    text: "忽略 'java.io.Serializable'"
 ignore.single.field.static.imports.option:
     text: 忽略單欄位靜態匯入(&F)
 ignore.single.method.static.imports.option:
     text: 忽略單方法靜態匯入(&M)
 ignore.test.method.in.class.extending.junit3.testcase.problem.descriptor:
-    text: '使用 ''@Ignore'' 註解的 JUnit 3 測試方法 <code>#ref()</code> 不會被忽略 #loc'
+    text: "使用 '@Ignore' 註解的 JUnit 3 測試方法 <code>#ref()</code> 不會被忽略 #loc"
 ignore.test.method.in.class.extending.junit3.testcase.quickfix:
-    text: 移除 ''@Ignore'' 並將方法重命名為 ''{0}''
+    text: "移除 ''@Ignore'' 並將方法重命名為 ''{0}''"
 ignore.trivial.finalizers.option:
-    text: 對普通 'finalize()' 實作忽略
+    text: "對普通 'finalize()' 實作忽略"
 ignored.autocloseable.types.column.label:
     text: 已忽略 AutoCloseable 資源類型
 ignored.class.names:
@@ -1337,27 +1337,27 @@ ignored.class.names:
 ignored.io.resource.types:
     text: 已忽略的 I/O 資源類型
 ignored.junit.test.classproblem.descriptor:
-    text: '使用 <code>#ref</code> 註解的測試類 ''''{0}'''' #loc'
+    text: "使用 <code>#ref</code> 註解的測試類 ''{0}'' #loc"
 ignored.junit.test.display.name:
-    text: 使用 '@Ignore'/'@Disabled' 註解的 JUnit 測試
+    text: "使用 '@Ignore'/'@Disabled' 註解的 JUnit 測試"
 ignored.junit.test.method.problem.descriptor:
-    text: '使用 <code>#ref</code> 註解的測試方法 ''''{0}()'''' #loc'
+    text: "使用 <code>#ref</code> 註解的測試方法 ''{0}()'' #loc"
 implicit.array.to.string.display.name:
-    text: 調用陣列上的 'toString()'
+    text: "調用陣列上的 'toString()'"
 implicit.array.to.string.method.call.problem.descriptor:
-    text: '隱式調用調用 <code>#ref</code> 返回的陣列上的 ''toString()'' #loc'
+    text: "隱式調用調用 <code>#ref</code> 返回的陣列上的 'toString()' #loc"
 implicit.array.to.string.problem.descriptor:
-    text: '隱式調用陣列 <code>#ref</code> 上的 ''toString()'' #loc'
+    text: "隱式調用陣列 <code>#ref</code> 上的 'toString()' #loc"
 implicit.array.to.string.quickfix:
-    text: 使用 ''{0}'' 表達式包裝
+    text: "使用 ''{0}'' 表達式包裝"
 implicit.call.to.super.display.name:
-    text: 隱式調用 'super()'
+    text: "隱式調用 'super()'"
 implicit.call.to.super.ignore.option:
-    text: 對 'java.lang.Object' 的直接子類忽略
+    text: "對 'java.lang.Object' 的直接子類忽略"
 implicit.call.to.super.make.explicit.quickfix:
-    text: 使對 'super()' 的調用顯式
+    text: "使對 'super()' 的調用顯式"
 implicit.call.to.super.problem.descriptor:
-    text: '隱式調用 ''super()'' #loc'
+    text: "隱式調用 'super()' #loc"
 implicit.default.charset.usage.constructor.problem.descriptor:
     text: '<code>new #ref()</code> 調用使用平台的預設字符集'
 implicit.default.charset.usage.display.name:
@@ -1367,7 +1367,7 @@ implicit.default.charset.usage.problem.descriptor:
 implicit.numeric.conversion.display.name:
     text: 隱式數字轉換
 implicit.numeric.conversion.ignore.char.conversion.option:
-    text: 忽略 'char' 之間的轉換
+    text: "忽略 'char' 之間的轉換"
 implicit.numeric.conversion.ignore.constant.conversion.option:
     text: 忽略從常數和文字的轉換
 implicit.numeric.conversion.ignore.widening.conversion.option:
@@ -1375,9 +1375,9 @@ implicit.numeric.conversion.ignore.widening.conversion.option:
 implicit.numeric.conversion.make.explicit.quickfix:
     text: 使轉換顯式
 implicit.numeric.conversion.problem.descriptor:
-    text: '將 <code>#ref</code> 從 ''''{0}'''' 隱式數字轉換為 ''''{1}'''' #loc'
+    text: "將 <code>#ref</code> 從 ''{0}'' 隱式數字轉換為 ''{1}'' #loc"
 import.display.name:
-    text: '''*'' 匯入'
+    text: "'*' 匯入"
 import.from.same.package.display.name:
     text: 相同軟體套件中的不必要 import
 import.from.same.package.problem.descriptor:
@@ -1395,9 +1395,9 @@ incompatible.mask.operation.problem.descriptor.always.false:
 incompatible.mask.operation.problem.descriptor.always.true:
     text: '<code>#ref</code> 始終為 true #loc'
 increment.decrement.display.name:
-    text: 使用 '++' 或 '--' 的結果
+    text: "使用 '++' 或 '--' 的結果"
 increment.decrement.used.as.expression.quickfix:
-    text: 提取 ''{0}'' 以分離語句
+    text: "提取 ''{0}'' 以分離語句"
 infinite.loop.statement.display.name:
     text: 無限迴圈語句
 infinite.loop.statement.problem.descriptor:
@@ -1419,19 +1419,19 @@ inner.class.field.hides.outer.ignore.option:
 inner.class.field.hides.outer.problem.descriptor:
     text: '內部類欄位 <code>#ref</code> 隱藏外部類欄位 #loc'
 inner.class.may.be.static.display.name:
-    text: 內部類可能為 'static'
+    text: "內部類可能為 'static'"
 inner.class.may.be.static.problem.descriptor:
-    text: '內部類 <code>#ref</code> 可能為 ''static'' #loc'
+    text: "內部類 <code>#ref</code> 可能為 'static' #loc"
 inner.class.on.interface.display.name:
     text: 接口的內部類
 inner.class.on.interface.ignore.option:
     text: 忽略接口的內部接口
 inner.class.on.interface.problem.descriptor:
-    text: '接口 ''''{0}'''' 具有內部類 <code>#ref</code> #loc'
+    text: "接口 ''{0}'' 具有內部類 <code>#ref</code> #loc"
 inner.class.referenced.via.subclass.display.name:
     text: 通過子類引用的內部類
 inner.class.referenced.via.subclass.problem.descriptor:
-    text: '內部類 <code>#ref</code> 在類 ''''{0}'''' 中宣告，但通過子類 ''''{1}'''' 引用 #loc'
+    text: "內部類 <code>#ref</code> 在類 ''{0}'' 中宣告，但通過子類 ''{1}'' 引用 #loc"
 inner.class.referenced.via.subclass.quickfix:
     text: 使內部類存取合理化
 inner.class.too.deeply.nested.display.name:
@@ -1451,21 +1451,21 @@ inspection.option.ignore.exceptions:
 inspection.option.ignore.in.annotations:
     text: 在註解中忽略
 inspection.option.ignore.in.hashcode:
-    text: 忽略 'hashCode()' 方法中的常數
+    text: "忽略 'hashCode()' 方法中的常數"
 inspection.option.ignore.in.tostring:
     text: 在 toString() 方法內部忽略
 inspection.option.ignore.nonnls:
     text: 通過 @NonNls 進行註解時忽略
 inspection.option.ignore.system.err:
-    text: 對 'System.err.print' 實參忽略
+    text: "對 'System.err.print' 實參忽略"
 inspection.option.ignore.system.out:
-    text: 對 'System.out.print' 實參忽略
+    text: "對 'System.out.print' 實參忽略"
 inspection.suppression.annotation.display.name:
     text: 檢查禁止註解
 inspection.suppression.annotation.problem.descriptor:
     text: '檢查禁止註解 <code>#ref</code> #loc'
 instance.Variable.may.not.be.initialized.problem.descriptor.junit:
-    text: '實例欄位 <code>#ref</code> 在物件構造或 ''setUp()'' 調用期間可能無法初始化 #loc'
+    text: "實例欄位 <code>#ref</code> 在物件構造或 'setUp()' 調用期間可能無法初始化 #loc"
 instance.method.naming.convention.element.description:
     text: 實例
 instance.variable.may.not.be.initialized.display.name:
@@ -1475,33 +1475,33 @@ instance.variable.may.not.be.initialized.problem.descriptor:
 instance.variable.naming.convention.element.description:
     text: 實例欄位
 instance.variable.of.concrete.class.problem.descriptor:
-    text: '具體類 <code>#ref</code> 的實例欄位 ''''{0}'''' #loc'
+    text: "具體類 <code>#ref</code> 的實例欄位 ''{0}'' #loc"
 instance.variable.used.before.initialized.display.name:
     text: 實例欄位在初始化前使用
 instance.variable.used.before.initialized.problem.descriptor:
     text: '初始化前使用的實例欄位 <code>#ref</code> #loc'
 instanceof.catch.parameter.display.name:
-    text: '''catch'' 參數上的 ''instanceof'''
+    text: "'catch' 參數上的 'instanceof'"
 instanceof.catch.parameter.problem.descriptor:
-    text: '''catch'' 參數 <code>#ref</code> 上的 ''instanceof'' #loc'
+    text: "'catch' 參數 <code>#ref</code> 上的 'instanceof' #loc"
 instanceof.check.for.this.display.name:
-    text: '''this'' 的 ''instanceof'' 檢查'
+    text: "'this' 的 'instanceof' 檢查"
 instanceof.check.for.this.problem.descriptor:
-    text: '<code>#ref</code> 的 ''instanceof'' 檢查 #loc'
+    text: "<code>#ref</code> 的 'instanceof' 檢查 #loc"
 instanceof.concrete.class.problem.descriptor:
-    text: '''instanceof'' 具體類 <code>#ref</code> #loc'
+    text: "'instanceof' 具體類 <code>#ref</code> #loc"
 instanceof.with.incompatible.interface.display.name:
-    text: 具有不相容接口的 'instanceof'
+    text: "具有不相容接口的 'instanceof'"
 instanceof.with.incompatible.interface.problem.descriptor:
-    text: '具有不相容接口 <code>#ref</code> 的 ''instanceof'' #loc'
+    text: "具有不相容接口 <code>#ref</code> 的 'instanceof' #loc"
 instantiating.object.to.get.class.object.display.name:
-    text: 實例化物件以獲取 'Class' 物件
+    text: "實例化物件以獲取 'Class' 物件"
 instantiating.object.to.get.class.object.problem.descriptor:
     text: '實例化物件以獲取類物件 #loc'
 instantiating.object.to.get.class.object.replace.quickfix:
     text: 取代為直接類物件存取
 instantiating.simpledateformat.without.locale.display.name:
-    text: 無區域設定的 'SimpleDateFormat'
+    text: "無區域設定的 'SimpleDateFormat'"
 instantiating.simpledateformat.without.locale.problem.descriptor:
     text: '在未在國際化上下文中指定區域設定的情況下實例化 <code>#ref</code> #loc'
 instantiation.utility.class.display.name:
@@ -1509,15 +1509,15 @@ instantiation.utility.class.display.name:
 instantiation.utility.class.problem.descriptor:
     text: '實用程序類 <code>#ref</code> 的實例化 #loc'
 int.literal.may.be.long.literal.display.name:
-    text: 轉換為 'long' 可以是 'long' 文字
+    text: "轉換為 'long' 可以是 'long' 文字"
 int.literal.may.be.long.literal.problem.descriptor:
-    text: '<code>#ref</code> 可取代為 ''''{0}'''' #loc'
+    text: "<code>#ref</code> 可取代為 ''{0}'' #loc"
 integer.division.in.floating.point.context.display.name:
     text: 浮點上下文中的整數除法
 integer.division.in.floating.point.context.problem.descriptor:
     text: '<code>#ref</code>: 浮點上下文中的整數除法 #loc'
 integer.multiplication.implicit.cast.to.long.display.name:
-    text: 整數乘法或移位隱式轉換為 'long'
+    text: "整數乘法或移位隱式轉換為 'long'"
 integer.multiplication.implicit.cast.to.long.option:
     text: <html>忽略靜態證明不可能溢出的表達式</html>
 integer.multiplication.implicit.cast.to.long.problem.descriptor:
@@ -1525,11 +1525,11 @@ integer.multiplication.implicit.cast.to.long.problem.descriptor:
 integer.shift.implicit.cast.to.long.problem.descriptor:
     text: '#ref: 整數移位隱式轉換為 long #loc'
 interface.clashes.with.object.class.display.name:
-    text: 接口方法與 'Object' 中的方法衝突
+    text: "接口方法與 'Object' 中的方法衝突"
 interface.clashes.with.object.class.problem.descriptor:
-    text: <code>#ref()</code> 與 'java.lang.Object' 中的方法衝突
+    text: "<code>#ref()</code> 與 'java.lang.Object' 中的方法衝突"
 interface.may.be.annotated.functional.display.name:
-    text: 接口可以註解為 '@FunctionalInterface'
+    text: "接口可以註解為 '@FunctionalInterface'"
 interface.may.be.annotated.functional.problem.descriptor:
     text: 接口 <code>#ref</code> 可以使用 @FunctionalInterface 註解
 interface.naming.convention.element.description:
@@ -1555,27 +1555,27 @@ introduce.variable.quickfix:
 invert.method.quickfix:
     text: 反轉方法
 invert.quickfix:
-    text: 反轉 ''{0}''
+    text: "反轉 ''{0}''"
 invert.quickfix.family.name:
     text: 反轉布爾
 iterator.hasnext.which.calls.next.display.name:
-    text: 調用 'next()' 的 'Iterator.hasNext()'
+    text: "調用 'next()' 的 'Iterator.hasNext()'"
 iterator.hasnext.which.calls.next.problem.descriptor:
-    text: '<code>Iterator.{0}()</code> 包含 ''''#ref()'''' 調用 #loc'
+    text: "<code>Iterator.{0}()</code> 包含 ''#ref()'' 調用 #loc"
 iterator.next.does.not.throw.nosuchelementexception.display.name:
-    text: 無法拋出 'NoSuchElementException' 的 'Iterator.next()'
+    text: "無法拋出 'NoSuchElementException' 的 'Iterator.next()'"
 iterator.next.does.not.throw.nosuchelementexception.problem.descriptor:
-    text: 無法拋出 'NoSuchElementException' 的 <code>Iterator.#ref()</code> '#loc
+    text: "無法拋出 'NoSuchElementException' 的 <code>Iterator.#ref()</code> '#loc"
 java.lang.import.display.name:
-    text: '''java.lang'' 軟體套件中有不必要的 import'
+    text: "'java.lang' 軟體套件中有不必要的 import"
 java.lang.import.problem.descriptor:
-    text: '''java.lang'' 軟體套件中有不必要的 import #loc'
+    text: "'java.lang' 軟體套件中有不必要的 import #loc"
 jdbc.execute.with.non.constant.string.display.name:
-    text: '''Statement.execute()'' 調用具有非常數字串'
+    text: "'Statement.execute()' 調用具有非常數字串"
 jdbc.execute.with.non.constant.string.problem.descriptor:
     text: '<code>Statement.#ref()</code> 調用具有非常數實參 #loc'
 jdbc.prepare.statement.with.non.constant.string.display.name:
-    text: '''Connection.prepare*()'' 調用具有非常數字串'
+    text: "'Connection.prepare*()' 調用具有非常數字串"
 jdbc.prepare.statement.with.non.constant.string.problem.descriptor:
     text: '<code>Connection.#ref()</code> 調用具有非常數實參 #loc'
 jdbc.resource.opened.not.closed.display.name:
@@ -1585,7 +1585,7 @@ jndi.resource.opened.not.closed.display.name:
 junit.abstract.test.class.naming.convention.element.description:
     text: abstract 測試
 junit.datapoint.display.name:
-    text: '''@DataPoint'' 欄位的格式錯誤'
+    text: "'@DataPoint' 欄位的格式錯誤"
 junit.datapoint.problem.descriptor:
     text: 使用 @DataPoint 註解的 {1} 應當為 {0}
 junit.test.class.naming.convention.element.description:
@@ -1601,11 +1601,11 @@ junit4.method.naming.convention.element.description:
 junit4.test.method.in.class.extending.junit3.testcase.display.name:
     text: 擴展 JUnit 3 TestCase 中的 JUnit 4 測試方法
 junit4.test.method.in.class.extending.junit3.testcase.problem.descriptor:
-    text: '方法 <code>#ref()</code> 在擴展 JUnit 3 TestCase 的類內使用 ''@Test'' 註解 #loc'
+    text: "方法 <code>#ref()</code> 在擴展 JUnit 3 TestCase 的類內使用 '@Test' 註解 #loc"
 key.set.iteration.may.use.entry.set.display.name:
-    text: 可以最佳化對 'keySet()' 的迭代
+    text: "可以最佳化對 'keySet()' 的迭代"
 key.set.iteration.may.use.entry.set.problem.descriptor:
-    text: '<code>#ref</code> 上的迭代可取代為 ''''{0}'''' 迭代 #loc'
+    text: "<code>#ref</code> 上的迭代可取代為 ''{0}'' 迭代 #loc"
 key.set.iteration.may.use.entry.set.quickfix:
     text: 最佳化 Map 迭代
 labeled.statement.display.name:
@@ -1623,7 +1623,7 @@ lambda.parameter.hides.member.variable.display.name:
 lambda.parameter.hides.member.variable.ignore.invisible.option:
     text: 忽略從 lambda 實際不可見的欄位
 lambda.parameter.hides.member.variable.problem.descriptor:
-    text: 'lambda 參數 <code>#ref</code> 隱藏類 ''''{0}'''' 中的欄位 #loc'
+    text: "lambda 參數 <code>#ref</code> 隱藏類 ''{0}'' 中的欄位 #loc"
 lambda.parameter.naming.convention.display.name:
     text: lambda 參數命名慣例
 lambda.parameter.naming.convention.element.description:
@@ -1661,7 +1661,7 @@ law.of.demeter.ignore.library.calls.option:
 law.of.demeter.problem.descriptor:
     text: '對 <code>#ref()</code> 的調用違反迪米特法則 #loc'
 length.one.string.in.indexof.display.name:
-    text: '''String.indexOf()'' 調用中的單字符字串實參'
+    text: "'String.indexOf()' 調用中的單字符字串實參"
 length.one.strings.in.concatenation.display.name:
     text: 單字符字串串聯
 length.one.strings.in.concatenation.replace.quickfix:
@@ -1675,15 +1675,15 @@ listener.may.use.adapter.display.name:
 listener.may.use.adapter.emtpy.methods.option:
     text: 僅在找到空實作方法時發出警告(&O)
 listener.may.use.adapter.problem.descriptor:
-    text: '類 ''''{0}'''' 可以擴展 ''''{1}'''' 而不是實作 <code>#ref</code> #loc'
+    text: "類 ''{0}'' 可以擴展 ''{1}'' 而不是實作 <code>#ref</code> #loc"
 literal.as.arg.to.string.equals.display.name:
-    text: 字串文字可以為 'equals()' 限定符
+    text: "字串文字可以為 'equals()' 限定符"
 literal.as.arg.to.string.equals.flip.quickfix:
-    text: 翻轉 ''{0}()''
+    text: "翻轉 ''{0}()''"
 literal.as.arg.to.string.equals.problem.descriptor:
-    text: '文字 #ref 是 ''''{0}()'''' 的實參，而不是其限定符 #loc'
+    text: "文字 #ref 是 ''{0}()'' 的實參，而不是其限定符 #loc"
 load.library.with.non.constant.string.display.name:
-    text: '''System.loadLibrary()'' 調用具有非常數字串'
+    text: "'System.loadLibrary()' 調用具有非常數字串"
 load.library.with.non.constant.string.problem.descriptor:
     text: '<code>{0}.#ref()</code> 調用具有非常數實參 #loc'
 local.variable.hides.member.variable.display.name:
@@ -1691,17 +1691,17 @@ local.variable.hides.member.variable.display.name:
 local.variable.hides.member.variable.ignore.option:
     text: 忽略隱藏非 static 欄位的 static 上下文中的局部變數
 local.variable.hides.member.variable.problem.descriptor:
-    text: '局部變數 <code>#ref</code> 隱藏類 ''''{0}'''' 中的欄位 #loc'
+    text: "局部變數 <code>#ref</code> 隱藏類 ''{0}'' 中的欄位 #loc"
 local.variable.naming.convention.display.name:
     text: 局部變數命名慣例
 local.variable.naming.convention.element.description:
     text: 局部變數
 local.variable.naming.convention.ignore.catch.option:
-    text: 忽略 'catch' 塊參數
+    text: "忽略 'catch' 塊參數"
 local.variable.naming.convention.ignore.option:
     text: 忽略 for 迴圈參數
 local.variable.of.concrete.class.problem.descriptor:
-    text: '具體類 <code>#ref</code> 的局部變數 ''''{0}'''' #loc'
+    text: "具體類 <code>#ref</code> 的局部變數 ''{0}'' #loc"
 log.condition.text:
     text: 日誌條件文本
 log.method.name:
@@ -1729,21 +1729,21 @@ logger.name.option:
 logging.condition.disagrees.with.log.statement.display.name:
     text: 日誌條件與日誌記錄調用不符合
 logging.condition.disagrees.with.log.statement.problem.descriptor:
-    text: '日誌條件 <code>#ref()</code> 與 ''''{0}()'''' 日誌調用不符合 #loc'
+    text: "日誌條件 <code>#ref()</code> 與 ''{0}()'' 日誌調用不符合 #loc"
 long.literals.ending.with.lowercase.l.display.name:
-    text: '''long'' 文字以 ''l'' 而不是 ''L'' 結尾'
+    text: "'long' 文字以 'l' 而不是 'L' 結尾"
 long.literals.ending.with.lowercase.l.problem.descriptor:
-    text: '''long'' 文字 <code>#ref</code> 以小寫 ''l'' 結尾 #loc'
+    text: "'long' 文字 <code>#ref</code> 以小寫 'l' 結尾 #loc"
 loop.condition.not.updated.inside.loop.display.name:
     text: 迴圈變數未在迴圈內更新
 loop.condition.not.updated.inside.loop.problem.descriptor:
-    text: 條件 '#ref' 未在迴圈內更新#loc
+    text: "條件 '#ref' 未在迴圈內更新#loc"
 loop.statements.that.dont.loop.display.name:
     text: 不迴圈的迴圈語句
 loop.statements.that.dont.loop.problem.descriptor:
     text: '<code>#ref</code> 語句未迴圈 #loc'
 loop.variable.not.updated.inside.loop.problem.descriptor:
-    text: 變數 '#ref' 未在迴圈內更新#loc
+    text: "變數 '#ref' 未在迴圈內更新#loc"
 loop.with.implicit.termination.condition.display.name:
     text: 具有隱式終止條件的迴圈
 loop.with.implicit.termination.condition.dowhile.problem.descriptor:
@@ -1761,25 +1761,25 @@ magic.number.display.name:
 magic.number.problem.descriptor:
     text: '幻數 <code>#ref</code> #loc'
 make.class.final.fix.name:
-    text: 將類 ''{0}'' 設為 ''final''
+    text: "將類 ''{0}'' 設為 ''final''"
 make.constructor.public:
-    text: 將構造函數設為 'public'
+    text: "將構造函數設為 'public'"
 make.field.final.quickfix:
-    text: 將 ''{0}'' 設為 ''final''
+    text: "將 ''{0}'' 設為 ''final''"
 make.initialization.explicit.quickfix:
     text: 使初始化顯式
 make.method.ctr.quickfix:
     text: 使方法成為構造函數
 make.method.final.fix.name:
-    text: 將方法 ''{0}()'' 設為 ''final''
+    text: "將方法 ''{0}()'' 設為 ''final''"
 make.static.final.quickfix:
-    text: 將 ''{0}'' 設為 static final
+    text: "將 ''{0}'' 設為 static final"
 make.static.quickfix:
-    text: 設為 'static'
+    text: "設為 'static'"
 malformed.format.string.display.name:
     text: 字串的格式錯誤
 malformed.format.string.problem.descriptor.arguments.do.not.match.type:
-    text: '實參類型 ''''{0}'''' 與格式說明符 ''''{1}'''' 的類型不符合 #loc'
+    text: "實參類型 ''{0}'' 與格式說明符 ''{1}'' 的類型不符合 #loc"
 malformed.format.string.problem.descriptor.illegal:
     text: '非法格式字串指定符: {0} #loc'
 malformed.format.string.problem.descriptor.malformed:
@@ -1789,9 +1789,9 @@ malformed.format.string.problem.descriptor.too.few.arguments:
 malformed.format.string.problem.descriptor.too.many.arguments:
     text: '格式字串的實參太多(實際: {0}，應為: {1}) #loc'
 malformed.set.up.tear.down.display.name:
-    text: '''setUp()'' 或 ''tearDown()'' 方法的格式錯誤'
+    text: "'setUp()' 或 'tearDown()' 方法的格式錯誤"
 malformed.set.up.tear.down.problem.descriptor:
-    text: '''#ref()'' 的簽名不正確 #loc'
+    text: "'#ref()' 的簽名不正確 #loc"
 manual.array.copy.display.name:
     text: 手動陣列複製
 manual.array.copy.problem.descriptor:
@@ -1801,21 +1801,21 @@ manual.array.to.collection.copy.display.name:
 manual.array.to.collection.copy.problem.descriptor:
     text: '手動陣列到集合複製 #loc'
 map.replaceable.by.enum.map.display.name:
-    text: '''Map'' 可取代為 ''EnumMap'''
+    text: "'Map' 可取代為 'EnumMap'"
 map.replaceable.by.enum.map.problem.descriptor:
-    text: '<code>#ref</code> 可取代為 ''EnumMap'' #loc'
+    text: "<code>#ref</code> 可取代為 'EnumMap' #loc"
 marker.interface.display.name:
     text: 標記接口
 marker.interface.problem.descriptor:
     text: '標記接口 <code>#ref</code> #loc'
 math.random.cast.to.int.display.name:
-    text: '''Math.random()'' 轉換為 ''int'''
+    text: "'Math.random()' 轉換為 'int'"
 math.random.cast.to.int.problem.descriptor:
-    text: '<code>#ref</code> 轉換為 ''''{0}'''' 時始終向下舍入為 ''''0'''' #loc'
+    text: "<code>#ref</code> 轉換為 ''{0}'' 時始終向下舍入為 ''0'' #loc"
 math.random.cast.to.int.quickfix:
     text: 添加括號以在轉換前執行乘法
 meta.annotation.without.runtime.retention:
-    text: 不含 '@Retention(RUNTIME)' 註解的測試註解
+    text: "不含 '@Retention(RUNTIME)' 註解的測試註解"
 method.call.in.loop.condition.display.name:
     text: 迴圈條件下的方法調用
 method.call.in.loop.condition.problem.descriptor:
@@ -1845,15 +1845,15 @@ method.coupling.limit.option:
 method.coupling.problem.descriptor:
     text: '<code>#ref</code> 過度耦合 (# 引用的類 = {0}) #loc'
 method.may.be.static.display.name:
-    text: 方法可以為 'static'
+    text: "方法可以為 'static'"
 method.may.be.static.empty.option:
     text: 忽略空方法
 method.may.be.static.only.option:
-    text: 僅檢查 'private' 或 'final' 方法
+    text: "僅檢查 'private' 或 'final' 方法"
 method.may.be.static.problem.descriptor:
-    text: '方法 <code>#ref()</code> 可能為 ''static'' #loc'
+    text: "方法 <code>#ref()</code> 可能為 'static' #loc"
 method.may.be.synchronized.display.name:
-    text: 只有一個 'synchronized' 塊的方法可取代為 'synchronized' 方法
+    text: "只有一個 'synchronized' 塊的方法可取代為 'synchronized' 方法"
 method.may.be.synchronized.problem.descriptor:
     text: '帶 synchronized 塊的方法 <code>#ref()</code> 可以是 synchronized 方法 #loc'
 method.may.be.synchronized.quickfix:
@@ -1871,13 +1871,13 @@ method.name.same.as.parent.name.problem.descriptor:
 method.names.differ.only.by.case.display.name:
     text: 方法名稱僅大小寫不同
 method.names.differ.only.by.case.problem.descriptor:
-    text: '方法名稱 <code>#ref</code> 和方法名稱 ''''{0}'''' 僅大小寫不同 #loc'
+    text: "方法名稱 <code>#ref</code> 和方法名稱 ''{0}'' 僅大小寫不同 #loc"
 method.only.used.from.inner.class.display.name:
     text: 僅在內部類中使用 private 方法
 method.only.used.from.inner.class.ignore.option:
     text: 忽略從匿名類或局部類調用的方法(&A)
 method.only.used.from.inner.class.problem.descriptor:
-    text: '方法 <code>#ref()</code>#loc 只能從{0, choice, 1#內部|2#局部|3#}{1, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} ''''{2}'''' 使用 #loc'
+    text: "方法 <code>#ref()</code>#loc 只能從{0, choice, 1#內部|2#局部|3#}{1, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} ''{2}'' 使用 #loc"
 method.overloads.display.name:
     text: 可能是超類方法意外多載
 method.overloads.problem.descriptor:
@@ -1889,9 +1889,9 @@ method.overrides.inaccessible.method.display.name:
 method.overrides.package.local.method.problem.descriptor:
     text: '方法 <code>#ref()</code> 覆寫了位於另一個軟體套件中的超類的 package-private 方法 #loc'
 method.overrides.private.display.name.problem.descriptor:
-    text: '方法 <code>#ref()</code> 重寫了超類的 ''private'' 方法 #loc'
+    text: "方法 <code>#ref()</code> 重寫了超類的 'private' 方法 #loc"
 method.overrides.static.display.name:
-    text: 方法嘗試覆寫超類的 'static' 方法
+    text: "方法嘗試覆寫超類的 'static' 方法"
 method.overrides.static.problem.descriptor:
     text: '方法 <code>#ref()</code> 嘗試覆寫超類的 static 方法 #loc'
 method.ref.can.be.replaced.with.lambda.name:
@@ -1917,7 +1917,7 @@ mismatched.read.write.array.problem.descriptor.write.not.read:
 mismatched.string.builder.queried.problem.descriptor:
     text: '<code>{0} #ref</code> 的內容已查詢，但從未更新 #loc'
 mismatched.string.builder.query.update.display.name:
-    text: '''StringBuilder'' 的查詢和更新不符合'
+    text: "'StringBuilder' 的查詢和更新不符合"
 mismatched.string.builder.updated.problem.descriptor:
     text: '<code>{0} #ref</code> 的內容已更新，但從未被查詢 #loc'
 mismatched.update.collection.display.name:
@@ -1927,7 +1927,7 @@ mismatched.update.collection.problem.description.queried.not.updated:
 mismatched.update.collection.problem.descriptor.updated.not.queried:
     text: '集合 <code>#ref</code> 的內容已更新，但從未被查詢 #loc'
 misordered.assert.equals.arguments.display.name:
-    text: 順序錯誤的 'assertEquals()' 實參
+    text: "順序錯誤的 'assertEquals()' 實參"
 misordered.assert.equals.arguments.flip.quickfix:
     text: 翻轉比較實參
 misordered.assert.equals.arguments.problem.descriptor:
@@ -1935,23 +1935,23 @@ misordered.assert.equals.arguments.problem.descriptor:
 missing.deprecated.annotation.add.quickfix:
     text: 添加 @Deprecated 註解
 missing.deprecated.annotation.display.name:
-    text: 缺少 '@Deprecated' 註解
+    text: "缺少 '@Deprecated' 註解"
 missing.deprecated.annotation.problem.descriptor:
-    text: '缺少 ''@Deprecated'' 註解 #loc'
+    text: "缺少 '@Deprecated' 註解 #loc"
 missing.deprecated.tag.option:
     text: 警告缺少 @deprecated Javadoc 標記說明
 missing.deprecated.tag.problem.descriptor:
-    text: '缺少 ''@deprecated'' Javadoc 標記說明 #loc'
+    text: "缺少 '@deprecated' Javadoc 標記說明 #loc"
 missing.override.annotation.display.name:
-    text: 缺少 '@Override' 註解
+    text: "缺少 '@Override' 註解"
 missing.override.annotation.problem.descriptor:
-    text: '缺少關於 <code>#ref()</code> 的 ''@Override'' 註解 #loc'
+    text: "缺少關於 <code>#ref()</code> 的 '@Override' 註解 #loc"
 missing.package.html.problem.descriptor:
-    text: 軟體套件 ''{0}'' 缺少 <code>package.html</code> 檔案
+    text: "軟體套件 ''{0}'' 缺少 <code>package.html</code> 檔案"
 missing.package.info.display.name:
-    text: 缺少 'package-info.java'
+    text: "缺少 'package-info.java'"
 missing.package.info.problem.descriptor:
-    text: 軟體套件 ''{0}'' 缺少 <code>package-info.java</code> 檔案
+    text: "軟體套件 ''{0}'' 缺少 <code>package-info.java</code> 檔案"
 missorted.modifiers.display.name:
     text: 錯位修飾符
 missorted.modifiers.problem.descriptor:
@@ -1961,21 +1961,21 @@ missorted.modifiers.require.option:
 missorted.modifiers.sort.quickfix:
     text: 對修飾符排序
 misspelled.equals.display.name:
-    text: '''equal()'' 代替 ''equals()'''
+    text: "'equal()' 代替 'equals()'"
 misspelled.equals.problem.descriptor:
-    text: '<code>#ref()</code> 方法可能應當是 ''equals()'' #loc'
+    text: "<code>#ref()</code> 方法可能應當是 'equals()' #loc"
 module.with.too.few.classes.display.name:
     text: 類過少的模組
 module.with.too.few.classes.min.option:
     text: '最小類數:'
 module.with.too.few.classes.problem.descriptor:
-    text: 模組 ''{0}'' 包含過少的類 ({1} < {2})
+    text: "模組 ''{0}'' 包含過少的類 ({1} < {2})"
 module.with.too.many.classes.display.name:
     text: 類過多的模組
 module.with.too.many.classes.max.option:
     text: '最大類數:'
 module.with.too.many.classes.problem.descriptor:
-    text: 模組 ''{0}'' 包含過多的類 ({1} > {2})
+    text: "模組 ''{0}'' 包含過多的類 ({1} > {2})"
 move.anonymous.to.inner.quickfix:
     text: 轉換為命名內部類
 move.class.quickfix:
@@ -1983,7 +1983,7 @@ move.class.quickfix:
 multi.catch.can.be.split.name:
     text: 多 catch 可拆分為單獨的 catch 塊
 multi.catch.can.be.split.quickfix:
-    text: 將多 catch 拆分為單獨的 'catch' 塊
+    text: "將多 catch 拆分為單獨的 'catch' 塊"
 multiple.declaration.display.name:
     text: 一個宣告中的多個變數
 multiple.declaration.problem.descriptor:
@@ -1991,7 +1991,7 @@ multiple.declaration.problem.descriptor:
 multiple.exceptions.declared.on.test.method.display.name:
     text: 在測試方法上宣告的多個異常
 multiple.exceptions.declared.on.test.method.problem.descriptor:
-    text: '<code>#ref</code> 可取代為 ''throws Exception'' #loc'
+    text: "<code>#ref</code> 可取代為 'throws Exception' #loc"
 multiple.loggers.display.name:
     text: 具有多個記錄器的類
 multiple.loggers.problem.descriptor:
@@ -2013,19 +2013,19 @@ multiply.or.divide.by.power.of.two.divide.option:
 multiply.or.divide.by.power.of.two.replace.quickfix:
     text: 取代為移位
 naked.notify.display.name:
-    text: 沒有相應狀態更改的 'notify()' 或 'notifyAll()'
+    text: "沒有相應狀態更改的 'notify()' 或 'notifyAll()'"
 naked.notify.problem.descriptor:
     text: '在沒有相應狀態更改的情況下調用 <code>#ref()</code> #loc'
 naming.convention.problem.descriptor.long:
     text: '{0} 名 <code>#ref</code> 太長 ({1} \&gt; {2}) #loc'
 naming.convention.problem.descriptor.regex.mismatch:
-    text: '{0} 名 <code>#ref</code> 不符合正則 ''''{1}'''' #loc'
+    text: "{0} 名 <code>#ref</code> 不符合正則 ''{1}'' #loc"
 naming.convention.problem.descriptor.short:
     text: '{0} 名 <code>#ref</code> 太短 ({1} \&lt; {2}) #loc'
 native.method.display.name:
     text: 本地方法
 native.method.naming.convention.element.description:
-    text: '''原生'''
+    text: "'原生'"
 native.method.problem.descriptor:
     text: '宣告為 <code>#ref</code> 的方法不可移植 #loc'
 negated.conditional.display.name:
@@ -2043,17 +2043,17 @@ negated.conditional.problem.descriptor:
 negated.equality.expression.display.name:
     text: 否定相等表達式
 negated.equality.expression.problem.descriptor:
-    text: '否定 ''''{0}'''' #loc'
+    text: "否定 ''{0}'' #loc"
 negated.equality.expression.quickfix:
     text: 移除否定
 negated.if.else.display.name:
-    text: 具有否定條件的 'if' 語句
+    text: "具有否定條件的 'if' 語句"
 negated.if.else.ignore.negated.null.option:
-    text: 忽略 '!= null' 比較
+    text: "忽略 '!= null' 比較"
 negated.if.else.ignore.negated.zero.option:
-    text: 忽略 '!= 0' 比較
+    text: "忽略 '!= 0' 比較"
 negated.if.else.invert.quickfix:
-    text: 反轉 'if' 條件
+    text: "反轉 'if' 條件"
 negated.if.else.problem.descriptor:
     text: '帶嵌套條件的 <code>#ref</code> 語句 #loc'
 negatively.named.boolean.variable.display.name:
@@ -2075,15 +2075,15 @@ nested.method.call.ignore.option:
 nested.method.call.problem.descriptor:
     text: '嵌套方法調用 <code>#ref()</code> #loc'
 nested.switch.statement.display.name:
-    text: 嵌套 'switch' 語句
+    text: "嵌套 'switch' 語句"
 nested.switch.statement.problem.descriptor:
     text: '嵌套 <code>#ref</code> {0} #loc'
 nested.synchronized.statement.display.name:
-    text: 嵌套 'synchronized' 語句
+    text: "嵌套 'synchronized' 語句"
 nested.synchronized.statement.problem.descriptor:
     text: '嵌套 <code>#ref</code> 語句 #loc'
 nested.try.statement.display.name:
-    text: 嵌套 'try' 語句
+    text: "嵌套 'try' 語句"
 nested.try.statement.problem.descriptor:
     text: '嵌套 <code>#ref</code> 語句 #loc'
 nesting.depth.display.name:
@@ -2097,11 +2097,11 @@ new.exception.without.arguments.display.name:
 new.exception.without.arguments.problem.descriptor:
     text: '<code>new #ref()</code> 沒有實參 #loc'
 new.string.buffer.replaceable.by.string.problem.descriptor:
-    text: '<code>#ref</code> 可取代為 ''String'' #loc'
+    text: "<code>#ref</code> 可取代為 'String' #loc"
 new.string.buffer.with.char.argument.display.name:
-    text: StringBuilder 構造函數調用具有 'char' 實參
+    text: "StringBuilder 構造函數調用具有 'char' 實參"
 new.string.buffer.with.char.argument.problem.descriptor:
-    text: '<code>new #ref()</code> 具有 ''char'' 類型的實參 #loc'
+    text: "<code>new #ref()</code> 具有 'char' 類型的實參 #loc"
 new.string.buffer.with.char.argument.quickfix:
     text: 將字符實參取代為字串文字
 no.logger.display.name:
@@ -2109,7 +2109,7 @@ no.logger.display.name:
 no.logger.problem.descriptor:
     text: '類 <code>#ref</code> 未宣告記錄器 #loc'
 non.atomic.operation.on.volatile.field.display.name:
-    text: '''volatile'' 欄位上的非原子操作'
+    text: "'volatile' 欄位上的非原子操作"
 non.atomic.operation.on.volatile.field.problem.descriptor:
     text: 'volatile 欄位 <code>#ref</code> 上的非原子操作 #loc'
 non.boolean.method.name.must.not.start.with.question.display.name:
@@ -2127,33 +2127,33 @@ non.constant.logger.display.name:
 non.constant.logger.problem.descriptor:
     text: '非常數記錄器欄位 <code>#ref</code> #loc'
 non.exception.name.ends.with.exception.display.name:
-    text: 非異常類名以 'Exception' 結尾
+    text: "非異常類名以 'Exception' 結尾"
 non.exception.name.ends.with.exception.problem.descriptor:
-    text: '非異常類名 <code>#ref</code> 以 ''Exception'' 結尾 #loc'
+    text: "非異常類名 <code>#ref</code> 以 'Exception' 結尾 #loc"
 non.exception.name.ends.with.exception.quickfix:
-    text: 使 ''{0}'' 擴展 ''java.lang.Exception''
+    text: "使 ''{0}'' 擴展 ''java.lang.Exception''"
 non.final.clone.display.name:
-    text: 非 final 'clone()' 位於安全上下文中
+    text: "非 final 'clone()' 位於安全上下文中"
 non.final.clone.problem.descriptor:
     text: '非 final <code>#ref()</code> 方法，影響安全性 #loc'
 non.final.field.compareto.display.name:
-    text: '''compareTo()'' 中引用了非最終欄位'
+    text: "'compareTo()' 中引用了非最終欄位"
 non.final.field.compareto.problem.descriptor:
-    text: '在 ''compareTo()'' 中存取了非 final 欄位 <code>#ref</code> #loc'
+    text: "在 'compareTo()' 中存取了非 final 欄位 <code>#ref</code> #loc"
 non.final.field.in.enum.display.name:
-    text: '''enum'' 中的非 final 欄位'
+    text: "'enum' 中的非 final 欄位"
 non.final.field.in.enum.problem.descriptor:
-    text: '枚舉 ''''{0}'''' 中存在非 final 欄位 <code>#ref</code> #loc'
+    text: "枚舉 ''{0}'' 中存在非 final 欄位 <code>#ref</code> #loc"
 non.final.field.in.equals.display.name:
-    text: '''equals()'' 中引用了非最終欄位'
+    text: "'equals()' 中引用了非最終欄位"
 non.final.field.in.equals.problem.descriptor:
-    text: '在 ''equals()'' 中存取了非 final 欄位 <code>#ref</code> #loc'
+    text: "在 'equals()' 中存取了非 final 欄位 <code>#ref</code> #loc"
 non.final.field.in.hashcode.display.name:
-    text: '''hashCode()'' 中引用了非最終欄位'
+    text: "'hashCode()' 中引用了非最終欄位"
 non.final.field.in.hashcode.problem.descriptor:
-    text: '在 ''hashCode()'' 中存取了非 final 欄位 <code>#ref</code> #loc'
+    text: "在 'hashCode()' 中存取了非 final 欄位 <code>#ref</code> #loc"
 non.final.field.of.exception.display.name:
-    text: '''Exception'' 類的非 final 欄位'
+    text: "'Exception' 類的非 final 欄位"
 non.final.field.of.exception.problem.descriptor:
     text: '異常類的非 final 欄位 <code>#ref</code> #loc'
 non.final.static.variable.initialization.display.name:
@@ -2161,53 +2161,53 @@ non.final.static.variable.initialization.display.name:
 non.final.static.variable.initialization.problem.descriptor:
     text: '在類初始化期間使用非 final static 欄位 <code>#ref</code> #loc'
 non.final.utility.class.display.name:
-    text: 實用程序類不為 'final'
+    text: "實用程序類不為 'final'"
 non.final.utility.class.problem.descriptor:
-    text: '實用程序類 <code>#ref</code> 不為 ''final'' #loc'
+    text: "實用程序類 <code>#ref</code> 不為 'final' #loc"
 non.protected.constructor.in.abstract.class.display.name:
     text: abstract 類中的 public 構造函數
 non.protected.constructor.in.abstract.class.ignore.option:
     text: 對非 public 類忽略
 non.protected.constructor.in.abstract.class.problem.descriptor:
-    text: 'abstract 類的構造函數 <code>#ref()</code> 不應宣告為 ''public'' #loc'
+    text: "abstract 類的構造函數 <code>#ref()</code> 不應宣告為 'public' #loc"
 non.public.clone.display.name:
-    text: '''clone()'' 方法不是 ''public'''
+    text: "'clone()' 方法不是 'public'"
 non.public.clone.problem.descriptor:
-    text: '<code>#ref()</code> 方法不是 ''public'' #loc'
+    text: "<code>#ref()</code> 方法不是 'public' #loc"
 non.reproducible.math.call.display.name:
-    text: 對 'Math' 的不可重現調用
+    text: "對 'Math' 的不可重現調用"
 non.reproducible.math.call.problem.descriptor:
     text: '<code>Math.#ref()</code> 可能產生不可重現的結果 #loc'
 non.reproducible.math.call.replace.quickfix:
-    text: 取代為 'StrictMath' 調用
+    text: "取代為 'StrictMath' 調用"
 non.serializable.anonymous.with.serialversionuid.problem.descriptor:
-    text: '派生自 <code>#ref</code> 的不可序列化匿名類定義 ''serialVersionUID'' 欄位 #loc'
+    text: "派生自 <code>#ref</code> 的不可序列化匿名類定義 'serialVersionUID' 欄位 #loc"
 non.serializable.class.with.readwriteobject.display.name:
-    text: 具有 'readObject()' 或 'writeObject()' 的不可序列化類
+    text: "具有 'readObject()' 或 'writeObject()' 的不可序列化類"
 non.serializable.class.with.readwriteobject.problem.descriptor.both:
-    text: '不可序列化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 ''readObject()'' 和 ''writeObject()'' #loc'
+    text: "不可序列化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 'readObject()' 和 'writeObject()' #loc"
 non.serializable.class.with.readwriteobject.problem.descriptor.read:
-    text: '不可序列化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 ''readObject()'' #loc'
+    text: "不可序列化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 'readObject()' #loc"
 non.serializable.class.with.readwriteobject.problem.descriptor.write:
-    text: '不可序列化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 ''writeObject()'' #loc'
+    text: "不可序列化{0, choice, 1#類|2#接口|3#派生的匿名類|4#註解類型|5#枚舉|6#記錄} <code>#ref</code> 定義 'writeObject()' #loc"
 non.serializable.class.with.serialversionuid.problem.descriptor:
-    text: '定義 ''serialVersionUID'' 欄位的不可序列化類 <code>#ref</code> #loc'
+    text: "定義 'serialVersionUID' 欄位的不可序列化類 <code>#ref</code> #loc"
 non.serializable.field.in.serializable.class.display.name:
-    text: '''Serializable'' 類中有不可序列化的欄位'
+    text: "'Serializable' 類中有不可序列化的欄位"
 non.serializable.field.in.serializable.class.problem.descriptor:
-    text: '可序列化類中不可序列化的欄位 ''#ref'' #loc'
+    text: "可序列化類中不可序列化的欄位 '#ref' #loc"
 non.serializable.interface.with.serialversionuid.problem.descriptor:
-    text: '定義 ''serialVersionUID'' 欄位的不可序列化接口 <code>#ref</code> #loc'
+    text: "定義 'serialVersionUID' 欄位的不可序列化接口 <code>#ref</code> #loc"
 non.serializable.object.bound.to.http.session.display.name:
-    text: 不可序列化的物件被綁定到了 'HttpSession'
+    text: "不可序列化的物件被綁定到了 'HttpSession'"
 non.serializable.object.bound.to.http.session.problem.descriptor:
     text: '傳遞給 HttpSession 的不可序列化物件 #loc'
 non.serializable.object.passed.to.object.stream.display.name:
-    text: 不可序列化的物件被傳遞給了 'ObjectOutputStream'
+    text: "不可序列化的物件被傳遞給了 'ObjectOutputStream'"
 non.serializable.object.passed.to.object.stream.problem.descriptor:
     text: '傳遞給 ObjectOutputStream 的不可序列化物件 #loc'
 non.serializable.with.serialversionuid.display.name:
-    text: 具有 'serialVersionUID' 的不可序列化類
+    text: "具有 'serialVersionUID' 的不可序列化類"
 non.short.circuit.boolean.expression.display.name:
     text: 非短路布爾表達式
 non.short.circuit.boolean.expression.problem.descriptor:
@@ -2215,27 +2215,27 @@ non.short.circuit.boolean.expression.problem.descriptor:
 non.short.circuit.boolean.expression.replace.quickfix:
     text: 取代為短路表達式
 non.synchronized.method.overrides.synchronized.method.display.name:
-    text: 未同步方法覆寫 'synchronized' 方法
+    text: "未同步方法覆寫 'synchronized' 方法"
 non.synchronized.method.overrides.synchronized.method.problem.descriptor:
     text: '未同步方法 <code>#ref()</code> 覆寫 synchronized 方法 #loc'
 non.thread.safe.lazy.initialization.display.name:
-    text: 不安全的 'static' 欄位延遲初始化
+    text: "不安全的 'static' 欄位延遲初始化"
 non.thread.safe.lazy.initialization.problem.descriptor:
-    text: '''static'' 欄位 <code>#ref</code> 的延遲初始化不是執行緒安全 #loc'
+    text: "'static' 欄位 <code>#ref</code> 的延遲初始化不是執行緒安全 #loc"
 none:
     text: 無
 noop.method.in.abstract.class.display.name:
-    text: '''abstract'' 類中的無運算方法'
+    text: "'abstract' 類中的無運算方法"
 noop.method.in.abstract.class.problem.descriptor:
     text: '無操作方法 <code>#ref()</code> 應當設為 abstract #loc'
 normalize.declaration.quickfix:
     text: 拆分為單獨的宣告
 notify.called.on.condition.display.name:
-    text: 在 'java.util.concurrent.locks.Condition' 物件上調用了 'notify()' 或 'notifyAll()'
+    text: "在 'java.util.concurrent.locks.Condition' 物件上調用了 'notify()' 或 'notifyAll()'"
 notify.called.on.condition.problem.descriptor:
     text: '在條件物件上調用 <code>#ref()</code> #loc'
 notify.without.corresponding.wait.display.name:
-    text: 沒有相應 'wait()' 的 'notify()'
+    text: "沒有相應 'wait()' 的 'notify()'"
 notify.without.corresponding.wait.problem.descriptor:
     text: '在沒有相應 <code>wait()</code> 的情況下調用 <code>#ref()</code> #loc'
 null.argument.to.var.arg.method.display.name:
@@ -2243,35 +2243,35 @@ null.argument.to.var.arg.method.display.name:
 null.argument.to.var.arg.method.problem.descriptor:
     text: '引起混淆的實參 <code>#ref</code>，不清楚是否需要 vararg 或非 vararg 調用 #loc'
 null.thrown.display.name:
-    text: 已拋出 'null'
+    text: "已拋出 'null'"
 null.thrown.problem.descriptor:
     text: '已引發 <code>#ref</code> #loc'
 number.comparison.display.name:
-    text: 使用 '==' 而不是 'equals()' 進行數字比較
+    text: "使用 '==' 而不是 'equals()' 進行數字比較"
 number.comparison.problem.descriptor:
-    text: '使用 <code>#ref</code> 而不是 ''equals()'' 來比較數字物件 #loc'
+    text: "使用 <code>#ref</code> 而不是 'equals()' 來比較數字物件 #loc"
 object.allocation.in.loop.display.name:
     text: 迴圈中的物件分配
 object.comparison.display.name:
-    text: 使用 '==' 而不是 'equals()' 進行物件比較
+    text: "使用 '==' 而不是 'equals()' 進行物件比較"
 object.comparison.enumerated.ignore.option:
-    text: 忽略枚舉變數之間的 '=='
+    text: "忽略枚舉變數之間的 '=='"
 object.comparison.klass.ignore.option:
-    text: 忽略沒有 'equals()' 實作的 final 類類型之間的 '=='
+    text: "忽略沒有 'equals()' 實作的 final 類類型之間的 '=='"
 object.comparison.problem.description:
-    text: '使用 <code>#ref</code> 而不是 ''equals()'' 來比較物件值 #loc'
+    text: "使用 <code>#ref</code> 而不是 'equals()' 來比較物件值 #loc"
 object.equality.ignore.between.objects.of.a.type.with.only.private.constructors.option:
-    text: 忽略只有 'private' 構造函數的類型物件之間的 '=='
+    text: "忽略只有 'private' 構造函數的類型物件之間的 '=='"
 object.instantiation.inside.equals.or.hashcode.display.name:
-    text: '''equals()'' 或 ''hashCode()'' 內部的物件實例化'
+    text: "'equals()' 或 'hashCode()' 內部的物件實例化"
 object.instantiation.inside.equals.or.hashcode.problem.descriptor:
-    text: '''''{0}()'''' 內部的物件實例化 #loc'
+    text: "''{0}()'' 內部的物件實例化 #loc"
 object.instantiation.inside.equals.or.hashcode.problem.descriptor2:
-    text: '''''{0}()'''' ({1}) 內部的物件實例化 #loc'
+    text: "''{0}()'' ({1}) 內部的物件實例化 #loc"
 object.notify.display.name:
-    text: 調用 'notify()' 而不是 'notifyAll()'
+    text: "調用 'notify()' 而不是 'notifyAll()'"
 object.notify.problem.descriptor:
-    text: '<code>#ref</code> 可能應當取代為 ''notifyAll()'' #loc'
+    text: "<code>#ref</code> 可能應當取代為 'notifyAll()' #loc"
 octal.and.decimal.integers.in.same.array.display.name:
     text: 同一陣列中的八進制和十進制整數
 octal.and.decimal.integers.in.same.array.problem.descriptor:
@@ -2281,27 +2281,27 @@ octal.literal.display.name:
 octal.literal.problem.descriptor:
     text: '八進制整數 <code>#ref</code> #loc'
 only.report.public.methods.option:
-    text: 僅報告 'public' 方法
+    text: "僅報告 'public' 方法"
 only.report.qualified.static.usages.option:
     text: 僅報告來自 static 上下文的限定靜態存取
 only.report.static.methods:
-    text: 僅報告 'static' 方法(&O)
+    text: "僅報告 'static' 方法(&O)"
 only.warn.on.protected.clone.methods:
-    text: 僅對 'protected' 克隆方法發出警告
+    text: "僅對 'protected' 克隆方法發出警告"
 only.warn.on.public.clone.methods:
-    text: 僅對 'public' 克隆方法發出警告
+    text: "僅對 'public' 克隆方法發出警告"
 optional.contains.array.problem.descriptor:
-    text: '''Optional'' 包含陣列 <code>#ref</code>'
+    text: "'Optional' 包含陣列 <code>#ref</code>"
 optional.contains.collection.display.name:
-    text: '''Optional'' 包含陣列或集合'
+    text: "'Optional' 包含陣列或集合"
 optional.contains.collection.problem.descriptor:
-    text: '''Optional'' 包含集合 <code>#ref</code>'
+    text: "'Optional' 包含集合 <code>#ref</code>"
 optional.used.as.field.or.parameter.type.display.name:
-    text: 用作欄位或參數類型的 'Optional'
+    text: "用作欄位或參數類型的 'Optional'"
 optional.used.as.field.type.problem.descriptor:
-    text: <code>#ref</code> 用作欄位 ''{0}'' 的類型
+    text: "<code>#ref</code> 用作欄位 ''{0}'' 的類型"
 optional.used.as.parameter.type.problem.descriptor:
-    text: <code>#ref</code> 用作參數 ''{0}'' 的類型
+    text: "<code>#ref</code> 用作參數 ''{0}'' 的類型"
 overloaded.methods.with.same.number.parameters.display.name:
     text: 具有相同參數數量的多載方法
 overloaded.methods.with.same.number.parameters.option:
@@ -2315,13 +2315,13 @@ overloaded.vararg.method.display.name:
 overloaded.vararg.method.problem.descriptor:
     text: '多載 vararg 方法 <code>#ref()</code> #loc'
 overly.broad.throws.clause.display.name:
-    text: 過寬的 'throws' 子句
+    text: "過寬的 'throws' 子句"
 overly.broad.throws.clause.ignore.thrown.option:
     text: 忽略隱藏其他異常但自身被拋出的異常(&H)
 overly.broad.throws.clause.problem.descriptor1:
-    text: '<code>throws #ref</code> 過寬，遮罩異常 ''''{0}'''' #loc'
+    text: "<code>throws #ref</code> 過寬，遮罩異常 ''{0}'' #loc"
 overly.broad.throws.clause.problem.descriptor2:
-    text: '<code>throws #ref</code> 過寬，遮罩異常 ''''{0}'''' 和 ''''{1}'''' #loc'
+    text: "<code>throws #ref</code> 過寬，遮罩異常 ''{0}'' 和 ''{1}'' #loc"
 overly.broad.throws.clause.quickfix1:
     text: 添加特定異常
 overly.broad.throws.clause.quickfix2:
@@ -2363,7 +2363,7 @@ overly.strong.type.cast.display.name:
 overly.strong.type.cast.ignore.in.matching.instanceof.option:
     text: 忽略具有符合 instanceof 表達式的轉換
 overly.strong.type.cast.problem.descriptor:
-    text: '到 <code>#ref</code> 的轉換可以被削弱為 ''''{0}'''' #loc'
+    text: "到 <code>#ref</code> 的轉換可以被削弱為 ''{0}'' #loc"
 overly.strong.type.cast.weaken.quickfix:
     text: 削弱過強的轉換
 overridable.method.call.in.constructor.display.name:
@@ -2375,11 +2375,11 @@ overridden.method.call.in.constructor.display.name:
 overridden.method.call.in.constructor.problem.descriptor:
     text: '物件構造期間調用已覆寫方法 <code>#ref()</code> #loc'
 package.dot.html.may.be.package.info.convert.quickfix:
-    text: 轉換為 'package-info.java'
+    text: "轉換為 'package-info.java'"
 package.dot.html.may.be.package.info.delete.quickfix:
-    text: 刪除 'package.html'
+    text: "刪除 'package.html'"
 package.dot.html.may.be.package.info.display.name:
-    text: '''package.html'' 可以轉換為 ''package-info.java'''
+    text: "'package.html' 可以轉換為 'package-info.java'"
 package.dot.html.may.be.package.info.exists.problem.descriptor:
     text: <code>package.html</code> 被忽略，因為 <code>package-info.java</code> 存在
 package.dot.html.may.be.package.info.problem.descriptor:
@@ -2387,15 +2387,15 @@ package.dot.html.may.be.package.info.problem.descriptor:
 package.in.multiple.modules.display.name:
     text: 具有多個模組中的類的軟體套件
 package.info.java.without.package.display.name:
-    text: 不帶 'package' 語句的 'package-info.java'
+    text: "不帶 'package' 語句的 'package-info.java'"
 package.info.without.package.family.quickfix:
     text: 添加 package 語句
 package.info.without.package.problem.descriptor:
-    text: '''package-info.java'' 沒有 ''package'' 語句'
+    text: "'package-info.java' 沒有 'package' 語句"
 package.info.without.package.quickfix:
-    text: 添加 ''package {0};''
+    text: "添加 ''package {0};''"
 package.local.field.not.accessible:
-    text: package-private 欄位 ''{0}'' 無法從此處存取
+    text: "package-private 欄位 ''{0}'' 無法從此處存取"
 package.local.private:
     text: package-private 與 private
 package.naming.convention.display.name:
@@ -2403,7 +2403,7 @@ package.naming.convention.display.name:
 package.naming.convention.problem.descriptor.long:
     text: 軟體套件名稱 <code>{0}</code> 過長
 package.naming.convention.problem.descriptor.regex.mismatch:
-    text: 軟體套件名稱 <code>{0}</code> 與正則表達式 ''{1}'' 不符合
+    text: "軟體套件名稱 <code>{0}</code> 與正則表達式 ''{1}'' 不符合"
 package.naming.convention.problem.descriptor.short:
     text: 軟體套件名稱 <code>{0}</code> 過短
 package.visible.field.display.name:
@@ -2423,13 +2423,13 @@ package.with.too.few.classes.display.name:
 package.with.too.few.classes.min.option:
     text: '最小類數:'
 package.with.too.few.classes.problem.descriptor:
-    text: 軟體套件 ''{0}'' 包含過少的類 ({1} < {2})
+    text: "軟體套件 ''{0}'' 包含過少的類 ({1} < {2})"
 package.with.too.many.classes.display.name:
     text: 類過多的軟體套件
 package.with.too.many.classes.max.option:
     text: '最大類數:'
 package.with.too.many.classes.problem.descriptor:
-    text: 軟體套件 ''{0}'' 包含過多的類 ({1} > {2})
+    text: "軟體套件 ''{0}'' 包含過多的類 ({1} > {2})"
 parameter.hides.member.variable.display.name:
     text: 參數隱藏欄位
 parameter.hides.member.variable.ignore.abstract.methods.option:
@@ -2443,7 +2443,7 @@ parameter.hides.member.variable.ignore.static.parameters.option:
 parameter.hides.member.variable.ignore.superclass.option:
     text: 忽略從子類不可見的超類欄位
 parameter.hides.member.variable.problem.descriptor:
-    text: '參數 <code>#ref</code> 隱藏類 ''''{0}'''' 中的欄位 #loc'
+    text: "參數 <code>#ref</code> 隱藏類 ''{0}'' 中的欄位 #loc"
 parameter.limit.option:
     text: '參數限制:'
 parameter.name.differs.from.overridden.parameter.display.name:
@@ -2453,7 +2453,7 @@ parameter.name.differs.from.overridden.parameter.ignore.character.option:
 parameter.name.differs.from.overridden.parameter.ignore.library.option:
     text: 如果覆寫的參數來自庫，則忽略
 parameter.name.differs.from.overridden.parameter.problem.descriptor:
-    text: '參數名 <code>#ref</code> 不同於{1, choice, 1#super 方法|2#多載方法|3#super 構造函數|4#多載構造函數}中的參數 ''''{0}'''' #loc'
+    text: "參數名 <code>#ref</code> 不同於{1, choice, 1#super 方法|2#多載方法|3#super 構造函數|4#多載構造函數}中的參數 ''{0}'' #loc"
 parameter.naming.convention.display.name:
     text: 方法參數命名慣例
 parameter.naming.convention.element.description:
@@ -2463,9 +2463,9 @@ parameter.type.prevents.overriding.display.name:
 parameter.type.prevents.overriding.family.quickfix:
     text: 更改參數類型
 parameter.type.prevents.overriding.problem.descriptor:
-    text: '參數類型 <code>#ref</code> 位於 ''''{0}''''，而 super 方法參數類型位於 ''''{1}''''，可防止覆寫 #loc'
+    text: "參數類型 <code>#ref</code> 位於 ''{0}''，而 super 方法參數類型位於 ''{1}''，可防止覆寫 #loc"
 parameter.type.prevents.overriding.quickfix:
-    text: 將參數類型更改為 ''{0}''
+    text: "將參數類型更改為 ''{0}''"
 parameters.per.constructor.display.name:
     text: 參數過多的構造函數
 parameters.per.constructor.problem.descriptor:
@@ -2495,11 +2495,11 @@ pointless.indexof.comparison.always.false.problem.descriptor:
 pointless.indexof.comparison.always.true.problem.descriptor:
     text: '<code>#ref</code> 始終為 true #loc'
 pointless.indexof.comparison.display.name:
-    text: 無意義的 'indexOf()' 比較
+    text: "無意義的 'indexOf()' 比較"
 pointless.nullcheck.display.name:
-    text: 方法調用前出現不必要的 'null' 檢查
+    text: "方法調用前出現不必要的 'null' 檢查"
 possible.throw.from.finally.block.problem.descriptor:
-    text: '<code>{0}</code> 可能在 ''''finally'''' 塊內引發 #loc'
+    text: "<code>{0}</code> 可能在 ''finally'' 塊內引發 #loc"
 press.escape.to.remove.highlighting.message:
     text: 按 Esc 移除高亮顯示
 primitive.array.argument.to.var.arg.method.display.name:
@@ -2509,25 +2509,25 @@ primitive.array.argument.to.var.arg.method.problem.descriptor:
 primitive.fields.ignore.option:
     text: 忽略原始欄位
 printstacktrace.call.display.name:
-    text: 調用 'printStackTrace()'
+    text: "調用 'printStackTrace()'"
 printstacktrace.call.problem.descriptor:
     text: '對 <code>#ref()</code> 的調用可能應當取代為更可靠的日誌 #loc'
 private.field.not.accessible.problem.descriptor:
-    text: '''''private'''' 欄位 ''''{0}'''' 無法從此處存取'
+    text: "''private'' 欄位 ''{0}'' 無法從此處存取"
 private.member.access.between.outer.and.inner.classes.display.name:
     text: 合成存取器調用
 private.member.access.between.outer.and.inner.classes.make.constructor.package.local.quickfix:
-    text: 將 ''{0}'' 構造函數設為 package-private
+    text: "將 ''{0}'' 構造函數設為 package-private"
 private.member.access.between.outer.and.inner.classes.make.local.quickfix:
-    text: 將 ''{0}'' 設為 package-private
+    text: "將 ''{0}'' 設為 package-private"
 private.member.access.between.outer.and.inner.classes.problem.descriptor:
-    text: '存取類 ''''{0}'''' 的 ''''private'''' 成員需要合成存取器 #loc'
+    text: "存取類 ''{0}'' 的 ''private'' 成員需要合成存取器 #loc"
 problematic.varargs.method.display.name:
     text: 非 vararg 方法覆寫 vararg 方法
 problematic.varargs.method.override.problem.descriptor:
     text: '非 vararg 方法 <code>#ref()</code> 覆寫 vararg 方法 #loc'
 properties.object.as.hashtable.display.name:
-    text: 將 'Properties' 物件用作 'Hashtable'
+    text: "將 'Properties' 物件用作 'Hashtable'"
 properties.object.as.hashtable.problem.descriptor:
     text: '在屬性物件上調用 <code>Hashtable.#ref()</code> #loc'
 property.value.set.to.itself.display.name:
@@ -2535,29 +2535,29 @@ property.value.set.to.itself.display.name:
 protected.field.display.name:
     text: protected 欄位
 protected.field.not.accessible.problem.descriptor:
-    text: '''''protected'''' 欄位 ''''{0}'''' 無法從此處存取'
+    text: "''protected'' 欄位 ''{0}'' 無法從此處存取"
 protected.field.problem.descriptor:
     text: 'protected 欄位 <code>#ref</code> #loc'
 protected.inner.class.display.name:
     text: protected 嵌套類
 protected.inner.class.ignore.enum.option:
-    text: 忽略 'protected' 內部枚舉
+    text: "忽略 'protected' 內部枚舉"
 protected.inner.class.ignore.interface.option:
-    text: 忽略 'protected' 內部接口
+    text: "忽略 'protected' 內部接口"
 protected.inner.class.problem.descriptor:
     text: 'protected 嵌套類 <code>#ref</code> #loc'
 protected.member.in.final.class.display.name:
-    text: '''protected'' 成員位於 ''final'' 類中'
+    text: "'protected' 成員位於 'final' 類中"
 protected.member.in.final.class.problem.descriptor:
-    text: '類成員在 ''final'' 類中被宣告為 <code>#ref</code> #loc'
+    text: "類成員在 'final' 類中被宣告為 <code>#ref</code> #loc"
 protected.package.local.private:
     text: protected、package-private 和 private
 public.constructor.display.name:
-    text: '''public'' 構造函數可取代為工廠方法'
+    text: "'public' 構造函數可取代為工廠方法"
 public.constructor.in.non.public.class.display.name:
-    text: '''public'' 構造函數位於非 public 類中'
+    text: "'public' 構造函數位於非 public 類中"
 public.constructor.in.non.public.class.problem.descriptor:
-    text: '構造函數在非 public 類 ''''{0}'''' 中被宣告為 <code>#ref</code> #loc'
+    text: "構造函數在非 public 類 ''{0}'' 中被宣告為 <code>#ref</code> #loc"
 public.constructor.in.non.public.class.quickfix:
     text: 將構造函數設為 private
 public.constructor.problem.descriptor:
@@ -2565,43 +2565,43 @@ public.constructor.problem.descriptor:
 public.constructor.quickfix:
     text: 將構造函數取代為工廠方法
 public.default.constructor.problem.descriptor:
-    text: 類 <code>#ref</code> 具有 'public' 預設構造函數
+    text: "類 <code>#ref</code> 具有 'public' 預設構造函數"
 public.field.accessed.in.synchronized.context.display.name:
-    text: 在 'synchronized' 上下文中存取d了非 private 欄位
+    text: "在 'synchronized' 上下文中存取d了非 private 欄位"
 public.field.accessed.in.synchronized.context.problem.descriptor:
     text: '在同步上下文中存取非 private 欄位 <code>#ref</code> #loc'
 public.field.display.name:
-    text: '''public'' 欄位'
+    text: "'public' 欄位"
 public.field.ignore.enum.type.fields.option:
-    text: 忽略枚舉類型的 'public final' 欄位
+    text: "忽略枚舉類型的 'public final' 欄位"
 public.field.problem.descriptor:
-    text: '''public'' 欄位 <code>#ref</code> #loc'
+    text: "'public' 欄位 <code>#ref</code> #loc"
 public.inner.class.display.name:
-    text: '''public'' 嵌套類'
+    text: "'public' 嵌套類"
 public.inner.class.ignore.enum.option:
-    text: 忽略 'public' 內部枚舉
+    text: "忽略 'public' 內部枚舉"
 public.inner.class.ignore.interface.option:
-    text: 忽略 'public' 內部接口
+    text: "忽略 'public' 內部接口"
 public.inner.class.problem.descriptor:
-    text: '''public'' 嵌套類 <code>#ref</code> #loc'
+    text: "'public' 嵌套類 <code>#ref</code> #loc"
 public.method.not.in.interface.display.name:
-    text: '''public'' 方法在接口中未公開'
+    text: "'public' 方法在接口中未公開"
 public.method.not.in.interface.option:
     text: <html>如果包含類未實作非庫接口，則忽略</html>
 public.method.not.in.interface.problem.descriptor:
-    text: '''public'' 方法 <code>#ref()</code> 未通過接口公開 #loc'
+    text: "'public' 方法 <code>#ref()</code> 未通過接口公開 #loc"
 public.method.without.logging.display.name:
-    text: '''public'' 方法沒有日誌記錄'
+    text: "'public' 方法沒有日誌記錄"
 public.method.without.logging.problem.descriptor:
-    text: '''public'' 方法 <code>#ref()</code> 沒有日誌調用 #loc'
+    text: "'public' 方法 <code>#ref()</code> 沒有日誌調用 #loc"
 public.static.array.field.display.name:
-    text: '''public static'' 陣列欄位'
+    text: "'public static' 陣列欄位"
 public.static.array.field.problem.descriptor:
-    text: '''public static'' 陣列欄位 <code>#ref</code>，影響安全性 #loc'
+    text: "'public static' 陣列欄位 <code>#ref</code>，影響安全性 #loc"
 public.static.collection.field.display.name:
-    text: '''public static'' 集合欄位'
+    text: "'public static' 集合欄位"
 public.static.collection.field.problem.descriptor:
-    text: '''public static'' 集合欄位 <code>#ref</code>，影響安全性 #loc'
+    text: "'public static' 集合欄位 <code>#ref</code>，影響安全性 #loc"
 query.column.name:
     text: 查詢名稱開頭
 questionable.name.column.title:
@@ -2611,7 +2611,7 @@ questionable.name.display.name:
 questionable.name.problem.descriptor:
     text: '可疑名稱 <code>#ref</code> #loc'
 random.double.for.random.integer.display.name:
-    text: 使用 'Random.nextDouble()' 獲取隨機整數
+    text: "使用 'Random.nextDouble()' 獲取隨機整數"
 random.double.for.random.integer.problem.descriptor:
     text: '使用 <code>Random.#ref</code> 創建隨機整數 #loc'
 raw.use.of.parameterized.type.display.name:
@@ -2625,25 +2625,25 @@ raw.use.of.parameterized.type.ignore.type.casts.option:
 raw.use.of.parameterized.type.ignore.uncompilable.option:
     text: 忽略類型參數無法編譯的位置
 readobject.initialization.display.name:
-    text: 實例欄位可能無法被 'readObject()' 初始化
+    text: "實例欄位可能無法被 'readObject()' 初始化"
 readobject.initialization.problem.descriptor:
-    text: '實例欄位 <code>#ref</code> 在 ''readObject()'' 調用期間可能無法初始化 #loc'
+    text: "實例欄位 <code>#ref</code> 在 'readObject()' 調用期間可能無法初始化 #loc"
 readresolve.writereplace.protected.display.name:
-    text: '''readResolve()'' 或 ''writeReplace()'' 未被宣告為 ''protected'''
+    text: "'readResolve()' 或 'writeReplace()' 未被宣告為 'protected'"
 readresolve.writereplace.protected.problem.descriptor:
-    text: '<code>#ref()</code> 未被宣告為 ''protected'' #loc'
+    text: "<code>#ref()</code> 未被宣告為 'protected' #loc"
 readwriteobject.private.display.name:
-    text: '''readObject()'' 或 ''writeObject()'' 未被宣告為 ''private'''
+    text: "'readObject()' 或 'writeObject()' 未被宣告為 'private'"
 readwriteobject.private.problem.descriptor:
-    text: '<code>#ref</code> 未被宣告為 ''private'' #loc'
+    text: "<code>#ref</code> 未被宣告為 'private' #loc"
 recordstore.opened.not.safely.closed.display.name:
-    text: 開啟了 'RecordStore'，但未安全關閉
+    text: "開啟了 'RecordStore'，但未安全關閉"
 redundant.else.display.name:
-    text: 冗餘的 'else'
+    text: "冗餘的 'else'"
 redundant.else.problem.descriptor:
-    text: '<code>#ref</code> 分支可以解開，因為 ''if'' 分支永遠不會正常完成 #loc'
+    text: "<code>#ref</code> 分支可以解開，因為 'if' 分支永遠不會正常完成 #loc"
 redundant.else.unwrap.quickfix:
-    text: 移除冗餘的 'else'
+    text: "移除冗餘的 'else'"
 redundant.field.initialization.display.name:
     text: 冗餘欄位初始化
 redundant.field.initialization.problem.descriptor:
@@ -2669,51 +2669,51 @@ redundant.method.override.problem.descriptor:
 redundant.method.override.quickfix:
     text: 移除冗餘方法
 redundant.string.format.call.display.name:
-    text: 冗餘調用 'String.format()'
+    text: "冗餘調用 'String.format()'"
 redundant.string.format.call.quickfix:
-    text: 移除對 'String.format()' 的冗餘調用
+    text: "移除對 'String.format()' 的冗餘調用"
 reflection.for.unavailable.annotation.display.name:
     text: 對僅源註解的反射存取
 reflection.for.unavailable.annotation.problem.descriptor:
-    text: '註解 ''#ref'' 不保留用於反射存取 #loc'
+    text: "註解 '#ref' 不保留用於反射存取 #loc"
 refused.bequest.display.name:
     text: 方法不調用 super 方法
 refused.bequest.ignore.empty.super.methods.option:
     text: 忽略空 super 方法
 refused.bequest.problem.descriptor:
-    text: '方法 <code>#ref()</code> 未調用 ''super.#ref()'' #loc'
+    text: "方法 <code>#ref()</code> 未調用 'super.#ref()' #loc"
 remove.annotation.parameter.0.fix.name:
-    text: 移除註解參數 ''{0}''
+    text: "移除註解參數 ''{0}''"
 remove.finally.block.quickfix:
-    text: 移除 'finally' 塊
+    text: "移除 'finally' 塊"
 remove.junit4.test.annotation.and.rename.quickfix:
-    text: 移除 ''@Test'' 註解並重命名為 ''{0}''
+    text: "移除 ''@Test'' 註解並重命名為 ''{0}''"
 remove.junit4.test.annotation.quickfix:
-    text: 移除 '@Test' 註解
+    text: "移除 '@Test' 註解"
 remove.leading.zero.to.make.decimal.quickfix:
     text: 移除前導零以變為十進制
 remove.modifier.quickfix:
-    text: 移除 ''{0}'' 修飾符
+    text: "移除 ''{0}'' 修飾符"
 remove.try.finally.block.quickfix:
-    text: 移除 'try-finally' 塊
+    text: "移除 'try-finally' 塊"
 rename.catch.parameter.to.ignored:
-    text: 將 ''catch'' 參數重命名為 ''{0}''
+    text: "將 ''catch'' 參數重命名為 ''{0}''"
 rename.quickfix:
     text: 重命名
 renameto.quickfix:
-    text: 重命名為 ''{0}''
+    text: "重命名為 ''{0}''"
 replace.all.dot.display.name:
     text: 可疑的正則表達式實參
 replace.all.dot.problem.descriptor:
-    text: '''''{0}()'''' 調用中存在可疑的正則表達式 #ref #loc'
+    text: "''{0}()'' 調用中存在可疑的正則表達式 #ref #loc"
 replace.inheritance.with.delegation.quickfix:
     text: 將繼承取代為委託
 replace.with:
-    text: 將 '||' 取代為 '\&\&'
+    text: "將 '||' 取代為 '\\&\\&'"
 replace.with.catch.clause.for.runtime.exception.quickfix:
-    text: 針對 'RuntimeException' 取代為 'catch' 子句
+    text: "針對 'RuntimeException' 取代為 'catch' 子句"
 resource.opened.not.closed.problem.descriptor:
-    text: '''''{0}'''' 應在 ''''try'''' 塊之前開啟，並在相應的 ''''finally'''' 塊中關閉 #loc'
+    text: "''{0}'' 應在 ''try'' 塊之前開啟，並在相應的 ''finally'' 塊中關閉 #loc"
 result.of.method.call.ignored.class.column.title:
     text: 類名
 result.of.method.call.ignored.display.name:
@@ -2729,9 +2729,9 @@ result.of.object.allocation.ignored.display.name:
 result.of.object.allocation.ignored.problem.descriptor:
     text: '<code>new #ref()</code> 的結果已忽略 #loc'
 return.from.finally.block.display.name:
-    text: '''return'' 位於 ''finally'' 塊內'
+    text: "'return' 位於 'finally' 塊內"
 return.from.finally.block.problem.descriptor:
-    text: '''return'' 位於 ''finally'' 塊內 #loc'
+    text: "'return' 位於 'finally' 塊內 #loc"
 return.of.anonymous.class.problem.descriptor:
     text: '返回匿名類的實例 #loc'
 return.of.inner.class.display.name:
@@ -2747,9 +2747,9 @@ return.of.null.arrays.option:
 return.of.null.collections.option:
     text: 報告返回集合物件的方法
 return.of.null.display.name:
-    text: 返回 'null'
+    text: "返回 'null'"
 return.of.null.ignore.private.option:
-    text: 忽略 'private' 方法、匿名類和 lambda
+    text: "忽略 'private' 方法、匿名類和 lambda"
 return.of.null.objects.option:
     text: 報告返回物件的方法
 return.of.null.problem.descriptor:
@@ -2757,7 +2757,7 @@ return.of.null.problem.descriptor:
 return.point.limit.option:
     text: '返回點限制(&R):'
 return.this.display.name:
-    text: 返回 'this'
+    text: "返回 'this'"
 return.this.problem.descriptor:
     text: '返回 <code>#ref</code> #loc'
 reuse.of.local.variable.display.name:
@@ -2767,71 +2767,71 @@ reuse.of.local.variable.problem.descriptor:
 reuse.of.local.variable.split.quickfix:
     text: 拆分局部變數
 runtime.exec.call.display.name:
-    text: 調用 'Runtime.exec()'
+    text: "調用 'Runtime.exec()'"
 runtime.exec.call.problem.descriptor:
     text: '對 <code>Runtime.#ref()</code> 的調用不可移植 #loc'
 runtime.exec.with.non.constant.string.display.name:
-    text: '''Runtime.exec()'' 調用具有非常數字串'
+    text: "'Runtime.exec()' 調用具有非常數字串"
 runtime.exec.with.non.constant.string.problem.descriptor:
     text: '<code>Runtime.#ref()</code> 調用具有非常數實參 #loc'
 safe.lock.display.name:
     text: 已獲取但未安全解鎖的鎖
 safe.lock.problem.descriptor:
-    text: '''''{0}'''' 應在 ''''try'''' 塊之前鎖定，並在相應的 ''''finally'''' 塊中解鎖 #loc'
+    text: "''{0}'' 應在 ''try'' 塊之前鎖定，並在相應的 ''finally'' 塊中解鎖 #loc"
 serializable.anonymous.class.stores.non.serializable.problem.descriptor:
-    text: 可序列化匿名類隱式存儲類型為 ''{0}'' 的不可序列化物件
+    text: "可序列化匿名類隱式存儲類型為 ''{0}'' 的不可序列化物件"
 serializable.class.in.secure.context.display.name:
     text: 安全上下文中的可序列化類
 serializable.class.in.secure.context.problem.descriptor:
     text: '類 <code>#ref</code> 可能被序列化，影響安全性 #loc'
 serializable.has.serialization.methods.display.name:
-    text: 不帶 'readObject()' 和 'writeObject()' 的可序列化類
+    text: "不帶 'readObject()' 和 'writeObject()' 的可序列化類"
 serializable.has.serialization.methods.ignore.option:
     text: 忽略未定義實例欄位的類
 serializable.has.serialization.methods.problem.descriptor:
-    text: '可序列化類 <code>#ref</code> 未定義 ''readObject()'' 或 ''writeObject()'' #loc'
+    text: "可序列化類 <code>#ref</code> 未定義 'readObject()' 或 'writeObject()' #loc"
 serializable.has.serialization.methods.problem.descriptor1:
-    text: '可序列化類 <code>#ref</code> 未定義 ''writeObject()'' #loc'
+    text: "可序列化類 <code>#ref</code> 未定義 'writeObject()' #loc"
 serializable.has.serialization.methods.problem.descriptor2:
-    text: '可序列化類 <code>#ref</code> 未定義 ''readObject()'' #loc'
+    text: "可序列化類 <code>#ref</code> 未定義 'readObject()' #loc"
 serializable.inner.class.has.serial.version.uid.field.display.name:
-    text: 沒有 'serialVersionUID' 的可序列化非 static 內部類
+    text: "沒有 'serialVersionUID' 的可序列化非 static 內部類"
 serializable.inner.class.has.serial.version.uid.field.problem.descriptor:
-    text: '內部類 <code>#ref</code> 未定義 ''serialVersionUID'' 欄位 #loc'
+    text: "內部類 <code>#ref</code> 未定義 'serialVersionUID' 欄位 #loc"
 serializable.inner.class.with.non.serializable.outer.class.display.name:
-    text: 可序列化非 'static' 內部類具有不可序列化外部類
+    text: "可序列化非 'static' 內部類具有不可序列化外部類"
 serializable.inner.class.with.non.serializable.outer.class.problem.descriptor:
     text: '內部類 <code>#ref</code> 可序列化，而其外部類不可序列化 #loc'
 serializable.lambda.stores.non.serializable.problem.descriptor:
-    text: 可序列化 lambda 隱式存儲類型為 ''{0}'' 的不可序列化物件
+    text: "可序列化 lambda 隱式存儲類型為 ''{0}'' 的不可序列化物件"
 serializable.local.class.stores.non.serializable.problem.descriptor:
-    text: 可序列化局部類 ''{1}'' 隱式存儲類型為 ''{0}'' 的不可序列化物件
+    text: "可序列化局部類 ''{1}'' 隱式存儲類型為 ''{0}'' 的不可序列化物件"
 serializable.stores.non.serializable.display.name:
-    text: '''Serializable'' 物件隱式存儲非 ''Serializable'' 物件'
+    text: "'Serializable' 物件隱式存儲非 'Serializable' 物件"
 serializable.with.unconstructable.ancestor.display.name:
     text: 具有不可構造上級的可序列化類
 serializable.with.unconstructable.ancestor.problem.descriptor:
-    text: '<code>#ref</code> 具有不帶無實參構造函數的不可序列化上級 ''''{0}'''' #loc'
+    text: "<code>#ref</code> 具有不帶無實參構造函數的不可序列化上級 ''{0}'' #loc"
 serialpersistentfields.with.wrong.signature.display.name:
-    text: '''serialPersistentFields'' 欄位未被宣告為 ''private static final ObjectStreamField[]'''
+    text: "'serialPersistentFields' 欄位未被宣告為 'private static final ObjectStreamField[]'"
 serialpersistentfields.with.wrong.signature.problem.descriptor:
-    text: '可序列化類的 <code>#ref</code> 欄位未被宣告為 ''private static final ObjectStreamField[]'' #loc'
+    text: "可序列化類的 <code>#ref</code> 欄位未被宣告為 'private static final ObjectStreamField[]' #loc"
 serialversionuid.private.static.final.long.display.name:
-    text: '''serialVersionUID'' 欄位未被宣告為 ''private static final long'''
+    text: "'serialVersionUID' 欄位未被宣告為 'private static final long'"
 serialversionuid.private.static.final.long.problem.descriptor:
-    text: '可序列化類的 <code>#ref</code> 欄位未被宣告為 ''private static final long'' #loc'
+    text: "可序列化類的 <code>#ref</code> 欄位未被宣告為 'private static final long' #loc"
 serialversionuid.private.static.final.long.quickfix:
-    text: 將 serialVersionUID 設為 'private static final'
+    text: "將 serialVersionUID 設為 'private static final'"
 set.annotation.parameter.0.1.fix.name:
     text: 將註解參數 {0} 設定為 "{1}"
 set.replaceable.by.enum.set.display.name:
-    text: '''Set'' 可取代為 ''EnumSet'''
+    text: "'Set' 可取代為 'EnumSet'"
 set.replaceable.by.enum.set.problem.descriptor:
-    text: '<code>#ref</code> 可取代為 ''EnumSet'' #loc'
+    text: "<code>#ref</code> 可取代為 'EnumSet' #loc"
 shared.thread.local.random.display.name:
-    text: '''ThreadLocalRandom'' 實例可能是共享的'
+    text: "'ThreadLocalRandom' 實例可能是共享的"
 shared.thread.local.random.problem.descriptor:
-    text: '''ThreadLocalRandom'' 實例可能在線程之間共享'
+    text: "'ThreadLocalRandom' 實例可能在線程之間共享"
 shift.operation.by.inappropriate.constant.display.name:
     text: 通過可能錯誤的常數進行移位運算
 shift.operation.by.inappropriate.constant.problem.descriptor.negative:
@@ -2839,7 +2839,7 @@ shift.operation.by.inappropriate.constant.problem.descriptor.negative:
 shift.operation.by.inappropriate.constant.problem.descriptor.too.large:
     text: '對 <code>#ref</code> 進行移位運算時使用的常量值過大 #loc'
 signal.without.corresponding.await.display.name:
-    text: 沒有相應 'await()' 的 'signal()'
+    text: "沒有相應 'await()' 的 'signal()'"
 signal.without.corresponding.await.problem.descriptor:
     text: '在沒有相應 <code>await()</code> 的情況下調用 <code>#ref()</code> #loc'
 simplifiable.annotation.display.name:
@@ -2855,25 +2855,25 @@ simplifiable.boolean.expression.display.name:
 simplifiable.conditional.expression.display.name:
     text: 可簡化的條件表達式
 simplifiable.conditional.expression.problem.descriptor:
-    text: '<code>{1}</code> 可以簡化為 ''''{0}'''' #loc'
+    text: "<code>{1}</code> 可以簡化為 ''{0}'' #loc"
 simplifiable.equals.expression.display.name:
-    text: '''equals()'' 調用之前的 ''null'' 檢查不必要'
+    text: "'equals()' 調用之前的 'null' 檢查不必要"
 simplifiable.equals.expression.problem.descriptor:
-    text: '''''{0}()'''' 調用之前的 ''''null'''' 檢查不必要 #loc'
+    text: "''{0}()'' 調用之前的 ''null'' 檢查不必要 #loc"
 simplifiable.equals.expression.quickfix:
-    text: 翻轉 ''.{0}()'' 並移除不必要的 ''null'' 檢查
+    text: "翻轉 ''.{0}()'' 並移除不必要的 ''null'' 檢查"
 simplifiable.junit.assertion.display.name:
     text: 可簡化斷言
 simplifiable.junit.assertion.problem.descriptor:
-    text: '<code>#ref()</code> 可以簡化為 ''''{0}'''' #loc'
+    text: "<code>#ref()</code> 可以簡化為 ''{0}'' #loc"
 simplify.junit.assertion.simplify.quickfix:
     text: 簡化斷言
 single.character.startswith.display.name:
-    text: 單個字符 'startsWith()' 或 'endsWith()'
+    text: "單個字符 'startsWith()' 或 'endsWith()'"
 single.character.startswith.problem.descriptor:
-    text: '單個字符 <code>#ref()</code> 可取代為 ''charAt()'' 表達式 #loc'
+    text: "單個字符 <code>#ref()</code> 可取代為 'charAt()' 表達式 #loc"
 single.character.startswith.quickfix:
-    text: 取代為 'charAt()' 表達式
+    text: "取代為 'charAt()' 表達式"
 single.class.import.display.name:
     text: 單個類匯入
 single.class.import.problem.descriptor:
@@ -2883,29 +2883,29 @@ single.element.annotation.family.quickfix:
 single.element.annotation.name:
     text: 非規范化註解
 single.element.annotation.quickfix:
-    text: 添加 'value='
+    text: "添加 'value='"
 single.statement.in.block.descriptor:
-    text: '''''{0}'''' 包含單條語句'
+    text: "''{0}'' 包含單條語句"
 single.statement.in.block.family.quickfix:
     text: 從語句中移除大括號
 single.statement.in.block.name:
     text: 程式碼塊包含單條語句
 single.statement.in.block.quickfix:
-    text: 從 ''{0}'' 語句中移除大括號
+    text: "從 ''{0}'' 語句中移除大括號"
 singleton.display.name:
     text: 單例
 singleton.problem.descriptor:
     text: '類 <code>#ref</code> 為單例 #loc'
 size.replaceable.by.isempty.display.name:
-    text: '''size() == 0'' 可取代為 ''isEmpty()'''
+    text: "'size() == 0' 可取代為 'isEmpty()'"
 size.replaceable.by.isempty.negation.ignore.option:
-    text: 忽略將取代為 '!isEmpty()' 的表達式
+    text: "忽略將取代為 '!isEmpty()' 的表達式"
 sleep.while.holding.lock.display.name:
-    text: 同步時調用 'Thread.sleep()'
+    text: "同步時調用 'Thread.sleep()'"
 sleep.while.holding.lock.problem.descriptor:
     text: '同步時調用 <code>Thread.#ref()</code> #loc'
 smth.unnecessary.remove.quickfix:
-    text: 移除不必要的 ''{0}''
+    text: "移除不必要的 ''{0}''"
 socket.opened.not.closed.display.name:
     text: 套接字已開啟，但未安全關閉
 standard.variable.names.display.name:
@@ -2913,9 +2913,9 @@ standard.variable.names.display.name:
 standard.variable.names.ignore.override.option:
     text: 對與 super 方法參數相同的參數名稱忽略
 standard.variable.names.problem.descriptor:
-    text: '變數命名 <code>#ref</code> 沒有類型 ''''{0}'''' #loc'
+    text: "變數命名 <code>#ref</code> 沒有類型 ''{0}'' #loc"
 standard.variable.names.problem.descriptor2:
-    text: '變數命名 <code>#ref</code> 沒有類型 ''''{0}'''' 或 ''''{1}'''' #loc'
+    text: "變數命名 <code>#ref</code> 沒有類型 ''{0}'' 或 ''{1}'' #loc"
 statement.problem.descriptor:
     text: '<code>#ref</code> 語句 #loc'
 statement.with.empty.body.display.name:
@@ -2933,7 +2933,7 @@ static.collection.problem.descriptor:
 static.field.via.subclass.display.name:
     text: static 欄位通過子類引用
 static.field.via.subclass.problem.descriptor:
-    text: 'static 欄位 <code>#ref</code> 在類 ''''{0}'''' 中宣告，但通過子類 ''''{1}'''' 引用 #loc'
+    text: "static 欄位 <code>#ref</code> 在類 ''{0}'' 中宣告，但通過子類 ''{1}'' 引用 #loc"
 static.field.via.subclass.rationalize.quickfix:
     text: 使 static 欄位存取合理化
 static.import.display.name:
@@ -2951,7 +2951,7 @@ static.inheritance.replace.quickfix:
 static.initializer.references.subclass.display.name:
     text: static 初始設定式引用子類
 static.method.only.used.in.one.anonymous.class.problem.descriptor:
-    text: 'static {0, choice, 1#方法|2#欄位} <code>#ref{0, choice, 1#()|2#}</code> 僅在派生自 ''''{1}'''' 的匿名類中使用 #loc'
+    text: "static {0, choice, 1#方法|2#欄位} <code>#ref{0, choice, 1#()|2#}</code> 僅在派生自 ''{1}'' 的匿名類中使用 #loc"
 static.method.only.used.in.one.class.display.name:
     text: static 成員僅在其他一個類中使用
 static.method.only.used.in.one.class.ignore.anonymous.option:
@@ -2961,57 +2961,57 @@ static.method.only.used.in.one.class.ignore.on.conflicts:
 static.method.only.used.in.one.class.ignore.test.option:
     text: 僅在測試類中使用時忽略
 static.method.only.used.in.one.class.problem.descriptor:
-    text: 'static {0, choice, 1#方法|2#欄位} <code>#ref{0, choice, 1#()|2#}</code> 僅在 ''''{1}'''' 類中使用 #loc'
+    text: "static {0, choice, 1#方法|2#欄位} <code>#ref{0, choice, 1#()|2#}</code> 僅在 ''{1}'' 類中使用 #loc"
 static.method.only.used.in.one.class.quickfix:
     text: 將 {0} 移至使用類
 static.method.via.subclass.display.name:
     text: static 方法通過子類引用
 static.method.via.subclass.problem.descriptor:
-    text: 'static 方法 <code>#ref()</code> 在類 ''''{0}'''' 中宣告，但通過子類 ''''{1}'''' 引用 #loc'
+    text: "static 方法 <code>#ref()</code> 在類 ''{0}'' 中宣告，但通過子類 ''{1}'' 引用 #loc"
 static.method.via.subclass.rationalize.quickfix:
     text: 使 static 方法調用合理化
 static.non.final.field.display.name:
-    text: '''static'' 非 ''final'' 欄位'
+    text: "'static' 非 'final' 欄位"
 static.non.final.field.option:
-    text: 僅報告 'public' 欄位
+    text: "僅報告 'public' 欄位"
 static.non.final.field.problem.descriptor:
-    text: '''static'' 非 ''final'' 欄位 <code>#ref</code> #loc'
+    text: "'static' 非 'final' 欄位 <code>#ref</code> #loc"
 static.suite.display.name:
-    text: '''suite()'' 方法未被宣告為 ''static'''
+    text: "'suite()' 方法未被宣告為 'static'"
 static.suite.problem.descriptor:
-    text: 'Junit <code>#ref()</code> 方法未被宣告為 ''static'' #loc'
+    text: "Junit <code>#ref()</code> 方法未被宣告為 'static' #loc"
 static.variable.may.not.be.initialized.display.name:
     text: static 欄位可能無法初始化
 static.variable.may.not.be.initialized.problem.descriptor:
     text: 'static 欄位 <code>#ref</code> 在類初始化期間可能無法初始化 #loc'
 static.variable.naming.convention.element.description:
-    text: '''static'' 欄位'
+    text: "'static' 欄位"
 static.variable.of.concrete.class.problem.descriptor:
-    text: '具體類 <code>#ref</code> 的 static 欄位 ''''{0}'''' #loc'
+    text: "具體類 <code>#ref</code> 的 static 欄位 ''{0}'' #loc"
 static.variable.used.before.initialization.display.name:
     text: static 欄位在初始化前使用
 static.variable.used.before.initialization.problem.descriptor:
     text: 'static 欄位 <code>#ref</code> 在初始化前使用 #loc'
 string.buffer.must.have.initial.capacity.display.name:
-    text: 沒有初始容量的 'StringBuilder'
+    text: "沒有初始容量的 'StringBuilder'"
 string.buffer.must.have.initial.capacity.problem.descriptor:
     text: '沒有初始容量的 <code>new #ref()</code> #loc'
 string.buffer.replaceable.by.string.builder.display.name:
-    text: '''StringBuffer'' 可能是 ''StringBuilder'''
+    text: "'StringBuffer' 可能是 'StringBuilder'"
 string.buffer.replaceable.by.string.builder.problem.descriptor:
-    text: '<code>StringBuffer #ref</code> 可能被宣告為 ''StringBuilder'' #loc'
+    text: "<code>StringBuffer #ref</code> 可能被宣告為 'StringBuilder' #loc"
 string.buffer.replaceable.by.string.display.name:
-    text: '''StringBuilder'' 可取代為 ''String'''
+    text: "'StringBuilder' 可取代為 'String'"
 string.buffer.replaceable.by.string.problem.descriptor:
-    text: '<code>{0} #ref</code> 可取代為 ''''String'''' #loc'
+    text: "<code>{0} #ref</code> 可取代為 ''String'' #loc"
 string.buffer.to.string.in.concatenation.display.name:
-    text: 連接中的 'StringBuilder.toString()'
+    text: "連接中的 'StringBuilder.toString()'"
 string.buffer.to.string.in.concatenation.problem.descriptor:
     text: '在串聯中調用 <code>{0}.#ref()</code> #loc'
 string.comparison.display.name:
-    text: 使用 '==' 而不是 'equals()' 進行字串比較
+    text: "使用 '==' 而不是 'equals()' 進行字串比較"
 string.comparison.problem.descriptor:
-    text: '使用 <code>#ref</code> 而不是 ''equals()'' 來比較字串值 #loc'
+    text: "使用 <code>#ref</code> 而不是 'equals()' 來比較字串值 #loc"
 string.concatenation.argument.to.log.call.display.name:
     text: 非常數字串串聯作為日誌調用的實參
 string.concatenation.argument.to.log.call.problem.descriptor:
@@ -3021,9 +3021,9 @@ string.concatenation.argument.to.log.call.quickfix:
 string.concatenation.display.name:
     text: 字串串聯
 string.concatenation.in.format.call.display.name:
-    text: 字串串聯作為 'format()' 調用的實參
+    text: "字串串聯作為 'format()' 調用的實參"
 string.concatenation.in.format.call.problem.descriptor:
-    text: '''''{0}()'''' 調用包含字串串聯實參'
+    text: "''{0}()'' 調用包含字串串聯實參"
 string.concatenation.in.format.call.quickfix:
     text: 將串聯取代為單獨的實參
 string.concatenation.in.loops.display.name:
@@ -3031,19 +3031,19 @@ string.concatenation.in.loops.display.name:
 string.concatenation.in.loops.problem.descriptor:
     text: '迴圈中的字串串聯 <code>#ref</code> #loc'
 string.concatenation.in.message.format.call.display.name:
-    text: 字串串聯作為 'MessageFormat.format()' 調用的實參
+    text: "字串串聯作為 'MessageFormat.format()' 調用的實參"
 string.concatenation.in.message.format.call.problem.descriptor:
-    text: '字串串聯作為 ''MessageFormat.format()'' 調用的實參 #loc'
+    text: "字串串聯作為 'MessageFormat.format()' 調用的實參 #loc"
 string.concatenation.inside.string.buffer.append.display.name:
-    text: 字串串聯作為 'StringBuilder.append()' 調用的實參
+    text: "字串串聯作為 'StringBuilder.append()' 調用的實參"
 string.concatenation.inside.string.buffer.append.problem.descriptor:
     text: '字串串聯作為 <code>{0}.#ref()</code> 調用的實參 #loc'
 string.concatenation.inside.string.buffer.append.replace.quickfix:
-    text: 取代為鏈式 'append()' 調用
+    text: "取代為鏈式 'append()' 調用"
 string.concatenation.introduce.fix:
     text: 引入 StringBuilder
 string.concatenation.introduce.fix.name:
-    text: 引入新的 {1} 以更新變數 ''{0}''
+    text: "引入新的 {1} 以更新變數 ''{0}''"
 string.concatenation.missing.whitespace.display.name:
     text: 字串串聯中可能缺少空格
 string.concatenation.missing.whitespace.option:
@@ -3055,13 +3055,13 @@ string.concatenation.problem.descriptor:
 string.concatenation.replace.fix:
     text: 取代為 StringBuilder
 string.concatenation.replace.fix.name:
-    text: 將變數 ''{0}'' 從字串轉換為 {1}
+    text: "將變數 ''{0}'' 從字串轉換為 {1}"
 string.equals.empty.string.display.name:
-    text: '''String.equals()'' 可取代為 ''String.isEmpty()'''
+    text: "'String.equals()' 可取代為 'String.isEmpty()'"
 string.equals.empty.string.is.empty.problem.descriptor:
-    text: '<code>#ref("")</code> 可取代為 ''isEmpty()'' #loc'
+    text: "<code>#ref(\"\")</code> 可取代為 'isEmpty()' #loc"
 string.equals.empty.string.problem.descriptor:
-    text: '<code>#ref("")</code> 可取代為 ''length()==0'' #loc'
+    text: "<code>#ref(\"\")</code> 可取代為 'length()==0' #loc"
 string.format.choose.class:
     text: 選擇格式化程序類
 string.format.class.column.name:
@@ -3069,33 +3069,33 @@ string.format.class.column.name:
 string.format.class.method.name:
     text: 附加格式化程序方法
 string.replace.quickfix:
-    text: 將串聯取代為 ''{0}''
+    text: "將串聯取代為 ''{0}''"
 string.replaceable.by.string.buffer.display.name:
-    text: 非常數 'String' 可取代為 'StringBuilder'
+    text: "非常數 'String' 可取代為 'StringBuilder'"
 string.replaceable.by.string.buffer.in.loop.option:
     text: 僅在迴圈中追加時發出警告
 string.replaceable.by.string.buffer.problem.descriptor:
-    text: '非常數 <code>String #ref</code> 可能應被宣告為 ''StringBuilder'' #loc'
+    text: "非常數 <code>String #ref</code> 可能應被宣告為 'StringBuilder' #loc"
 string.touppercase.tolowercase.without.locale.display.name:
-    text: 調用無區域設定的 'String.toUpperCase()' 或 'toLowerCase()'
+    text: "調用無區域設定的 'String.toUpperCase()' 或 'toLowerCase()'"
 string.touppercase.tolowercase.without.locale.problem.descriptor:
     text: '在未使用國際化字串指定區域設定的情況下調用 <code>String.#ref()</code> #loc'
 stringbuffer.field.display.name:
-    text: '''StringBuilder'' 欄位'
+    text: "'StringBuilder' 欄位"
 stringbuffer.field.problem.descriptor:
-    text: '''''{0}'''' 欄位 <code>#ref</code> #loc'
+    text: "''{0}'' 欄位 <code>#ref</code> #loc"
 subtraction.in.compareto.display.name:
-    text: '''compareTo()'' 中的減法'
+    text: "'compareTo()' 中的減法"
 subtraction.in.compareto.problem.descriptor:
-    text: '''compareTo()'' 中的減法 <code>#ref</code> 可能導致溢出或精度損失 #loc'
+    text: "'compareTo()' 中的減法 <code>#ref</code> 可能導致溢出或精度損失 #loc"
 super.class.logger.option:
     text: 在超類有可存取的記錄器時忽略
 super.tear.down.in.finally.display.name:
-    text: 未從 'finally' 塊調用 'super.tearDown()'
+    text: "未從 'finally' 塊調用 'super.tearDown()'"
 super.tear.down.in.finally.problem.descriptor:
-    text: '未從 ''finally'' 塊調用 <code>#ref()</code> #loc'
+    text: "未從 'finally' 塊調用 <code>#ref()</code> #loc"
 suppress.for.tests.scope.quickfix:
-    text: 對 'Tests' 範圍禁止
+    text: "對 'Tests' 範圍禁止"
 suspicious.array.cast.display.name:
     text: 可疑的陣列轉換
 suspicious.array.cast.problem.descriptor:
@@ -3103,69 +3103,69 @@ suspicious.array.cast.problem.descriptor:
 suspicious.comparator.compare.descriptor.non.reflexive:
     text: 對於相等的元素，比較器不返回 0
 suspicious.comparator.compare.descriptor.parameter.not.used:
-    text: '未使用 ''compare()'' 參數 <code>#ref</code> #loc'
+    text: "未使用 'compare()' 參數 <code>#ref</code> #loc"
 suspicious.comparator.compare.display.name:
-    text: 可疑的 'Comparator.compare()' 實作
+    text: "可疑的 'Comparator.compare()' 實作"
 suspicious.getter.problem.descriptor:
-    text: 'getter <code>#ref()</code> 返回欄位 ''''{0}'''' #loc'
+    text: "getter <code>#ref()</code> 返回欄位 ''{0}'' #loc"
 suspicious.getter.setter.display.name:
     text: 可疑的 getter/setter
 suspicious.indent.after.control.statement.display.name:
     text: 沒有大括號的控制語句後存在可疑縮排
 suspicious.indent.after.control.statement.problem.descriptor:
-    text: '''''{0}'''' 語句後存在可疑縮排 #loc'
+    text: "''{0}'' 語句後存在可疑縮排 #loc"
 suspicious.literal.underscore.display.name:
     text: 數字文字中的可疑下劃線
 suspicious.literal.underscore.problem.descriptor:
     text: '帶下劃線的數字文字中的組沒有長度 3 #loc'
 suspicious.setter.problem.descriptor:
-    text: 'setter <code>#ref()</code> 對欄位 ''''{0}'''' 賦值 #loc'
+    text: "setter <code>#ref()</code> 對欄位 ''{0}'' 賦值 #loc"
 suspicious.system.arraycopy.display.name:
-    text: 可疑的 'System.arraycopy()' 調用
+    text: "可疑的 'System.arraycopy()' 調用"
 suspicious.system.arraycopy.problem.descriptor4:
     text: '<code>#ref</code> 不是陣列類型 #loc'
 suspicious.system.arraycopy.problem.descriptor5:
     text: '<code>#ref</code> 不是陣列類型 #loc'
 suspicious.system.arraycopy.problem.descriptor6:
-    text: '源參數類型 ''''{0}'''' 不可分配給類型為 ''''{1}'''' 的目標參數 <code>#ref</code> #loc'
+    text: "源參數類型 ''{0}'' 不可分配給類型為 ''{1}'' 的目標參數 <code>#ref</code> #loc"
 suspicious.to.array.call.display.name:
-    text: 可疑的 'Collection.toArray()' 調用
+    text: "可疑的 'Collection.toArray()' 調用"
 suspicious.to.array.call.problem.descriptor:
-    text: '應為類型 ''''{0}[]'''' 的陣列，找到的是 ''''{1}[]'''' #loc'
+    text: "應為類型 ''{0}[]'' 的陣列，找到的是 ''{1}[]'' #loc"
 switch.expression.with.single.default.message:
-    text: '''switch'' 表達式只有 ''default'' case'
+    text: "'switch' 表達式只有 'default' case"
 switch.expression.with.too.few.branches.problem.descriptor:
-    text: '''''switch'''' 表達式的 case 標籤太少 ({0})，並且可能應當取代為 ''''if'''' 語句或條件運算符 #loc'
+    text: "''switch'' 表達式的 case 標籤太少 ({0})，並且可能應當取代為 ''if'' 語句或條件運算符 #loc"
 switch.statement.density.display.name:
-    text: '''switch'' 語句的分支密度過低'
+    text: "'switch' 語句的分支密度過低"
 switch.statement.density.min.option:
     text: '分支的最小密度: %'
 switch.statement.density.problem.descriptor:
     text: '<code>#ref</code> 的分支密度過低 ({0}%) #loc'
 switch.statement.display.name:
-    text: '''switch'' 語句'
+    text: "'switch' 語句"
 switch.statement.with.confusing.declaration.display.name:
-    text: 在不同 'switch' 分支中使用並宣告的局部變數
+    text: "在不同 'switch' 分支中使用並宣告的局部變數"
 switch.statement.with.confusing.declaration.problem.descriptor:
-    text: '局部變數 <code>#ref</code> 在一個 ''switch'' 分支中宣告，並在另一個分支中使用 #loc'
+    text: "局部變數 <code>#ref</code> 在一個 'switch' 分支中宣告，並在另一個分支中使用 #loc"
 switch.statement.with.single.default.message:
-    text: '''switch'' 語句只有 ''default'' case'
+    text: "'switch' 語句只有 'default' case"
 switch.statement.with.too.few.branches.display.name:
-    text: 最小 'switch' 分支
+    text: "最小 'switch' 分支"
 switch.statement.with.too.few.branches.min.option:
     text: '最小分支數:'
 switch.statement.with.too.few.branches.problem.descriptor:
-    text: '''''switch'''' 語句的 case 標籤太少({0})，並且可能應當取代為 ''''if'''' 語句 #loc'
+    text: "''switch'' 語句的 case 標籤太少({0})，並且可能應當取代為 ''if'' 語句 #loc"
 switch.statement.with.too.many.branches.display.name:
-    text: 最大 'switch' 分支
+    text: "最大 'switch' 分支"
 switch.statement.without.default.ignore.option:
     text: 忽略詳盡的 switch 語句
 switch.statements.without.default.display.name:
-    text: 不帶 'default' 分支的 'switch' 語句
+    text: "不帶 'default' 分支的 'switch' 語句"
 switch.statements.without.default.problem.descriptor:
-    text: '沒有 ''default'' 分支的 <code>#ref</code> 語句 #loc'
+    text: "沒有 'default' 分支的 <code>#ref</code> 語句 #loc"
 synchronization.on.get.class.display.name:
-    text: 在 'getClass()' 上同步
+    text: "在 'getClass()' 上同步"
 synchronization.on.get.class.problem.descriptor:
     text: '在 <code>#ref()</code> 上同步 #loc'
 synchronization.on.local.variable.or.method.parameter.display.name:
@@ -3175,25 +3175,25 @@ synchronization.on.local.variable.problem.descriptor:
 synchronization.on.method.parameter.problem.descriptor:
     text: '在方法參數 <code>#ref</code> 上同步 #loc'
 synchronization.on.static.field.display.name:
-    text: 在 'static' 欄位上同步
+    text: "在 'static' 欄位上同步"
 synchronization.on.static.field.problem.descriptor:
-    text: '在 ''static'' 欄位 <code>#ref</code> 上同步 #loc'
+    text: "在 'static' 欄位 <code>#ref</code> 上同步 #loc"
 synchronize.on.class.problem.descriptor:
     text: '對類的鎖定操作可能會產生不可預見的副作用 #loc'
 synchronize.on.lock.display.name:
-    text: 在 'Lock' 物件上同步
+    text: "在 'Lock' 物件上同步"
 synchronize.on.lock.problem.descriptor:
-    text: '在 ''''{0}'''' 物件上同步不太可能是故意的 #loc'
+    text: "在 ''{0}'' 物件上同步不太可能是故意的 #loc"
 synchronize.on.non.final.field.display.name:
     text: 在非 final 欄位上同步
 synchronize.on.non.final.field.problem.descriptor:
     text: '在非 final 欄位 <code>#ref</code> 上同步 #loc'
 synchronize.on.this.display.name:
-    text: 在 'this' 上同步
+    text: "在 'this' 上同步"
 synchronize.on.this.problem.descriptor:
-    text: '對 ''this'' 的鎖定操作可能會產生不可預見的副作用 #loc'
+    text: "對 'this' 的鎖定操作可能會產生不可預見的副作用 #loc"
 synchronized.method.display.name:
-    text: '''synchronized'' 方法'
+    text: "'synchronized' 方法"
 synchronized.method.ignore.synchronized.super.option:
     text: 忽略覆寫 synchronized 方法的方法
 synchronized.method.include.option:
@@ -3201,7 +3201,7 @@ synchronized.method.include.option:
 synchronized.method.move.quickfix:
     text: 將同步移動到方法中
 synchronized.method.problem.descriptor:
-    text: '方法 ''''{0}()'''' 被宣告為 <code>#ref</code> #loc'
+    text: "方法 ''{0}()'' 被宣告為 <code>#ref</code> #loc"
 synchronized.on.direct.literal.object.problem.descriptor:
     text: '在 {0} 文字 <code>#ref</code> 上同步 #loc'
 synchronized.on.literal.object.name:
@@ -3213,13 +3213,13 @@ synchronized.on.literal.object.warn.on.all.option:
 synchronized.on.possibly.literal.object.problem.descriptor:
     text: '在 {0} <code>#ref</code> 上同步 #loc'
 system.exit.call.display.name:
-    text: 調用 'System.exit()' 或相關方法
+    text: "調用 'System.exit()' 或相關方法"
 system.exit.call.ignore.option:
     text: 在主方法中忽略
 system.exit.call.problem.descriptor:
     text: '對 <code>{0}.#ref()</code> 的調用不可移植 #loc'
 system.getenv.call.display.name:
-    text: 調用 'System.getenv()'
+    text: "調用 'System.getenv()'"
 system.getenv.call.problem.descriptor:
     text: '對 <code>System.#ref()</code> 的調用不可移植 #loc'
 system.properties.display.name:
@@ -3229,13 +3229,13 @@ system.properties.problem.descriptor:
 system.properties.problem.descriptor1:
     text: '對 <code>Boolean.#ref()</code> 的調用可能造成安全問題 #loc'
 system.run.finalizers.on.exit.display.name:
-    text: 調用 'System.runFinalizersOnExit()'
+    text: "調用 'System.runFinalizersOnExit()'"
 system.run.finalizers.on.exit.problem.descriptor:
     text: '調用 <code>System.#ref()</code> #loc'
 system.set.problem.descriptor:
     text: '對 <code>System.#ref()</code> 的調用可能造成安全問題 #loc'
 system.set.security.manager.display.name:
-    text: 調用 'System.setSecurityManager()'
+    text: "調用 'System.setSecurityManager()'"
 system.set.security.manager.problem.descriptor:
     text: '對 <code>System.#ref()</code> 的調用可能造成安全問題 #loc'
 tail.recursion.display.name:
@@ -3245,15 +3245,15 @@ tail.recursion.problem.descriptor:
 tail.recursion.replace.quickfix:
     text: 用迭代替換尾部遞歸
 test.case.in.product.code.display.name:
-    text: 產品源中的 JUnit 'TestCase'
+    text: "產品源中的 JUnit 'TestCase'"
 test.case.in.product.code.problem.descriptor:
     text: '測試用例 <code>#ref</code> 可能應當放置在測試源樹中 #loc'
 test.case.with.constructor.display.name:
     text: 具有非普通構造函數的 JUnit TestCase
 test.case.with.constructor.problem.descriptor:
-    text: '構造函數 <code>#ref()</code> 中的初始化邏輯，而不是 ''setUp()'' #loc'
+    text: "構造函數 <code>#ref()</code> 中的初始化邏輯，而不是 'setUp()' #loc"
 test.case.with.constructor.problem.descriptor.initializer:
-    text: 初始設定式中的初始化邏輯，而不是 'setUp()'
+    text: "初始設定式中的初始化邏輯，而不是 'setUp()'"
 test.case.with.no.test.methods.display.name:
     text: 沒有測試的測試類
 test.case.with.no.test.methods.option:
@@ -3269,73 +3269,73 @@ test.method.is.public.void.no.arg.display.name:
 test.method.is.public.void.no.arg.problem.descriptor1:
     text: '測試方法 <code>#ref()</code> 不應具有參數 #loc'
 test.method.is.public.void.no.arg.problem.descriptor2:
-    text: '測試方法 <code>#ref()</code> 未被宣告為 ''public void'' #loc'
+    text: "測試方法 <code>#ref()</code> 未被宣告為 'public void' #loc"
 test.method.is.public.void.no.arg.problem.descriptor3:
-    text: '測試方法 <code>#ref()</code> 不應為 ''static'' #loc'
+    text: "測試方法 <code>#ref()</code> 不應為 'static' #loc"
 test.method.without.assertion.display.name:
     text: 沒有任何斷言的 JUnit 測試方法
 test.method.without.assertion.problem.descriptor:
     text: 'JUnit 測試方法 <code>#ref()</code> 不包含斷言 #loc'
 text.label.in.switch.statement.display.name:
-    text: '''switch'' 語句中的文本標籤'
+    text: "'switch' 語句中的文本標籤"
 text.label.in.switch.statement.problem.descriptor:
-    text: '''switch'' {0, choice, 1#語句|2#表達式}中存在文本標籤 <code>#ref:</code> #loc'
+    text: "'switch' {0, choice, 1#語句|2#表達式}中存在文本標籤 <code>#ref:</code> #loc"
 the.whole.project:
     text: 整個專案
 this.class:
     text: 此類
 this.reference.escaped.in.construction.display.name:
-    text: 物件構造中轉義的 'this' 引用
+    text: "物件構造中轉義的 'this' 引用"
 this.reference.escaped.in.construction.problem.descriptor:
     text: '物件構造期間轉義 <code>#ref</code> #loc'
 thread.death.rethrown.display.name:
-    text: '''ThreadDeath'' 未重新拋出'
+    text: "'ThreadDeath' 未重新拋出"
 thread.death.rethrown.problem.descriptor:
     text: 'ThreadDeath <code>#ref</code> 未重新拋出 #loc'
 thread.local.not.static.final.display.name:
-    text: '''ThreadLocal'' 欄位未被宣告為 ''static final'''
+    text: "'ThreadLocal' 欄位未被宣告為 'static final'"
 thread.local.not.static.final.problem.descriptor:
-    text: 'ThreadLocal <code>#ref</code> 未被宣告為 ''static final'' #loc'
+    text: "ThreadLocal <code>#ref</code> 未被宣告為 'static final' #loc"
 thread.priority.display.name:
-    text: 調用 'Thread.setPriority()'
+    text: "調用 'Thread.setPriority()'"
 thread.priority.problem.descriptor:
     text: '調用 <code>Thread.#ref()</code> #loc'
 thread.run.problem.descriptor:
-    text: '對 <code>#ref()</code> 的調用可能應當取代為 ''start()'' #loc'
+    text: "對 <code>#ref()</code> 的調用可能應當取代為 'start()' #loc"
 thread.start.in.construction.display.name:
-    text: 物件構造期間調用 'Thread.start()'
+    text: "物件構造期間調用 'Thread.start()'"
 thread.start.in.construction.problem.descriptor:
     text: '物件構造期間調用 <code>#ref()</code> #loc'
 thread.stop.suspend.resume.display.name:
-    text: 調用 'Thread.stop()'、'suspend()' 或 'resume()'
+    text: "調用 'Thread.stop()'、'suspend()' 或 'resume()'"
 thread.stop.suspend.resume.problem.descriptor:
     text: '調用 <code>Thread.#ref()</code> #loc'
 thread.with.default.run.method.display.name:
-    text: 使用預設的 'run()' 方法實例化 'Thread'
+    text: "使用預設的 'run()' 方法實例化 'Thread'"
 thread.with.default.run.method.problem.descriptor:
-    text: '使用預設的 ''run()'' 方法實例化 <code>#ref</code> #loc'
+    text: "使用預設的 'run()' 方法實例化 <code>#ref</code> #loc"
 thread.yield.display.name:
-    text: 調用 'Thread.yield()'
+    text: "調用 'Thread.yield()'"
 thread.yield.problem.descriptor:
     text: '調用 <code>Thread.#ref()</code> #loc'
 three.negations.per.method.display.name:
     text: 具有三個以上否定的方法
 three.negations.per.method.ignore.assert.option:
-    text: 忽略 'assert' 語句中的否定
+    text: "忽略 'assert' 語句中的否定"
 three.negations.per.method.ignore.option:
-    text: 忽略 'equals()' 方法中的否定
+    text: "忽略 'equals()' 方法中的否定"
 three.negations.per.method.problem.descriptor:
     text: '<code>#ref</code> 包含 {0} 個否定 #loc'
 throw.caught.locally.display.name:
-    text: 通過包含 'try' 語句捕獲 'throw'
+    text: "通過包含 'try' 語句捕獲 'throw'"
 throw.caught.locally.ignore.option:
     text: 忽略重新拋出的異常
 throw.caught.locally.problem.descriptor:
-    text: '通過包含 ''try'' 語句捕獲 <code>#ref</code> #loc'
+    text: "通過包含 'try' 語句捕獲 <code>#ref</code> #loc"
 throw.from.finally.block.display.name:
-    text: '''throw'' 位於 ''finally'' 塊內'
+    text: "'throw' 位於 'finally' 塊內"
 throw.from.finally.block.problem.descriptor:
-    text: '<code>#ref</code> 位於 ''finally'' 塊內 #loc'
+    text: "<code>#ref</code> 位於 'finally' 塊內 #loc"
 throwable.instance.never.thrown.checked.exception.problem.descriptor:
     text: '已檢查的異常實例 <code>#ref</code> 未拋出 #loc'
 throwable.instance.never.thrown.error.problem.descriptor:
@@ -3345,11 +3345,11 @@ throwable.instance.never.thrown.problem.descriptor:
 throwable.instance.never.thrown.runtime.exception.problem.descriptor:
     text: '執行時異常實例 <code>#ref</code> 未拋出 #loc'
 throwable.not.thrown.display.name:
-    text: '''Throwable'' 未拋出'
+    text: "'Throwable' 未拋出"
 throwable.printed.to.system.out.display.name:
-    text: '''Throwable'' 列印到 ''System.out'''
+    text: "'Throwable' 列印到 'System.out'"
 throwable.printed.to.system.out.problem.descriptor:
-    text: '''''Throwable'''' 實參 <code>#ref</code> 到 ''''System.{0}.{1}()'''' 調用'
+    text: "''Throwable'' 實參 <code>#ref</code> 到 ''System.{0}.{1}()'' 調用"
 throwable.result.of.method.call.ignored.problem.descriptor:
     text: '<code>#ref()</code> 的結果未拋出 #loc'
 thrown.exceptions.per.method.display.name:
@@ -3359,15 +3359,15 @@ thrown.exceptions.per.method.limit.option:
 thrown.exceptions.per.method.problem.descriptor:
     text: '<code>#ref</code> 宣告的異常過多 (異常數量 = {0}) #loc'
 throws.runtime.exception.display.name:
-    text: 在 'throws' 子句中宣告的未檢查的異常
+    text: "在 'throws' 子句中宣告的未檢查的異常"
 throws.runtime.exception.move.quickfix:
-    text: 將 ''{0}'' 移動到 Javadoc ''@throws'' 標記中
+    text: "將 ''{0}'' 移動到 Javadoc ''@throws'' 標記中"
 throws.runtime.exception.problem.descriptor:
-    text: '在 ''throws'' 子句中宣告的未檢查的異常 <code>#ref</code> #loc'
+    text: "在 'throws' 子句中宣告的未檢查的異常 <code>#ref</code> #loc"
 throws.runtime.exception.quickfix:
-    text: 從 ''throws'' 子句中移除 ''{0}''
+    text: "從 ''throws'' 子句中移除 ''{0}''"
 time.tostring.call.display.name:
-    text: 調用 'Time.toString()'
+    text: "調用 'Time.toString()'"
 time.tostring.call.problem.descriptor:
     text: '國際化上下文中的 <code>Time.#ref()</code> #loc'
 todo.comment.display.name:
@@ -3375,21 +3375,21 @@ todo.comment.display.name:
 todo.comment.problem.descriptor:
     text: 'TODO 註解 <code>#ref</code> #loc'
 too.broad.catch.display.name:
-    text: 過寬的 'catch' 塊
+    text: "過寬的 'catch' 塊"
 too.broad.catch.option:
     text: 僅對 RuntimeException、異常、錯誤或 Throwable 發出警告(&O)
 too.broad.catch.problem.descriptor:
-    text: '<code>#ref</code> 的 ''''catch'''' 過寬，遮罩異常 ''''{0}'''' #loc'
+    text: "<code>#ref</code> 的 ''catch'' 過寬，遮罩異常 ''{0}'' #loc"
 too.broad.catch.problem.descriptor1:
-    text: '<code>#ref</code> 的 ''''catch'''' 過寬，遮罩異常 ''''{0}'''' 和 ''''{1}'''' #loc'
+    text: "<code>#ref</code> 的 ''catch'' 過寬，遮罩異常 ''{0}'' 和 ''{1}'' #loc"
 too.broad.catch.quickfix:
-    text: 向 ''{0}'' 添加 ''catch'' 子句
+    text: "向 ''{0}'' 添加 ''catch'' 子句"
 too.broad.scope.allow.option:
     text: <html>報告使用新表達式作為初始設定式的變數<br>(可能不安全)</html>
 too.broad.scope.display.name:
     text: 變數範圍過寬
 too.broad.scope.narrow.quickfix:
-    text: 將 ''{0}'' 的宣告移近用法
+    text: "將 ''{0}'' 的宣告移近用法"
 too.broad.scope.only.blocks.option:
     text: 僅報告可移入內部塊的變數
 too.broad.scope.problem.descriptor:
@@ -3417,13 +3417,13 @@ trace.level.option:
 transient.field.in.non.serializable.class.display.name:
     text: 不可序列化類中存在 transient 欄位
 transient.field.in.non.serializable.class.problem.descriptor:
-    text: '欄位 ''''{0}'''' 已在不可序列化類中標記為 <code>#ref</code> #loc'
+    text: "欄位 ''{0}'' 已在不可序列化類中標記為 <code>#ref</code> #loc"
 transient.field.not.initialized.display.name:
     text: transient 欄位在反序列化時未初始化
 transient.field.not.initialized.problem.descriptor:
     text: 'transient 欄位 <code>#ref</code> 在反序列化時未初始化 #loc'
 trivial.if.display.name:
-    text: 冗餘的 'if' 語句
+    text: "冗餘的 'if' 語句"
 trivial.if.problem.descriptor:
     text: '<code>#ref</code> 語句可以簡化 #loc'
 trivial.string.concatenation.display.name:
@@ -3431,37 +3431,37 @@ trivial.string.concatenation.display.name:
 trivial.string.concatenation.problem.descriptor:
     text: 串聯中使用的空字串
 try.finally.can.be.try.with.resources.display.name:
-    text: '''try finally'' 可取代為 ''try'' with resources'
+    text: "'try finally' 可取代為 'try' with resources"
 try.finally.can.be.try.with.resources.problem.descriptor:
     text: '<code>#ref</code> 可以使用自動資源管理 #loc'
 try.finally.can.be.try.with.resources.quickfix:
-    text: 取代為 'try-with-resources'
+    text: "取代為 'try-with-resources'"
 try.statement.with.multiple.resources.name:
-    text: 可以拆分具有多個資源的 'try' 語句
+    text: "可以拆分具有多個資源的 'try' 語句"
 try.statement.with.multiple.resources.quickfix:
-    text: 拆分具有多個資源的 'try' 語句
+    text: "拆分具有多個資源的 'try' 語句"
 try.with.identical.catches.display.name:
-    text: '''try'' 語句中的相同 ''catch'' 分支'
+    text: "'try' 語句中的相同 'catch' 分支"
 try.with.identical.catches.problem.descriptor:
-    text: '''''catch'''' 分支與 ''''{0}'''' 分支相同 #loc'
+    text: "''catch'' 分支與 ''{0}'' 分支相同 #loc"
 try.with.identical.catches.quickfix:
-    text: 摺疊 'catch' 塊
+    text: "摺疊 'catch' 塊"
 type.parameter.extends.final.class.display.name:
-    text: 類型參數擴展 'final' 類
+    text: "類型參數擴展 'final' 類"
 type.parameter.extends.final.class.quickfix:
     text: 將類型參數取代為實際類
 type.parameter.extends.object.display.name:
-    text: 類型參數顯式擴展 'Object'
+    text: "類型參數顯式擴展 'Object'"
 type.parameter.extends.object.problem.descriptor1:
-    text: '類型參數 <code>#ref</code> 顯式擴展 ''java.lang.Object'' #loc'
+    text: "類型參數 <code>#ref</code> 顯式擴展 'java.lang.Object' #loc"
 type.parameter.extends.object.problem.descriptor2:
-    text: '萬用字元類型實參 <code>#ref</code> 顯式擴展 ''java.lang.Object'' #loc'
+    text: "萬用字元類型實參 <code>#ref</code> 顯式擴展 'java.lang.Object' #loc"
 type.parameter.hides.type.parameter.problem.descriptor:
-    text: '類型參數 <code>#ref</code> 隱藏類型參數 ''''{0}'''' #loc'
+    text: "類型參數 <code>#ref</code> 隱藏類型參數 ''{0}'' #loc"
 type.parameter.hides.visible.type.display.name:
     text: 類型參數隱藏可見類型
 type.parameter.hides.visible.type.problem.descriptor:
-    text: '類型參數 <code>#ref</code> 隱藏可見類型 ''''{0}'''' #loc'
+    text: "類型參數 <code>#ref</code> 隱藏可見類型 ''{0}'' #loc"
 type.parameter.naming.convention.element.description:
     text: 類型參數
 unary.plus.display.name:
@@ -3469,9 +3469,9 @@ unary.plus.display.name:
 unary.plus.problem.descriptor:
     text: '一元 <code>#ref</code> 運算符 #loc'
 unary.plus.quickfix:
-    text: 移除一元 '+'
+    text: "移除一元 '+'"
 unchecked.exception.class.display.name:
-    text: 未檢查的 'Exception' 類
+    text: "未檢查的 'Exception' 類"
 unchecked.exception.class.problem.descriptor:
     text: '未檢查的異常類 <code>#ref</code> #loc'
 unclear.binary.expression.display.name:
@@ -3481,7 +3481,7 @@ unclear.binary.expression.problem.descriptor:
 unclear.binary.expression.quickfix:
     text: 添加澄清括號
 unconditional.wait.display.name:
-    text: 無條件的 'wait()' 調用
+    text: "無條件的 'wait()' 調用"
 unconditional.wait.problem.descriptor:
     text: '無條件調用 <code>#ref()</code> #loc'
 unnecessarily.qualified.inner.class.access.display.name:
@@ -3489,7 +3489,7 @@ unnecessarily.qualified.inner.class.access.display.name:
 unnecessarily.qualified.inner.class.access.option:
     text: 忽略需要匯入的引用
 unnecessarily.qualified.inner.class.access.problem.descriptor:
-    text: '使用 <code>#ref</code> 限定 ''''{0}'''' 不必要 #loc'
+    text: "使用 <code>#ref</code> 限定 ''{0}'' 不必要 #loc"
 unnecessarily.qualified.inner.class.access.quickfix:
     text: 移除限定符
 unnecessarily.qualified.static.usage.display.name:
@@ -3505,7 +3505,7 @@ unnecessarily.qualified.static.usage.problem.descriptor1:
 unnecessarily.qualified.statically.imported.element.display.name:
     text: 不必要的限定靜態匯入元素
 unnecessarily.qualified.statically.imported.element.problem.descriptor:
-    text: '靜態匯入元素 ''''{0}'''' 使用 <code>#ref</code> 不必要限定 #loc'
+    text: "靜態匯入元素 ''{0}'' 使用 <code>#ref</code> 不必要限定 #loc"
 unnecessarily.qualified.statically.imported.element.quickfix:
     text: 移除不必要的限定符
 unnecessary.block.statement.problem.descriptor:
@@ -3519,7 +3519,7 @@ unnecessary.boxing.remove.quickfix:
 unnecessary.boxing.superfluous.option:
     text: 僅報告真正多餘的裝箱表達式
 unnecessary.break.display.name:
-    text: 不必要的 'break' 語句
+    text: "不必要的 'break' 語句"
 unnecessary.break.problem.descriptor:
     text: '<code>#ref</code> 語句不必要 #loc'
 unnecessary.code.block.display.name:
@@ -3527,7 +3527,7 @@ unnecessary.code.block.display.name:
 unnecessary.code.block.unwrap.quickfix:
     text: 解開塊
 unnecessary.constant.array.creation.expression.display.name:
-    text: 常數陣列創建中的冗餘 'new' 表達式
+    text: "常數陣列創建中的冗餘 'new' 表達式"
 unnecessary.constant.array.creation.expression.family.quickfix:
     text: 從新陣列表達式中移除類型規範
 unnecessary.constant.array.creation.expression.problem.descriptor:
@@ -3541,27 +3541,27 @@ unnecessary.constructor.problem.descriptor:
 unnecessary.constructor.remove.quickfix:
     text: 移除冗餘構造函數
 unnecessary.continue.display.name:
-    text: 不必要的 'continue' 語句
+    text: "不必要的 'continue' 語句"
 unnecessary.continue.problem.descriptor:
     text: '<code>#ref</code> 不必要，因為是迴圈中的最後一條語句 #loc'
 unnecessary.default.display.name:
-    text: 枚舉 'switch' 語句的 'default' 不必要
+    text: "枚舉 'switch' 語句的 'default' 不必要"
 unnecessary.default.problem.descriptor:
     text: '<code>#ref</code> 分支不必要 #loc'
 unnecessary.explicit.numeric.cast.display.name:
     text: 不必要的顯式數字轉換
 unnecessary.explicit.numeric.cast.problem.descriptor:
-    text: '''''{0}'''' 不必要轉換為 <code>#ref</code> #loc'
+    text: "''{0}'' 不必要轉換為 <code>#ref</code> #loc"
 unnecessary.explicit.numeric.cast.quickfix:
     text: 移除轉換
 unnecessary.final.on.local.variable.or.parameter.display.name:
-    text: 局部變數或參數上存在不必要的 'final'
+    text: "局部變數或參數上存在不必要的 'final'"
 unnecessary.final.on.local.variable.problem.descriptor:
-    text: '變數 ''''{0}'''' 上存在不必要的 <code>#ref</code> #loc'
+    text: "變數 ''{0}'' 上存在不必要的 <code>#ref</code> #loc"
 unnecessary.final.on.parameter.only.interface.option:
     text: 僅對 abstract 或接口方法發出警告
 unnecessary.final.on.parameter.problem.descriptor:
-    text: '參數 ''''{0}'''' 上存在不必要的 <code>#ref</code> #loc'
+    text: "參數 ''{0}'' 上存在不必要的 <code>#ref</code> #loc"
 unnecessary.final.report.local.variables.option:
     text: 報告局部變數
 unnecessary.final.report.parameters.option:
@@ -3585,7 +3585,7 @@ unnecessary.inherit.doc.constructor.invalid.problem.descriptor:
 unnecessary.inherit.doc.constructor.no.super.problem.descriptor:
     text: '找不到繼承 Javadoc 的 super 方法 #loc'
 unnecessary.inherit.doc.display.name:
-    text: 不必要的 '{@inheritDoc}' Javadoc 註釋
+    text: "不必要的 '{@inheritDoc}' Javadoc 註釋"
 unnecessary.inherit.doc.field.invalid.problem.descriptor:
     text: '<code>#ref</code> 在欄位上無效 #loc'
 unnecessary.inherit.doc.module.invalid.problem.descriptor:
@@ -3593,11 +3593,11 @@ unnecessary.inherit.doc.module.invalid.problem.descriptor:
 unnecessary.inherit.doc.problem.descriptor:
     text: '僅包含 <code>#ref</code> 的 Javadoc 註釋不必要 #loc'
 unnecessary.initcause.display.name:
-    text: 對 'Throwable.initCause()' 的調用不必要
+    text: "對 'Throwable.initCause()' 的調用不必要"
 unnecessary.initcause.problem.descriptor:
     text: 不必要的 <code>Throwable.#ref()</code> 調用
 unnecessary.initcause.quickfix:
-    text: 移除 'Throwable.initCause()' 調用
+    text: "移除 'Throwable.initCause()' 調用"
 unnecessary.interface.modifier.problem.descriptor:
     text: '修飾符 <code>#ref</code> 對於接口是冗餘的 #loc'
 unnecessary.javadoc.link.display.name:
@@ -3605,7 +3605,7 @@ unnecessary.javadoc.link.display.name:
 unnecessary.javadoc.link.option:
     text: 忽略 super 方法的內聯鏈接
 unnecessary.javadoc.link.quickfix:
-    text: 移除不必要的 ''{0}''
+    text: "移除不必要的 ''{0}''"
 unnecessary.javadoc.link.super.method.problem.descriptor:
     text: '指向 super 方法的 <code>#ref</code> 不必要 #loc'
 unnecessary.javadoc.link.this.class.problem.descriptor:
@@ -3613,11 +3613,11 @@ unnecessary.javadoc.link.this.class.problem.descriptor:
 unnecessary.javadoc.link.this.method.problem.descriptor:
     text: '指向此方法的 <code>#ref</code> 不必要 #loc'
 unnecessary.label.on.break.statement.display.name:
-    text: '''break'' 語句上的標籤不必要'
+    text: "'break' 語句上的標籤不必要"
 unnecessary.label.on.break.statement.problem.descriptor:
     text: 'Break 語句上存在不必要的標籤 <code>#ref</code> #loc'
 unnecessary.label.on.continue.statement.display.name:
-    text: '''continue'' 語句上的不必要標籤'
+    text: "'continue' 語句上的不必要標籤"
 unnecessary.label.on.continue.statement.problem.descriptor:
     text: 'Continue 語句上存在不必要的標籤 <code>#ref</code> #loc'
 unnecessary.label.remove.quickfix:
@@ -3635,21 +3635,21 @@ unnecessary.parentheses.problem.descriptor:
 unnecessary.parentheses.remove.quickfix:
     text: 移除不必要的圓括號
 unnecessary.qualifier.for.super.problem.descriptor:
-    text: '''super'' 上的限定符 <code>#ref</code> 在此上下文中不必要 #loc'
+    text: "'super' 上的限定符 <code>#ref</code> 在此上下文中不必要 #loc"
 unnecessary.qualifier.for.this.display.name:
-    text: '''this'' 或 ''super'' 的限定符不必要'
+    text: "'this' 或 'super' 的限定符不必要"
 unnecessary.qualifier.for.this.problem.descriptor:
-    text: '''this'' 上的限定符 <code>#ref</code> 在此上下文中不必要 #loc'
+    text: "'this' 上的限定符 <code>#ref</code> 在此上下文中不必要 #loc"
 unnecessary.qualifier.for.this.remove.quickfix:
     text: 移除不必要的限定符
 unnecessary.return.constructor.problem.descriptor:
     text: '<code>#ref</code> 不必要，因為是構造函數中的最後一條語句 #loc'
 unnecessary.return.display.name:
-    text: 不必要的 'return' 語句
+    text: "不必要的 'return' 語句"
 unnecessary.return.option:
-    text: 在具有 'else' 分支的 'if' 語句的 then 分支中忽略
+    text: "在具有 'else' 分支的 'if' 語句的 then 分支中忽略"
 unnecessary.return.problem.descriptor:
-    text: '<code>#ref</code> 不必要，因為是 ''void'' 方法中的最後一條語句 #loc'
+    text: "<code>#ref</code> 不必要，因為是 'void' 方法中的最後一條語句 #loc"
 unnecessary.semicolon.display.name:
     text: 不必要的分號
 unnecessary.semicolon.problem.descriptor:
@@ -3657,33 +3657,33 @@ unnecessary.semicolon.problem.descriptor:
 unnecessary.semicolon.remove.quickfix:
     text: 移除不必要的分號
 unnecessary.super.constructor.display.name:
-    text: 對 'super()' 的調用不必要
+    text: "對 'super()' 的調用不必要"
 unnecessary.super.constructor.problem.descriptor:
     text: '<code>#ref</code> 不必要 #loc'
 unnecessary.super.constructor.remove.quickfix:
-    text: 移除不必要的 'super()'
+    text: "移除不必要的 'super()'"
 unnecessary.super.qualifier.display.name:
-    text: 不必要的 'super' 限定符
+    text: "不必要的 'super' 限定符"
 unnecessary.super.qualifier.problem.descriptor:
     text: '限定符 <code>#ref</code> 在此上下文中不必要 #loc'
 unnecessary.super.qualifier.quickfix:
-    text: 移除不必要的 'super' 限定符
+    text: "移除不必要的 'super' 限定符"
 unnecessary.temporary.on.conversion.from.string.display.name:
-    text: 從 'String' 轉換時有不必要的臨時物件
+    text: "從 'String' 轉換時有不必要的臨時物件"
 unnecessary.temporary.on.conversion.from.string.problem.descriptor:
-    text: '<code>#ref</code> #loc 可以簡化為 ''''{0}'''''
+    text: "<code>#ref</code> #loc 可以簡化為 ''{0}''"
 unnecessary.temporary.on.conversion.to.string.display.name:
-    text: 轉換為 'String' 時有不必要的臨時物件
+    text: "轉換為 'String' 時有不必要的臨時物件"
 unnecessary.this.display.name:
-    text: 不必要的 'this' 限定符
+    text: "不必要的 'this' 限定符"
 unnecessary.this.ignore.assignments.option:
     text: 忽略欄位賦值
 unnecessary.this.problem.descriptor:
     text: '<code>#ref</code> 在此上下文中不必要 #loc'
 unnecessary.this.remove.quickfix:
-    text: 移除不必要的 'this' 限定符
+    text: "移除不必要的 'this' 限定符"
 unnecessary.tostring.call.display.name:
-    text: 對 'toString()' 的調用不必要
+    text: "對 'toString()' 的調用不必要"
 unnecessary.tostring.call.problem.descriptor:
     text: '不必要的 <code>#ref()</code> 調用 #loc'
 unnecessary.unary.minus.display.name:
@@ -3703,9 +3703,9 @@ unnecessary.unboxing.superfluous.option:
 unnecessary.unicode.escape.display.name:
     text: 不必要的 Unicode 轉義序列
 unnecessary.unicode.escape.problem.descriptor:
-    text: 'Unicode 轉義序列 <code>#ref</code> 可取代為 ''''{0}'''' #loc'
+    text: "Unicode 轉義序列 <code>#ref</code> 可取代為 ''{0}'' #loc"
 unpredictable.big.decimal.constructor.call.display.name:
-    text: 不可預知的 'BigDecimal' 構造函數調用
+    text: "不可預知的 'BigDecimal' 構造函數調用"
 unpredictable.big.decimal.constructor.call.ignore.complex.literals.option:
     text: 忽略具有多個文字的構造函數調用 (例如 0.1 + 0.2)
 unpredictable.big.decimal.constructor.call.ignore.references.option:
@@ -3713,9 +3713,9 @@ unpredictable.big.decimal.constructor.call.ignore.references.option:
 unpredictable.big.decimal.constructor.call.problem.descriptor:
     text: '不可預知的 <code>new #ref()</code> 調用 #loc'
 unqualified.field.access.display.name:
-    text: 未使用 'this' 限定的實例欄位存取
+    text: "未使用 'this' 限定的實例欄位存取"
 unqualified.field.access.problem.descriptor:
-    text: '未使用 ''this'' 限定的實例欄位存取 <code>#ref</code> #loc'
+    text: "未使用 'this' 限定的實例欄位存取 <code>#ref</code> #loc"
 unqualified.inner.class.access.display.name:
     text: 非限定內部類存取
 unqualified.inner.class.access.option:
@@ -3725,9 +3725,9 @@ unqualified.inner.class.access.problem.descriptor:
 unqualified.inner.class.access.quickfix:
     text: 使用外部類限定
 unqualified.method.access.display.name:
-    text: 未使用 'this' 限定的實例方法調用
+    text: "未使用 'this' 限定的實例方法調用"
 unqualified.method.access.problem.descriptor:
-    text: '未使用 ''this'' 限定實例方法調用 <code>#ref()</code> #loc'
+    text: "未使用 'this' 限定實例方法調用 <code>#ref()</code> #loc"
 unqualified.static.usage.display.name:
     text: 非限定靜態存取
 unqualified.static.usage.ignore.field.option:
@@ -3745,13 +3745,13 @@ unqualified.static.usage.qualify.method.quickfix:
 unsecure.random.number.generation.display.name:
     text: 不安全的隨機數生成
 unsecure.random.number.generation.problem.descriptor1:
-    text: '出於安全目的，請使用 ''java.security.SecureRandom'' 而不是 <code>java.lang.Math.#ref()</code> #loc'
+    text: "出於安全目的，請使用 'java.security.SecureRandom' 而不是 <code>java.lang.Math.#ref()</code> #loc"
 unsecure.random.number.generation.problem.descriptor2:
-    text: '出於安全目的，請使用 ''java.security.SecureRandom'' 而不是 <code>java.util.#ref</code> #loc'
+    text: "出於安全目的，請使用 'java.security.SecureRandom' 而不是 <code>java.util.#ref</code> #loc"
 unsecure.random.number.generation.problem.descriptor3:
-    text: '出於安全目的，請使用 ''java.security.SecureRandom'' 而不是 <code>#ref</code> #loc'
+    text: "出於安全目的，請使用 'java.security.SecureRandom' 而不是 <code>#ref</code> #loc"
 unused.catch.parameter.display.name:
-    text: 未使用的 'catch' 參數
+    text: "未使用的 'catch' 參數"
 unused.import.display.name:
     text: 未使用的匯入
 unused.import.problem.descriptor:
@@ -3769,13 +3769,13 @@ upper.case.field.name.not.constant.display.name:
 upper.case.field.name.not.constant.problem.descriptor:
     text: '帶常數樣式名稱的非常數欄位 <code>#ref</code> #loc'
 usage.of.obsolete.assert.display.name:
-    text: 使用廢棄的 'junit.framework.Assert' 方法
+    text: "使用廢棄的 'junit.framework.Assert' 方法"
 use.0index.in.jdbc.prepared.statement.problem.descriptor:
-    text: '在 JDBC PreparedStatement 中使用索引 ''0'' #loc'
+    text: "在 JDBC PreparedStatement 中使用索引 '0' #loc"
 use.0index.in.jdbc.resultset.display.name:
     text: 在 JDBC ResultSet 中使用索引 0
 use.0index.in.jdbc.resultset.problem.descriptor:
-    text: '在 JDBC ResultSet 中使用索引 ''0'' #loc'
+    text: "在 JDBC ResultSet 中使用索引 '0' #loc"
 use.obsolete.collection.type.display.name:
     text: 使用廢棄的集合類型
 use.obsolete.collection.type.ignore.library.arguments.option:
@@ -3791,7 +3791,7 @@ use.of.clone.call.method.problem.descriptor:
 use.of.clone.call.problem.descriptor:
     text: 調用 <code>#ref()</code>
 use.of.clone.display.name:
-    text: 使用 'clone()' 或 'Cloneable'
+    text: "使用 'clone()' 或 'Cloneable'"
 use.of.clone.reference.problem.descriptor:
     text: 使用 <code>#ref</code>
 use.of.concrete.jdbc.driver.class.display.name:
@@ -3799,55 +3799,55 @@ use.of.concrete.jdbc.driver.class.display.name:
 use.of.concrete.jdbc.driver.class.problem.descriptor:
     text: '具體 JDBC 驅動程序類 <code>#ref</code> 的使用不可移植 #loc'
 use.of.obsolete.assert.problem.descriptor:
-    text: '對來自 ''''{0}'''' 的 <code>#ref()</code> 的調用應取代為對來自 ''''org.junit.Assert'''' 的方法的調用 #loc'
+    text: "對來自 ''{0}'' 的 <code>#ref()</code> 的調用應取代為對來自 ''org.junit.Assert'' 的方法的調用 #loc"
 use.of.obsolete.assert.quickfix:
-    text: 取代為 'org.junit.Assert' 方法調用
+    text: "取代為 'org.junit.Assert' 方法調用"
 use.of.obsolete.date.time.api.display.name:
     text: 使用廢棄的日期時間 API
 use.of.obsolete.date.time.api.problem.descriptor:
     text: '使用了廢棄的日期時間類型 <code>#ref</code> #loc'
 use.processbuilder.class.display.name:
-    text: 使用 'java.lang.ProcessBuilder' 類
+    text: "使用 'java.lang.ProcessBuilder' 類"
 use.processbuilder.class.problem.descriptor:
     text: '<code>#ref</code> 的使用不可移植 #loc'
 use.stringtokenizer.display.name:
-    text: 使用 'StringTokenizer'
+    text: "使用 'StringTokenizer'"
 use.stringtokenizer.problem.descriptor:
     text: '國際化上下文中的 <code>#ref</code> #loc'
 use.sun.classes.display.name:
-    text: 使用 'sun.*' 類
+    text: "使用 'sun.*' 類"
 use.sun.classes.problem.descriptor:
     text: 'Sun 提供的類 <code>#ref</code> 的使用不可移植 #loc'
 use.system.out.err.display.name:
-    text: 使用 'System.out' 或 'System.err'
+    text: "使用 'System.out' 或 'System.err'"
 use.system.out.err.problem.descriptor:
     text: '<code>#ref</code> 的使用可能應當取代為更可靠的日誌 #loc'
 utility.class.can.be.enum.display.name:
-    text: 實用程序類可以是 'enum'
+    text: "實用程序類可以是 'enum'"
 utility.class.code.can.be.enum.problem.descriptor:
-    text: '實用程序類 <code>#ref</code> 可以是 ''enum'' #loc'
+    text: "實用程序類 <code>#ref</code> 可以是 'enum' #loc"
 utility.class.code.can.be.enum.quickfix:
-    text: 轉換為 'enum'
+    text: "轉換為 'enum'"
 utility.class.display.name:
     text: 實用程序類
 utility.class.problem.descriptor:
-    text: '類 <code>#ref</code> 只有 ''static'' 成員，指示程序構造 #loc'
+    text: "類 <code>#ref</code> 只有 'static' 成員，指示程序構造 #loc"
 utility.class.with.public.constructor.display.name:
-    text: 實用程序類具有 'public' 構造函數
+    text: "實用程序類具有 'public' 構造函數"
 utility.class.with.public.constructor.make.quickfix:
-    text: 將{0, choice, 1#構造函數|2#構造函數}設為 'private'
+    text: "將{0, choice, 1#構造函數|2#構造函數}設為 'private'"
 utility.class.with.public.constructor.problem.descriptor:
-    text: '類 <code>#ref</code> 只有 ''static'' 成員和 ''public'' 構造函數 #loc'
+    text: "類 <code>#ref</code> 只有 'static' 成員和 'public' 構造函數 #loc"
 utility.class.without.private.constructor.create.quickfix:
-    text: 生成空 'private' 構造函數
+    text: "生成空 'private' 構造函數"
 utility.class.without.private.constructor.display.name:
-    text: 實用程序類沒有 'private' 構造函數
+    text: "實用程序類沒有 'private' 構造函數"
 utility.class.without.private.constructor.make.quickfix:
-    text: 將構造函數設為 'private'
+    text: "將構造函數設為 'private'"
 utility.class.without.private.constructor.option:
     text: 忽略僅具有主方法的類
 utility.class.without.private.constructor.problem.descriptor:
-    text: '類 <code>#ref</code> 只有 ''static'' 成員，缺少 ''private'' 構造函數 #loc'
+    text: "類 <code>#ref</code> 只有 'static' 成員，缺少 'private' 構造函數 #loc"
 value.of.post.decrement.problem.descriptor:
     text: '使用後減量表達式 <code>#ref</code> 的值 #loc'
 value.of.post.increment.problem.descriptor:
@@ -3863,37 +3863,37 @@ variable.argument.method.problem.descriptor:
 variable.argument.method.quickfix:
     text: 將 vararg 參數轉換為數組
 variable.not.used.inside.conditional.problem.descriptor:
-    text: '條件內未使用檢查為 ''null'' 的 <code>#ref</code> #loc'
+    text: "條件內未使用檢查為 'null' 的 <code>#ref</code> #loc"
 variable.not.used.inside.if.display.name:
-    text: '''if'' 內未使用檢查為 ''null'' 的引用'
+    text: "'if' 內未使用檢查為 'null' 的引用"
 variable.not.used.inside.if.problem.descriptor:
-    text: '''if'' 內未使用檢查為 ''null'' 的 <code>#ref</code> #loc'
+    text: "'if' 內未使用檢查為 'null' 的 <code>#ref</code> #loc"
 volatile.array.field.display.name:
     text: volatile 陣列欄位
 volatile.field.problem.descriptor:
-    text: '類型 ''''{0}'''' 的 volatile 欄位 <code>#ref</code> #loc'
+    text: "類型 ''{0}'' 的 volatile 欄位 <code>#ref</code> #loc"
 wait.called.on.condition.display.name:
-    text: 在 'java.util.concurrent.locks.Condition' 物件上調用了 'wait()'
+    text: "在 'java.util.concurrent.locks.Condition' 物件上調用了 'wait()'"
 wait.called.on.condition.problem.descriptor:
     text: '在條件物件上調用 <code>#ref()</code> #loc'
 wait.not.in.loop.display.name:
-    text: 未在迴圈中調用的 'wait()'
+    text: "未在迴圈中調用的 'wait()'"
 wait.not.in.loop.problem.descriptor:
     text: '<code>#ref()</code> 調用不在迴圈中 #loc'
 wait.notify.not.in.synchronized.context.display.name:
-    text: '''wait()'' 或 ''notify()'' 不在同步的上下文中'
+    text: "'wait()' 或 'notify()' 不在同步的上下文中"
 wait.notify.while.not.synchronized.on.problem.descriptor:
-    text: '''''{0}'''' 未同步時調用 <code>#ref</code> #loc'
+    text: "''{0}'' 未同步時調用 <code>#ref</code> #loc"
 wait.or.await.without.timeout.display.name:
-    text: 無超時的 'wait()' 或 'await()'
+    text: "無超時的 'wait()' 或 'await()'"
 wait.or.await.without.timeout.problem.descriptor:
     text: '無超時的 <code>#ref</code> #loc'
 wait.while.holding.two.locks.display.name:
-    text: 保持兩個鎖時 'wait()'
+    text: "保持兩個鎖時 'wait()'"
 wait.while.holding.two.locks.problem.descriptor:
     text: '在保持兩個鎖的情況下調用 <code>#ref()</code> #loc'
 wait.without.corresponding.notify.display.name:
-    text: 沒有相應 'notify()' 的 'wait()'
+    text: "沒有相應 'notify()' 的 'wait()'"
 wait.without.corresponding.notify.problem.descriptor:
     text: '在沒有相應 <code>notify()</code> 或 <code>notifyAll()</code> 的情況下調用 <code>#ref()</code> #loc'
 warn.level.and.lower.option:
@@ -3901,19 +3901,19 @@ warn.level.and.lower.option:
 warn.on.label:
     text: '警告物件:'
 while.can.be.foreach.display.name:
-    text: '''while'' 迴圈可取代為增強的 ''for'' 迴圈'
+    text: "'while' 迴圈可取代為增強的 'for' 迴圈"
 while.can.be.foreach.problem.descriptor:
-    text: '<code>#ref</code> 迴圈可取代為增強的 ''for'' #loc'
+    text: "<code>#ref</code> 迴圈可取代為增強的 'for' #loc"
 while.loop.spins.on.field.display.name:
-    text: '''while'' 迴圈在欄位上自旋'
+    text: "'while' 迴圈在欄位上自旋"
 while.loop.spins.on.field.fix.family.name:
     text: 修復自旋迴圈
 while.loop.spins.on.field.fix.spinwait:
     text: 添加 Thread.onSpinWait()
 while.loop.spins.on.field.fix.volatile:
-    text: 將 ''{0}'' 設為 volatile
+    text: "將 ''{0}'' 設為 volatile"
 while.loop.spins.on.field.fix.volatile.spinwait:
-    text: 將 ''{0}'' 設為 volatile 並添加 Thread.onSpinWait()
+    text: "將 ''{0}'' 設為 volatile 並添加 Thread.onSpinWait()"
 while.loop.spins.on.field.ignore.non.empty.loops.option:
     text: 僅當迴圈為空時才發出警告
 while.loop.spins.on.field.problem.descriptor:

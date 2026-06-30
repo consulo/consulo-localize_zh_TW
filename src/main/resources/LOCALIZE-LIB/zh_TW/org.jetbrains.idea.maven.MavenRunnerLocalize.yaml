@@ -23,9 +23,9 @@ maven.execution.terminated.abnormally:
 maven.java.home.undefined:
     text: 未定義 JAVA_HOME 環境變數
 maven.java.not.found:
-    text: 無法找到 JRE ''{0}''
+    text: "無法找到 JRE ''{0}''"
 maven.java.not.found.default.config:
-    text: 無法找到 JRE ''{0}''。您可以在“設定 | Maven | 執行程序”中指定 JRE 來執行 Maven 目標
+    text: "無法找到 JRE ''{0}''。您可以在“設定 | Maven | 執行程序”中指定 JRE 來執行 Maven 目標"
 maven.options.description.B:
     text: 以非交互(批處理)模式執行(禁用輸出顏色)
 maven.options.description.C:

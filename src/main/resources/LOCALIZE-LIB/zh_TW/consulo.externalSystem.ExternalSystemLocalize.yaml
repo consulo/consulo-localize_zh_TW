@@ -17,7 +17,10 @@ error.resolve.already.running:
 error.resolve.generic:
     text: 解決錯誤
 error.resolve.with.reason:
-    text: "{0}\n\n請參閱IDE日誌以獲取更多細節訊息(說明 | 顯示日誌）"
+    text: |-
+        {0}
+
+        請參閱IDE日誌以獲取更多細節訊息(說明 | 顯示日誌）
 import.title:
     text: 匯入項目 {0}
 module.type.description:
@@ -27,11 +30,11 @@ module.type.title:
 notification.messages.project.sync.tab.name:
     text: '{0} 同步'
 notification.project.refresh.fail.title:
-    text: '{0} ''''{1}'''' 項目更新失敗'
+    text: "{0} ''{1}'' 項目更新失敗"
 progress.import.text:
-    text: 建立''{0}'' {1} 項目訊息
+    text: "建立''{0}'' {1} 項目訊息"
 progress.refresh.text:
-    text: 更新''{0}'' {1} 項目
+    text: "更新''{0}'' {1} 項目"
 progress.resolve.libraries:
     text: 解決 {0} 庫
 run.configuration.description:
@@ -81,7 +84,7 @@ settings.title.system.settings:
 tasks.all.title:
     text: 全部工作
 tasks.before.run:
-    text: 執行 {0} 工作 ''{1}''
+    text: "執行 {0} 工作 ''{1}''"
 tasks.before.run.empty:
     text: 執行 {0} 工作
 tasks.edit.task.title:

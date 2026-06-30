@@ -25,13 +25,13 @@ button.do.not.override:
 button.override:
     text: 覆寫
 cannot.delete.a.read.only.file:
-    text: 無法刪除唯讀檔案 ''{0}''.
+    text: "無法刪除唯讀檔案 ''{0}''."
 cannot.modify.a.read.only.directory:
-    text: 無法修改唯讀目錄 ''{0}''.
+    text: "無法修改唯讀目錄 ''{0}''."
 cannot.modify.a.read.only.file:
-    text: 無法修改唯讀檔案 ''{0}''.
+    text: "無法修改唯讀檔案 ''{0}''."
 cannot.resolve.symbol:
-    text: 不能解決符號 ''{0}''
+    text: "不能解決符號 ''{0}''"
 code.display:
     text: 代碼
 code.from.context.display:
@@ -63,7 +63,7 @@ completion.quick.javadoc.ad:
 completion.smart.enter.ad:
     text: 在輸入代碼後,使用{0}讓代碼語法正確(如閉合括號等.)
 compound.run.configuration.cycle:
-    text: '{0} ''''{1}'''' 導致依賴循環和不能新增'
+    text: "{0} ''{1}'' 導致依賴循環和不能新增"
 default.path.evaluator.option:
     text: 告訴基準提供程式,如何評估給定檔案的預設路徑
 default.visibility.presentation:
@@ -71,27 +71,27 @@ default.visibility.presentation:
 dialog.message.duplicate.live.templates.in.group:
     text: '{1} 組中存在重複的 `{0}` 活動模板'
 dialog.message.live.template.with.empty.abbreviation:
-    text: 在 ''{0}'' 組中找到了帶有空縮寫的活動模板，不允許使用此類活動模板
+    text: "在 ''{0}'' 組中找到了帶有空縮寫的活動模板，不允許使用此類活動模板"
 dialog.message.live.template.with.empty.text:
-    text: 在 ''{1}'' 組中找到了帶有空文本的活動模板 ''{0}''，此類活動模板沒有意義
+    text: "在 ''{1}'' 組中找到了帶有空文本的活動模板 ''{0}''，此類活動模板沒有意義"
 dialog.message.template.with.name.already.exists:
-    text: 名稱為 ''{0}'' 的模板已存在。請指定其他模板名稱
+    text: "名稱為 ''{0}'' 的模板已存在。請指定其他模板名稱"
 dialog.message.valid.identifier:
-    text: '''''{0}'''' 不是有效的關鍵字'
+    text: "''{0}'' 不是有效的關鍵字"
 dialog.template.data.language.caption:
     text: <html><body>  範本語言是方塊架或範本檔案的基本語言.<br>  (為檔案/目錄/項目)改變範本語言的設定{0}.   選取一項,然後選取範本語言.<br><br>  說明:<br>  如果沒指定,將繼承目前檔案的範本語言.<br></body></html>
 el.cannot.resolve.function:
-    text: '不能解決函數 ''''{0}'''' #loc'
+    text: "不能解決函數 ''{0}'' #loc"
 el.cannot.resolve.method:
-    text: '不能解決方法 ''''{0}''''() #loc'
+    text: "不能解決方法 ''{0}''() #loc"
 el.cannot.resolve.namespace:
-    text: '不能解決命名空間 ''''{0}'''' #loc'
+    text: "不能解決命名空間 ''{0}'' #loc"
 el.cannot.resolve.property:
-    text: '能解決屬性或方法''''{0}''''(動態屬性嗎?) #loc'
+    text: "能解決屬性或方法''{0}''(動態屬性嗎?) #loc"
 el.cannot.resolve.variable:
-    text: '不能解決變數 ''''{0}'''' #loc'
+    text: "不能解決變數 ''{0}'' #loc"
 el.colon.expected:
-    text: ''':''是預期的'
+    text: "':'是預期的"
 el.declare.variable.find.acceptable.class:
     text: 找到可接受的類別
 el.declare.variable.intention.family:
@@ -117,7 +117,7 @@ el.unexpected.end.of.file:
 el.value.expected:
     text: 值是預期的
 enum.constant.context:
-    text: 枚舉常數 ''{0}'' 在 ''{1}''
+    text: "枚舉常數 ''{0}'' 在 ''{1}''"
 hint.text.can.t.modify.decompiled.code:
     text: 無法修改反編譯程式碼
 hint.text.couldn.t.find.surround:
@@ -223,7 +223,10 @@ package.component.installing.suffix:
 popup.title.copy:
     text: 複製
 psi.decompiled.text.header:
-    text: "// 用於 Scala 語言的 IntelliJ API 反編譯器\n// 根據類檔案生成的存根源\n// 功能實作不可用"
+    text: |-
+        // 用於 Scala 語言的 IntelliJ API 反編譯器
+        // 根據類檔案生成的存根源
+        // 功能實作不可用
 psi.scanning.files.progress:
     text: 掃瞄檔案中...
 psi.search.in.non.java.files.progress:
@@ -251,9 +254,9 @@ qualified.resolve.class.reference.provider.option:
 quickfix.change.template.data.language.text:
     text: 變更{0}範本資料的語言...
 search.scope.module:
-    text: 模組 ''{0}''
+    text: "模組 ''{0}''"
 search.scope.module.runtime:
-    text: 模組 ''{0}'' 執行時範圍
+    text: "模組 ''{0}'' 執行時範圍"
 status.bar.text.reference.has.been.copied:
     text: '{0} 已複製'
 strictfp.visibility.presentation:

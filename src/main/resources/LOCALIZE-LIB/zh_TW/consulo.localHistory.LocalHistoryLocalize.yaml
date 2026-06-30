@@ -35,11 +35,16 @@ current.revision:
 file.does.not.exist:
     text: 檔案不存在
 message.cannot.create.patch.because.of.unavailable.content:
-    text: "無法建立補丁，因為一些所選檔案\n的內容由於其大尺寸而未被存儲。"
+    text: |-
+        無法建立補丁，因為一些所選檔案
+        的內容由於其大尺寸而未被存儲。
 message.cannot.revert.because:
     text: 無法恢復，因為 {0}
 message.do.you.want.to.proceed:
-    text: "{0}\n\n你想繼續嗎？"
+    text: |-
+        {0}
+
+        你想繼續嗎？
 message.error.during.create.patch:
     text: 補丁建立期間錯誤：{0}
 message.error.during.revert:
@@ -73,7 +78,10 @@ revert.error.files.were.moved:
 revert.error.parent.was.renamed:
     text: 父被重新命名
 revert.message.some.files.have.unversioned.content:
-    text: "以下檔案的內容過大未被版本控制。\n{0}\n這些檔案的內容在還原期間不會被變更，可能會導致代碼損壞。"
+    text: |-
+        以下檔案的內容過大未被版本控制。
+        {0}
+        這些檔案的內容在還原期間不會被變更，可能會導致代碼損壞。
 revisions.table.date:
     text: 日期
 revisions.table.filesCount:
@@ -91,6 +99,6 @@ system.label.external.change:
 system.label.project.open:
     text: 項目開啟
 system.label.revert.to.change.date:
-    text: 還原為 ''{0}'' 在 {1}
+    text: "還原為 ''{0}'' 在 {1}"
 system.label.revert.to.date:
     text: 已還原為 {0}

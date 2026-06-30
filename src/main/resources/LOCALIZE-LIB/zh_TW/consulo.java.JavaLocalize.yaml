@@ -25,7 +25,7 @@ checkbox.collapse.file.header:
 checkbox.collapse.generic.constructor.parameters:
     text: <html>泛型構造函數和方法參數</html>
 checkbox.collapse.html.style.attribute:
-    text: HTML 'style' 屬性
+    text: "HTML 'style' 屬性"
 checkbox.collapse.inner.classes:
     text: 內部類別
 checkbox.collapse.one.line.methods:
@@ -37,11 +37,11 @@ class.file.decompiled.text:
 class.file.open.source.action:
     text: 開啟來源檔案
 class.not.found.error.message:
-    text: 未找到類 ''{0}''
+    text: "未找到類 ''{0}''"
 error.package.already.contains.package.html:
-    text: 包中 ''{0}'' 已經存在''package.html''檔案，是否繼續建立''package-info.java'' ？
+    text: "包中 ''{0}'' 已經存在''package.html''檔案，是否繼續建立''package-info.java'' ？"
 error.package.html.found.title:
-    text: 發現 'package.html'
+    text: "發現 'package.html'"
 gutter.implemented.method:
     text: 已實作方法
 gutter.implementing.method:
@@ -59,7 +59,7 @@ inlay.MethodChainsInlayProvider.description:
 inspection.default.annotation.param:
     text: 預設的註解參數值
 label.method:
-    text: 方法 ''{0}''
+    text: "方法 ''{0}''"
 library.choose.one.to.attach:
     text: <html><body>多個庫包含檔案。<br>選取要附加源的庫</body></html>
 notification.navigation.to.overriding.classes:
@@ -95,7 +95,7 @@ settings.inlay.java.inheritors:
 settings.inlay.java.methods.with.same.named.numbered.parameters:
     text: 包含相同名稱的編號參數的方法
 settings.inlay.java.new.expressions:
-    text: '''New'' 表達式'
+    text: "'New' 表達式"
 settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
     text: 在具有相同類型的多個參數的情況下的非文字
 settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:

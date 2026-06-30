@@ -11,13 +11,13 @@
 adapter.to.listener.intention.family.name:
     text: 將適配器擴展取代為偵聽器實作
 adapter.to.listener.intention.name:
-    text: 將 ''{0}'' 的擴展取代為 ''Listener'' 實作
+    text: "將 ''{0}'' 的擴展取代為 ''Listener'' 實作"
 annotate.overridden.methods.intention.family.name:
     text: 註解覆寫方法及其參數
 annotate.overridden.methods.intention.method.name:
-    text: 將覆寫方法註解為 ''{0}''
+    text: "將覆寫方法註解為 ''{0}''"
 annotate.overridden.methods.intention.parameters.name:
-    text: 將覆寫方法的相同參數註解為 ''{0}''
+    text: "將覆寫方法的相同參數註解為 ''{0}''"
 change.to.c.style.comment.intention.family.name:
     text: 取代為塊註釋
 change.to.c.style.comment.intention.name:
@@ -29,19 +29,19 @@ change.to.end.of.line.comment.intention.name:
 change.variable.type.to.rhs.type.intention.family.name:
     text: 將變數類型更改為初始設定式的類型
 change.variable.type.to.rhs.type.intention.name:
-    text: 使用類型 ''{1}'' 宣告 ''{0}''
+    text: "使用類型 ''{1}'' 宣告 ''{0}''"
 char.to.string.intention.family.name:
     text: 將字符取代為字串
 char.to.string.intention.name:
     text: 將字符文字取代為字串
 constant.expression.intention.name:
-    text: 計算 ''{0}'' 的常量值
+    text: "計算 ''{0}'' 的常量值"
 constant.subexpression.intention.family.name:
     text: 計算子表達式的常量值
 convert.catch.to.throws.intention.family.name:
     text: 將 catch 部分取代為 throws 宣告
 convert.catch.to.throws.intention.name:
-    text: 將 'catch' 部分取代為 'throws' 宣告
+    text: "將 'catch' 部分取代為 'throws' 宣告"
 convert.integer.to.binary.intention.family.name:
     text: 轉換為二進制
 convert.integer.to.binary.intention.name:
@@ -61,11 +61,11 @@ convert.integer.to.octal.intention.name:
 convert.interface.to.class.intention.family.name:
     text: 將接口轉換為類
 convert.interface.to.class.intention.name:
-    text: 轉換為 'class'
+    text: "轉換為 'class'"
 convert.to.nested.if.intention.family.name:
     text: 將布爾擴展為多個 if
 convert.to.nested.if.intention.name:
-    text: 轉換為多個 'if'
+    text: "轉換為多個 'if'"
 copy.concatenated.string.to.clipboard.intention.family.name:
     text: 將字串串聯文本複製到剪貼簿
 copy.concatenated.string.to.clipboard.intention.name:
@@ -77,9 +77,9 @@ create.assert.intention.name:
 demorgans.intention.family.name:
     text: 德摩根定律
 demorgans.intention.name1:
-    text: 將 '\&\&' 取代為 '||'
+    text: "將 '\\&\\&' 取代為 '||'"
 demorgans.intention.name2:
-    text: 將 '||' 取代為 '\&\&'
+    text: "將 '||' 取代為 '\\&\\&'"
 detail.exceptions.intention.family.name:
     text: 詳細異常
 detail.exceptions.intention.name:
@@ -89,27 +89,27 @@ expand.boolean.intention.family.name:
 extract.increment.intention.family.name:
     text: 提取增量
 extract.increment.intention.name:
-    text: 提取 ''{0}''
+    text: "提取 ''{0}''"
 extract.while.loop.condition.to.if.statement.intention.family.name:
     text: 將 while 迴圈條件提取到內部 if 語句中
 extract.while.loop.condition.to.if.statement.intention.name:
-    text: 將條件提取到內部 'if' 語句中
+    text: "將條件提取到內部 'if' 語句中"
 flip.assert.literal.intention.family.name:
     text: 翻轉斷言文字
 flip.commutative.method.call.intention.family.name:
     text: 翻轉可交換方法調用
 flip.commutative.method.call.intention.name:
-    text: 翻轉 ''.{0}()''
+    text: "翻轉 ''.{0}()''"
 flip.commutative.method.call.intention.name1:
-    text: 翻轉 ''.{0}()'' (可能更改語意)
+    text: "翻轉 ''.{0}()'' (可能更改語意)"
 flip.comparison.intention.family.name:
     text: 翻轉比較
 flip.comparison.intention.name:
-    text: 將 ''{0}'' 翻轉為 ''{1}''
+    text: "將 ''{0}'' 翻轉為 ''{1}''"
 flip.conditional.intention.family.name:
     text: 翻轉條件
 flip.conditional.intention.name:
-    text: 翻轉 '?:'
+    text: "翻轉 '?:'"
 flip.conjunction.intention.family.name:
     text: 翻轉合取操作數
 flip.expression.intention.family.name:
@@ -119,9 +119,9 @@ flip.setter.call.intention.family.name:
 flip.setter.call.intention.name:
     text: 翻轉 Setter 調用
 flip.smth.intention.name:
-    text: 翻轉 ''{0}''
+    text: "翻轉 ''{0}''"
 flip.smth.intention.name1:
-    text: 翻轉 ''{0}'' (更改語意)
+    text: "翻轉 ''{0}'' (更改語意)"
 intention.category.annotations:
     text: Java/註解
 intention.category.boolean:
@@ -161,23 +161,23 @@ merge.call.sequence.to.chain.intention.name:
 merge.else.if.intention.family.name:
     text: 合併 else if
 merge.else.if.intention.name:
-    text: 合併 'else if'
+    text: "合併 'else if'"
 merge.if.and.intention.family.name:
-    text: 合併嵌套的 'if' 語句
+    text: "合併嵌套的 'if' 語句"
 merge.if.and.intention.name:
-    text: 合併嵌套的 'if' 語句
+    text: "合併嵌套的 'if' 語句"
 merge.if.or.intention.family.name:
-    text: 合併連續的 'if' 語句
+    text: "合併連續的 'if' 語句"
 merge.if.or.intention.name:
-    text: 合併連續的 'if' 語句
+    text: "合併連續的 'if' 語句"
 merge.nested.try.statements.intention.family.name:
     text: 合併嵌套 try 語句
 merge.nested.try.statements.intention.name:
-    text: 合併嵌套的 'try' 語句
+    text: "合併嵌套的 'try' 語句"
 merge.parallel.ifs.intention.family.name:
     text: 合併並行的 if
 merge.parallel.ifs.intention.name:
-    text: 合併 'if'
+    text: "合併 'if'"
 move.comment.to.separate.line.intention.family.name:
     text: 將註釋移至單獨的行
 move.comment.to.separate.line.intention.name:
@@ -185,9 +185,9 @@ move.comment.to.separate.line.intention.name:
 negate.comparison.intention.family.name:
     text: 求反比較
 negate.comparison.intention.name:
-    text: 求反 ''{0}''
+    text: "求反 ''{0}''"
 negate.comparison.intention.name1:
-    text: 將 ''{0}'' 求反為 ''{1}''
+    text: "將 ''{0}'' 求反為 ''{1}''"
 obscure.thrown.exceptions.intention.family.name:
     text: 將 throws 子句中的異常取代為單個更普通的異常
 press.escape.to.remove.highlighting.message:
@@ -195,43 +195,43 @@ press.escape.to.remove.highlighting.message:
 replace.arm.with.try.finally.intention.family.name:
     text: 將 try-with-resources 取代為 try-finally
 replace.arm.with.try.finally.intention.name:
-    text: 將 'try-with-resources' 取代為 'try finally'
+    text: "將 'try-with-resources' 取代為 'try finally'"
 replace.assert.literal.with.assert.equals.intention.family.name:
     text: 將 assertTrue、assertFalse 或 assertNull 取代為 assertEquals
 replace.assert.literal.with.assert.equals.intention.name:
-    text: 將 ''{0}()'' 取代為 ''assertEquals({1}, ...)''
+    text: "將 ''{0}()'' 取代為 ''assertEquals({1}, ...)''"
 replace.assert.literal.with.assert.equals.intention.name1:
-    text: 將 ''{0}()'' 取代為 ''assertEquals(..., {1}, ...)''
+    text: "將 ''{0}()'' 取代為 ''assertEquals(..., {1}, ...)''"
 replace.assert.literal.with.assert.equals.intention.name2:
-    text: 將 ''{0}()'' 取代為 ''assertEquals()''
+    text: "將 ''{0}()'' 取代為 ''assertEquals()''"
 replace.assignment.with.postfix.expression.intention.family.name:
     text: 將賦值取代為後綴表達式
 replace.concatenation.with.format.string.intention.family.name:
     text: 將字串串聯取代為 String.format()
 replace.concatenation.with.format.string.intention.name:
-    text: 將 '+' 取代為 'String.format()'
+    text: "將 '+' 取代為 'String.format()'"
 replace.concatenation.with.string.buffer.intention.family.name:
     text: 將 + 取代為 StringBuilder.append()
 replace.concatenation.with.string.buffer.intention.name:
-    text: 將 '+' 取代為 'StringBuffer.append()'
+    text: "將 '+' 取代為 'StringBuffer.append()'"
 replace.concatenation.with.string.builder.intention.name:
-    text: 將 '+' 取代為 'StringBuilder.append()'
+    text: "將 '+' 取代為 'StringBuilder.append()'"
 replace.do.while.loop.with.while.loop.intention.family.name:
     text: 將 do while 迴圈取代為 while 迴圈
 replace.do.while.loop.with.while.loop.intention.name:
-    text: 將 'do while' 迴圈取代為 'while' 迴圈
+    text: "將 'do while' 迴圈取代為 'while' 迴圈"
 replace.for.each.loop.with.indexed.for.loop.intention.family.name:
     text: 將 for-each 迴圈取代為帶索引的 for 迴圈
 replace.for.each.loop.with.indexed.for.loop.intention.name:
-    text: 將 for-each 迴圈取代為帶索引的 'for' 迴圈
+    text: "將 for-each 迴圈取代為帶索引的 'for' 迴圈"
 replace.for.each.loop.with.iterator.for.loop.intention.family.name:
     text: 將 for-each 迴圈取代為迭代器 for 迴圈
 replace.for.each.loop.with.iterator.for.loop.intention.name:
-    text: 將 for-each 迴圈取代為迭代器 'for' 迴圈
+    text: "將 for-each 迴圈取代為迭代器 'for' 迴圈"
 replace.for.each.loop.with.optimized.indexed.for.loop.intention.family.name:
     text: 將 for-each 迴圈取代為最佳化的帶索引 for 迴圈
 replace.for.each.loop.with.optimized.indexed.for.loop.intention.name:
-    text: 將 for-each 迴圈取代為最佳化的帶索引 'for' 迴圈
+    text: "將 for-each 迴圈取代為最佳化的帶索引 'for' 迴圈"
 replace.multiply.with.shift.intention.family.name:
     text: 將乘法取代為移位
 replace.on.demand.import.intention.family.name:
@@ -251,11 +251,11 @@ replace.shift.with.multiply.intention.family.name:
 replace.switch.with.if.intention.family.name:
     text: 將 switch 取代為 if
 replace.switch.with.if.intention.name:
-    text: 將 'switch' 取代為 'if'
+    text: "將 'switch' 取代為 'if'"
 replace.while.loop.with.do.while.loop.intention.family.name:
     text: 將 while 迴圈取代為 do while 迴圈
 replace.while.loop.with.do.while.loop.intention.name:
-    text: 將 'while' 迴圈取代為 'do while' 迴圈
+    text: "將 'while' 迴圈取代為 'do while' 迴圈"
 reverse.for.loop.direction.intention.family.name:
     text: 反轉 for 迴圈的方向
 reverse.for.loop.direction.intention.name:
@@ -267,7 +267,7 @@ split.declaration.and.initialization.intention.name:
 split.else.if.intention.family.name:
     text: 拆分 else if
 split.else.if.intention.name:
-    text: 拆分 'else if'
+    text: "拆分 'else if'"
 wrap.vararg.arguments.with.explicit.array.intention.family.name:
     text: 用顯式陣列創建包裝 vararg 實參
 wrap.vararg.arguments.with.explicit.array.intention.name:

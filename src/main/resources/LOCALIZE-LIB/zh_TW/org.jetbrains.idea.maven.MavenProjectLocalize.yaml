@@ -23,13 +23,20 @@ maven.import.incompatible.modules.ignore:
 maven.import.incompatible.modules.recreate:
     text: 重新創建
 maven.import.message.delete.obsolete:
-    text: "這些模組已從 Maven 結構中移除:\n{0}\n\n是否同時希望將它們從專案中移除?"
+    text: |-
+        這些模組已從 Maven 結構中移除:
+        {0}
+
+        是否同時希望將它們從專案中移除?
 maven.import.title.module.dir:
     text: 選擇 IDEA 模組檔案(*.iml)的目錄
 maven.locating.files:
     text: 正在定位 Maven 專案檔案…
 maven.navigator.nothing.to.display:
-    text: "沒有要顯示的 Maven 專案。\n\n您可以使用 {0} 添加一個專案，或者使用 {1} 讓延伸模組在專案根下找到所有 pom.xml 檔案並重新載入"
+    text: |-
+        沒有要顯示的 Maven 專案。
+
+        您可以使用 {0} 添加一個專案，或者使用 {1} 讓延伸模組在專案根下找到所有 pom.xml 檔案並重新載入
 maven.post.processing:
     text: 正在設定 Maven 專案
 maven.profile.activate:
@@ -43,21 +50,21 @@ maven.project.import.title:
 maven.project.importing:
     text: 正在匯入 Maven 專案
 maven.project.problem.moduleNotFound:
-    text: 找不到模組 ''{0}''
+    text: "找不到模組 ''{0}''"
 maven.project.problem.parentHasProblems:
-    text: 父級 ''{0}'' 有問題
+    text: "父級 ''{0}'' 有問題"
 maven.project.problem.parentNotFound:
-    text: 未找到父級 ''{0}''
+    text: "未找到父級 ''{0}''"
 maven.project.problem.recursiveInheritance:
     text: 已找到遞歸繼承
 maven.project.problem.selfInheritance:
     text: 已找到自繼承
 maven.project.problem.unresolvedDependency:
-    text: '未解析的依賴項: ''''{0}'''''
+    text: "未解析的依賴項: ''{0}''"
 maven.project.problem.unresolvedExtension:
-    text: '未解析的建置擴展: ''''{0}'''''
+    text: "未解析的建置擴展: ''{0}''"
 maven.project.problem.unresolvedPlugin:
-    text: '未解析的延伸模組: ''''{0}'''''
+    text: "未解析的延伸模組: ''{0}''"
 maven.reading:
     text: 正在讀取 Maven 專案…
 maven.reading.pom:

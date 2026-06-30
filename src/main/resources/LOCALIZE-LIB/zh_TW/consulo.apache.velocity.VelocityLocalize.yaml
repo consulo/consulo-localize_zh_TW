@@ -33,17 +33,17 @@ choose.external.definitions.file:
 defined.variable.expected:
     text: 應為已定義變數
 error.cannot.resolve.macro:
-    text: 無法解析巨集 ''{0}''
+    text: "無法解析巨集 ''{0}''"
 error.cannot.resolve.method:
-    text: 無法解析類 ''{1}'' 的方法 ''{0}''
+    text: "無法解析類 ''{1}'' 的方法 ''{0}''"
 error.cannot.resolve.property:
-    text: 無法解析類 ''{1}'' 的屬性 ''{0}''
+    text: "無法解析類 ''{1}'' 的屬性 ''{0}''"
 error.cannot.resolve.variable:
-    text: 無法解析變數 ''{0}''
+    text: "無法解析變數 ''{0}''"
 error.no.applicable.method:
-    text: '''''{1}'''' 中沒有適用於 {2} 的方法 ''''{0}'''''
+    text: "''{1}'' 中沒有適用於 {2} 的方法 ''{0}''"
 error.wrong.number.of.arguments.for.macro:
-    text: '''''{0}'''' 調用參數數量錯誤'
+    text: "''{0}'' 調用參數數量錯誤"
 expression.expected:
     text: 應為表達式
 file.type.description:
@@ -51,23 +51,23 @@ file.type.description:
 identifier:
     text: 關鍵字
 illegal.iterable.expression.type:
-    text: '非法迭代表達式類型: ''''{0}'''''
+    text: "非法迭代表達式類型: ''{0}''"
 invalid.java.type:
     text: 無效的 Java 類型
 invalid.operand.type:
-    text: '無效操作數類型: ''''{0}'''''
+    text: "無效操作數類型: ''{0}''"
 invalid.operands.type:
-    text: '無效操作數類型: ''''{0}'''' 和 ''''{1}'''''
+    text: "無效操作數類型: ''{0}'' 和 ''{1}''"
 invalid.token:
-    text: 無效的令牌 ''{0}''
+    text: "無效的令牌 ''{0}''"
 loop.variable.expected:
     text: 應為迴圈變數
 macro.declaration.expected:
     text: 應為巨集名稱和參數列表
 macro.declaration.will.be.ignored:
-    text: 巨集 ''{0}'' 已在 ''{1}'' 中定義，將在 ''{2}'' 中忽略
+    text: "巨集 ''{0}'' 已在 ''{1}'' 中定義，將在 ''{2}'' 中忽略"
 macro.is.already.defined:
-    text: 巨集 ''{0}'' 已在 ''{1}'' 中定義
+    text: "巨集 ''{0}'' 已在 ''{1}'' 中定義"
 number:
     text: 數字
 operand.expected:
@@ -77,7 +77,7 @@ operation.not.allowed:
 parameter.expected:
     text: 應為參數宣告
 token.expected:
-    text: 應為 ''{0}''
+    text: "應為 ''{0}''"
 type.name.loop.variable:
     text: 迴圈變數
 type.name.macro:
@@ -137,4 +137,4 @@ vtl.types.inspection:
 vtl.welformedness.inspection:
     text: 合式性檢查
 will.be.considered.as.macro.call:
-    text: 將被視為巨集調用，應為 '('
+    text: "將被視為巨集調用，應為 '('"

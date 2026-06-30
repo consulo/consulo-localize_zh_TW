@@ -1,7 +1,7 @@
 black.cell.color:
-    text: '顏色為 ''黑色'' (&B):'
+    text: "顏色為 '黑色' (&B):"
 black.cell.color.descriptor:
-    text: '''黑色'' 單元格'
+    text: "'黑色' 單元格"
 chessboard.cell.size:
     text: '棋盤格尺寸(像素)(&S):'
 enable.mousewheel.zooming:
@@ -51,6 +51,6 @@ thumbnails.component.error.text:
 unknown.format:
     text: 未知的格式
 white.cell.color:
-    text: '顏色為 ''白色'' (&W):'
+    text: "顏色為 '白色' (&W):"
 white.cell.color.descriptor:
-    text: '''白色'' 單元格'
+    text: "'白色' 單元格"

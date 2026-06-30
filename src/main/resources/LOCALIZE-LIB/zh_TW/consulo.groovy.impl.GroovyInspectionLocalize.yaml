@@ -13,7 +13,7 @@ anonymous.class:
 call.can.throw.npe:
     text: 調用鏈可能拋出 NullPointerException
 change.lvalue.type:
-    text: 將變數 ''{0}'' 類型更改為 ''{1}''
+    text: "將變數 ''{0}'' 類型更改為 ''{1}''"
 closure:
     text: 閉包
 create.directory.command:
@@ -25,11 +25,11 @@ dialog.create.class.package.chooser.title:
 dynamic.element:
     text: 動態元素
 expected.type.0:
-    text: 應為 ''{0}''，但實際為 ''{1}''
+    text: "應為 ''{0}''，但實際為 ''{1}''"
 fix.class:
     text: 修正類 {0}
 getter.0.clashes.with.getter.1:
-    text: '發生衝突: ''''{0}'''' 和 ''''{1}'''''
+    text: "發生衝突: ''{0}'' 和 ''{1}''"
 gr.package.inspection.check.scripts:
     text: 檢查腳本
 highlight.if.groovy.object.methods.overridden:
@@ -43,7 +43,7 @@ implement.class:
 java.style.property.access:
     text: Java 樣式存取器調用
 local.var.0.is.reassigned:
-    text: 局部變數 ''{0}'' 已重新賦值
+    text: "局部變數 ''{0}'' 已重新賦值"
 method.may.be.static:
     text: 方法可能為 static
 method.may.be.static.ignore.empty.method.option:
@@ -71,29 +71,29 @@ pointless.boolean.problem.descriptor:
 pointless.boolean.quickfix:
     text: 簡化
 remove.0:
-    text: 移除 ''.{0}''
+    text: "移除 ''.{0}''"
 replace.0.with.1:
-    text: 將 ''{0}'' 取代為 ''{1}''
+    text: "將 ''{0}'' 取代為 ''{1}''"
 replace.postfix.0.with.prefix.0:
     text: 將後綴 {0} 取代為前綴 {0}
 replace.qualified.name.with.import:
     text: 將限定名稱取代為匯入
 rtype.cannot.contain.ltype:
-    text: '''''{1}'''' 不能包含 ''''{0}'''''
+    text: "''{1}'' 不能包含 ''{0}''"
 second.unsafe.call:
     text: 第二次不安全的調用
 target.0.does.not.exist:
-    text: 目標 ''{0}'' 不存在
+    text: "目標 ''{0}'' 不存在"
 target.annotation.is.unused:
     text: '@Target 未使用'
 type.customizer.is.not.marked.as.a.resource.file:
     text: 類型訂製器腳本未被標記為編譯器資源
 type.doesnt.contain.method:
-    text: 類型 ''{0}'' 不能在範圍內進行迭代，因為它沒有方法 ''{1}''
+    text: "類型 ''{0}'' 不能在範圍內進行迭代，因為它沒有方法 ''{1}''"
 unassigned.access.tooltip:
-    text: 變數 ''{0}'' 可能未被賦值
+    text: "變數 ''{0}'' 可能未被賦值"
 unresolved.type.status:
-    text: 類型 ''{0}'' 未解析
+    text: "類型 ''{0}'' 未解析"
 unused.0:
     text: 未使用的{0}
 unused.assignment.tooltip:

@@ -89,7 +89,7 @@ disable.inspection.action.name:
 duplicate.property.diff.key.option:
     text: 重複的鍵值不同(&D)
 duplicate.property.diff.key.problem.descriptor:
-    text: 重複的屬性鍵''{0}''具有不同的值
+    text: "重複的屬性鍵''{0}''具有不同的值"
 duplicate.property.diff.key.progress.indicator.text:
     text: 處理重複的屬性鍵:{0}
 duplicate.property.display.name:
@@ -99,7 +99,7 @@ duplicate.property.file.scope.option:
 duplicate.property.key.option:
     text: 重複鍵(&K)
 duplicate.property.key.problem.descriptor:
-    text: 重複的屬性鍵''{0}''
+    text: "重複的屬性鍵''{0}''"
 duplicate.property.key.progress.indicator.text:
     text: 處理重複的屬性鍵:{0}
 duplicate.property.module.scope.option:
@@ -109,13 +109,13 @@ duplicate.property.project.scope.option:
 duplicate.property.value.option:
     text: 重複的值(&V)
 duplicate.property.value.problem.descriptor:
-    text: 重複的屬性值''{0}''
+    text: "重複的屬性值''{0}''"
 duplicate.property.value.progress.indicator.text:
     text: 處理重複的屬性值:{0}
 edit.dependency.rules.family:
     text: 編輯依賴關係規則
 edit.inspection.options:
-    text: 編輯 ''{0}'' 選項
+    text: "編輯 ''{0}'' 選項"
 edit.options.of.reporter.inspection.family:
     text: 編輯選項的記者檢驗
 edit.options.of.reporter.inspection.text:
@@ -291,7 +291,7 @@ inspection.application.starting.up:
 inspection.as:
     text: 作為 {0}
 inspection.assert.quickfix:
-    text: 維護 ''{0}''
+    text: "維護 ''{0}''"
 inspection.can.be.final.display.name:
     text: 宣告可以有final修飾符
 inspection.can.be.final.option:
@@ -395,9 +395,11 @@ inspection.dead.code.problem.synopsis3:
 inspection.dead.code.remove.from.entry.point.quickfix:
     text: 移除從入口點
 inspection.dead.code.start.comment:
-    text: "// --註解掉檢查 START ({0}):\n"
+    text: |
+        // --註解掉檢查 START ({0}):
 inspection.dead.code.stop.comment:
-    text: "// --註解掉檢查 STOP ({0})\n"
+    text: |
+        // --註解掉檢查 STOP ({0})
 inspection.dependency.configure.button.text:
     text: 設定依賴規則
 inspection.dependency.violator.problem.descriptor:
@@ -431,7 +433,7 @@ inspection.duplicates.message:
 inspection.duplicates.message.in.this.file:
     text: (在此檔案中)
 inspection.duplicates.message.more:
-    text: ... ({0}更多)
+    text: '... ({0}更多)'
 inspection.duplicates.option:
     text: 最小字串長度：(&M)
 inspection.duplicates.option.report.propertykey.expressions:
@@ -587,7 +589,7 @@ inspection.javadoc.option.tab.title.inner.class:
 inspection.javadoc.option.tab.title.method:
     text: 方法
 inspection.javadoc.problem.add.param.tag:
-    text: 為參數''{0}''新增標籤@param
+    text: "為參數''{0}''新增標籤@param"
 inspection.javadoc.problem.add.tag:
     text: 新增標籤@{0} {1}
 inspection.javadoc.problem.add.tag.family:
@@ -711,7 +713,7 @@ inspection.reference.anonymous:
 inspection.reference.anonymous.name:
     text: 匿名的 ({0})
 inspection.replace.ternary.quickfix:
-    text: 使用 ''{0} != null ?:'' 替換
+    text: "使用 ''{0} != null ?:'' 替換"
 inspection.required.attributes.display.name:
     text: 缺少必需的屬性
 inspection.results.title:
@@ -723,7 +725,7 @@ inspection.same.parameter.display.name:
 inspection.same.parameter.fix.name:
     text: 內聯值"{1}"參數"{0}"
 inspection.same.parameter.problem.descriptor:
-    text: 實際的參數值 ''{0}'' 永遠是 ''{1}''
+    text: "實際的參數值 ''{0}'' 永遠是 ''{1}''"
 inspection.same.return.value.display.name:
     text: 方法返回相同的值
 inspection.same.return.value.problem.descriptor:
@@ -943,7 +945,7 @@ unused.library.backward.analysis.job.description:
 unused.library.display.name:
     text: 未使用的庫
 unused.library.problem.descriptor:
-    text: 未使用的庫''{0}''
+    text: "未使用的庫''{0}''"
 unused.library.roots.problem.descriptor:
     text: 未使用的根{0}從圖書館"{1}"
 unused.symbol:

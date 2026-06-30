@@ -15,9 +15,9 @@ additional.classpath.tab.add.all.in.directory.button:
 additional.classpath.tab.classpath.border:
     text: 類別路徑:(&p)
 ant.actual.attribute.value.additional.info.to.xml.attribute.error.message:
-    text: (實際屬性值 ''{0}'')
+    text: "(實際屬性值 ''{0}'')"
 ant.build.local.history.label:
-    text: 執行 Ant:''{0}''
+    text: "執行 Ant:''{0}''"
 ant.build.message.node.prefix.text:
     text: '構建:'
 ant.build.progress.dialog.title:
@@ -31,7 +31,7 @@ ant.create.meta.target.action.description:
 ant.create.meta.target.action.name:
     text: 建立元目標
 ant.create.target.intention.description:
-    text: 建立目標 ''{0}''
+    text: "建立目標 ''{0}''"
 ant.duplicate.imported.targets.inspection:
     text: 匯入檔案中的重複目標
 ant.duplicate.targets.inspection:
@@ -73,7 +73,7 @@ ant.installation.not.configured.error.message:
 ant.intention.create.property.family.name:
     text: 建立屬性
 ant.intention.create.property.text:
-    text: 新增屬性定義 ''{0}''
+    text: "新增屬性定義 ''{0}''"
 ant.intention.create.target.family.name:
     text: 建立目標
 ant.is.active.terminate.confirmation.text:
@@ -81,7 +81,7 @@ ant.is.active.terminate.confirmation.text:
 ant.jar.is.directory.error.message:
     text: '{0} 是目錄'
 ant.jar.not.found.in.directory.error.message:
-    text: ant.jar 未找到目錄 ''{0}''
+    text: "ant.jar 未找到目錄 ''{0}''"
 ant.missing.properties.file.inspection:
     text: 遺失屬性檔案
 ant.process.is.active.terminate.confirmation.text:
@@ -111,7 +111,7 @@ ant.substitution.not.allowed.error.message:
 ant.target:
     text: 目標
 ant.target.before.run.description:
-    text: 執行 Ant 目標 ''{0}''
+    text: "執行 Ant 目標 ''{0}''"
 ant.target.before.run.description.empty:
     text: 執行 Ant 目標
 ant.target.choser.title:
@@ -173,11 +173,13 @@ cannot.add.ant.files.dialog.title:
 cannot.add.build.file.dialog.title:
     text: 無法新增構建檔案
 cannot.add.build.files.from.excluded.directories.error.message:
-    text: "無法從被排除的目錄中新增構建檔案\n{0}"
+    text: |-
+        無法從被排除的目錄中新增構建檔案
+        {0}
 cannot.resolve.refid:
-    text: 無法剖析 ''{0}'' refid
+    text: "無法剖析 ''{0}'' refid"
 cannot.resolve.target:
-    text: 目標 ''{0}'' 未知
+    text: "目標 ''{0}'' 未知"
 cannot.start.build.name.error.message:
     text: 不能開始 {0}
 cant.add.file.error.message:
@@ -185,7 +187,7 @@ cant.add.file.error.message:
 cant.read.from.ant.jar.error.message:
     text: 不能從 {0} 中讀取
 cant.run.ant.ant.reference.is.not.configured.error.message:
-    text: ANT ''{0}'' 未設定
+    text: "ANT ''{0}'' 未設定"
 cant.run.ant.no.ant.configured.error.message:
     text: 沒有設定 ANT
 close.ant.build.messages.dialog.title:
@@ -227,7 +229,7 @@ filter.ant.targets.action.description:
 filter.ant.targets.action.name:
     text: 過濾目標
 integer.attribute.has.invalid.value:
-    text: 屬性 ''{0}'' 應該有一個整數值
+    text: "屬性 ''{0}'' 應該有一個整數值"
 intention.configure.highlighting.family.name:
     text: 設定高亮
 intention.configure.highlighting.text:
@@ -251,7 +253,7 @@ loading.ant.config.progress:
 meta.target.build.sequence.name.display.name:
     text: 構建序列 {0}
 nested.element.is.not.allowed.here:
-    text: 巢狀元素 ''{0}'' 在這裡不允許
+    text: "巢狀元素 ''{0}'' 在這裡不允許"
 path.to.ant.does.not.exist.error.message:
     text: 路徑 {0} 不存在
 please.specify.a.property:
@@ -259,7 +261,7 @@ please.specify.a.property:
 project.jdk.not.specified.error.message:
     text: 專案 JDK 沒有指定
 register.ant.build.progress:
-    text: 註冊 Ant 構建檔案 ''{0}''...
+    text: "註冊 Ant 構建檔案 ''{0}''..."
 remove.action.name:
     text: 移除
 remove.ant.file.action.description:
@@ -279,7 +281,9 @@ remove.selected.build.file.action.name:
 remove.selected.meta.targets.action.name:
     text: 移除元目標物件
 remove.the.reference.to.file.confirmation.text:
-    text: "是否要移除該參照嗎？\n{0}"
+    text: |-
+        是否要移除該參照嗎？
+        {0}
 rerun.ant.action.name:
     text: 重新執行
 run.ant.build.action.name:
@@ -323,17 +327,17 @@ starting.ant.build.dialog.title:
 stop.ant.action.name:
     text: 停止
 target.is.duplicated:
-    text: 目標 ''{0}'' 是重複的
+    text: "目標 ''{0}'' 是重複的"
 target.is.duplicated.in.imported.file:
-    text: 在檔案 ''{1}'' 中，目標 ''{0}'' 是重複的
+    text: "在檔案 ''{1}'' 中，目標 ''{0}'' 是重複的"
 target.tag.name.status.text:
     text: '目標: {0}'
 undefined.element:
-    text: 元素 ''{0}'' 未定義
+    text: "元素 ''{0}'' 未定義"
 unknown.macro.attribute:
-    text: 巨集屬性 ''{0}'' 未知
+    text: "巨集屬性 ''{0}'' 未知"
 unknown.property:
-    text: 屬性 ''{0}'' 未知
+    text: "屬性 ''{0}'' 未知"
 user.inout.request.ant.build.input.dialog.title:
     text: Ant 構建輸入
 using.definition.which.type.failed.to.load:

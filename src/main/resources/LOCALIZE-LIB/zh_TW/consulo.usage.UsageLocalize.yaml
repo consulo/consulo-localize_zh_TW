@@ -69,7 +69,7 @@ message.only.one.usage.found:
 message.part.number.of.unloaded.modules:
     text: '{0} 個已移除模組'
 message.part.unloaded.module.0:
-    text: 已移除模組 ''{0}''
+    text: "已移除模組 ''{0}''"
 message.usage.search.was.canceled:
     text: 用法搜尋被取消
 no.usages.found.in:
@@ -101,9 +101,11 @@ progress.searching.for.in:
 select.the.usage.to.preview:
     text: 選取 {0} 預覽
 several.occurrences.selected:
-    text: "選取了多個檔案。\n請從一個檔案中選取符合項來預覽。"
+    text: |-
+        選取了多個檔案。
+        請從一個檔案中選取符合項來預覽。
 show.usages.advertisement:
-    text: 再次按 {0} 以在 ''{1}'' 中搜尋
+    text: "再次按 {0} 以在 ''{1}'' 中搜尋"
 show.usages.only.usage:
     text: 唯一的使用在{0}
 sort.alphabetically.action.text:

@@ -93,17 +93,17 @@ create.parameter.for.field.intention.family.name:
 create.parameter.for.field.intention.name:
     text: 為欄位添加構造函數參數
 demorgans.intention.name1:
-    text: 將 '\&\&' 取代為 '||'
+    text: "將 '\\&\\&' 取代為 '||'"
 demorgans.intention.name2:
-    text: 將 '||' 取代為 '\&\&'
+    text: "將 '||' 取代為 '\\&\\&'"
 demorgans.law.intention.family.name:
     text: 德摩根定律
 do.you.want.to.change.method.return.type:
-    text: 是否要更改 ''{0}'' 方法的返回類型
+    text: "是否要更改 ''{0}'' 方法的返回類型"
 do.you.want.to.change.type.of.parameter.in.method:
-    text: 是否要更改方法 ''{1}'' 中參數 ''{0}'' 的類型
+    text: "是否要更改方法 ''{1}'' 中參數 ''{0}'' 的類型"
 do.you.want.to.change.variable.type:
-    text: 是否要更改 ''{0}'' 的類型
+    text: "是否要更改 ''{0}'' 的類型"
 each.to.for.intention.family.name:
     text: 將 each 取代為 for-in
 each.to.for.intention.name:
@@ -115,7 +115,7 @@ field.already.exists:
 field.is.used.in.argument.label:
     text: 在實參標籤中使用欄位 <b>{0}</b>
 flip.comparison.intention.name:
-    text: 將 ''{0}'' 翻轉為 ''{1}''
+    text: "將 ''{0}'' 翻轉為 ''{1}''"
 flip.conditional.intention.family.name:
     text: 翻轉條件
 flip.conjunction.intention.family.name:
@@ -125,7 +125,7 @@ flip.if.intention.family.name:
 flip.if.intention.name:
     text: 翻轉 if 語句
 flip.smth.intention.name:
-    text: 翻轉 ''{0}''
+    text: "翻轉 ''{0}''"
 for.to.each.intention.family.name:
     text: 將 for-in 取代為 each
 for.to.each.intention.name:
@@ -135,9 +135,9 @@ gr.alias.import.intention.family.name:
 gr.alias.import.intention.name:
     text: 別名匯入
 gr.break.string.on.line.breaks.intention.family.name:
-    text: 出現 '\n' 時斷開字串
+    text: "出現 '\\n' 時斷開字串"
 gr.break.string.on.line.breaks.intention.name:
-    text: 出現 '\n' 時斷開字串
+    text: "出現 '\\n' 時斷開字串"
 gr.convert.string.to.char.intention.family.name:
     text: 轉換為 char
 gr.convert.string.to.char.intention.name:
@@ -151,25 +151,25 @@ gr.copy.string.concatenation.content.intention.family.name:
 gr.copy.string.concatenation.content.intention.name:
     text: 將字串串聯文本複製到剪貼簿
 gr.create.missing.switch.branches.intention.family.name:
-    text: 創建缺少的 'switch' 分支
+    text: "創建缺少的 'switch' 分支"
 gr.create.missing.switch.branches.intention.name:
-    text: 創建缺少的 'switch' 分支
+    text: "創建缺少的 'switch' 分支"
 gr.introduce.local.variable.intention.family.name:
     text: 引入局部變數
 gr.introduce.local.variable.intention.name:
     text: 引入局部變數
 gr.make.member.private.intention.family.name:
-    text: 設為 'private'
+    text: "設為 'private'"
 gr.make.member.private.intention.name:
-    text: 設為 'private'
+    text: "設為 'private'"
 gr.make.member.protected.intention.family.name:
-    text: 設為 'protected'
+    text: "設為 'protected'"
 gr.make.member.protected.intention.name:
-    text: 設為 'protected'
+    text: "設為 'protected'"
 gr.make.member.public.intention.family.name:
-    text: 設為 'public'
+    text: "設為 'public'"
 gr.make.member.public.intention.name:
-    text: 設為 'public'
+    text: "設為 'public'"
 gr.remove.annotation.intention.name:
     text: 移除
 gr.set.strong.type.intention.family.name:
@@ -209,9 +209,9 @@ intention.category.groovy.other:
 intention.category.groovy.style:
     text: Groovy/Groovy 樣式
 invert.if.intention.family.name:
-    text: 反轉 'if' 條件
+    text: "反轉 'if' 條件"
 invert.if.intention.name:
-    text: 反轉 'if' 條件
+    text: "反轉 'if' 條件"
 java.style.properties.invocation.intention.family.name:
     text: 將 Java 樣式存取器調用更改為 Groovy 樣式屬性引用
 java.style.properties.invocation.intention.name:
@@ -229,7 +229,7 @@ map.param.name:
 merge.else.if.intention.family.name:
     text: 合併 else if
 merge.if.and.intention.family.name:
-    text: 合併嵌套的 'if' 語句
+    text: "合併嵌套的 'if' 語句"
 method.is.used.outside.of.groovy:
     text: 在 Groovy 外部使用方法
 method.with.signature.already.exists:
@@ -239,7 +239,7 @@ move.class.to.new.file.intention.family.name:
 move.class.to.new.file.intention.name:
     text: 移至單獨的檔案
 move.to.correct.dir:
-    text: 移至 ''{0}''
+    text: "移至 ''{0}''"
 move.to.correct.dir.family.name:
     text: 將檔案移至正確的軟體套件
 negate.comparison.intention.family.name:
@@ -251,7 +251,7 @@ remove.catch.block:
 remove.exception:
     text: 移除異常
 remove.parameter.0:
-    text: 刪除參數 ''{0}''
+    text: "刪除參數 ''{0}''"
 remove.parentheses.from.method.call.intention.family.name:
     text: 從方法調用中移除不必要的圓括號
 remove.parentheses.from.method.call.intention.name:
@@ -269,13 +269,13 @@ remove.unnecessary.escape.characters.intention.family.name:
 remove.unnecessary.escape.characters.intention.name:
     text: 移除不必要轉義字符
 remove.unnecessary.return.intention.family.name:
-    text: 移除不必要的 'return' 關鍵字
+    text: "移除不必要的 'return' 關鍵字"
 remove.unnecessary.return.intention.name:
-    text: 移除 'return' 關鍵字
+    text: "移除 'return' 關鍵字"
 remove.unused.parameter:
     text: 移除未使用的參數
 rename.file.to.0:
-    text: 將檔案重命名為 ''{0}''
+    text: "將檔案重命名為 ''{0}''"
 rename.file.with.class.intention.family.name:
     text: 將檔案重命名為相應的類名
 rename.file.with.class.intention.name:
@@ -295,9 +295,9 @@ replace.qualified.reference.with.import.intention.family.name:
 replace.qualified.reference.with.import.intention.name:
     text: 取代為匯入
 replace.ternary.with.if.else.intention.family.name:
-    text: 將 '?:' 取代為 if else
+    text: "將 '?:' 取代為 if else"
 replace.ternary.with.if.else.intention.name:
-    text: 將 '?:' 取代為 if else
+    text: "將 '?:' 取代為 if else"
 replace.with.wrapper:
     text: 取代為 {0}
 simplify.ternary.operator.intention.family.name:
@@ -307,9 +307,9 @@ simplify.ternary.operator.intention.name:
 split.else.if.intention.family.name:
     text: 拆分 else if
 split.if.intention.family.name:
-    text: 拆分成 2 條 'if' 語句
+    text: "拆分成 2 條 'if' 語句"
 split.if.intention.name:
-    text: 拆分成 2 條 'if' 語句
+    text: "拆分成 2 條 'if' 語句"
 split.into.declaration.and.assignment:
     text: 拆分為宣告和賦值
 split.into.separate.declaration:
