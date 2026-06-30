@@ -7,7 +7,7 @@ create.property.quickfix.text:
 duplicate.property.diff.key.option:
     text: 重複的鍵值不同(&D)
 duplicate.property.diff.key.problem.descriptor:
-    text: 重複的屬性鍵''{0}''具有不同的值
+    text: "重複的屬性鍵''{0}''具有不同的值"
 duplicate.property.diff.key.progress.indicator.text:
     text: 處理重複的屬性鍵:{0}
 duplicate.property.display.name:
@@ -19,7 +19,7 @@ duplicate.property.key.error.message:
 duplicate.property.key.option:
     text: 重複鍵(&K)
 duplicate.property.key.problem.descriptor:
-    text: 重複的屬性鍵''{0}''
+    text: "重複的屬性鍵''{0}''"
 duplicate.property.key.progress.indicator.text:
     text: 處理重複的屬性鍵:{0}
 duplicate.property.module.scope.option:
@@ -29,7 +29,7 @@ duplicate.property.project.scope.option:
 duplicate.property.value.option:
     text: 重複的值(&V)
 duplicate.property.value.problem.descriptor:
-    text: 重複的屬性值''{0}''
+    text: "重複的屬性值''{0}''"
 duplicate.property.value.progress.indicator.text:
     text: 處理重複的屬性值:{0}
 inspection.javadoc.throws.or.exception.option:
@@ -37,7 +37,7 @@ inspection.javadoc.throws.or.exception.option:
 no.property.selected.panel.label:
     text: <html><body><center>請選擇左側的屬性名稱以編輯其值</body></html>
 project.view.resource.bundle.tree.node.text:
-    text: 資源包 ''{0}''
+    text: "資源包 ''{0}''"
 properties.files.inspection.group.display.name:
     text: 屬性檔案
 property.key.expected.parsing.error.message:
@@ -49,7 +49,7 @@ remove.property.quick.fix.name:
 rename.bundle.enter.new.resource.bundle.base.name.prompt.text:
     text: 輸入新的資源包基名稱
 rename.prefix.based.property.key.error.message:
-    text: 無法基於名稱 ''{2}'' 的前綴 ''{0}'' 重命名屬性鍵 ''{1}''，請先更改前綴
+    text: "無法基於名稱 ''{2}'' 的前綴 ''{0}'' 重命名屬性鍵 ''{1}''，請先更改前綴"
 rename.resource.bundle.dialog.title:
     text: 重命名資源包
 searching.for.property.key.progress.text:

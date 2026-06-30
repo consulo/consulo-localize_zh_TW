@@ -29,6 +29,6 @@ proxy.pac.rb.tt:
 proxy.pac.url.label:
     text: '自動代理設定 URL:'
 proxy.system.label:
-    text: <html>您已將 JVM 屬性 'java.net.useSystemProxies' 設為 'true'。<br>這將導致一些網絡調用通過操作系統定義的代理。<br>如果您不打算使用系統定義的代理，請禁用此屬性。</html>
+    text: "<html>您已將 JVM 屬性 'java.net.useSystemProxies' 設為 'true'。<br>這將導致一些網絡調用通過操作系統定義的代理。<br>如果您不打算使用系統定義的代理，請禁用此屬性。</html>"
 proxy.test.button:
     text: 檢查連接

@@ -117,13 +117,13 @@ checkbox.line.comment.at.first.column:
 checkbox.spaces.additive.operators:
     text: 加法運算符 (+, -)
 checkbox.spaces.after.colon:
-    text: ''':''之後'
+    text: "':'之後"
 checkbox.spaces.after.colon.in.label.declaration:
-    text: ''':'' 在標籤宣告之後'
+    text: "':' 在標籤宣告之後"
 checkbox.spaces.after.comma:
     text: 逗號之後
 checkbox.spaces.after.question:
-    text: '''?''之後'
+    text: "'?'之後"
 checkbox.spaces.after.semicolon:
     text: 分號之後
 checkbox.spaces.after.type.cast:
@@ -145,21 +145,21 @@ checkbox.spaces.array.initializer.left.brace:
 checkbox.spaces.assignment.operators:
     text: 賦值操作符 (=, +=, ...)
 checkbox.spaces.before.colon:
-    text: ''':''之前'
+    text: "':'之前"
 checkbox.spaces.before.comma:
     text: 逗號之前
 checkbox.spaces.before.question:
-    text: '''?''之前'
+    text: "'?'之前"
 checkbox.spaces.before.semicolon:
     text: 分號之前
 checkbox.spaces.bitwise.operators:
     text: 按位運算符 (\&, |, ^)
 checkbox.spaces.catch.keyword:
-    text: '''catch'' 關鍵字'
+    text: "'catch' 關鍵字"
 checkbox.spaces.catch.left.brace:
-    text: '''catch''左大括號'
+    text: "'catch'左大括號"
 checkbox.spaces.catch.parentheses:
-    text: '''catch''括號'
+    text: "'catch'括號"
 checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
     text: 空的方法呼叫括號
 checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
@@ -171,25 +171,25 @@ checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
 checkbox.spaces.class.left.brace:
     text: 類別的左大括號
 checkbox.spaces.do.left.brace:
-    text: '''do''左大括號'
+    text: "'do'左大括號"
 checkbox.spaces.else.keyword:
-    text: '''else''關鍵字'
+    text: "'else'關鍵字"
 checkbox.spaces.else.left.brace:
-    text: '''else''左大括號'
+    text: "'else'左大括號"
 checkbox.spaces.equality.operators:
     text: 相等運算符 (==, !=)
 checkbox.spaces.finally.keyword:
-    text: '''finally'' 關鍵字'
+    text: "'finally' 關鍵字"
 checkbox.spaces.finally.left.brace:
-    text: '''finally''左大括號'
+    text: "'finally'左大括號"
 checkbox.spaces.for.left.brace:
-    text: '''for''左大括號'
+    text: "'for'左大括號"
 checkbox.spaces.for.parentheses:
-    text: '''for''括號'
+    text: "'for'括號"
 checkbox.spaces.if.left.brace:
-    text: '''if''左大括號'
+    text: "'if'左大括號"
 checkbox.spaces.if.parentheses:
-    text: '''if''括號'
+    text: "'if'括號"
 checkbox.spaces.logical.operators:
     text: 邏輯運算符 (\&\&, ||)
 checkbox.spaces.method.call.parentheses:
@@ -205,25 +205,25 @@ checkbox.spaces.relational.operators:
 checkbox.spaces.shift.operators:
     text: 移位運算符 (<<, >>, >>>)
 checkbox.spaces.switch.left.brace:
-    text: '''switch''左大括號'
+    text: "'switch'左大括號"
 checkbox.spaces.switch.parentheses:
-    text: '''switch''括號'
+    text: "'switch'括號"
 checkbox.spaces.synchronized.left.brace:
-    text: '''synchronized''左大括號'
+    text: "'synchronized'左大括號"
 checkbox.spaces.synchronized.parentheses:
-    text: '''synchronized''括號'
+    text: "'synchronized'括號"
 checkbox.spaces.try.left.brace:
-    text: '''try''左大括號'
+    text: "'try'左大括號"
 checkbox.spaces.try.parentheses:
-    text: '''try''括號'
+    text: "'try'括號"
 checkbox.spaces.type.cast.parentheses:
     text: 類型轉換括號
 checkbox.spaces.while.keyword:
-    text: '''while'' 關鍵字'
+    text: "'while' 關鍵字"
 checkbox.spaces.while.left.brace:
-    text: '''while''左大括號'
+    text: "'while'左大括號"
 checkbox.spaces.while.parentheses:
-    text: '''while''括號'
+    text: "'while'括號"
 checkbox.spaces.within.array.initializer.braces:
     text: 陣列初始化大括號
 checkbox.spaces.within.braces:
@@ -331,7 +331,7 @@ wrapping.align.parenthesised.when.multiline:
 wrapping.align.simple.methods.in.columns:
     text: 簡單方法列對齊
 wrapping.align.throws.keyword:
-    text: 對齊'throws'到方法開始處
+    text: "對齊'throws'到方法開始處"
 wrapping.align.variables.in.columns:
     text: 變數列對齊
 wrapping.align.when.multiline:
@@ -371,9 +371,9 @@ wrapping.brace.placement.next.line.shifted:
 wrapping.brace.placement.other:
     text: 其它
 wrapping.case.statements.on.one.line:
-    text: '''case'' 另起一行'
+    text: "'case' 另起一行"
 wrapping.catch.on.new.line:
-    text: '''catch'' 另起一行'
+    text: "'catch' 另起一行"
 wrapping.chained.method.call.first.on.new.line:
     text: 換行第一個呼叫
 wrapping.chained.method.calls:
@@ -383,7 +383,7 @@ wrapping.chop.down.if.long:
 wrapping.classes.annotation:
     text: 類別註解
 wrapping.colon.signs.on.next.line:
-    text: ''':'' 旗標下一行'
+    text: "':' 旗標下一行"
 wrapping.comments:
     text: 評論
 wrapping.comments.wrap.at.right.margin:
@@ -391,9 +391,9 @@ wrapping.comments.wrap.at.right.margin:
 wrapping.do.not.wrap:
     text: 不換行
 wrapping.dowhile.statement:
-    text: '''do ... while()''語句'
+    text: "'do ... while()'語句"
 wrapping.else.on.new.line:
-    text: '''else'' 另起一行'
+    text: "'else' 另起一行"
 wrapping.enum.constants:
     text: 枚舉常數
 wrapping.extends.implements.keyword:
@@ -403,9 +403,9 @@ wrapping.extends.implements.list:
 wrapping.fields.annotation:
     text: 欄位批注
 wrapping.finally.on.new.line:
-    text: '''finally'' 另起一行'
+    text: "'finally' 另起一行"
 wrapping.for.statement:
-    text: '''for()''語句'
+    text: "'for()'語句"
 wrapping.force.braces:
     text: 大括號
 wrapping.force.braces.always:
@@ -415,11 +415,11 @@ wrapping.force.braces.do.not.force:
 wrapping.force.braces.when.multiline:
     text: 如果多行
 wrapping.if.statement:
-    text: '''if()''語句'
+    text: "'if()'語句"
 wrapping.indent.break.from.case:
-    text: 縮進 'case' 裡的 'break'
+    text: "縮進 'case' 裡的 'break'"
 wrapping.indent.case.from.switch:
-    text: 縮進 'case' 分支
+    text: "縮進 'case' 分支"
 wrapping.keep.comment.at.first.column:
     text: 註解在第一列
 wrapping.keep.line.breaks:
@@ -451,23 +451,23 @@ wrapping.methods.annotation:
 wrapping.modifier.list:
     text: 修飾符清單
 wrapping.new.line.after.lbrace:
-    text: '''{''之後換行'
+    text: "'{'之後換行"
 wrapping.new.line.after.lpar:
-    text: '''('' 之後換行'
+    text: "'(' 之後換行"
 wrapping.operation.sign.on.next.line:
     text: 在下一行上操作旗標
 wrapping.parameters.annotation:
     text: 參數註解
 wrapping.quest.and.colon.signs.on.next.line:
-    text: '''?'' 和 '':'' 旗標在下一行'
+    text: "'?' 和 ':' 旗標在下一行"
 wrapping.rbrace.on.new.line:
-    text: '''}'' 另起一行'
+    text: "'}' 另起一行"
 wrapping.rpar.on.new.line:
-    text: ''')'' 另起一行'
+    text: "')' 另起一行"
 wrapping.special.else.if.braces.treatment:
-    text: 特殊的 'else if' 處理
+    text: "特殊的 'else if' 處理"
 wrapping.switch.statement:
-    text: '''switch''語句'
+    text: "'switch'語句"
 wrapping.take.priority.over.call.chain.wrapping:
     text: 優先於呼叫鏈環繞
 wrapping.ternary.operation:
@@ -477,11 +477,11 @@ wrapping.throws.keyword:
 wrapping.throws.list:
     text: 異常清單
 wrapping.try.statement:
-    text: '''try''語句'
+    text: "'try'語句"
 wrapping.while.on.new.line:
-    text: '''while'' 另起一行'
+    text: "'while' 另起一行"
 wrapping.while.statement:
-    text: '''while()''語句'
+    text: "'while()'語句"
 wrapping.wrap.always:
     text: 總是換行
 wrapping.wrap.if.long:

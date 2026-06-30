@@ -11,7 +11,7 @@ attribute.value.expected:
 cannot.resolve.taglib.uri:
     text: 無法使用 uri {0} 剖析 taglib
 cdata.end.should.not.appear.in.content.unless.to.mark.end.of.cdata.section:
-    text: 字元序列 ']]>' 不能出現在內容中，除非用於標記 CDATA 部份的結尾
+    text: "字元序列 ']]>' 不能出現在內容中，除非用於標記 CDATA 部份的結尾"
 create.namespace.declaration.quickfix:
     text: 建立 {0} 宣告
 create.tagfile.attribute.family:
@@ -51,9 +51,9 @@ empty.attribute.is.not.allowed:
 escape.ampersand.quickfix:
     text: 轉義字元號
 expected.attribute.eq.sign:
-    text: 期望 '='
+    text: "期望 '='"
 expected.prologue.tag.termination.expected:
-    text: 期望 '?>'
+    text: "期望 '?>'"
 expected.whitespace:
     text: 期望空白
 extra.closing.tag.for.empty.element:
@@ -77,7 +77,7 @@ looking.in.tlds:
 named.element.is.not.closed:
     text: 元素 {0} 未關閉
 plugin.reference.message.problem:
-    text: 類別 ''{0}'' 的參照提供了無效的訊息模式 ''{1}''
+    text: "類別 ''{0}'' 的參照提供了無效的訊息模式 ''{1}''"
 quote.expected:
     text: 期望參照
 registered.resource.is.not.recognized:
@@ -89,9 +89,9 @@ remove.attribute.quickfix.text:
 remove.extra.closing.tag.quickfix:
     text: 移除額外的結束標籤
 rename.end.tag.name.intention:
-    text: 將結束標籤 ''{0}'' 重新命名為 ''{1}''
+    text: "將結束標籤 ''{0}'' 重新命名為 ''{1}''"
 rename.start.tag.name.intention:
-    text: 將開始標籤 ''{0}'' 重新命名為 ''{1}''
+    text: "將開始標籤 ''{0}'' 重新命名為 ''{1}''"
 select.namespace.location.title:
     text: 選取命名空間位置
 select.namespace.title:
@@ -107,13 +107,13 @@ tag.start.is.not.closed:
 top.level.element.is.not.completed:
     text: 頂級元素未完成
 unbound.namespace:
-    text: 命名空間 ''{0}'' 沒有約束
+    text: "命名空間 ''{0}'' 沒有約束"
 unbound.namespace.no.param:
     text: 命名空間沒有約束
 unescaped.ampersand.or.nonterminated.character.entity.reference:
     text: 未轉義的 \& 或非終止字元/實體參照
 unknown.encoding.0:
-    text: '未知的編碼: ''''{0}'''''
+    text: "未知的編碼: ''{0}''"
 unknown.html.tag:
     text: 未知的 html 標籤 {0}
 uri.is.not.registered:
@@ -159,10 +159,10 @@ xml.parsing.unterminated.processing.instruction:
 xml.schema.validation.attr.not.allowed.with.ref:
     text: 當使用元素參照時，屬性 {0} 不允許在此處
 xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
-    text: '''default'' 和 ''fixed'' 屬性不應該同時出現'
+    text: "'default' 和 'fixed' 屬性不應該同時出現"
 xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
     text: maxOccurs 值應該大於 minOccurs 值
 xml.schema.validation.name.or.ref.should.present:
-    text: 應該出現 'name' 或 'ref' 屬性
+    text: "應該出現 'name' 或 'ref' 屬性"
 xml.validate.external.resource.is.not.registered:
     text: 外部資源 {0} 未註冊

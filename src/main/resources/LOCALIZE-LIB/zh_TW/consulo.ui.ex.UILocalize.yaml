@@ -1,11 +1,11 @@
 are.you.sure.you.want.to.delete.selected.file.confirmation.message:
-    text: 刪除 ''{0}''?
+    text: "刪除 ''{0}''?"
 are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
     text: 您確定要刪除{0}選擇的檔案和目錄？
 are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
     text: 您確定要刪除{0}選擇的檔案？
 are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
-    text: 您確定要刪除選擇的資料夾 ''{0}''?？
+    text: "您確定要刪除選擇的資料夾 ''{0}''?？"
 are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
     text: 您確定要刪除{0}選擇的目錄？
 autoscroll.from.source.action.description:
@@ -49,13 +49,13 @@ color.panel.select.color.dialog.description:
 component.with.browse.button.browse.button.tooltip.text:
     text: 點擊或按下Alt-Enter
 create.new.file.could.not.create.file.error.message:
-    text: 無法建立檔案 ''{0}''
+    text: "無法建立檔案 ''{0}''"
 create.new.file.enter.new.file.name.prompt.text:
     text: '輸入新的檔案名:'
 create.new.file.file.name.cannot.be.empty.error.message:
     text: 檔案名必須輸入
 create.new.folder.could.not.create.folder.error.message:
-    text: 無法建立資料夾 ''{0}''
+    text: "無法建立資料夾 ''{0}''"
 create.new.folder.enter.new.folder.name.prompt.text:
     text: '輸入一個新的資料夾名稱:'
 create.new.folder.folder.name.cannot.be.empty.error.message:
@@ -87,7 +87,7 @@ file.cache.conflict.keep.memory.changes.button:
 file.cache.conflict.load.fs.changes.button:
     text: 載入檔案系統的變化(&L)
 file.cache.conflict.message.text:
-    text: ''''' {0}''''在記憶體和磁盤上已經作了修改。'
+    text: "'' {0}''在記憶體和磁盤上已經作了修改。"
 file.cache.conflict.save.changes.button:
     text: 儲存記憶的內容
 file.cache.conflict.show.difference.button:
@@ -99,7 +99,9 @@ file.chooser.create.new.folder.command.name:
 file.chooser.default.title:
     text: 選取路徑
 file.chooser.save.dialog.confirmation:
-    text: "{0}已經存在。\n你要替換它嗎？"
+    text: |-
+        {0}已經存在。
+        你要替換它嗎？
 file.chooser.save.dialog.confirmation.title:
     text: 確認另存為
 file.chooser.save.dialog.default.title:
@@ -107,7 +109,7 @@ file.chooser.save.dialog.default.title:
 file.chooser.save.dialog.file.name:
     text: '檔案名:'
 file.is.read.only.message.text:
-    text: 檔案 ''{0}'' 是唯讀的。
+    text: "檔案 ''{0}'' 是唯讀的。"
 files.are.read.only.message.text:
     text: 檔案 {0} 是唯讀的。
 go.to.line.command.double.click:
@@ -123,9 +125,9 @@ insert.file.path.to.text.action.name:
 integer.field.value.expected:
     text: 期望值
 integer.field.value.not.a.number:
-    text: 值 ''{0}'' 不是整數
+    text: "值 ''{0}'' 不是整數"
 integer.field.value.out.of.range:
-    text: 值 ''{0}'' 超出範圍 {1}..{2}
+    text: "值 ''{0}'' 超出範圍 {1}..{2}"
 invalid.user.input.dialog.title:
     text: 輸入錯誤
 label.class.filter.editor.add.dialog.filter.pattern:
@@ -213,7 +215,7 @@ status.bar.encoding.widget.name:
 status.bar.fatal.error.widget.name:
     text: 內部錯誤
 status.bar.hide.widget.action.name:
-    text: 隱藏 ''{0}''
+    text: "隱藏 ''{0}''"
 status.bar.inspection.profile.widget.name:
     text: 檢查設定檔案
 status.bar.line.separator.widget.name:
@@ -271,7 +273,9 @@ tool.window.name.inspection:
 tool.window.name.module.duplicates:
     text: 複製
 tool.window.quick.access.message:
-    text: "將滑鼠懸停在下面的圖示來存取工具視窗\n點擊該圖示，使工具視窗按鈕可見"
+    text: |-
+        將滑鼠懸停在下面的圖示來存取工具視窗
+        點擊該圖示，使工具視窗按鈕可見
 tool.window.quick.access.title:
     text: 工具視窗快速存取
 tree.view.collapse.all.action.name:

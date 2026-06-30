@@ -129,7 +129,9 @@ maven.sync.wsl.jdk.set.to.project:
 maven.sync.wsl.maven.is.not.wsl:
     text: Maven 分發版似乎不正確
 maven.sync.wsl.maven.is.not.wsl.description:
-    text: "Maven 主目錄解析為 {0}。\n 出於性能考慮，最好使用安裝在 wsl 分發版中的 Maven。<a href=\"{1}\">開啟設定</a>"
+    text: |-
+        Maven 主目錄解析為 {0}。
+         出於性能考慮，最好使用安裝在 wsl 分發版中的 Maven。<a href="{1}">開啟設定</a>
 maven.sync.wsl.userhome.cannot.resolve:
     text: 無法解析 WSL 上的 $HOME 變數。似乎 WSL 整合行程已掛起。請嘗試重新啟動 WSL 或主機。
 maven.wrapper.notification.downloading.error.action:

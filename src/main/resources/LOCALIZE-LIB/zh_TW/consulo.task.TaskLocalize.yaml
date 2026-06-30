@@ -3,7 +3,7 @@ action.LoadContextAction.Anonymous.text.load:
 action.LoadContextAction.Anonymous.text.remove:
     text: 移除
 action.add.changelist.for.text:
-    text: 為 ''{0}'' 添加變更列表
+    text: "為 ''{0}'' 添加變更列表"
 action.context.clear.text:
     text: 清除上下文(_C)
 action.context.load.text:
@@ -11,11 +11,11 @@ action.context.load.text:
 action.context.save.text:
     text: 儲存上下文(_S)…
 action.create.changelist.for.text:
-    text: 為 ''{0}'' 創建變更列表
+    text: "為 ''{0}'' 創建變更列表"
 action.edit.text.with.mnemonic:
     text: 編輯(&E)
 action.open.in.browser.text:
-    text: 在瀏覽器中開啟 ''{0}''(_B)
+    text: "在瀏覽器中開啟 ''{0}''(_B)"
 action.remove.text:
     text: 移除
 action.switch.to.text:
@@ -39,7 +39,7 @@ bugzilla.failure.no.version:
 command.name.load.context:
     text: 載入上下文 {0}
 create.new.task.0:
-    text: 創建新任務 ''{0}''
+    text: "創建新任務 ''{0}''"
 dialog.message.changelist.associated.with.not.empty:
     text: "與 ''{0}'' 關聯的變更列表不為空。\n要移除它，並將變更移動到活動變更列表中嗎?"
 dialog.message.changelist.name:

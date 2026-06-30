@@ -9,7 +9,9 @@ all.changes.processed.dialog.title:
 apply.partially.resolved.merge.dialog.title:
     text: 套用修改
 apply.patch.partially.resolved.changes.confirmation.message:
-    text: "There {0, choice, 1#is one hunk|2#are {0, number} hunks} 是未處理的。\n你確定你想要儲存變更並完成解決嗎?"
+    text: |-
+        There {0, choice, 1#is one hunk|2#are {0, number} hunks} 是未處理的。
+        你確定你想要儲存變更並完成解決嗎?
 binary.file.viewer:
     text: 二進制檔案查看器
 binary.files.are.different.message:
@@ -117,7 +119,9 @@ ignore.whitespace.acton.name:
 label.default.diff.editor.tab.name:
     text: 差異
 merge.all.changes.have.processed.save.and.finish.confirmation.text:
-    text: "所有修改已經處理完畢。\n你要儲存修改合併完成的檔案嗎？"
+    text: |-
+        所有修改已經處理完畢。
+        你要儲存修改合併完成的檔案嗎？
 merge.application.usage.parameters.and.description:
     text: '使用 : {0} 合併 <left file> <right file> [<base file>] <output file>'
 merge.color.options.background.color.label:

@@ -173,7 +173,7 @@ checkbox.collapse.file.header:
 checkbox.collapse.generic.constructor.parameters:
     text: <html>泛型構造函數和方法參數</html>
 checkbox.collapse.html.style.attribute:
-    text: HTML 'style' 屬性
+    text: "HTML 'style' 屬性"
 checkbox.collapse.inner.classes:
     text: 內部類別
 checkbox.collapse.javadoc.comments:
@@ -237,15 +237,15 @@ checkbox.indent.use.tab.character:
 checkbox.indenting.backspace:
     text: 退格鍵智慧型縮進
 checkbox.insert.both.parentheses.when.no.arguments:
-    text: 插入 '()' -- 當沒有參數時
+    text: "插入 '()' -- 當沒有參數時"
 checkbox.insert.imports.for.inner.classes:
     text: 為內部類別匯入imports
 checkbox.insert.pair.bracket:
     text: 插入成對括號
 checkbox.insert.pair.curly.brace:
-    text: 插入成對 '}'
+    text: "插入成對 '}'"
 checkbox.insert.pair.percent.gt.in.jsp:
-    text: 在 JSP 中插入成對 ' %>'
+    text: "在 JSP 中插入成對 ' %>'"
 checkbox.insert.pair.quote:
     text: 插入成對引號
 checkbox.javadoc.stub.after.slash.star.star:
@@ -293,7 +293,7 @@ checkbox.prefer.longer.names:
 checkbox.preserve.line.feeds:
     text: 保留換行符
 checkbox.reformat.on.typing.rbrace:
-    text: 重新格式化區塊 '}'
+    text: "重新格式化區塊 '}'"
 checkbox.rename.local.variables.inplace:
     text: 啟用in-place模式
 checkbox.rename.local.variables.preselect:
@@ -341,13 +341,13 @@ checkbox.smooth.scrolling:
 checkbox.spaces.additive.operators:
     text: 加法運算符 (+, -)
 checkbox.spaces.after.colon:
-    text: ''':''之後'
+    text: "':'之後"
 checkbox.spaces.after.colon.in.label.declaration:
-    text: ''':'' 在標籤宣告之後'
+    text: "':' 在標籤宣告之後"
 checkbox.spaces.after.comma:
     text: 逗號之後
 checkbox.spaces.after.question:
-    text: '''?''之後'
+    text: "'?'之後"
 checkbox.spaces.after.semicolon:
     text: 分號之後
 checkbox.spaces.after.type.cast:
@@ -373,21 +373,21 @@ checkbox.spaces.array.initializer.left.brace:
 checkbox.spaces.assignment.operators:
     text: 賦值操作符 (=, +=, ...)
 checkbox.spaces.before.colon:
-    text: ''':''之前'
+    text: "':'之前"
 checkbox.spaces.before.comma:
     text: 逗號之前
 checkbox.spaces.before.question:
-    text: '''?''之前'
+    text: "'?'之前"
 checkbox.spaces.before.semicolon:
     text: 分號之前
 checkbox.spaces.bitwise.operators:
     text: 按位運算符 (\&, |, ^)
 checkbox.spaces.catch.keyword:
-    text: '''catch'' 關鍵字'
+    text: "'catch' 關鍵字"
 checkbox.spaces.catch.left.brace:
-    text: '''catch''左大括號'
+    text: "'catch'左大括號"
 checkbox.spaces.catch.parentheses:
-    text: '''catch''括號'
+    text: "'catch'括號"
 checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
     text: 空的方法呼叫括號
 checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
@@ -399,25 +399,25 @@ checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
 checkbox.spaces.class.left.brace:
     text: 類別的左大括號
 checkbox.spaces.do.left.brace:
-    text: '''do''左大括號'
+    text: "'do'左大括號"
 checkbox.spaces.else.keyword:
-    text: '''else''關鍵字'
+    text: "'else'關鍵字"
 checkbox.spaces.else.left.brace:
-    text: '''else''左大括號'
+    text: "'else'左大括號"
 checkbox.spaces.equality.operators:
     text: 相等運算符 (==, !=)
 checkbox.spaces.finally.keyword:
-    text: '''finally'' 關鍵字'
+    text: "'finally' 關鍵字"
 checkbox.spaces.finally.left.brace:
-    text: '''finally''左大括號'
+    text: "'finally'左大括號"
 checkbox.spaces.for.left.brace:
-    text: '''for''左大括號'
+    text: "'for'左大括號"
 checkbox.spaces.for.parentheses:
-    text: '''for''括號'
+    text: "'for'括號"
 checkbox.spaces.if.left.brace:
-    text: '''if''左大括號'
+    text: "'if'左大括號"
 checkbox.spaces.if.parentheses:
-    text: '''if''括號'
+    text: "'if'括號"
 checkbox.spaces.in.empty.tag:
     text: 在空標記
 checkbox.spaces.logical.operators:
@@ -435,25 +435,25 @@ checkbox.spaces.relational.operators:
 checkbox.spaces.shift.operators:
     text: 移位運算符 (<<, >>, >>>)
 checkbox.spaces.switch.left.brace:
-    text: '''switch''左大括號'
+    text: "'switch'左大括號"
 checkbox.spaces.switch.parentheses:
-    text: '''switch''括號'
+    text: "'switch'括號"
 checkbox.spaces.synchronized.left.brace:
-    text: '''synchronized''左大括號'
+    text: "'synchronized'左大括號"
 checkbox.spaces.synchronized.parentheses:
-    text: '''synchronized''括號'
+    text: "'synchronized'括號"
 checkbox.spaces.try.left.brace:
-    text: '''try''左大括號'
+    text: "'try'左大括號"
 checkbox.spaces.try.parentheses:
-    text: '''try''括號'
+    text: "'try'括號"
 checkbox.spaces.type.cast.parentheses:
     text: 類型轉換括號
 checkbox.spaces.while.keyword:
-    text: '''while'' 關鍵字'
+    text: "'while' 關鍵字"
 checkbox.spaces.while.left.brace:
-    text: '''while''左大括號'
+    text: "'while'左大括號"
 checkbox.spaces.while.parentheses:
-    text: '''while''括號'
+    text: "'while'括號"
 checkbox.spaces.within.array.initializer.braces:
     text: 陣列初始化大括號
 checkbox.spaces.within.braces:
@@ -659,7 +659,7 @@ date.frequency:
 desktop.entry.icon.missing:
     text: 在 {0} 找不到合適的應用程式圖示。
 desktop.entry.script.missing:
-    text: 在 ''{0}'' 找不到適當的啟動指令碼。
+    text: "在 ''{0}'' 找不到適當的啟動指令碼。"
 desktop.entry.success:
     text: 你現在可以結束{0}，然後從系統選單中啟動它。
 desktop.entry.sudo.prompt:
@@ -705,7 +705,7 @@ editbox.blanklines.before.method.body:
 editbox.blanklines.before.package.statement:
     text: 'package之前宣告:'
 editbox.class.count.to.use.import.with.star:
-    text: '類別計數使用匯入的 ''*'':'
+    text: "類別計數使用匯入的 '*':"
 editbox.console.history.limit:
     text: '主控台命令歷史大小:'
 editbox.enter.tag.name:
@@ -727,7 +727,7 @@ editbox.installation.home:
 editbox.keep.blank.lines:
     text: '保持空白的行:'
 editbox.keep.blanklines.before.rbrace:
-    text: '''}''之前:'
+    text: "'}'之前:"
 editbox.keep.blanklines.in.code:
     text: '在代碼中:'
 editbox.keep.blanklines.in.declarations:
@@ -739,7 +739,7 @@ editbox.lookup.height:
 editbox.maximum.number.of.contents.to.keep.in.clipboard:
     text: <html>保持在剪貼簿中的最大數量</html>
 editbox.names.count.to.use.static.import.with.star:
-    text: '名稱計數使用靜態匯入的 ''*'':'
+    text: "名稱計數使用靜態匯入的 '*':"
 editbox.path.macro.name:
     text: '名字:'
 editbox.path.macro.value:
@@ -769,7 +769,7 @@ error.does.not.appear.to.be.installation.home:
 error.illegal.scheme.name:
     text: 非法專案名稱
 error.invalid.installation.home:
-    text: 無法匯入設定。 ''{0}'' 似乎不是一個有效的 {1} 安裝路徑。
+    text: "無法匯入設定。 ''{0}'' 似乎不是一個有效的 {1} 安裝路徑。"
 error.monitor.too.many.errors:
     text: 太多的IDE致命錯誤。監控已停止。
 error.no.read.permissions:
@@ -789,7 +789,9 @@ error.required.plugin.not.installed:
 error.scheme.must.have.a.name:
     text: 專案必須有一個名字
 error.selected.current.installation.home:
-    text: "您已選取目前 {0} 安裝路徑。\n請選取以前的 {1} 安裝路徑。"
+    text: |-
+        您已選取目前 {0} 安裝路徑。
+        請選取以前的 {1} 安裝路徑。
 error.shared.scheme.cannot.be.modified:
     text: 共用專案無法修改，請先另存一份
 error.unable.to.import.settings:
@@ -953,9 +955,9 @@ label.wrap.attributes:
 label.you.can.import:
     text: '匯入 {0} 的設定:'
 launcher.script.overwrite:
-    text: 檔案 ''{0}'' 已存在。要覆寫它嗎？
+    text: "檔案 ''{0}'' 已存在。要覆寫它嗎？"
 launcher.script.sudo.prompt:
-    text: 請輸入您的密碼以建立啟動指令碼 ''{0}''
+    text: "請輸入您的密碼以建立啟動指令碼 ''{0}''"
 launcher.script.title:
     text: 建立啟動指令碼
 listbox.members.order.constructors:
@@ -1011,9 +1013,9 @@ radio.import:
 radio.import.auto:
     text: 以前的版本({0})
 radio.insert.both.parentheses:
-    text: 插入 '()'
+    text: "插入 '()'"
 radio.insert.left.parenthesis:
-    text: 插入 '('
+    text: "插入 '('"
 radio.prefer.comma.separated.import.list:
     text: 喜歡用逗號分隔import清單
 radio.prefer.one.import.statement.per.page.directive:
@@ -1147,7 +1149,7 @@ title.other.languages:
 title.other.tabs.and.indents:
     text: 其它
 title.packages.to.use.import.with:
-    text: 軟體包使用匯入的 '*'
+    text: "軟體包使用匯入的 '*'"
 title.parameter.info:
     text: 參數訊息
 title.path.variables:
@@ -1207,7 +1209,7 @@ wrapping.align.parenthesised.when.multiline:
 wrapping.align.simple.methods.in.columns:
     text: 簡單方法列對齊
 wrapping.align.throws.keyword:
-    text: 對齊'throws'到方法開始處
+    text: "對齊'throws'到方法開始處"
 wrapping.align.variables.in.columns:
     text: 變數列對齊
 wrapping.align.when.multiline:
@@ -1245,7 +1247,7 @@ wrapping.brace.placement.next.line.shifted:
 wrapping.brace.placement.other:
     text: 其它
 wrapping.catch.on.new.line:
-    text: '''catch'' 另起一行'
+    text: "'catch' 另起一行"
 wrapping.chained.method.call.first.on.new.line:
     text: 換行第一個呼叫
 wrapping.chained.method.calls:
@@ -1255,7 +1257,7 @@ wrapping.chop.down.if.long:
 wrapping.classes.annotation:
     text: 類別註解
 wrapping.colon.signs.on.next.line:
-    text: ''':'' 旗標下一行'
+    text: "':' 旗標下一行"
 wrapping.comments:
     text: 評論
 wrapping.comments.wrap.at.right.margin:
@@ -1263,9 +1265,9 @@ wrapping.comments.wrap.at.right.margin:
 wrapping.do.not.wrap:
     text: 不換行
 wrapping.dowhile.statement:
-    text: '''do ... while()''語句'
+    text: "'do ... while()'語句"
 wrapping.else.on.new.line:
-    text: '''else'' 另起一行'
+    text: "'else' 另起一行"
 wrapping.enum.constants:
     text: 枚舉常數
 wrapping.extends.implements.keyword:
@@ -1275,9 +1277,9 @@ wrapping.extends.implements.list:
 wrapping.fields.annotation:
     text: 欄位批注
 wrapping.finally.on.new.line:
-    text: '''finally'' 另起一行'
+    text: "'finally' 另起一行"
 wrapping.for.statement:
-    text: '''for()''語句'
+    text: "'for()'語句"
 wrapping.force.braces:
     text: 大括號
 wrapping.force.braces.always:
@@ -1287,9 +1289,9 @@ wrapping.force.braces.do.not.force:
 wrapping.force.braces.when.multiline:
     text: 如果多行
 wrapping.if.statement:
-    text: '''if()''語句'
+    text: "'if()'語句"
 wrapping.indent.case.from.switch:
-    text: 縮進 'case' 分支
+    text: "縮進 'case' 分支"
 wrapping.keep.comment.at.first.column:
     text: 註解在第一列
 wrapping.keep.line.breaks:
@@ -1321,23 +1323,23 @@ wrapping.methods.annotation:
 wrapping.modifier.list:
     text: 修飾符清單
 wrapping.new.line.after.lbrace:
-    text: '''{''之後換行'
+    text: "'{'之後換行"
 wrapping.new.line.after.lpar:
-    text: '''('' 之後換行'
+    text: "'(' 之後換行"
 wrapping.operation.sign.on.next.line:
     text: 在下一行上操作旗標
 wrapping.parameters.annotation:
     text: 參數註解
 wrapping.quest.and.colon.signs.on.next.line:
-    text: '''?'' 和 '':'' 旗標在下一行'
+    text: "'?' 和 ':' 旗標在下一行"
 wrapping.rbrace.on.new.line:
-    text: '''}'' 另起一行'
+    text: "'}' 另起一行"
 wrapping.rpar.on.new.line:
-    text: ''')'' 另起一行'
+    text: "')' 另起一行"
 wrapping.special.else.if.braces.treatment:
-    text: 特殊的 'else if' 處理
+    text: "特殊的 'else if' 處理"
 wrapping.switch.statement:
-    text: '''switch''語句'
+    text: "'switch'語句"
 wrapping.take.priority.over.call.chain.wrapping:
     text: 優先於呼叫鏈環繞
 wrapping.ternary.operation:
@@ -1347,11 +1349,11 @@ wrapping.throws.keyword:
 wrapping.throws.list:
     text: 異常清單
 wrapping.try.statement:
-    text: '''try''語句'
+    text: "'try'語句"
 wrapping.while.on.new.line:
-    text: '''while'' 另起一行'
+    text: "'while' 另起一行"
 wrapping.while.statement:
-    text: '''while()''語句'
+    text: "'while()'語句"
 wrapping.wrap.always:
     text: 總是換行
 wrapping.wrap.if.long:

@@ -1,11 +1,11 @@
 checkbox.run.tests.before.commit:
-    text: 執行 ''{0}''
+    text: "執行 ''{0}''"
 checkbox.run.tests.before.commit.no.configuration:
     text: 執行測試
 dialog.message.target.does.not.exist:
     text: 目標 {0} 不存在
 dialog.message.unable.to.parse.test.results:
-    text: 無法解析 ''{0}'' 中的測試結果。測試結果應以 xml 格式存儲。
+    text: "無法解析 ''{0}'' 中的測試結果。測試結果應以 xml 格式存儲。"
 dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
     text: '無法執行設定: 檢測不到測試框架'
 dialog.message.unable.to.run.configuration.settings.are.corrupted:
@@ -13,7 +13,7 @@ dialog.message.unable.to.run.configuration.settings.are.corrupted:
 link.label.choose.configuration.before.commit:
     text: 選擇設定
 progress.text.running.tests:
-    text: 正在執行 ''{0}''…
+    text: "正在執行 ''{0}''…"
 sm.test.runner.abstract.import.test.error.title:
     text: 匯入失敗
 sm.test.runner.import.test:

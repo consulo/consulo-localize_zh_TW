@@ -19,7 +19,7 @@ diagnostic.error.report.additional.info.label:
 diagnostic.error.report.description:
     text: 如果您想得知您所報告的問題的處理結果, 請填寫您的JetBrains登入賬號和密碼.
 diagnostic.error.report.include.attachment.warning:
-    text: '報告將包括附屬應用程式: ''''<a>{0}</a>''''.'
+    text: "報告將包括附屬應用程式: ''<a>{0}</a>''."
 diagnostic.error.report.include.attachments.warning:
     text: 報告將包括附屬應用程式 <a>{0}</a>.
 diagnostic.error.report.login.name:
@@ -45,11 +45,11 @@ diagnostic.out.of.memory.error:
 diagnostic.out.of.memory.title:
     text: 記憶體溢出
 diagnostic.out.of.memory.willBeSavedTo:
-    text: <html><b>修改將被儲存到</b> ''{0}''</html>
+    text: "<html><b>修改將被儲存到</b> ''{0}''</html>"
 error.attachments.tab.title:
     text: 附屬應用程式
 error.cannot.create.temp.dir:
-    text: 無法建立臨時目錄 ''{0}''
+    text: "無法建立臨時目錄 ''{0}''"
 error.comments.tab.title:
     text: 註解
 error.details.tab.title:
@@ -129,7 +129,11 @@ error.list.message.submitted.as.link:
 error.list.message.unread:
     text: 未讀取的.
 error.list.of.plugins.was.not.loaded:
-    text: "無法從伺服器更新增益集清單： {0}\n\n可能是下面的錯誤造成的：\n{1}"
+    text: |-
+        無法從伺服器更新增益集清單： {0}
+
+        可能是下面的錯誤造成的：
+        {1}
 error.list.popup.immediately.checkbox:
     text: 下次發生內部錯誤時,立即彈出這個視窗
 error.list.restart.action:
@@ -207,17 +211,17 @@ progress.download.plugins:
 progress.downloading.list.of.plugins:
     text: 從 {0} 下載增益集清單
 progress.downloading.plugin:
-    text: 下載增益集 ''{0}''
+    text: "下載增益集 ''{0}''"
 prompt.download.and.install.plugin:
-    text: 你想下載並安裝增益集 ''{0}''?
+    text: "你想下載並安裝增益集 ''{0}''?"
 prompt.install.several.plugins:
     text: 安裝或更新{0}增益集?
 prompt.uninstall.plugin:
-    text: 你真的要移除的增益集 ''{0}''?
+    text: "你真的要移除的增益集 ''{0}''?"
 prompt.uninstall.several.plugins:
     text: 你真的要移除這些{0}增益集?
 prompt.update.plugin:
-    text: 你想更新增益集 ''{0}''?
+    text: "你想更新增益集 ''{0}''?"
 several.plugins.depend.on.0.continue.to.remove:
     text: 幾個增益集依賴於{0}。繼續刪除嗎？
 title.plugin.uninstall:

@@ -143,25 +143,48 @@ redo.command.confirmation.text:
 redo.confirmation.title:
     text: 重做
 safe.write.backup:
-    text: "無法儲存 {0}。\n無法創建備份檔案 ({1})。\n該檔案將保持不變。"
+    text: |-
+        無法儲存 {0}。
+        無法創建備份檔案 ({1})。
+        該檔案將保持不變。
 safe.write.drop.temp:
     text: 不能刪除臨時檔案 {0}.
 safe.write.failed:
-    text: "不能儲存 {0}.\n無法建立一個臨時檔案 ({1}).\n檔案沒有改變."
+    text: |-
+        不能儲存 {0}.
+        無法建立一個臨時檔案 ({1}).
+        檔案沒有改變.
 safe.write.junk:
-    text: "無法儲存 {0}。\n無法寫入資料。\n該檔案可能已損壞。"
+    text: |-
+        無法儲存 {0}。
+        無法寫入資料。
+        該檔案可能已損壞。
 safe.write.junk.backup:
-    text: "無法儲存 {0}。\n無法寫入資料。\n該檔案可能已損壞；已在 {1} 中創建備份。"
+    text: |-
+        無法儲存 {0}。
+        無法寫入資料。
+        該檔案可能已損壞；已在 {1} 中創建備份。
 safe.write.open:
-    text: "無法儲存 {0}。\n無法開啟檔案進行寫入。"
+    text: |-
+        無法儲存 {0}。
+        無法開啟檔案進行寫入。
 safe.write.rename.backup:
-    text: "不能儲存 {0}.\n檔案被重新命名 {1}.\n您的變更被寫入 {2}."
+    text: |-
+        不能儲存 {0}.
+        檔案被重新命名 {1}.
+        您的變更被寫入 {2}.
 safe.write.rename.original:
-    text: "不能儲存 {0}.\n檔案不變.\n您的變更被寫入 {1}."
+    text: |-
+        不能儲存 {0}.
+        檔案不變.
+        您的變更被寫入 {1}.
 safe.write.restored:
-    text: "無法儲存 {0}。\n無法寫入資料。\n已從備份還原原始內容。"
+    text: |-
+        無法儲存 {0}。
+        無法寫入資料。
+        已從備份還原原始內容。
 smth.already.exist.error.message:
-    text: '{0}的名稱 ''''{1}'''' 已存在'
+    text: "{0}的名稱 ''{1}'' 已存在"
 the.access.code.is.invalid.error.message:
     text: 存取代碼是無效的。
 the.data.is.invalid.error.message:

@@ -1,5 +1,5 @@
 annotation.name.is.missing:
-    text: 註解特性必須為 'name=value' 形式
+    text: "註解特性必須為 'name=value' 形式"
 anonymous.class.context.display:
     text: 匿名在{0}
 anonymous.class.derived.display:
@@ -13,7 +13,7 @@ bad.return.type.in.method.reference:
 bound.not.expected:
     text: 意外綁定
 catch.without.try:
-    text: '''catch'' 沒有 ''try'''
+    text: "'catch' 沒有 'try'"
 class.literal.expected:
     text: 應為 .class
 conflicting.conjuncts:
@@ -25,9 +25,9 @@ context.type.string:
 default.language.level.description:
     text: SDK 預設值
 diamond.error.anonymous.inner.classes:
-    text: 無法將 '<>' 用於匿名內部類
+    text: "無法將 '<>' 用於匿名內部類"
 diamond.error.anonymous.inner.classes.non.private:
-    text: 由於非 private 方法不會覆寫或實作父類型中的方法，因而無法使用 '<>'
+    text: "由於非 private 方法不會覆寫或實作父類型中的方法，因而無法使用 '<>'"
 diamond.error.cannot.infer.arguments:
     text: 無法推斷實參
 diamond.error.cannot.infer.arguments.unable.to.resolve.constructor:
@@ -37,9 +37,9 @@ diamond.error.cannot.infer.type.arguments:
 diamond.error.explicit.type.parameters.for.constructor:
     text: 無法將 diamond 與顯式類型參數用於構造函數
 else.without.if:
-    text: '''else'' 沒有 ''if'''
+    text: "'else' 沒有 'if'"
 enum.constant.context:
-    text: 枚舉常數 ''{0}'' 在 ''{1}''
+    text: "枚舉常數 ''{0}'' 在 ''{1}''"
 error.incompatible.type:
     text: '{0} 與 {1} 不相容'
 error.incompatible.type.bad.lambda.return.type:
@@ -81,7 +81,10 @@ error.incompatible.type.unhandled.exception:
 error.incompatible.upper.bounds:
     text: '不相容的上限: {0}'
 error.inference.variable.has.incompatible.bounds:
-    text: "推斷變數 {0} 的界限不相容:\n {1}: {2}\n{3}: {4}"
+    text: |-
+        推斷變數 {0} 的界限不相容:
+         {1}: {2}
+        {3}: {4}
 error.message.wildcard.not.expected:
     text: 意外萬用字元
 expected.array.initializer:
@@ -89,45 +92,45 @@ expected.array.initializer:
 expected.boolean.expression:
     text: 需要布爾表達式
 expected.catch.or.finally:
-    text: 應為 'catch' 或 'finally'
+    text: "應為 'catch' 或 'finally'"
 expected.class.or.interface:
-    text: 應為 'class' 或 'interface'
+    text: "應為 'class' 或 'interface'"
 expected.class.reference:
     text: '應為: 類引用'
 expected.colon:
-    text: 應為 ':'
+    text: "應為 ':'"
 expected.comma:
-    text: 應為 ','
+    text: "應為 ','"
 expected.comma.or.rparen:
-    text: 應為 ',' 或 ')'
+    text: "應為 ',' 或 ')'"
 expected.comma.or.semicolon:
-    text: 應為 ',' 或 ';'
+    text: "應為 ',' 或 ';'"
 expected.dot:
-    text: 應為 '.'
+    text: "應為 '.'"
 expected.eq:
-    text: 應為 '='
+    text: "應為 '='"
 expected.expression:
     text: '應為: 表達式'
 expected.gt:
-    text: 應為 '>'。
+    text: "應為 '>'。"
 expected.gt.or.comma:
-    text: 應為 '>' 或 ','
+    text: "應為 '>' 或 ','"
 expected.identifier:
     text: 應為關鍵字
 expected.identifier.or.type:
     text: 應為關鍵字或類型
 expected.lbrace:
-    text: 應為 '{'
+    text: "應為 '{'"
 expected.lbrace.or.semicolon:
-    text: 應為 '{' 或 ';'
+    text: "應為 '{' 或 ';'"
 expected.lbracket:
-    text: 應為 '['
+    text: "應為 '['"
 expected.lparen:
-    text: 應為 '('
+    text: "應為 '('"
 expected.lparen.or.lbracket:
-    text: 應為 '(' 或 '['
+    text: "應為 '(' 或 '['"
 expected.lt.or.lparen:
-    text: 應為 '<' 或 '('
+    text: "應為 '<' 或 '('"
 expected.module.declaration:
     text: 應為模組宣告
 expected.module.statement:
@@ -137,21 +140,21 @@ expected.package.reference:
 expected.parameter:
     text: 應為參數
 expected.rbrace:
-    text: 應為 '}'
+    text: "應為 '}'"
 expected.rbracket:
-    text: 應為 ']'
+    text: "應為 ']'"
 expected.resource:
     text: 應為資源定義
 expected.rparen:
-    text: 應為 ')'
+    text: "應為 ')'"
 expected.semicolon:
-    text: 應為 ';'
+    text: "應為 ';'"
 expected.statement:
     text: 應為語句
 expected.string:
     text: 應為字串文字
 expected.switch.label:
-    text: 應為 'case'、'default' 或 '}'
+    text: "應為 'case'、'default' 或 '}'"
 expected.switch.rule:
     text: 應為表達式、塊或 throw 語句
 expected.type:
@@ -161,7 +164,7 @@ expected.type.parameter:
 expected.value:
     text: 應為值
 expected.while:
-    text: 應為 'while'
+    text: "應為 'while'"
 expected.with:
     text: 應為 with
 feature.annotations:
@@ -171,7 +174,7 @@ feature.binary.literals:
 feature.diamond.types:
     text: Diamond 類型
 feature.enhanced.switch:
-    text: 增強的 'switch' 塊
+    text: "增強的 'switch' 塊"
 feature.extension.methods:
     text: 擴展方法
 feature.for.each:
@@ -201,7 +204,7 @@ feature.multi.catch:
 feature.patterns.in.switch:
     text: switch 中的模式
 feature.patterns.instanceof:
-    text: '''instanceof'' 中的模式'
+    text: "'instanceof' 中的模式"
 feature.records:
     text: 記錄
 feature.sealed.classes:
@@ -211,7 +214,7 @@ feature.static.imports:
 feature.static.interface.calls:
     text: static 接口方法調用
 feature.switch.expressions:
-    text: '''switch'' 表達式'
+    text: "'switch' 表達式"
 feature.text.blocks:
     text: 文本塊文字
 feature.try.with.resources.refs:
@@ -223,13 +226,13 @@ feature.type.receivers:
 feature.underscores.in.literals:
     text: 在文字中加下劃線
 feature.var.lambda.parameter:
-    text: lambda 參數中的 'var'
+    text: "lambda 參數中的 'var'"
 feature.varargs:
     text: 可變 arity 方法
 finally.without.try:
-    text: '''finally'' 沒有 ''try'''
+    text: "'finally' 沒有 'try'"
 import.statement.identifier.or.asterisk.expected.:
-    text: 應為關鍵字或 '*'
+    text: "應為關鍵字或 '*'"
 java.terms.anonymous.class.base.ref:
     text: 匿名 {0}
 javadoc.exception.tag.class.is.not.throwable:
@@ -241,7 +244,7 @@ javadoc.exception.tag.wrong.tag.value:
 javadoc.param.tag.parameter.name.expected:
     text: 應為參數名稱
 javadoc.param.tag.type.parameter.gt.expected:
-    text: 應為 '>'
+    text: "應為 '>'"
 javadoc.param.tag.type.parameter.name.expected:
     text: 應為類型參數名稱
 javadoc.ref.tag.class.ref.expected:

@@ -7,19 +7,19 @@ cannot.find.a.single.definition.to.inline.local.var:
 cannot.inline.0.:
     text: 無法內聯 {0}
 cannot.inline.reference.0:
-    text: 無法內聯引用 ''{0}''
+    text: "無法內聯引用 ''{0}''"
 cannot.introduce.field.in.interface:
     text: 無法在接口中引入欄位
 cannot.introduce.field.in.script:
     text: 範圍內沒有類
 cannot.rename.property.0:
-    text: 無法重命名覆寫方法 <bold>''{1}''</bold> 的屬性 <bold>''{0}''</bold>
+    text: "無法重命名覆寫方法 <bold>''{1}''</bold> 的屬性 <bold>''{0}''</bold>"
 cannot.rename.script.class.to.0:
-    text: 無法將腳本類 ''{0}'' 重命名為 ''{1}''
+    text: "無法將腳本類 ''{0}'' 重命名為 ''{1}''"
 changeSignature.no.type.for.exception:
     text: 指定異常的類型
 changeSignature.not.throwable.type:
-    text: '類型錯誤: 異常的 ''''{0}''''，應擴展 java.lang.Throwable'
+    text: "類型錯誤: 異常的 ''{0}''，應擴展 java.lang.Throwable"
 changeSignature.refactoring.name:
     text: 變更簽名
 class.does.not.exist.in.the.module:
@@ -59,7 +59,7 @@ files.to.be.converted:
 final.field.cant.be.initialized.in.cur.method:
     text: 無法在當前方法中初始化最終欄位
 inline.local.variable.prompt.0.1:
-    text: 內聯局部變數 ''{0}''?
+    text: "內聯局部變數 ''{0}''?"
 inline.method.border.title:
     text: 內聯
 inline.method.label:
@@ -85,7 +85,7 @@ method.is.not.accessible.form.context.0:
 multiple.output.values:
     text: 所選程式碼段有多個輸出值
 name.is.wrong:
-    text: 名稱 ''{0}'' 不正確
+    text: "名稱 ''{0}'' 不正確"
 name.label:
     text: '名稱(&N):'
 no.occurrences.found:
@@ -95,9 +95,9 @@ only.in.groovy.files:
 parameters.border.title:
     text: 參數
 ref.0.will.not.be.resolved.outside.of.current.context:
-    text: 不會在當前上下文範圍外解析引用 ''{0}''
+    text: "不會在當前上下文範圍外解析引用 ''{0}''"
 refactored.method.will.cover.closure.property:
-    text: 重構的方法將覆寫 {1} 中的閉包屬性 ''{0}''
+    text: "重構的方法將覆寫 {1} 中的閉包屬性 ''{0}''"
 refactoring.cannot.be.applied.no.sources.attached:
     text: '無法套用重構: 未附加任何源'
 refactoring.cannot.be.applied.to.abstract.methods:
@@ -123,13 +123,13 @@ rename.is.not.applicable.to.implicit.elements:
 rename.member:
     text: 重命名 {0}
 rename.property:
-    text: 重命名屬性 ''{0}''
+    text: "重命名屬性 ''{0}''"
 replace.all.occurrences:
     text: 取代所有符合項
 replace.getter.for.property:
-    text: 屬性 ''{0}'' 的預設 getter 將被覆蓋
+    text: "屬性 ''{0}'' 的預設 getter 將被覆蓋"
 replace.setter.for.property:
-    text: 屬性 ''{0}'' 的預設 setter 將被覆蓋
+    text: "屬性 ''{0}'' 的預設 setter 將被覆蓋"
 return.type.is.wrong:
     text: 返回類型錯誤
 row.move.down:
@@ -151,7 +151,7 @@ selected.variable.is.used.for.write:
 signature.preview.border.title:
     text: 簽名預覽
 specify.default.value:
-    text: 為參數 ''{0}'' 指定預設值或初始設定式
+    text: "為參數 ''{0}'' 指定預設值或初始設定式"
 specify.type.label:
     text: 顯式指定返回類型(&T)
 super.reference.is.used:
@@ -161,7 +161,7 @@ target.class.must.not.be.script:
 there.is.no.method.or.closure:
     text: 沒有包含方法或閉包
 type.for.parameter.is.incorrect:
-    text: 參數 ''{0}'' 的類型不正確
+    text: "參數 ''{0}'' 的類型不正確"
 variable.conflicts.with.field.0:
     text: 所選名稱與欄位 {0} 衝突
 variable.conflicts.with.parameter.0:
@@ -169,7 +169,7 @@ variable.conflicts.with.parameter.0:
 variable.conflicts.with.variable.0:
     text: 所選名稱與局部變數 {0} 衝突
 variable.is.accessed.for.writing:
-    text: 變數 ''{0}'' 被存取以進行寫入
+    text: "變數 ''{0}'' 被存取以進行寫入"
 visibility.private:
     text: 私有
 visibility.protected:
@@ -177,4 +177,4 @@ visibility.protected:
 visibility.public:
     text: 公用
 you.cannot.pass.as.parameter.0.because.you.remove.1.from.base.method:
-    text: 您無法將 ''{0}'' 作為參數傳遞，因為您從方法中移除了與其關聯的參數 ''{1}''。您應當在參數表中取消選擇“移除不再使用的參數 ''{0}''”或取消選擇參數 ''{1}''。
+    text: "您無法將 ''{0}'' 作為參數傳遞，因為您從方法中移除了與其關聯的參數 ''{1}''。您應當在參數表中取消選擇“移除不再使用的參數 ''{0}''”或取消選擇參數 ''{1}''。"

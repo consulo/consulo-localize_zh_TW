@@ -15,7 +15,7 @@ fix.create.module:
 fix.create.module.with.parent:
     text: 通過父項創建模組
 fix.open.file:
-    text: 開啟 ''{0}''
+    text: "開啟 ''{0}''"
 fix.parent.path:
     text: 修復相對路徑
 fix.update.indices:
@@ -49,7 +49,7 @@ navigate.parent.dependency.title:
 navigate.parent.plugin.title:
     text: 選擇要導航的目標延伸模組
 overriden.plugin.title:
-    text: 導航到 'pluginManagement' 部分
+    text: "導航到 'pluginManagement' 部分"
 overriding.dependency.title:
     text: 導航到依賴項用法
 overriding.plugin.title:

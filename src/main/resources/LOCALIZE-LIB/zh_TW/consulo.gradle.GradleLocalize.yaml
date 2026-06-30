@@ -3,7 +3,9 @@ gradle.settings.text.home.path:
 gradle.settings.text.vm.options:
     text: 'Gradle VM 選項:'
 gradle.home.setting.type.explicit.incorrect:
-    text: "Gradle 位置不正確。\n位置: {0}"
+    text: |-
+        Gradle 位置不正確。
+        位置: {0}
 gradle.home.setting.type.explicit.empty:
     text: 未指定 Gradle 位置
 gradle.codeInsight.action.apply_plugin.text:

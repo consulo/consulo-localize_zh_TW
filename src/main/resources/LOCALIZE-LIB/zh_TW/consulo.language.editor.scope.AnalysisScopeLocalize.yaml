@@ -67,7 +67,7 @@ cyclic.dependencies.tree.cycle.node.text:
 cyclic.dependencies.usage.view.initial.text:
     text: 從左邊樹選取分析的包
 cyclic.dependencies.usage.view.root.node.text:
-    text: 在包''{1}''裡,包''{0}''的使用
+    text: "在包''{1}''裡,包''{0}''的使用"
 dependencies.libraries.node.text:
     text: 庫
 dependency.configurable.allow.table.column1:
@@ -123,17 +123,19 @@ predefined.scope.problems.name:
 project.is.out.of.date:
     text: 項目過時了
 recompile.confirmation.message:
-    text: "專案類別檔案是過期的.你要在DSM分析之前繼續編譯一個項目?\n沒有編譯可能導致不完全或不正確的資料."
+    text: |-
+        專案類別檔案是過期的.你要在DSM分析之前繼續編譯一個項目?
+        沒有編譯可能導致不完全或不正確的資料.
 scanning.scope.progress.title:
     text: 掃瞄作用範圍 ...
 scope.directory:
-    text: 目錄 ''{0}''
+    text: "目錄 ''{0}''"
 scope.display.name.allow.scope:
-    text: 在範圍''{1}''啟用範圍''{0}''的使用
+    text: "在範圍''{1}''啟用範圍''{0}''的使用"
 scope.display.name.deny.scope:
-    text: 在範圍''{1}''禁用範圍''{0}''的使用
+    text: "在範圍''{1}''禁用範圍''{0}''的使用"
 scope.file:
-    text: 檔案 ''{0}''
+    text: "檔案 ''{0}''"
 scope.option.analyze.injected.code:
     text: 檢查注入的程式碼(&J)
 scope.option.custom:
@@ -141,9 +143,9 @@ scope.option.custom:
 scope.option.include.test.sources:
     text: 包括測試資源
 scope.option.module:
-    text: 模組 ''{0}''
+    text: "模組 ''{0}''"
 scope.option.module.with.mnemonic:
-    text: 模組 ''{0}''
+    text: "模組 ''{0}''"
 scope.option.uncommitted.files:
     text: 未提交的檔案(&U)
 scope.option.uncommitted.files.all.changelists.choice:
@@ -153,7 +155,7 @@ scope.option.whole.project:
 scope.package:
     text: 包 {0}
 scope.project:
-    text: 項目 ''{0}''
+    text: "項目 ''{0}''"
 scope.selected.files:
     text: 選取的檔案
 scope.virtual.files:

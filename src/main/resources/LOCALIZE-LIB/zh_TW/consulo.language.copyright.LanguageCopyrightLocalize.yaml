@@ -49,7 +49,7 @@ create.copyright.profile:
 detect.copyright.regexp.is.incorrect.configuration.error:
     text: '檢測版權正則表達式不正確:'
 dialog.message.duplicate.copyright.profile.name:
-    text: '重複的版權設定文件名稱: ''''{0}'''''
+    text: "重複的版權設定文件名稱: ''{0}''"
 dialog.message.new.copyright.profile.name:
     text: '新版權設定文件名稱:'
 dialog.message.no.copyright.configured:
@@ -59,7 +59,9 @@ dialog.message.the.copyright.settings.imported:
 dialog.message.the.selected.file.copyright.settings:
     text: 所選檔案不包含任何版權設定。
 dialog.message.velocity.template.contains.error.0:
-    text: "Velocity 模板包含錯誤:\n{0}"
+    text: |-
+        Velocity 模板包含錯誤:
+        {0}
 dialog.message.velocity.template.is.valid:
     text: Velocity 模板有效。
 dialog.title.import.complete:

@@ -71,7 +71,7 @@ error.dialog.title:
 error.list.title:
     text: '{0} 錯誤:'
 error.occurred.during:
-    text: '''''{0}'''' 時出錯'
+    text: "''{0}'' 時出錯"
 errors.message:
     text: 'Git 操作以多個錯誤結束: {0}'
 fetch.action.name:
@@ -127,7 +127,9 @@ init.destination.directory.description:
 init.destination.directory.title:
     text: 創建 Git 版本庫
 init.warning.already.under.git:
-    text: "所選目錄 <tt>{0}</tt> 已在 Git 下。\n確定要創建新的 VCS 根嗎?"
+    text: |-
+        所選目錄 <tt>{0}</tt> 已在 Git 下。
+        確定要創建新的 VCS 根嗎?
 initializing.title:
     text: 正在初始化版本庫…
 merge.branch.title:
@@ -295,7 +297,11 @@ update.options.display.name:
 util.remote.renderer.none:
     text: 無
 vfs.listener.add.single.prompt:
-    text: "要將以下檔案添加到 Git 嗎?\n{0}\n\n如果您選擇“取消”，以後仍可以手動添加。"
+    text: |-
+        要將以下檔案添加到 Git 嗎?
+        {0}
+
+        如果您選擇“取消”，以後仍可以手動添加。
 vfs.listener.add.single.title:
     text: 將檔案添加到 Git
 vfs.listener.add.title:
@@ -303,7 +309,11 @@ vfs.listener.add.title:
 vfs.listener.checking.ignored:
     text: 正在檢查忽略的檔案…
 vfs.listener.delete.single.prompt:
-    text: "要從 Git 中刪除以下檔案嗎?\n{0}\n\n如果您選擇“取消”，以後仍可以手動刪除。"
+    text: |-
+        要從 Git 中刪除以下檔案嗎?
+        {0}
+
+        如果您選擇“取消”，以後仍可以手動刪除。
 vfs.listener.delete.single.title:
     text: 從 Git 中刪除檔案
 vfs.listener.delete.title:

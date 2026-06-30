@@ -107,7 +107,7 @@ singleton.injects.scoped.problem.descriptor:
 toggle.injection.required.family.name:
     text: 切換注入
 toggle.required:
-    text: 切換 'optional'
+    text: "切換 'optional'"
 uninstantiable.binding.display.name:
     text: 無法實例化的綁定
 uninstantiable.binding.problem.descriptor:

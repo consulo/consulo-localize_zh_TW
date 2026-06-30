@@ -83,7 +83,7 @@ cloud.status.connection.successful:
 cloud.status.double.click.to.connect:
     text: 雙擊伺服器節點以進行連接
 clouds.configure.empty.selection.string:
-    text: 要設定與 {0} 的整合，請點擊 ''+''
+    text: "要設定與 {0} 的整合，請點擊 ''+''"
 configurable.display.name.clouds:
     text: 云
 create.new.deployment.configuration.for.singleton.type:

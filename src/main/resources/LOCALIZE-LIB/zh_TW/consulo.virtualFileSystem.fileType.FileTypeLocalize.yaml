@@ -1,19 +1,19 @@
 filetype.chooser.file.pattern:
     text: '檔案模式(&P):'
 filetype.chooser.prompt:
-    text: '該檔案'''' {0}''''不與任何檔案類型相關聯。請定義該檔案關聯方式:'
+    text: "該檔案'' {0}''不與任何檔案類型相關聯。請定義該檔案關聯方式:"
 filetype.chooser.title:
     text: 註冊新檔案類型關聯
 filetype.description.archive.files:
     text: 存檔檔案
 filetype.edit.add.pattern.exists.error:
-    text: 這個萬用字元是保留給'' {0}''的檔案類型，不能被重新分配
+    text: "這個萬用字元是保留給'' {0}''的檔案類型，不能被重新分配"
 filetype.edit.add.pattern.exists.message:
-    text: 這個萬用字元是已經註冊了'' {0}''的檔案類型
+    text: "這個萬用字元是已經註冊了'' {0}''的檔案類型"
 filetype.edit.add.pattern.exists.title:
     text: 新增萬用字元
 filetype.edit.add.pattern.prompt:
-    text: '輸入新的萬用字元（''*''，並允許''?''）:'
+    text: "輸入新的萬用字元（'*'，並允許'?'）:"
 filetype.edit.add.pattern.reassign.button:
     text: 重新指定萬用字元(&R)
 filetype.edit.add.pattern.title:

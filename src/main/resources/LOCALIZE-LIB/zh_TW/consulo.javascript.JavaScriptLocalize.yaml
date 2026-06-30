@@ -29,33 +29,33 @@ javascript.brackets:
 javascript.comma:
     text: 逗號
 javascript.create.class.intention.name:
-    text: 創建類 ''{0}''
+    text: "創建類 ''{0}''"
 javascript.create.constant.field.intention.name:
-    text: 創建常數欄位 ''{0}''
+    text: "創建常數欄位 ''{0}''"
 javascript.create.constant.intention.name:
-    text: 創建常數 ''{0}''
+    text: "創建常數 ''{0}''"
 javascript.create.event.handler.intention.name:
-    text: 創建事件處理程序 ''{0}''
+    text: "創建事件處理程序 ''{0}''"
 javascript.create.function.intention.family:
     text: 創建 JavaScript 函數或方法
 javascript.create.function.intention.name:
-    text: 創建函數 ''{0}''
+    text: "創建函數 ''{0}''"
 javascript.create.get.property.intention.name:
-    text: 創建 ''get'' 屬性 ''{0}''
+    text: "創建 ''get'' 屬性 ''{0}''"
 javascript.create.interface.intention.name:
-    text: 創建接口 ‘’{0}''
+    text: "創建接口 ‘’{0}''"
 javascript.create.method.intention.name:
-    text: 創建方法 ''{0}''
+    text: "創建方法 ''{0}''"
 javascript.create.property.intention.name:
-    text: 創建屬性 ''{0}''
+    text: "創建屬性 ''{0}''"
 javascript.create.set.property.intention.name:
-    text: 創建 ''set'' 屬性 ''{0}''
+    text: "創建 ''set'' 屬性 ''{0}''"
 javascript.create.variable.intention.family:
     text: 創建 JavaScript 變數或屬性
 javascript.create.variable.intention.name:
-    text: 創建變數 ''{0}''
+    text: "創建變數 ''{0}''"
 javascript.declare.variable.intention.name:
-    text: 為 ''{1}'' 插入 {0} 宣告
+    text: "為 ''{1}'' 插入 {0} 宣告"
 javascript.deprecated.symbol.used.name.message:
     text: '使用了棄用的符號，請查閱文檔，以獲取更好的替代性 #loc'
 javascript.doccomment:
@@ -77,7 +77,7 @@ javascript.fix.implement.methods:
 javascript.fix.optimize.imports:
     text: 最佳化 import
 javascript.fix.package.name:
-    text: 將軟體套件名稱設定為 ''{0}''
+    text: "將軟體套件名稱設定為 ''{0}''"
 javascript.fix.remove.access.modifier:
     text: 移除存取修飾符
 javascript.fix.remove.circular.dependency:
@@ -113,17 +113,25 @@ javascript.instance.member.variable:
 javascript.interface.can.not.be.instantiated.message:
     text: 無法實例化接口
 javascript.introduce.constant.error.no.expression.selected:
-    text: "無法引入常數。\n選定內容不構成表達式。"
+    text: |-
+        無法引入常數。
+        選定內容不構成表達式。
 javascript.introduce.constant.error.not.constant.expression.selected:
-    text: "無法引入常數。\n選定內容不是常數表達式。"
+    text: |-
+        無法引入常數。
+        選定內容不是常數表達式。
 javascript.introduce.constant.title:
     text: 引入常數
 javascript.introduce.field.error.no.expression.selected:
-    text: "無法引入欄位。\n選定內容不構成表達式。"
+    text: |-
+        無法引入欄位。
+        選定內容不構成表達式。
 javascript.introduce.field.title:
     text: 引入欄位
 javascript.introduce.variable.error.no.expression.selected:
-    text: "無法引入變數。\n選定內容不構成表達式。"
+    text: |-
+        無法引入變數。
+        選定內容不構成表達式。
 javascript.introduce.variable.invalid.name:
     text: 請輸入有效名稱。
 javascript.introduce.variable.name.prompt:
@@ -183,9 +191,9 @@ javascript.parser.message.expected.equal:
 javascript.parser.message.expected.expression:
     text: 應為表達式
 javascript.parser.message.expected.forloop.in.or.semicolon:
-    text: 應為 'in' 或 ;
+    text: "應為 'in' 或 ;"
 javascript.parser.message.expected.forloop.left.hand.side.expression.or.variable.declaration:
-    text: '''in'' 前面應為左側表達式或變數宣告'
+    text: "'in' 前面應為左側表達式或變數宣告"
 javascript.parser.message.expected.formal.parameter.name:
     text: 應為參數名稱
 javascript.parser.message.expected.function.name:
@@ -195,13 +203,13 @@ javascript.parser.message.expected.identifier:
 javascript.parser.message.expected.identifier.string.literal.or.numeric.literal:
     text: 應為關鍵字、字串文字或數字文字
 javascript.parser.message.expected.instanceof:
-    text: 應為 'instanceof'
+    text: "應為 'instanceof'"
 javascript.parser.message.expected.lparen:
     text: 應為 (
 javascript.parser.message.expected.name:
     text: 應為名稱
 javascript.parser.message.expected.namespace:
-    text: 應為 'namespace'
+    text: "應為 'namespace'"
 javascript.parser.message.expected.parameter.name:
     text: 應為參數名稱
 javascript.parser.message.expected.rbrace:
@@ -223,7 +231,7 @@ javascript.parser.message.expected.value:
 javascript.parser.message.expected.variable.name:
     text: 應為變數名稱
 javascript.parser.message.expected.while.keyword:
-    text: 應為 'while'
+    text: "應為 'while'"
 javascript.parser.message.expected.xml:
     text: 應為 XML 上下文關鍵字
 javascript.parser.message.expected.xml.element:
@@ -279,21 +287,21 @@ javascript.validation.message.access.modifier.allowed.only.for.class.members:
 javascript.validation.message.access.modifier.allowed.only.for.package.members:
     text: 軟體套件成員僅允許使用 public/internal 修飾符
 javascript.validation.message.arguments.with.rest.parameter:
-    text: 使用 rest 參數時，'arguments' 物件不可用
+    text: "使用 rest 參數時，'arguments' 物件不可用"
 javascript.validation.message.assignment.to.const:
     text: 嘗試賦值給常數或唯讀變數
 javascript.validation.message.break.without.target:
-    text: 無法確定 'break' 的目標
+    text: "無法確定 'break' 的目標"
 javascript.validation.message.circular.dependency:
     text: 迴圈依賴關係
 javascript.validation.message.class.name.expected.here:
     text: 此處應為類名
 javascript.validation.message.class.should.be.in.file:
-    text: 應在檔案 ''{1}'' 中定義類 ''{0}''
+    text: "應在檔案 ''{1}'' 中定義類 ''{0}''"
 javascript.validation.message.constructor.in.mxml.is.not.allowed:
     text: MXML 類不允許使用構造函數
 javascript.validation.message.continue.without.target:
-    text: 無法確定 'continue' 的目標
+    text: "無法確定 'continue' 的目標"
 javascript.validation.message.duplicate.declaration:
     text: 重複宣告
 javascript.validation.message.duplicate.label:
@@ -303,17 +311,17 @@ javascript.validation.message.file.should.be.under.source.root:
 javascript.validation.message.function.override.for.object.method:
     text: 從 Object 繼承的方法無需覆寫
 javascript.validation.message.function.override.incompatible.access.modifier:
-    text: 不相容覆寫，應有 ''{0}'' 存取修飾符
+    text: "不相容覆寫，應有 ''{0}'' 存取修飾符"
 javascript.validation.message.function.override.incompatible.signature:
-    text: 不相容覆寫，應有簽名 ''{0}''
+    text: "不相容覆寫，應有簽名 ''{0}''"
 javascript.validation.message.function.override.incompatible.signature2:
-    text: 不相容覆寫，應有返回類型 ''{0}''
+    text: "不相容覆寫，應有返回類型 ''{0}''"
 javascript.validation.message.function.override.without.override.modifier:
     text: 方法重寫了沒有 override 關鍵字的超類 {0} 中的方法
 javascript.validation.message.function.override.without.parent.method:
     text: 方法不覆寫超類的方法
 javascript.validation.message.function.should.be.in.file:
-    text: 應在檔案 ''{1}'' 中定義函數 ''{0}''
+    text: "應在檔案 ''{1}'' 中定義函數 ''{0}''"
 javascript.validation.message.get.method.should.be.valid.type:
     text: getter 定義的返回類型不應為 {0}
 javascript.validation.message.get.method.should.have.no.parameter:
@@ -321,15 +329,15 @@ javascript.validation.message.get.method.should.have.no.parameter:
 javascript.validation.message.implements.for.interface.not.allowed:
     text: 接口不允許有實作列表
 javascript.validation.message.incorrect.package.name:
-    text: 軟體套件名稱 ''{0}'' 與檔案路徑 ''{1}'' 不對應
+    text: "軟體套件名稱 ''{0}'' 與檔案路徑 ''{1}'' 不對應"
 javascript.validation.message.interface.members.cannot.have.access.modifiers:
     text: 接口成員不能具有存取修飾符
 javascript.validation.message.interface.method.invalid.access.modifier:
-    text: 不相容實作，應有 'public' 存取修飾符
+    text: "不相容實作，應有 'public' 存取修飾符"
 javascript.validation.message.interface.method.invalid.signature:
-    text: 不相容實作，應有簽名 ''{0}''
+    text: "不相容實作，應有簽名 ''{0}''"
 javascript.validation.message.interface.method.invalid.signature2:
-    text: 不相容實作，應有返回類型 ''{0}''
+    text: "不相容實作，應有返回類型 ''{0}''"
 javascript.validation.message.interface.method.not.implemented:
     text: 未實作來自於接口 {1} 的方法 {0}
 javascript.validation.message.interface.name.expected.here:
@@ -343,7 +351,7 @@ javascript.validation.message.must.be.lvalue:
 javascript.validation.message.namespace.allowed.only.for.class.members:
     text: 僅類成員允許使用命名空間
 javascript.validation.message.namespace.should.be.in.file:
-    text: 應在檔案 ''{1}'' 中定義命名空間 ''{0}''
+    text: "應在檔案 ''{1}'' 中定義命名空間 ''{0}''"
 javascript.validation.message.nested.classes.are.not.allowed:
     text: 不允許嵌套類
 javascript.validation.message.package.shouldbe.first.statement:
@@ -357,7 +365,7 @@ javascript.validation.message.remove.unneeded.comma.fix:
 javascript.validation.message.rest.parameter.should.not.be.initialized:
     text: 不應初始化 Rest 參數
 javascript.validation.message.return.outside.function.definition:
-    text: '''return'' 在函數定義外部'
+    text: "'return' 在函數定義外部"
 javascript.validation.message.return.value.of.type.is.required:
     text: 必需具備類型 {0} 的返回值
 javascript.validation.message.set.method.should.be.void.or.without.type:
@@ -365,11 +373,11 @@ javascript.validation.message.set.method.should.be.void.or.without.type:
 javascript.validation.message.set.method.should.have.one.parameter:
     text: setter 定義必須正好有一個參數
 javascript.validation.message.super.referenced.from.static.context:
-    text: 在 static 上下文中引用了 'super'
+    text: "在 static 上下文中引用了 'super'"
 javascript.validation.message.super.referenced.without.class.instance.context:
-    text: 在沒有類實例上下文的情況下引用了'super'
+    text: "在沒有類實例上下文的情況下引用了'super'"
 javascript.validation.message.this.referenced.from.static.context:
-    text: 在 static 上下文中引用了 'this'
+    text: "在 static 上下文中引用了 'this'"
 javascript.validation.message.unexpected.type.for.rest.parameter:
     text: Rest 參數不應有類型
 javascript.validation.message.unneeded.comma:
@@ -377,7 +385,7 @@ javascript.validation.message.unneeded.comma:
 javascript.validation.message.use.namespace.reference.or.access.modifier:
     text: 使用命名空間或存取修飾符
 javascript.validation.message.variable.should.be.in.file:
-    text: 應在檔案 ''{1}'' 中定義變數 ''{0}''
+    text: "應在檔案 ''{1}'' 中定義變數 ''{0}''"
 javascript.validation.unused.import:
     text: 未使用的 import
 js.deprecated.symbols.inspection.name:

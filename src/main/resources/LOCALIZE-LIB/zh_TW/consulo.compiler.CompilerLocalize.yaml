@@ -31,11 +31,11 @@ build.artifacts.before.run.description.empty:
 build.artifacts.before.run.description.multiple:
     text: 構建 {0} 構件
 build.artifacts.before.run.description.single:
-    text: 構建 ''{0}'' 構件
+    text: "構建 ''{0}'' 構件"
 build.artifacts.before.run.selector.title:
     text: 選取構件
 chooser.description.select.output.directory.for.0.artifact:
-    text: 為 ''{0}'' 構件選取輸出目錄
+    text: "為 ''{0}'' 構件選取輸出目錄"
 classes.up.to.date.check:
     text: 類最新狀態檢查
 command.name.package.file:
@@ -57,11 +57,13 @@ compiler.results.export.text.prefix:
 compiler.running.dialog.title:
     text: 編譯器執行中
 dialog.message.output.dir.artifact:
-    text: '''''{0}'''' 工件(''''{1}'''')'
+    text: "''{0}'' 工件(''{1}'')"
 dialog.message.output.dir.contains.source.roots:
-    text: '''''{1}'''' 工件的輸出目錄 ''''{0}'''' 包含專案的源根。是否繼續並將其清除?'
+    text: "''{1}'' 工件的輸出目錄 ''{0}'' 包含專案的源根。是否繼續並將其清除?"
 dialog.message.output.dirs.contain.source.roots:
-    text: "以下工件的輸出目錄包含源根:\n{0}是否繼續並清除這些目錄?"
+    text: |-
+        以下工件的輸出目錄包含源根:
+        {0}是否繼續並清除這些目錄?
 dialog.title.choose.artifacts:
     text: 選取構件
 dialog.title.output.directory.for.artifact:
@@ -81,27 +83,46 @@ error.ant.files.backup.failed:
 error.ant.files.generate.failed:
     text: '無法產生 Ant 構建指令碼: {0}'
 error.bad.class.file.format:
-    text: "錯誤的類別檔案格式:\n{0}"
+    text: |-
+        錯誤的類別檔案格式:
+        {0}
 error.bad.resource.patterns:
     text: 下面的資源模式異常的:{0}
 error.chunk.modules.must.have.same.jdk:
-    text: "以下模組必須指定相同的 JDK，因為它們之間的循環依賴關係\n{0}\n請更新模組設定"
+    text: |-
+        以下模組必須指定相同的 JDK，因為它們之間的循環依賴關係
+        {0}
+        請更新模組設定
 error.chunk.modules.must.have.same.language.level:
-    text: "以下模組必須具有相同的語言級別，因為它們之間的循環依賴關係:\n{0}\n請更新模組設定"
+    text: |-
+        以下模組必須具有相同的語言級別，因為它們之間的循環依賴關係:
+        {0}
+        請更新模組設定
 error.compiler.configurable.malformed.patterns:
-    text: "以下資源模式格式錯誤：\n{0}"
+    text: |-
+        以下資源模式格式錯誤：
+        {0}
 error.compiler.internal.error:
     text: 編譯器內部錯誤。進程以結束代碼 {0} 終止
 error.copying:
-    text: "複製錯誤 {0}\n到 {1}:\n{2}"
+    text: |-
+        複製錯誤 {0}
+        到 {1}:
+        {2}
 error.failed.to.create.directory:
     text: 建立目錄失敗 {0}
 error.javac.out.of.memory:
     text: 記憶體不足。在 Project Properties|Compiler （項目屬性|編譯器）設定中增加最大堆大小。
 error.jdk.not.specified:
-    text: "無法啟動編譯器：沒有為 {0,choice, 1#module|2#modules\n} {1} 模組指定 SDK。\n在「項目結構」對話方塊中指定 SDK。"
+    text: |-
+        無法啟動編譯器：沒有為 {0,choice, 1#module|2#modules
+        } {1} 模組指定 SDK。
+        在「項目結構」對話方塊中指定 SDK。
 error.output.not.specified:
-    text: "無法啟動編譯器：沒有為 {0,choice, 1#module|2#modules\n} {1} 模組指定輸出路徑。\n在設定項目中指定輸出路徑。"
+    text: |-
+        無法啟動編譯器：沒有為 {0,choice, 1#module|2#modules
+        } {1} 模組指定輸出路徑。
+        在設定項目中指定輸出路徑。
 exclude.from.compile.table.path.column.name:
     text: 路徑
 exclude.from.compile.table.recursively.column.name:
@@ -113,7 +134,12 @@ generate.ant.build.custom.compiler.conflict.message:
 generate.ant.build.custom.compiler.conflict.title:
     text: 衝突的自訂編譯器區塊
 generate.ant.build.dialog.cyclic.modules.table.description:
-    text: "某些模組具有循環依賴性。\n為了產生 ant 構建指令碼，請為每個依賴循環選取 \"主\"(代表)模組。\n循環中所有模組的源代碼將被編譯到主模組的輸出資料夾中;\n循環中的所有模組將使用分配給主模組的 JDK;\n任何建立的 JAR 檔案將以主模組的名稱命名。"
+    text: |-
+        某些模組具有循環依賴性。
+        為了產生 ant 構建指令碼，請為每個依賴循環選取 "主"(代表)模組。
+        循環中所有模組的源代碼將被編譯到主模組的輸出資料夾中;
+        循環中的所有模組將使用分配給主模組的 JDK;
+        任何建立的 JAR 檔案將以主模組的名稱命名。
 generate.ant.build.dialog.cyclic.modules.table.name.column.header:
     text: 主模組
 generate.ant.build.dialog.cyclic.modules.table.number.column.header:
@@ -171,7 +197,9 @@ java.compiler.option.report.deprecated:
 javac.error.jdk.home.missing:
     text: "找不到 JDK ''{0}'' 的主目錄 ''{1}''。\n更新 JDK 設定。"
 javac.error.unknown.jdk.version:
-    text: "無法確定 JDK {0} 的版本。\n更新 JDK 設定。"
+    text: |-
+        無法確定 JDK {0} 的版本。
+        更新 JDK 設定。
 javac.option.max.heap.size:
     text: '最大堆大小 (MB):'
 javac.options.group.title:
@@ -207,9 +235,11 @@ label.text.class.path:
 label.text.main.class:
     text: 主要類別:(&M)
 mesage.text.deployment.descriptor.file.not.exist:
-    text: 部署描述符檔案 ''{0}'' 不存在
+    text: "部署描述符檔案 ''{0}'' 不存在"
 message.ant.files.generated.ok:
-    text: "Ant 構建檔案成功產生:\n{0}"
+    text: |-
+        Ant 構建檔案成功產生:
+        {0}
 message.category.error:
     text: 錯誤
 message.category.information:
@@ -221,7 +251,7 @@ message.category.warning:
 message.resource.patterns.format.changed:
     text: "資源範本的格式發生了變化。\n{0} 無法轉換現有的規則運算式模式:\n{1}\n請輸入新格式的模式。\n每個資源的模式可能包含以下萬用字元：\n?- 一個字元\n* - 0個或更多字元\n!-  否定模式（僅在模式開始處允許）\nUse ; (分號) 來分隔資源模式;\n使用反斜槓(\"\\\")來轉義 \"!\" 字元。\n您可能還需要修改範本項目設定。\n按 ''{2}'' 接受輸入的模式，''{3}'' 以新格式載入預設模式。"
 message.text.compiling.item.deployment.descriptor.could.not.be.found:
-    text: 編譯 {0}：無法找到部署項目 ''{1}''
+    text: "編譯 {0}：無法找到部署項目 ''{1}''"
 message.text.compiling.module.message:
     text: '編譯 {0}: {1}'
 message.text.deployment.description.invalid.file:
@@ -229,17 +259,17 @@ message.text.deployment.description.invalid.file:
 message.text.destination.is.directory:
     text: '{0} 目標是一個目錄。'
 message.text.error.copying.file.to.file:
-    text: 複製 ''{0}'' 到 ''{1}'' 錯誤。
+    text: "複製 ''{0}'' 到 ''{1}'' 錯誤。"
 message.text.xml.file.invalid:
-    text: XML 檔案 ''{0}'' 無效
+    text: "XML 檔案 ''{0}'' 無效"
 no.excludes:
     text: 不排除
 no.validators:
     text: 沒有驗證可用
 node.text.0.directory.content:
-    text: '''''{0}'''' 目錄內容'
+    text: "''{0}'' 目錄內容"
 node.text.0.with.dependencies:
-    text: '''''{0}'''' 有依賴關係'
+    text: "''{0}'' 有依賴關係"
 option.use.compiler.text:
     text: '使用編譯器:'
 pattern.conversion.dialog.title:
@@ -263,9 +293,9 @@ progress.parsing.file:
 progress.updating.caches:
     text: 更新快取...
 rebuild.lvcs.label.no.errors:
-    text: '''''{0}'''' 沒有任何錯誤'
+    text: "''{0}'' 沒有任何錯誤"
 rebuild.lvcs.label.with.errors:
-    text: '''''{0}'''' 有錯誤'
+    text: "''{0}'' 有錯誤"
 resource.compiler.description:
     text: 資源編譯器
 rmi.compiler.description:
@@ -301,6 +331,10 @@ warning.compiler.running.on.project.close:
 warning.compiler.running.on.toolwindow.close:
     text: 編譯器正在執行。終止它？
 warning.sources.under.output.paths:
-    text: "編譯器選項 \"重建時清除輸出目錄\" 目前處於開啟狀態。\n但是，來源檔案可能存在於以下輸出路徑中\n{0}\n編譯將在不清除輸出目錄的情況下進行。"
+    text: |-
+        編譯器選項 "重建時清除輸出目錄" 目前處於開啟狀態。
+        但是，來源檔案可能存在於以下輸出路徑中
+        {0}
+        編譯將在不清除輸出目錄的情況下進行。
 warning.text.file.has.been.changed:
     text: 編譯期間檔案已變更，檢查驗證跳過

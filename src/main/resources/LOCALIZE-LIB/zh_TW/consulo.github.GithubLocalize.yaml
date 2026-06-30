@@ -75,9 +75,13 @@ create.gist.success:
 credentials.button.generate:
     text: 生成…
 credentials.incorrect:
-    text: "憑證不正確。\n{0}"
+    text: |-
+        憑證不正確。
+        {0}
 credentials.invalid.auth.data:
-    text: "身份驗證資料無效。\n{0}"
+    text: |-
+        身份驗證資料無效。
+        {0}
 credentials.invalid.server.path:
     text: 伺服器路徑無效
 credentials.server.cannot.be.empty:
@@ -107,7 +111,7 @@ label.login.progress:
 link.label.use.token:
     text: 使用令牌…
 login.account.already.added:
-    text: 已添加帳戶 ''{0}''
+    text: "已添加帳戶 ''{0}''"
 login.to.github:
     text: 登錄 GitHub
 login.to.github.enterprise:
@@ -151,13 +155,13 @@ pull.request.create.draft.action:
 pull.request.create.error:
     text: '無法創建新的拉取請求:'
 pull.request.create.input.remote.branch.comment:
-    text: 必須推送更改才能創建拉取請求，並且本地分支 ''{0}'' 不會跟踪 ''{1}'' 處的遠端分支
+    text: "必須推送更改才能創建拉取請求，並且本地分支 ''{0}'' 不會跟踪 ''{1}'' 處的遠端分支"
 pull.request.create.input.remote.branch.name:
     text: '遠端分支名稱:'
 pull.request.create.input.remote.branch.title:
     text: 拉取請求分支
 pull.request.create.no.changes:
-    text: '''''{0}'''' 和 ''''{1}'''' 之間沒有變更'
+    text: "''{0}'' 和 ''{1}'' 之間沒有變更"
 pull.request.create.process.title:
     text: 正在創建拉取請求…
 pull.request.create.select.branches:
@@ -311,7 +315,7 @@ rebase.error.no.default.branch:
 rebase.error.no.suitable.account.found:
     text: 找不到合適的 GitHub 帳戶
 rebase.error.remote.origin.not.found:
-    text: 找不到 Git 遠端 'origin'
+    text: "找不到 Git 遠端 'origin'"
 rebase.error.repo.not.found:
     text: 找不到版本庫 {0}
 rebase.error.upstream.not.found:
@@ -327,7 +331,7 @@ rebase.process.fetching.upstream:
 rebase.process.operation.title:
     text: 正在變基
 rebase.process.rebasing.branch.onto:
-    text: 正在將當前分支變基到 ''{0}''…
+    text: "正在將當前分支變基到 ''{0}''…"
 rebase.process.success:
     text: 已成功變基 GitHub 復刻
 retry.action:

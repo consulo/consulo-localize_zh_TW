@@ -9,4 +9,6 @@ generate.ant.build.title:
 javac.error.jdk.home.missing:
     text: "找不到 JDK ''{0}'' 的主目錄 ''{1}''。\n更新 JDK 設定。"
 javac.error.unknown.jdk.version:
-    text: "無法確定 JDK {0} 的版本。\n更新 JDK 設定。"
+    text: |-
+        無法確定 JDK {0} 的版本。
+        更新 JDK 設定。

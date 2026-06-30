@@ -41,7 +41,7 @@ debugger.hotswap.display.name:
 debugger.no.breakpoints:
     text: 沒有斷點
 debugger.no.results:
-    text: 輸入一個運算式，然後按'Enter'
+    text: "輸入一個運算式，然後按'Enter'"
 debugger.no.watches:
     text: 沒有觀察清單
 debugger.result.node.name:
@@ -83,7 +83,7 @@ exception.label:
 exception.tab.name:
     text: 異常
 inspect.value.dialog.title:
-    text: 檢查 ''{0}''
+    text: "檢查 ''{0}''"
 load.value.task.error:
     text: 無法載入值：{0}
 load.value.task.text:

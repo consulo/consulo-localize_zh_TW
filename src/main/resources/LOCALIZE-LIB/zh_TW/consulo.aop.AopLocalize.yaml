@@ -23,17 +23,17 @@ error.argNames.should.match:
 error.arrays.not.allowed.here:
     text: 此處不允許使用陣列
 error.cannot.resolve.parameter:
-    text: 無法解析參數 ''{0}''
+    text: "無法解析參數 ''{0}''"
 error.cannot.resolve.pointcut:
-    text: 無法解析切入點 ''{0}''
+    text: "無法解析切入點 ''{0}''"
 error.cannot.resolve.symbol:
-    text: 無法解析符號 ''{0}''
+    text: "無法解析符號 ''{0}''"
 error.constructor.pattern.expected:
     text: 應為構造函數模式
 error.default.implementation.class.should.be.specified:
     text: 應指定預設實作類
 error.double.ellipsis.prohibited:
-    text: 禁止使用多個 '..'
+    text: "禁止使用多個 '..'"
 error.field.name.pattern.expected:
     text: 應為欄位名稱模式
 error.generics.not.allowed.here:
@@ -101,6 +101,6 @@ tooltip.text.navigate.to.introductions:
 tooltip.text.navigate.to.methods:
     text: 導航到建議方法
 unbound.pointcut.parameter:
-    text: 未綁定的切入點參數 ''{0}''
+    text: "未綁定的切入點參數 ''{0}''"
 warning.argNames.should.be.defined:
     text: '{0} 特性未定義'

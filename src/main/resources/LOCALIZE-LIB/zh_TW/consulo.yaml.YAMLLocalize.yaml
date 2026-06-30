@@ -1,15 +1,15 @@
 YAMLDuplicatedKeysInspection.duplicated.key:
-    text: 鍵 ''{0}'' 重複
+    text: "鍵 ''{0}'' 重複"
 YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
     text: 移除鍵
 YamlBooleanType.validation.error.quoted.value:
     text: 應為布林值
 YamlDeprecatedKeysInspectionBase.deprecated.key:
-    text: 鍵 ''{0}'' 已棄用
+    text: "鍵 ''{0}'' 已棄用"
 YamlEnumType.validation.error.value.unknown:
-    text: 此處不需要值 ''{0}''
+    text: "此處不需要值 ''{0}''"
 YamlEnumType.validation.warning.value.deprecated:
-    text: 值 ''{0}'' 已棄用
+    text: "值 ''{0}'' 已棄用"
 YamlIntegerType.error.integer.value:
     text: 應為整數值
 YamlMetaClass.error.scalar.value:
@@ -17,17 +17,17 @@ YamlMetaClass.error.scalar.value:
 YamlMissingKeysInspectionBase.add.missing.keys.quickfix.name:
     text: 添加缺少的鍵
 YamlMissingKeysInspectionBase.missing.keys:
-    text: '缺少必需的鍵: ''''{0}'''''
+    text: "缺少必需的鍵: ''{0}''"
 YamlNonEditableKeyInspectionBase.strip.noneditable.keys.quickfix.name:
     text: 從檔案中移除所有不可編輯的鍵
 YamlNonEditableKeysInspectionBase.noneditable.key:
-    text: 鍵 ''{0}'' 不能由使用者修改
+    text: "鍵 ''{0}'' 不能由使用者修改"
 YamlNumberType.error.numeric.value:
     text: 應為數值
 YamlScalarType.error.scalar.value:
     text: 應為標量值
 YamlUnknownKeysInspectionBase.unknown.key:
-    text: 此處不需要鍵 ''{0}''
+    text: "此處不需要鍵 ''{0}''"
 YamlUnknownValuesInspectionBase.error.array.is.required:
     text: 需要陣列
 YamlUnknownValuesInspectionBase.error.array.not.allowed:
@@ -43,9 +43,9 @@ color.settings.yaml.dstring:
 color.settings.yaml.key:
     text: 鍵
 color.settings.yaml.scalar.list:
-    text: '''|'' 塊'
+    text: "'|' 塊"
 color.settings.yaml.scalar.text:
-    text: '''>'' 塊'
+    text: "'>' 塊"
 color.settings.yaml.sign:
     text: '符號: 大括號、逗號等'
 color.settings.yaml.string:
@@ -83,7 +83,7 @@ inspections.recursive.alias.name:
 inspections.schema.deprecation.name:
     text: 棄用的 YAML 鍵
 inspections.schema.deprecation.text:
-    text: '鍵 ''''{0}'''' 已棄用: {1}'
+    text: "鍵 ''{0}'' 已棄用: {1}"
 inspections.schema.validation.name:
     text: 由 JSON 架構驗證
 inspections.schema.validation.prefix:
@@ -99,7 +99,7 @@ inspections.unused.anchor.name:
 inspections.unused.anchor.quickfix.name:
     text: 移除定位標記
 new.name.conflicts.with:
-    text: '鍵與現有鍵衝突: ''''{0}'''''
+    text: "鍵與現有鍵衝突: ''{0}''"
 parsing.error.sequence.item.expected:
     text: 應為序列條目
 rename.same.name:

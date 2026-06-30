@@ -7,7 +7,9 @@ javadoc.constructor.candidates:
 javadoc.generate.arguments:
     text: '命令行實參:'
 javadoc.generate.exited:
-    text: "\njavadoc退出,退出程式碼$EXIT_CODE$\n"
+    text: |4
+
+        javadoc退出,退出程式碼$EXIT_CODE$
 javadoc.generate.heap.size:
     text: '最大堆大小(&M):'
 javadoc.generate.locale:
